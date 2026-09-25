@@ -63,7 +63,7 @@ function runPage(webDir) {
       return {
         latlng, opts, tooltip: null,
         bindTooltip(h) { this.tooltip = h; return this; },
-        on() { return this; }, setStyle(s) { this.opts = s; return this; },
+        on() { return this; }, setStyle(s) { this.opts = Object.assign({}, this.opts, s); return this; },
         openTooltip() { this.tooltipOpen = true; }, closeTooltip() { this.tooltipOpen = false; },
         addTo(m) { if (m && m.addLayer) m.addLayer(this); return this; },
         bringToFront() {},
@@ -227,6 +227,23 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     all.map.lastFly = null;
     assert(all.a.focusPlace(unmapped.id) === false, 'focusPlace should report failure');
     assert(all.map.lastFly === null, 'map should not move for an unmapped place');
+  });
+
+  check('on-list and rotated-out pins are visually distinct', () => {
+    const mapped = places.filter(p => p.lat !== null && p.lng !== null && all.a.markers.has(p.id));
+    const here = mapped.find(p => p.on_list_now);
+    const gone = mapped.find(p => !p.on_list_now);
+    assert(here && gone, 'need both a present and a rotated-out mapped place');
+    all.a.state.view = 'all';
+    all.a.render();
+    all.a.applyView();
+    const fill = p => all.a.markers.get(p.id).opts.fillColor;
+    assert(fill(here) && fill(gone), 'pins have no fill colour after painting');
+    assert(fill(here) !== fill(gone),
+           `states look identical (${fill(here)} vs ${fill(gone)})`);
+    assert(all.a.markers.get(here.id).opts.fillOpacity === 1
+        && all.a.markers.get(here.id).opts.weight >= 2,
+           'pins should be solid with a visible casing');
   });
 
   check('markers exist for mapped places', () => {

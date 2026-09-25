@@ -55,6 +55,10 @@
   .leaflet-tooltip.e38 { font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
   .leaflet-tooltip.e38 b { font-size:13.5px; }
   .leaflet-tooltip.e38 .k { color:var(--muted); }
+  /* One shadow for the entire pin layer. A filter per path would mean 244
+     compositing layers; this is a single one. */
+  .leaflet-overlay-pane svg { filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
+  .leaflet-tooltip.e38 { border:0; box-shadow:0 2px 8px rgba(0,0,0,.25); }
   .legend { background:#fff; padding:8px 10px; border-radius:7px; box-shadow:0 1px 5px rgba(0,0,0,.25);
             font:12.5px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
   .legend b { display:block; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin-bottom:3px; }
@@ -105,9 +109,11 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-const NOW = '#1a7f37', PAST = '#8a6d3b';
-const BASE = { radius: 6, weight: 1, color: '#fff', fillOpacity: 0.9 };
-const HOT  = { radius: 11, weight: 3, color: '#111', fillOpacity: 1 };
+// Saturated fills with a white casing so pins read against busy OSM tiles,
+// where a muted green sits too close to parkland and brown to buildings.
+const NOW = '#00c853', PAST = '#ff6d00';
+const BASE = { radius: 7, weight: 2.5, color: '#ffffff', fillOpacity: 1 };
+const HOT  = { radius: 12, weight: 3.5, color: '#111111', fillOpacity: 1 };
 const DAY = 86400000;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
@@ -172,9 +178,10 @@ function tooltipHtml(place) {
 }
 
 const layer = L.geoJSON(null, {
-  pointToLayer: (f, latlng) => L.circleMarker(latlng, Object.assign({}, BASE, {
-    fillColor: f.properties.on_list_now ? NOW : PAST
-  })),
+  pointToLayer: (f, latlng) => L.circleMarker(latlng, Object.assign(
+    { className: 'e38-pin' }, BASE, {
+      fillColor: f.properties.on_list_now ? NOW : PAST
+    })),
   onEachFeature: (f, l) => {
     const place = state.byId.get(f.properties.id);
     if (!place) return;
