@@ -170,14 +170,11 @@ function fitTo(ids) {
 
 /* ---- tooltips / click-through ---------------------------------------- */
 function tooltipHtml(place) {
-  // Deliberately just identity: the prose and the date ranges live in the
-  // sidebar rows, where there is room to read them.
-  const site = place.website
-    ? esc(place.website.replace(/^https?:\/\//, '').replace(/\/$/, ''))
-    : 'no website on file';
+  // Identity only. Everything else -- the prose, the date ranges, the website --
+  // lives in the sidebar row, which can be clicked; a tooltip cannot, so a URL
+  // here would only look like a link.
   return `<b>${esc(place.name)}</b>`
-    + (place.address ? `<div class="k">${esc(place.address)}</div>` : '')
-    + `<div class="k">${site}</div>`;
+    + (place.address ? `<div class="k">${esc(place.address)}</div>` : '');
 }
 
 const layer = L.geoJSON(null, {

@@ -298,6 +298,16 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(all.html.includes(fragment), `blurb text missing for ${p.name}`);
   });
 
+  check('the hover tooltip is name and address only', () => {
+    const sample = places.filter(p => all.a.markers.has(p.id)).slice(0, 40);
+    sample.forEach(p => {
+      const html = String(all.a.markers.get(p.id).tooltip || '');
+      assert(!/<a[\s>]/i.test(html), `${p.name}'s tooltip contains a link`);
+      assert(!/no website on file/.test(html), `${p.name}'s tooltip has a website placeholder`);
+      if (p.address) assert(html.includes('k">'), `${p.name}'s tooltip lost its address`);
+    });
+  });
+
   check('the hover tooltip carries no date ranges', () => {
     const sample = places.filter(p => all.a.markers.has(p.id)).slice(0, 30);
     sample.forEach(p => {
