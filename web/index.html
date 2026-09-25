@@ -40,7 +40,7 @@
     background:#fff; border:2px solid var(--now); cursor:pointer; }
   .range-note { color:var(--muted); font-size:12px; margin-top:3px; }
 
-  .row { padding:9px 8px; border-bottom:1px solid var(--line); border-radius:6px; transition:background .08s; }
+  .row { padding:9px 8px; border-bottom:1px solid var(--line); border-radius:6px; transition:background .08s; cursor:pointer; }
   .row.hot { background:#fff4e6; }
   .row.unmapped { cursor:default; }
   .row .name { font-weight:600; }
@@ -191,6 +191,19 @@ function openSite(place) {
   if (url) window.open(url, '_blank', 'noopener');
 }
 
+const FOCUS_ZOOM = 16;
+
+/** Centre the map on a place and zoom in to street level. */
+function focusPlace(id) {
+  const place = state.byId.get(id);
+  const m = markers.get(id);
+  if (!place || !m || !isMapped(place) || !map.hasLayer(m)) return false;
+  m.bringToFront();
+  m.openTooltip();
+  map.flyTo([place.lat, place.lng], Math.max(map.getZoom(), FOCUS_ZOOM), { duration: 0.7 });
+  return true;
+}
+
 function highlight(id, on) {
   const m = markers.get(id);
   if (!m || !map.hasLayer(m)) return;
@@ -266,10 +279,10 @@ function applyView(refit) {
   }
   if (refit !== false) fitTo(ids);
   $('#hint').textContent = state.view === 'current'
-    ? 'Hover an entry to spotlight its pin · click a pin to open the restaurant’s website.'
+    ? 'Hover an entry to spotlight its pin · click it to zoom in · click a pin to open the restaurant’s website.'
     : state.view === 'range'
-      ? 'Drag either end of the range to see who was on the list in that window.'
-      : 'Showing every restaurant that was ever on the list, including those rotated out.';
+      ? 'Drag either end of the range to see who was on the list then · click an entry to zoom in.'
+      : 'Every restaurant that was ever on the list, including those rotated out · click an entry to zoom in.';
 }
 
 /* ---- range slider ----------------------------------------------------- */
@@ -324,6 +337,13 @@ $('#list').addEventListener('mouseout', e => {
   if (e.relatedTarget && row.contains(e.relatedTarget)) return;
   row.classList.remove('hot');
   highlight(row.dataset.place, false);
+});
+
+$('#list').addEventListener('click', e => {
+  if (e.target.closest('a')) return;        // the inline website link keeps its own job
+  const row = e.target.closest('.row');
+  if (!row || !row.dataset.place) return;
+  focusPlace(row.dataset.place);
 });
 
 document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {

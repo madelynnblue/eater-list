@@ -16,6 +16,7 @@ const ROOT = process.argv[2] || path.join(__dirname, '..');
 
 function stubElement() {
   const classes = new Set();
+  const handlers = {};
   return {
     innerHTML: '', textContent: '', hidden: false, dataset: {}, style: {},
     classList: {
@@ -23,14 +24,16 @@ function stubElement() {
       toggle: (c, on) => (on ? classes.add(c) : classes.delete(c)),
       contains: c => classes.has(c),
     },
-    addEventListener() {}, contains() { return false; }, closest() { return null; },
+    addEventListener(type, fn) { (handlers[type] = handlers[type] || []).push(fn); },
+    fire(type, evt) { (handlers[type] || []).forEach(fn => fn(evt)); },
+    contains() { return false; }, closest() { return null; },
   };
 }
 
 function runPage(webDir) {
   const html = fs.readFileSync(path.join(webDir, 'index.html'), 'utf8');
   let js = html.match(/<script>([\s\S]*?)<\/script>/)[1];
-  js += '\nglobalThis.__api = { state, render, applyView, markers, inWindow };\n';
+  js += '\nglobalThis.__api = { state, render, applyView, markers, inWindow, focusPlace };\n';
 
   const nodes = new Map();
   const get = sel => {
@@ -42,8 +45,10 @@ function runPage(webDir) {
   });
 
   const mapObj = {
-    _layers: new Set(),
+    _layers: new Set(), _zoom: 11, lastFly: null,
     setView() { return this; }, fitBounds() {}, on() {},
+    getZoom() { return mapObj._zoom; },
+    flyTo(latlng, zoom) { mapObj.lastFly = { latlng, zoom }; },
     hasLayer: l => mapObj._layers.has(l),
     addLayer: l => mapObj._layers.add(l),
     removeLayer: l => mapObj._layers.delete(l),
@@ -59,7 +64,9 @@ function runPage(webDir) {
         latlng, opts, tooltip: null,
         bindTooltip(h) { this.tooltip = h; return this; },
         on() { return this; }, setStyle(s) { this.opts = s; return this; },
-        openTooltip() {}, closeTooltip() {}, addTo() { return this; }, bringToFront() {},
+        openTooltip() { this.tooltipOpen = true; }, closeTooltip() { this.tooltipOpen = false; },
+        addTo(m) { if (m && m.addLayer) m.addLayer(this); return this; },
+        bringToFront() {},
       };
     },
     geoJSON(data, opts) {
@@ -90,17 +97,17 @@ function runPage(webDir) {
 
   const ctx = vm.createContext(sandbox);
   vm.runInContext(js, ctx);
-  return { get, api: () => ctx.__api };
+  return { get, map: mapObj, api: () => ctx.__api };
 }
 
 function withPanel(webDir, view) {
-  const { get, api } = runPage(webDir);
+  const { get, map, api } = runPage(webDir);
   return new Promise(resolve => setTimeout(() => {
     const a = api();
     a.state.view = view;
     a.render();
     a.applyView();
-    resolve({ get, a, html: get('#list').innerHTML });
+    resolve({ get, map, a, html: get('#list').innerHTML });
   }, 80));
 }
 
@@ -189,6 +196,37 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(!rng.a.inWindow(gone), `${gone.name} should not be in the last-year window`);
     rng.a.state.from = meta.coverage.first_observation;
     assert(rng.a.inWindow(gone), `${gone.name} should be in the full-archive window`);
+  });
+
+  check('clicking a list row centres the map on it and zooms in', () => {
+    const mapped = places.filter(p => p.lat !== null && p.lng !== null);
+    const target = mapped.find(p => all.a.markers.has(p.id));
+    all.map.lastFly = null;
+    const row = { dataset: { place: target.id }, closest: sel => (sel === '.row' ? row : null) };
+    all.get('#list').fire('click', { target: row });
+    assert(all.map.lastFly, 'map was not moved by the click');
+    assert(Math.abs(all.map.lastFly.latlng[0] - target.lat) < 1e-9 &&
+           Math.abs(all.map.lastFly.latlng[1] - target.lng) < 1e-9,
+           `flew to ${all.map.lastFly.latlng}, expected [${target.lat}, ${target.lng}]`);
+    assert(all.map.lastFly.zoom >= 16, `expected street-level zoom, got ${all.map.lastFly.zoom}`);
+  });
+
+  check('clicking the website link inside a row does not move the map', () => {
+    const mapped = places.filter(p => p.lat !== null && p.lng !== null);
+    const target = mapped.find(p => all.a.markers.has(p.id));
+    all.map.lastFly = null;
+    const row = { dataset: { place: target.id }, closest: sel => (sel === '.row' ? row : null) };
+    const link = { closest: sel => (sel === 'a' ? link : (sel === '.row' ? row : null)) };
+    all.get('#list').fire('click', { target: link });
+    assert(all.map.lastFly === null, 'clicking the link should not re-centre the map');
+  });
+
+  check('clicking a row for a place with no coordinates is a no-op', () => {
+    const unmapped = places.find(p => p.lat === null || p.lng === null);
+    if (!unmapped) return;                       // every place is mapped
+    all.map.lastFly = null;
+    assert(all.a.focusPlace(unmapped.id) === false, 'focusPlace should report failure');
+    assert(all.map.lastFly === null, 'map should not move for an unmapped place');
   });
 
   check('markers exist for mapped places', () => {

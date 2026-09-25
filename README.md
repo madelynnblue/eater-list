@@ -205,8 +205,14 @@ The **Date range** tab has a double-ended slider spanning the whole archive
 re-filters both the list and the pins; the map deliberately does not re-zoom
 while dragging, only when the tab changes.
 
-In every tab: hover a row to spotlight its pin, hover a pin for its details,
-click a pin to open the restaurant's website (falling back to its Eater entry).
+In every tab:
+
+- **hover a row** → spotlight its pin
+- **click a row** → centre the map on it and zoom to street level (the inline
+  website link keeps its own behaviour)
+- **hover a pin** → its details
+- **click a pin** → open the restaurant's website, falling back to its Eater entry
+
 `updates.json` is still exported for anyone who wants the change log, but the
 UI no longer uses it.
 
@@ -253,6 +259,8 @@ script against a stub DOM and Leaflet using the real exported JSON:
 make test-demo        # needs node
 ```
 
-It asserts every tab renders the right rows, that the range filter agrees with
-an independent computation of the same window, that the slider defaults to the
-last year of coverage, and that every update id resolves to a known place.
+It drives the page's real event handlers, asserting that every tab renders the
+right rows, that the range filter agrees with an independent computation of the
+same window, that the slider defaults to the last year of coverage, that
+clicking a row centres and zooms the map (while clicking the link inside it does
+not), and that every update id resolves to a known place.
