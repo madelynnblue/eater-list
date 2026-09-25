@@ -191,8 +191,8 @@ const layer = L.geoJSON(null, {
     markers.set(place.id, l);
     l.bindTooltip(tooltipHtml(place), { className: 'e38', direction: 'top',
                                        offset: [0, -8], opacity: 1 });
-    l.on('mouseover', () => l.openTooltip());
-    l.on('mouseout', () => l.closeTooltip());
+    l.on('mouseover', () => { l.openTooltip(); markRow(place.id, true, true); });
+    l.on('mouseout', () => { l.closeTooltip(); markRow(place.id, false); });
     l.on('click', () => openSite(place));
   }
 });   // not added here: applyView() decides which pins are visible
@@ -227,6 +227,22 @@ map.on('tooltipopen', e => {
   else if (box.right > frame.right - pad) dx = frame.right - pad - box.right;
   if (dx) L.DomUtil.setPosition(el, L.DomUtil.getPosition(el).add([dx, 0]));
 });
+
+let hotRow = null;
+
+/** Mark a sidebar row, and optionally scroll the list to it. */
+function markRow(id, on, scroll) {
+  const row = document.querySelector(`.row[data-place="${id}"]`);
+  if (!row) return;
+  if (hotRow && hotRow !== row) hotRow.classList.remove('hot');
+  row.classList.toggle('hot', on);
+  if (on) {
+    hotRow = row;
+    if (scroll) row.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  } else if (hotRow === row) {
+    hotRow = null;
+  }
+}
 
 function highlight(id, on) {
   const m = markers.get(id);
@@ -287,6 +303,7 @@ function rowHtml(r, numbered) {
 }
 
 function render() {
+  hotRow = null;                       // the old node is about to be replaced
   const rows = searched(visiblePlaces());
   $('#list').innerHTML = rows.map(r => rowHtml(r, state.view === 'current')).join('')
     || '<p class="meta">No matches.</p>';
@@ -355,14 +372,14 @@ function initSlider() {
 $('#list').addEventListener('mouseover', e => {
   const row = e.target.closest('.row');
   if (!row || !row.dataset.place) return;
-  row.classList.add('hot');
+  markRow(row.dataset.place, true, false);
   highlight(row.dataset.place, true);
 });
 $('#list').addEventListener('mouseout', e => {
   const row = e.target.closest('.row');
   if (!row || !row.dataset.place) return;
   if (e.relatedTarget && row.contains(e.relatedTarget)) return;
-  row.classList.remove('hot');
+  markRow(row.dataset.place, false);
   highlight(row.dataset.place, false);
 });
 

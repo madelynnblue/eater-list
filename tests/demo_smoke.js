@@ -26,6 +26,7 @@ function stubElement() {
     },
     addEventListener(type, fn) { (handlers[type] = handlers[type] || []).push(fn); },
     fire(type, evt) { (handlers[type] || []).forEach(fn => fn(evt)); },
+    scrollIntoView() { this._scrolled = true; },
     contains() { return false; }, closest() { return null; },
   };
 }
@@ -68,14 +69,17 @@ function runPage(webDir) {
       setPosition: (el, pos) => { el._pos = pos; },
     },
     circleMarker(latlng, opts) {
-      return {
-        latlng, opts, tooltip: null,
+      const m = {
+        latlng, opts, tooltip: null, _handlers: {},
         bindTooltip(h) { this.tooltip = h; return this; },
-        on() { return this; }, setStyle(s) { this.opts = Object.assign({}, this.opts, s); return this; },
+        on(type, fn) { (m._handlers[type] = m._handlers[type] || []).push(fn); return this; },
+        fire(type, evt) { (m._handlers[type] || []).forEach(fn => fn(evt)); return this; },
+        setStyle(s) { this.opts = Object.assign({}, this.opts, s); return this; },
         openTooltip() { this.tooltipOpen = true; }, closeTooltip() { this.tooltipOpen = false; },
-        addTo(m) { if (m && m.addLayer) m.addLayer(this); return this; },
+        addTo(map) { if (map && map.addLayer) map.addLayer(this); return this; },
         bringToFront() {},
       };
+      return m;
     },
     geoJSON(data, opts) {
       return {
@@ -265,6 +269,17 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     const el = { getBoundingClientRect: () => ({ left: 300, right: 820, top: 0, bottom: 200 }) };
     all.map.fire('tooltipopen', { tooltip: { getElement: () => el } });
     assert(!el._pos, 'a tooltip that fits should not be repositioned');
+  });
+
+  check('hovering a pin reveals and scrolls to its sidebar entry', () => {
+    const target = places.find(p => p.blurb && all.a.markers.has(p.id));
+    const row = all.get(`.row[data-place="${target.id}"]`);
+    const marker = all.a.markers.get(target.id);
+    marker.fire('mouseover');
+    assert(row.classList.contains('hot'), 'the sidebar row was not highlighted');
+    assert(row._scrolled, 'the sidebar was not scrolled to the row');
+    marker.fire('mouseout');
+    assert(!row.classList.contains('hot'), 'the highlight was not cleared on mouseout');
   });
 
   check('markers exist for mapped places', () => {

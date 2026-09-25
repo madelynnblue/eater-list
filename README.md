@@ -221,8 +221,12 @@ defaulting to the previous year; each place is included if any of its periods
 overlaps the window.
 
 In every tab: **hover a row** to spotlight its pin, **click a row** to centre and
-zoom the map to it, **hover a pin** for details, **click a pin** to open the
-restaurant's website (falling back to its Eater entry).
+zoom the map to it, **hover a pin** for a short card (name, address, website) —
+the sidebar scrolls to highlight that entry — and **click a pin** to open the
+restaurant's website, falling back to its Eater entry.
+
+Sidebar rows carry the full Eater blurb, open hours / price and every stint on
+the list; the hover card is deliberately just enough to identify a pin.
 
 ### 10. Keep it current
 
