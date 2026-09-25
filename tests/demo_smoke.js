@@ -271,16 +271,24 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     const mapped = places.filter(p => p.lat !== null && p.lng !== null).length;
     assert(all.a.markers.size === mapped, `expected ${mapped} markers, got ${all.a.markers.size}`);
   });
-  check('pin tooltips carry the Eater blurb', () => {
+  const escHtml = t => String(t).replace(/[&<>"']/g, c =>
+    ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+
+  check('sidebar rows carry the Eater blurb', () => {
+    const want = places.filter(p => p.blurb && all.a.markers.has(p.id)).length;
+    const got = (all.html.match(/class="blurb"/g) || []).length;
+    assert(got > 200, `expected most rows to show a blurb, got ${got} of ${want}`);
+    const p = places.find(x => x.blurb && all.a.markers.has(x.id));
+    const fragment = escHtml(p.blurb.split(' ').slice(0, 4).join(' '));
+    assert(all.html.includes(fragment), `blurb text missing for ${p.name}`);
+  });
+
+  check('the hover tooltip stays short (no blurb in it)', () => {
     const withBlurb = places.filter(p => p.blurb && all.a.markers.has(p.id));
-    assert(withBlurb.length > 200,
-           `expected most places to have a blurb, got ${withBlurb.length}`);
-    const esc = t => String(t).replace(/[&<>"']/g, c =>
-      ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
     withBlurb.slice(0, 25).forEach(p => {
       const html = String(all.a.markers.get(p.id).tooltip || '');
-      const fragment = esc(p.blurb.split(' ').slice(0, 4).join(' '));
-      assert(html.includes(fragment), `blurb missing from ${p.name}'s tooltip`);
+      const fragment = escHtml(p.blurb.split(' ').slice(0, 4).join(' '));
+      assert(!html.includes(fragment), `blurb leaked back into ${p.name}'s tooltip`);
     });
   });
 

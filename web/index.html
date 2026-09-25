@@ -45,6 +45,7 @@
   .row.unmapped { cursor:default; }
   .row .name { font-weight:600; }
   .row .meta { color:var(--muted); font-size:12.5px; }
+  .row .blurb { margin:5px 0; font-size:13px; line-height:1.5; }
   .row .meta.span { color:#256029; }
   .row .site { font-size:12.5px; }
   .row .site a { color:#0b62c4; text-decoration:none; }
@@ -53,10 +54,9 @@
   .nopin { font-size:11px; color:#9a9a9a; margin-left:6px; }
   footer { padding:9px 24px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
   .leaflet-tooltip.e38 { font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-    white-space:normal; max-width:min(520px,78vw); padding:10px 13px; }
+    white-space:normal; max-width:min(320px,78vw); padding:9px 11px; }
   .leaflet-tooltip.e38 b { font-size:13.5px; }
   .leaflet-tooltip.e38 .k { color:var(--muted); font-size:12px; }
-  .leaflet-tooltip.e38 .blurb { margin:6px 0 6px; line-height:1.5; }
   /* One shadow for the entire pin layer. A filter per path would mean 244
      compositing layers; this is a single one. */
   .leaflet-overlay-pane svg { filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
@@ -172,14 +172,12 @@ function fitTo(ids) {
 function tooltipHtml(place) {
   const spells = place.periods.map(p =>
     `${p.from_date} → ${p.to_date}${p.still_on ? ' <span class="k">(still on)</span>' : ''}`).join('<br>');
-  const facts = [place.open_for, place.price].filter(Boolean).join(' · ');
   const site = place.website
     ? esc(place.website.replace(/^https?:\/\//, '').replace(/\/$/, ''))
     : 'no website on file';
+  // The prose lives in the sidebar rows; hover stays short and out of the way.
   return `<b>${esc(place.name)}</b>`
     + (place.address ? `<div class="k">${esc(place.address)}</div>` : '')
-    + (place.blurb ? `<div class="blurb">${esc(place.blurb)}</div>` : '')
-    + (facts ? `<div class="k">${esc(facts)}</div>` : '')
     + `<div class="k">${spells}</div>`
     + `<div class="k">${site}</div>`;
 }
@@ -273,14 +271,17 @@ function rowHtml(r, numbered) {
   const mapped = isMapped(r);
   const site = r.website || r.eater_url;
   const hit = state.view === 'range' && inWindow(r);
+  const facts = [r.open_for, r.price].filter(Boolean).join(' · ');
   return `
   <div class="row${mapped ? '' : ' unmapped'}" data-place="${esc(r.id)}"
        ${mapped ? '' : 'title="No coordinates in the source data for this restaurant"'}>
     <div class="name">${numbered ? r.position + '. ' : ''}${esc(r.name)}
       ${r.on_list_now && !numbered ? '<span class="chip">on list</span>' : ''}
       ${mapped ? '' : '<span class="nopin">no pin</span>'}</div>
-    <div class="meta${hit ? ' span' : ''}">${esc(periodsText(r))}</div>
     ${r.address ? `<div class="meta">${esc(r.address)}</div>` : ''}
+    ${r.blurb ? `<div class="blurb">${esc(r.blurb)}</div>` : ''}
+    ${facts ? `<div class="meta">${esc(facts)}</div>` : ''}
+    <div class="meta${hit ? ' span' : ''}">${esc(periodsText(r))}</div>
     ${site ? `<div class="site"><a href="${esc(site)}" target="_blank" rel="noopener"
        title="${r.website ? 'Restaurant website' : 'Eater entry (no restaurant website on file)'}"
        >${r.website ? esc(r.website.replace(/^https?:\/\//, '').replace(/\/$/, '')) : 'Eater entry ↗'}</a></div>` : ''}
