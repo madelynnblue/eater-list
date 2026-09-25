@@ -52,9 +52,11 @@
   .chip { display:inline-block; font-size:11.5px; padding:1px 7px; border-radius:999px; background:#eef2ee; color:#256029; margin-left:6px; }
   .nopin { font-size:11px; color:#9a9a9a; margin-left:6px; }
   footer { padding:9px 24px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
-  .leaflet-tooltip.e38 { font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  .leaflet-tooltip.e38 { font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    white-space:normal; max-width:min(320px,78vw); padding:9px 11px; }
   .leaflet-tooltip.e38 b { font-size:13.5px; }
-  .leaflet-tooltip.e38 .k { color:var(--muted); }
+  .leaflet-tooltip.e38 .k { color:var(--muted); font-size:12px; }
+  .leaflet-tooltip.e38 .blurb { margin:5px 0 5px; }
   /* One shadow for the entire pin layer. A filter per path would mean 244
      compositing layers; this is a single one. */
   .leaflet-overlay-pane svg { filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
@@ -170,11 +172,16 @@ function fitTo(ids) {
 function tooltipHtml(place) {
   const spells = place.periods.map(p =>
     `${p.from_date} → ${p.to_date}${p.still_on ? ' <span class="k">(still on)</span>' : ''}`).join('<br>');
+  const facts = [place.open_for, place.price].filter(Boolean).join(' · ');
   const site = place.website
-    ? `<br><span class="k">${esc(place.website.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</span>`
-    : '<br><span class="k">no website on file</span>';
-  return `<b>${esc(place.name)}</b>${place.address ? `<br>${esc(place.address)}` : ''}` +
-         `<br><span class="k">${spells}</span>${site}`;
+    ? esc(place.website.replace(/^https?:\/\//, '').replace(/\/$/, ''))
+    : 'no website on file';
+  return `<b>${esc(place.name)}</b>`
+    + (place.address ? `<div class="k">${esc(place.address)}</div>` : '')
+    + (place.blurb ? `<div class="blurb">${esc(place.blurb)}</div>` : '')
+    + (facts ? `<div class="k">${esc(facts)}</div>` : '')
+    + `<div class="k">${spells}</div>`
+    + `<div class="k">${site}</div>`;
 }
 
 const layer = L.geoJSON(null, {
@@ -186,7 +193,8 @@ const layer = L.geoJSON(null, {
     const place = state.byId.get(f.properties.id);
     if (!place) return;
     markers.set(place.id, l);
-    l.bindTooltip(tooltipHtml(place), { className: 'e38', sticky: true, direction: 'top', opacity: 1 });
+    l.bindTooltip(tooltipHtml(place), { className: 'e38', direction: 'top',
+                                       offset: [0, -8], opacity: 1 });
     l.on('mouseover', () => l.openTooltip());
     l.on('mouseout', () => l.closeTooltip());
     l.on('click', () => openSite(place));

@@ -31,6 +31,7 @@ _CARD_TAG_RE = re.compile(r'<section[^>]*class="[^"]*c-mapstack__card[^"]*"[^>]*
 _SLUG_ATTR_RE = re.compile(r'data-slug="([^"]+)"')
 _HEADING_RE = re.compile(r"<h[12][^>]*>(.*?)</h[12]>", re.S | re.I)
 _INDEX_SPAN_RE = re.compile(r'<span[^>]*c-mapstack__card-index[^>]*>.*?</span>', re.S | re.I)
+_P_RE = re.compile(r"<p[^>]*>(.*?)</p>", re.S | re.I)
 _ADDRESS_RE = re.compile(r'<div[^>]*class="[^"]*c-mapstack__address[^"]*"[^>]*>(.*?)</div>', re.S | re.I)
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
@@ -208,13 +209,15 @@ def items_from_mapstack(doc: str) -> list[dict]:
     # so the tag is captured and each card is the slice up to the next tag.
     tags = list(_CARD_TAG_RE.finditer(doc))
     items = []
+    seen: set[str] = set()
     for position, tag in enumerate(tags):
         end = tags[position + 1].start() if position + 1 < len(tags) else len(doc)
         chunk = doc[tag.end():end]
         slug_match = _SLUG_ATTR_RE.search(tag.group(0))
         slug = slug_match.group(1) if slug_match else ""
-        if not slug or slug == "intro":
+        if not slug or slug == "intro" or slug in seen:
             continue
+        seen.add(slug)
         heading = _HEADING_RE.search(chunk)
         name = clean(_INDEX_SPAN_RE.sub(" ", heading.group(1))) if heading else ""
         if not name:
@@ -228,6 +231,15 @@ def items_from_mapstack(doc: str) -> list[dict]:
                 break
         site = _VISIT_SITE_RE.search(chunk)
         point = _DIRECTIONS_RE.search(chunk)
+        # The entry's prose lives in .c-entry-content; feeding its paragraphs
+        # through the same label parser as the modern pages keeps fields
+        # consistent across eras.
+        # Descriptive prose is the long <p> in the card. Selecting on paragraph
+        # text rather than on a container class survives the 2019-2024 layout,
+        # where .c-entry-content opens with a nested address/phone block.
+        blocks = [{"plaintext": t} for t in (clean(p) for p in _P_RE.findall(chunk))
+                  if len(t) > 60]
+        fields = parse_description(blocks)
         items.append(
             {
                 "position": len(items) + 1,
@@ -239,6 +251,7 @@ def items_from_mapstack(doc: str) -> list[dict]:
                 "lat": float(point.group(1)) if point else None,
                 "lng": float(point.group(2)) if point else None,
                 "phone": phone,
+                **fields,
             }
         )
     return items
@@ -246,7 +259,7 @@ def items_from_mapstack(doc: str) -> list[dict]:
 
 # --------------------------------------------------------------------------
 _MERGE_FIELDS = ("address", "phone", "website", "eater_url", "url", "lat", "lng",
-                 "open_for", "price", "drink", "tip", "good_for", "order")
+                 "open_for", "price", "drink", "tip", "good_for", "order", "blurb")
 
 
 def _merge_items(primary: list[dict], others: list[list[dict]]) -> list[dict]:

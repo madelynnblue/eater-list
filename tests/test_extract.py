@@ -3,7 +3,7 @@ import gzip
 import os
 import unittest
 
-from e38.extract import extract
+from e38.extract import extract, items_from_mapstack
 
 FIXTURES = os.path.join(os.path.dirname(__file__), "fixtures")
 
@@ -70,6 +70,46 @@ class TestLegacyPage(unittest.TestCase):
         names = [i["name"] for i in self.result["items"]]
         self.assertNotIn("intro", [i["slug"] for i in self.result["items"]])
         self.assertTrue(all(names))
+
+
+class TestMidEraProse(unittest.TestCase):
+    """2019-2024 cards open .c-entry-content with a nested address/phone block,
+    so the prose is not the container's first child. Selecting paragraphs by
+    length has to survive that; an earlier container-based match returned the
+    street address as the blurb."""
+
+    CARD = """
+    <section class="c-mapstack__card " data-slug="atla">
+      <div class="c-mapstack__card-hed"><div><h1>Atla</h1></div></div>
+      <div class="c-entry-content">
+        <div class="c-mapstack__info">
+          <div><div class="c-mapstack__address">372 Lafayette St<br>New York, NY 10012</div></div>
+          <div class="c-mapstack__phone-url">
+            <div class="c-mapstack__phone desktop-only">(646) 837-6464</div>
+            <a href="http://atlanyc.com/">Visit Website</a>
+          </div>
+        </div>
+        <p>Mexican cuisine gets a stylish, uber-hip setting at Atla, the
+        highly-acclaimed all-day restaurant in Noho from Enrique Olvera.</p>
+      </div>
+    </section>
+    """
+
+    def setUp(self):
+        self.item = items_from_mapstack(self.CARD)[0]
+
+    def test_name_and_address_come_from_the_card(self):
+        self.assertEqual(self.item["name"], "Atla")
+        self.assertIn("Lafayette", self.item["address"])
+
+    def test_prose_is_captured_as_the_blurb(self):
+        self.assertIn("uber-hip", self.item.get("blurb", ""))
+
+    def test_the_address_is_not_mistaken_for_the_blurb(self):
+        self.assertNotIn("Lafayette", self.item.get("blurb", ""))
+
+    def test_duplicate_cards_collapse(self):
+        self.assertEqual(len(items_from_mapstack(self.CARD * 3)), 1)
 
 
 if __name__ == "__main__":

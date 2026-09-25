@@ -158,7 +158,8 @@ def cmd_enrich(args, cfg):
 
     wanted: dict[str, str] = {}   # place key -> capture ts to fetch
     for key, place in data["places"].items():
-        if place.get("lat") is not None and place.get("address") and place.get("website"):
+        if (place.get("lat") is not None and place.get("address")
+                and place.get("website") and place.get("blurb")):
             continue
         for o in reversed(obs):
             if key in o.items and o.ts >= (args.min_ts or ""):

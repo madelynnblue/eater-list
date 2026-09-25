@@ -123,7 +123,7 @@ class Builder:
                 continue
             merged = dict(best)
             for fld in ("address", "phone", "website", "eater_url", "url", "lat", "lng",
-                        "open_for", "price", "drink", "tip"):
+                        "open_for", "price", "drink", "tip", "good_for", "order", "blurb"):
                 value = item.get(fld)
                 if value not in (None, "", []):
                     merged[fld] = value
@@ -183,6 +183,11 @@ class Builder:
                 "phone": meta.get("phone", ""),
                 "website": website,
                 "eater_url": eater_url,
+                "blurb": meta.get("blurb", ""),
+                "open_for": meta.get("open_for", ""),
+                "price": meta.get("price", ""),
+                "drink": meta.get("drink", ""),
+                "tip": meta.get("tip", ""),
                 "lat": lat,
                 "lng": lng,
                 "periods": [],

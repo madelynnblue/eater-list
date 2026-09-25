@@ -11,4 +11,4 @@ A small, dependency-free toolkit that:
 
 __version__ = "1.0.0"
 
-EXTRACTOR_VERSION = 4
+EXTRACTOR_VERSION = 6

@@ -250,6 +250,19 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     const mapped = places.filter(p => p.lat !== null && p.lng !== null).length;
     assert(all.a.markers.size === mapped, `expected ${mapped} markers, got ${all.a.markers.size}`);
   });
+  check('pin tooltips carry the Eater blurb', () => {
+    const withBlurb = places.filter(p => p.blurb && all.a.markers.has(p.id));
+    assert(withBlurb.length > 200,
+           `expected most places to have a blurb, got ${withBlurb.length}`);
+    const esc = t => String(t).replace(/[&<>"']/g, c =>
+      ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+    withBlurb.slice(0, 25).forEach(p => {
+      const html = String(all.a.markers.get(p.id).tooltip || '');
+      const fragment = esc(p.blurb.split(' ').slice(0, 4).join(' '));
+      assert(html.includes(fragment), `blurb missing from ${p.name}'s tooltip`);
+    });
+  });
+
   check('tooltip shows no click hint', () => {
     const html = String(all.a.markers.values().next().value.tooltip || '');
     assert(!/click to open website|click for the Eater entry/.test(html),
