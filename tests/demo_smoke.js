@@ -298,6 +298,18 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(all.html.includes(fragment), `blurb text missing for ${p.name}`);
   });
 
+  // Not observable through the DOM stub -- this is a CSS layout invariant that
+  // only a real engine would catch, so it is asserted against the stylesheet.
+  check('the tooltip card is sized to its text, not to its longest word', () => {
+    const css = fs.readFileSync(path.join(ROOT, 'web/index.html'), 'utf8');
+    const rule = css.match(/\.leaflet-tooltip\.e38\s*\{[^}]*\}/s);
+    assert(rule, 'tooltip style rule not found');
+    assert(/white-space:\s*normal/.test(rule[0]), 'tooltip should wrap');
+    assert(/width:\s*max-content/.test(rule[0]),
+           'without width:max-content the zero-width tooltip pane collapses the card to min-content');
+    assert(/max-width:/.test(rule[0]), 'tooltip needs a max-width cap');
+  });
+
   check('the hover tooltip is name and address only', () => {
     const sample = places.filter(p => all.a.markers.has(p.id)).slice(0, 40);
     sample.forEach(p => {

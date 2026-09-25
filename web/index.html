@@ -53,14 +53,20 @@
   .chip { display:inline-block; font-size:11.5px; padding:1px 7px; border-radius:999px; background:#eef2ee; color:#256029; margin-left:6px; }
   .nopin { font-size:11px; color:#9a9a9a; margin-left:6px; }
   footer { padding:9px 24px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+  /* Leaflet's tooltip pane holds only absolutely positioned children, so it has
+     zero width. For an absolutely positioned box that makes shrink-to-fit
+     resolve to min-content -- the width of the longest single word -- which is
+     why these cards rendered as thin columns. An explicit max-content width,
+     capped by max-width, gives the intended "as wide as the text, up to a
+     limit"; Leaflet's own rule dodges this by being white-space:nowrap. */
   .leaflet-tooltip.e38 { font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-    white-space:normal; max-width:min(320px,78vw); padding:9px 11px; }
+    white-space:normal; width:max-content; max-width:min(320px,78vw);
+    padding:9px 11px; border:0; box-shadow:0 2px 8px rgba(0,0,0,.25); }
   .leaflet-tooltip.e38 b { font-size:13.5px; }
   .leaflet-tooltip.e38 .k { color:var(--muted); font-size:12px; }
   /* One shadow for the entire pin layer. A filter per path would mean 244
      compositing layers; this is a single one. */
   .leaflet-overlay-pane svg { filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
-  .leaflet-tooltip.e38 { border:0; box-shadow:0 2px 8px rgba(0,0,0,.25); }
   .legend { background:#fff; padding:8px 10px; border-radius:7px; box-shadow:0 1px 5px rgba(0,0,0,.25);
             font:12.5px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
   .legend b { display:block; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin-bottom:3px; }
