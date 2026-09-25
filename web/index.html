@@ -170,15 +170,13 @@ function fitTo(ids) {
 
 /* ---- tooltips / click-through ---------------------------------------- */
 function tooltipHtml(place) {
-  const spells = place.periods.map(p =>
-    `${p.from_date} → ${p.to_date}${p.still_on ? ' <span class="k">(still on)</span>' : ''}`).join('<br>');
+  // Deliberately just identity: the prose and the date ranges live in the
+  // sidebar rows, where there is room to read them.
   const site = place.website
     ? esc(place.website.replace(/^https?:\/\//, '').replace(/\/$/, ''))
     : 'no website on file';
-  // The prose lives in the sidebar rows; hover stays short and out of the way.
   return `<b>${esc(place.name)}</b>`
     + (place.address ? `<div class="k">${esc(place.address)}</div>` : '')
-    + `<div class="k">${spells}</div>`
     + `<div class="k">${site}</div>`;
 }
 

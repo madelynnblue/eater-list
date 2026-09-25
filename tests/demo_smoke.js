@@ -283,6 +283,15 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(all.html.includes(fragment), `blurb text missing for ${p.name}`);
   });
 
+  check('the hover tooltip carries no date ranges', () => {
+    const sample = places.filter(p => all.a.markers.has(p.id)).slice(0, 30);
+    sample.forEach(p => {
+      const html = String(all.a.markers.get(p.id).tooltip || '');
+      assert(!/\d{4}-\d{2}-\d{2}/.test(html),
+             `${p.name}'s tooltip still shows a date range`);
+    });
+  });
+
   check('the hover tooltip stays short (no blurb in it)', () => {
     const withBlurb = places.filter(p => p.blurb && all.a.markers.has(p.id));
     withBlurb.slice(0, 25).forEach(p => {
