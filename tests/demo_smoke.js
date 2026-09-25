@@ -1,9 +1,9 @@
 /**
  * Headless smoke test for web/index.html.
  *
- * Runs the page's actual script against a stub DOM and stub Leaflet, using the
- * real exported JSON, then asserts each tab renders. Catches the class of bug
- * where a payload shape change makes a render function throw and the panel
+ * Runs the page's real script against a stub DOM and stub Leaflet, using the
+ * real exported JSON, then asserts what each tab renders. Catches the class of
+ * bug where a payload change makes a render function throw and the panel
  * silently keeps showing the previous tab.
  *
  *   node tests/demo_smoke.js [project-root]
@@ -11,14 +11,13 @@
 const fs = require('fs');
 const vm = require('vm');
 const path = require('path');
-const os = require('os');
 
 const ROOT = process.argv[2] || path.join(__dirname, '..');
 
 function stubElement() {
   const classes = new Set();
   return {
-    innerHTML: '', textContent: '', hidden: false, dataset: {},
+    innerHTML: '', textContent: '', hidden: false, dataset: {}, style: {},
     classList: {
       add: c => classes.add(c), remove: c => classes.delete(c),
       toggle: (c, on) => (on ? classes.add(c) : classes.delete(c)),
@@ -31,14 +30,14 @@ function stubElement() {
 function runPage(webDir) {
   const html = fs.readFileSync(path.join(webDir, 'index.html'), 'utf8');
   let js = html.match(/<script>([\s\S]*?)<\/script>/)[1];
-  js += '\nglobalThis.__api = { state, render, applyView, markers, showUpdate };\n';
+  js += '\nglobalThis.__api = { state, render, applyView, markers, inWindow };\n';
 
   const nodes = new Map();
   const get = sel => {
     if (!nodes.has(sel)) nodes.set(sel, stubElement());
     return nodes.get(sel);
   };
-  const navButtons = ['current', 'updates', 'all'].map(view => {
+  const navButtons = ['current', 'range', 'all'].map(view => {
     const b = stubElement(); b.dataset.view = view; return b;
   });
 
@@ -78,6 +77,7 @@ function runPage(webDir) {
     document: {
       querySelector: get,
       querySelectorAll: sel => (sel === 'nav button' ? navButtons : []),
+      activeElement: null,
     },
     L, console,
     window: { open() {} },
@@ -90,7 +90,7 @@ function runPage(webDir) {
 
   const ctx = vm.createContext(sandbox);
   vm.runInContext(js, ctx);
-  return { get, api: () => ctx.__api, navButtons };
+  return { get, api: () => ctx.__api };
 }
 
 function withPanel(webDir, view) {
@@ -99,9 +99,14 @@ function withPanel(webDir, view) {
     const a = api();
     a.state.view = view;
     a.render();
+    a.applyView();
     resolve({ get, a, html: get('#list').innerHTML });
   }, 80));
 }
+
+const DAY = 86400000;
+const toUTC = iso => { const [y, m, d] = iso.split('-').map(Number); return Date.UTC(y, m - 1, d); };
+const isoAt = (base, i) => new Date(toUTC(base) + i * DAY).toISOString().slice(0, 10);
 
 const results = [];
 function check(name, fn) {
@@ -109,71 +114,98 @@ function check(name, fn) {
   catch (err) { results.push(['FAIL', name, err.message]); }
 }
 function assert(cond, msg) { if (!cond) throw new Error(msg); }
+const countRows = html => (html.match(/class="row/g) || []).length;
 
 (async () => {
-  const reads = name => JSON.parse(fs.readFileSync(path.join(ROOT, 'web/data', name), 'utf8'));
+  const reads = n => JSON.parse(fs.readFileSync(path.join(ROOT, 'web/data', n), 'utf8'));
   const places = reads('places.json');
   const current = reads('current.json');
   const updates = reads('updates.json');
+  const meta = reads('meta.json');
+
+  // Independent re-implementation of the window filter, for cross-checking.
+  const expectedInWindow = (from, to) => places.filter(p =>
+    p.periods.some(x => x.from_date <= to && x.to_date >= from));
 
   const cur = await withPanel(path.join(ROOT, 'web'), 'current');
   check('current tab renders one row per current entry', () => {
-    const rows = (cur.html.match(/class="row/g) || []).length;
+    const rows = countRows(cur.html);
     assert(rows === current.count, `expected ${current.count} rows, got ${rows}`);
-    assert(rows > 0, 'no rows rendered');
   });
 
   const all = await withPanel(path.join(ROOT, 'web'), 'all');
   check('all tab renders every place', () => {
-    const rows = (all.html.match(/class="row/g) || []).length;
+    const rows = countRows(all.html);
     assert(rows === places.length, `expected ${places.length} rows, got ${rows}`);
   });
 
-  const upd = await withPanel(path.join(ROOT, 'web'), 'updates');
-  check('updates tab renders a dated block per update', () => {
-    const blocks = (upd.html.match(/class="upd"/g) || []).length;
-    const dates = (upd.html.match(/class="when"/g) || []).length;
-    assert(blocks === updates.length, `expected ${updates.length} blocks, got ${blocks}`);
-    assert(dates === updates.length, `expected ${updates.length} date headers, got ${dates}`);
+  const rng = await withPanel(path.join(ROOT, 'web'), 'range');
+  check('range slider spans the whole archive', () => {
+    const span = Math.round((toUTC(meta.coverage.last_observation) -
+                             toUTC(meta.coverage.first_observation)) / DAY);
+    [['#rangeA', 'start'], ['#rangeB', 'end']].forEach(([sel, which]) => {
+      assert(Number(rng.get(sel).max) === span,
+             `${which} thumb max should be ${span} days, got ${rng.get(sel).max}`);
+      assert(Number(rng.get(sel).min) === 0, `${which} thumb min should be 0`);
+    });
   });
-  check('updates tab shows the diff, not just dates', () => {
-    const adds = (upd.html.match(/class="add"/g) || []).length;
-    const dels = (upd.html.match(/class="del"/g) || []).length;
-    assert(adds > 20 && dels > 20, `diff lines look wrong: ${adds} adds, ${dels} dels`);
+  check('range tab defaults to the previous year', () => {
+    const to = meta.coverage.last_observation;
+    const from = isoAt(meta.coverage.first_observation,
+      Math.max(0, Math.round((toUTC(to) - toUTC(meta.coverage.first_observation)) / DAY) - 365));
+    assert(rng.a.state.to === to, `expected to=${to}, got ${rng.a.state.to}`);
+    assert(rng.a.state.from === from, `expected from=${from}, got ${rng.a.state.from}`);
+    assert(rng.get('#rangeFrom').textContent === from, 'From label not updated');
+    assert(rng.get('#rangeTo').textContent === to, 'To label not updated');
+  });
+  check('range tab lists exactly the places on the list in that window', () => {
+    const want = expectedInWindow(rng.a.state.from, rng.a.state.to);
+    const rows = countRows(rng.html);
+    assert(rows === want.length, `expected ${want.length} rows, got ${rows}`);
+    assert(rows > 0 && rows < places.length, `window should be a strict subset (${rows})`);
   });
 
-  check('update ids all resolve to known places', () => {
-    const ids = new Set(places.map(p => p.id));
-    const bad = [];
-    updates.forEach(u => [...(u.added_ids || []), ...(u.removed_ids || [])]
-      .forEach(id => { if (!ids.has(id)) bad.push(id); }));
-    assert(bad.length === 0, `unresolved ids: ${bad.slice(0, 5).join(', ')}`);
+  const windows = [
+    ['2017-08-05', '2017-08-05'],
+    ['2019-01-01', '2019-12-31'],
+    ['2022-06-01', '2022-08-31'],
+    ['2025-01-01', '2026-09-21'],
+  ];
+  check('range filter agrees with an independent computation for 4 windows', () => {
+    for (const [from, to] of windows) {
+      rng.a.state.from = from; rng.a.state.to = to;
+      rng.a.render();
+      const got = countRows(rng.get('#list').innerHTML);
+      const want = expectedInWindow(from, to).length;
+      assert(got === want, `${from}..${to}: expected ${want} rows, got ${got}`);
+    }
+  });
+  check('a place that left the list in 2018 is out of the default window', () => {
+    rng.a.state.from = isoAt(meta.coverage.first_observation,
+      Math.round((toUTC(meta.coverage.last_observation) - toUTC(meta.coverage.first_observation)) / DAY) - 365);
+    rng.a.state.to = meta.coverage.last_observation;
+    const gone = places.find(p => p.periods.every(x => x.to_date < '2019-01-01'));
+    assert(gone, 'expected at least one long-gone place in the data');
+    assert(!rng.a.inWindow(gone), `${gone.name} should not be in the last-year window`);
+    rng.a.state.from = meta.coverage.first_observation;
+    assert(rng.a.inWindow(gone), `${gone.name} should be in the full-archive window`);
   });
 
   check('markers exist for mapped places', () => {
     const mapped = places.filter(p => p.lat !== null && p.lng !== null).length;
     assert(all.a.markers.size === mapped, `expected ${mapped} markers, got ${all.a.markers.size}`);
   });
-
   check('tooltip shows no click hint', () => {
-    const html = String(upd.a.markers.values().next().value.tooltip || '');
+    const html = String(all.a.markers.values().next().value.tooltip || '');
     assert(!/click to open website|click for the Eater entry/.test(html),
            'tooltip still contains a click hint');
   });
-
-  // Resilience: a payload from an older pipeline (no *_ids) must not break the tab.
-  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'e38-stale-'));
-  fs.mkdirSync(path.join(tmp, 'data'), { recursive: true });
-  ['places.json', 'current.json', 'meta.json', 'places.geojson'].forEach(f =>
-    fs.copyFileSync(path.join(ROOT, 'web/data', f), path.join(tmp, 'data', f)));
-  fs.writeFileSync(path.join(tmp, 'data', 'updates.json'),
-    JSON.stringify(updates.map(u => ({ ...u, added_ids: undefined, removed_ids: undefined }))));
-  fs.copyFileSync(path.join(ROOT, 'web/index.html'), path.join(tmp, 'index.html'));
-
-  const stale = await withPanel(tmp, 'updates');
-  check('updates tab survives a legacy payload without ids', () => {
-    const blocks = (stale.html.match(/class="upd"/g) || []).length;
-    assert(blocks === updates.length, `expected ${updates.length} blocks, got ${blocks}`);
+  check('every update id resolves to a known place', () => {
+    const ids = new Set(places.map(p => p.id));
+    const bad = [];
+    updates.forEach(u => [...(u.added_ids || []), ...(u.removed_ids || [])]
+      .forEach(id => { if (!ids.has(id)) bad.push(id); }));
+    assert(bad.length === 0, `unresolved ids: ${bad.slice(0, 5).join(', ')}`);
   });
 
   results.forEach(([status, name, msg]) => {

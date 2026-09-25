@@ -189,6 +189,27 @@ That means a change to the extractor can be re-applied offline
 extractor version is stored per payload, so stale payloads are re-parsed from
 disk automatically. Weekly captures add roughly 300 KB each.
 
+## The web demo
+
+`web/index.html` is a dependency-free viewer over `web/data/`. Serve the folder
+over HTTP (`make serve`) and open it. Three tabs drive the map:
+
+| tab | sidebar | pins |
+|---|---|---|
+| **Current list** | the 39 restaurants listed today, in Eater's order | green |
+| **Date range** | anything on the list at any point in the selected window | green = on today, amber = rotated out |
+| **All 245** | every restaurant that ever appeared | green = on today, amber = rotated out |
+
+The **Date range** tab has a double-ended slider spanning the whole archive
+(2017‑08‑05 → 2026‑09‑21) and defaults to the previous year. Dragging either end
+re-filters both the list and the pins; the map deliberately does not re-zoom
+while dragging, only when the tab changes.
+
+In every tab: hover a row to spotlight its pin, hover a pin for its details,
+click a pin to open the restaurant's website (falling back to its Eater entry).
+`updates.json` is still exported for anyone who wants the change log, but the
+UI no longer uses it.
+
 ## Known limits
 
 * **The archive starts 2017‑08‑05.** The first capture already contains 38
@@ -232,6 +253,6 @@ script against a stub DOM and Leaflet using the real exported JSON:
 make test-demo        # needs node
 ```
 
-It asserts every tab renders (35 dated update blocks with their diffs, one row
-per restaurant), that every update id resolves to a known place, and that a
-payload from an older pipeline cannot break the panel.
+It asserts every tab renders the right rows, that the range filter agrees with
+an independent computation of the same window, that the slider defaults to the
+last year of coverage, and that every update id resolves to a known place.
