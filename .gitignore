@@ -1,0 +1,20 @@
+# Resumable crawl state — regenerate with `python -m e38 scan`.
+data/eater38.sqlite
+data/eater38.sqlite-wal
+data/eater38.sqlite-shm
+
+# Archived raw pages (regenerate by re-scanning; large).
+data/raw/
+
+# Logs and scratch
+data/*.log
+data/phase*.txt
+data/retry.txt
+data/_smoke.txt
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# Exploratory crawl artefacts (only needed by `e38 seed`; large, regenerable)
+data/captures.jsonl

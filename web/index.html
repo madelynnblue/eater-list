@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eater 38 — list history</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --ink:#1a1a1a; --muted:#6b6b6b; --line:#e4e4e4; --add:#1a7f37; --del:#d92d20;
+          --now:#1a7f37; --past:#8a6d3b; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; color:var(--ink); }
+  header { padding:18px 24px 10px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 4px; font-size:20px; }
+  .sub { color:var(--muted); font-size:13px; }
+  .hint { color:var(--muted); font-size:12.5px; margin-top:6px; }
+  .layout { display:grid; grid-template-columns: minmax(280px,380px) 1fr; height:calc(100vh - 104px); }
+  .panel { overflow:auto; border-right:1px solid var(--line); padding:16px 18px; }
+  #map { height:100%; }
+  nav { display:flex; gap:6px; margin:12px 0; flex-wrap:wrap; }
+  nav button { font:inherit; padding:5px 11px; border:1px solid var(--line); background:#fff; border-radius:999px; cursor:pointer; }
+  nav button[aria-selected="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  input[type=search] { width:100%; padding:7px 10px; border:1px solid var(--line); border-radius:7px; font:inherit; }
+  .row { padding:9px 8px; border-bottom:1px solid var(--line); border-radius:6px; transition:background .08s; }
+  .row.hot, .upd.hot { background:#fff4e6; }
+  .row.unmapped { cursor:default; }
+  .row .name { font-weight:600; }
+  .row .meta { color:var(--muted); font-size:12.5px; }
+  .row .site { font-size:12.5px; }
+  .row .site a { color:#0b62c4; text-decoration:none; }
+  .row .site a:hover { text-decoration:underline; }
+  .chip { display:inline-block; font-size:11.5px; padding:1px 7px; border-radius:999px; background:#eef2ee; color:#256029; margin-left:6px; }
+  .nopin { font-size:11px; color:#9a9a9a; margin-left:6px; }
+  .upd { padding:9px 8px; border-bottom:1px solid var(--line); border-radius:6px; cursor:default; transition:background .08s; }
+  .upd .when { font-weight:600; font-size:13px; }
+  .upd .nopin { display:block; margin:2px 0 0; }
+  .add { color:var(--add); } .del { color:var(--del); }
+  footer { padding:9px 24px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+  .leaflet-tooltip.e38 { font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  .leaflet-tooltip.e38 b { font-size:13.5px; }
+  .leaflet-tooltip.e38 .k { color:var(--muted); }
+  .legend { background:#fff; padding:8px 10px; border-radius:7px; box-shadow:0 1px 5px rgba(0,0,0,.25);
+            font:12.5px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  .legend b { display:block; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin-bottom:3px; }
+  .legend i { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+  .legend .count { color:var(--muted); margin-top:4px; }
+  @media (max-width: 760px) { .layout { grid-template-columns: 1fr; height:auto; } #map { height:340px; } .panel { border-right:0; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Eater NY “38 Best Restaurants” — list history</h1>
+  <div class="sub" id="meta">loading…</div>
+  <div class="hint" id="hint"></div>
+</header>
+
+<div class="layout">
+  <div class="panel">
+    <nav>
+      <button data-view="current" aria-selected="true">Current list</button>
+      <button data-view="updates">Updates</button>
+      <button data-view="all">All 245</button>
+    </nav>
+    <div id="searchWrap" hidden><input type="search" id="search" placeholder="Filter by name or address…"></div>
+    <div id="list"></div>
+  </div>
+  <div id="map"></div>
+</div>
+
+<footer>
+  Data: Wayback Machine captures of ny.eater.com/maps/best-new-york-restaurants-38-map.
+  Serve this folder over HTTP (e.g. <code>python -m http.server</code>) so the JSON can load.
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const NOW = '#1a7f37', PAST = '#8a6d3b', ADDED = '#1a7f37', REMOVED = '#d92d20';
+const BASE = { radius: 6, weight: 1, color: '#fff', fillOpacity: 0.9 };
+const HOT  = { radius: 11, weight: 3, color: '#111', fillOpacity: 1 };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+  ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+
+const state = { places: [], byId: new Map(), current: null, updates: [], view: 'current', q: '' };
+const markers = new Map();      // place id -> circleMarker layer
+
+const map = L.map('map', { scrollWheelZoom: true }).setView([40.73, -73.97], 11);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+const legend = L.control({ position: 'bottomright' });
+legend.onAdd = () => { const d = L.DomUtil.create('div', 'legend'); legend._div = d; return d; };
+legend.addTo(map);
+
+function updateLegend(title, rows, count) {
+  legend._div.innerHTML = `<b>${esc(title)}</b>` +
+    rows.map(([color, label]) => `<div><i style="background:${color}"></i>${esc(label)}</div>`).join('') +
+    (count === null ? '' : `<div class="count">${count} pin${count === 1 ? '' : 's'}</div>`);
+}
+
+/* ---- pin set control -------------------------------------------------- */
+function paint(ids, colorOf) {
+  const want = new Set(ids);
+  markers.forEach((layer, id) => {
+    if (want.has(id)) {
+      layer.setStyle(Object.assign({}, BASE, { fillColor: colorOf ? colorOf(id) : defaultColor(id) }));
+      if (!map.hasLayer(layer)) layer.addTo(map);
+    } else if (map.hasLayer(layer)) {
+      layer.closeTooltip();
+      map.removeLayer(layer);
+    }
+  });
+}
+
+const defaultColor = id => (state.byId.get(id)?.on_list_now ? NOW : PAST);
+const mappedIds = () => state.places.filter(p => isMapped(p)).map(p => p.id);
+const isMapped = p => p && p.lat !== null && p.lat !== undefined && p.lng !== null && p.lng !== undefined;
+
+function fitTo(ids) {
+  const pts = ids.map(id => markers.get(id)).filter(l => l && map.hasLayer(l));
+  if (pts.length) map.fitBounds(L.featureGroup(pts).getBounds(), { padding: [40, 40], maxZoom: 14 });
+}
+
+/* ---- map view per tab ------------------------------------------------- */
+function applyView() {
+  if (state.view === 'current') {
+    const ids = (state.current?.entries || [])
+      .map(e => e.place_id).filter(id => markers.has(id));
+    paint(ids);
+    updateLegend('Current list', [[NOW, 'on the list today']], ids.length);
+    fitTo(ids);
+  } else if (state.view === 'all') {
+    const ids = mappedIds();
+    paint(ids);
+    updateLegend('All restaurants', [[NOW, 'on the list today'], [PAST, 'rotated out']], ids.length);
+    fitTo(ids);
+  } else {
+    paint([]);
+    updateLegend('Updates', [[ADDED, 'added by that update'], [REMOVED, 'removed by that update']], null);
+  }
+}
+
+/* ---- tooltips / click-through ---------------------------------------- */
+function tooltipHtml(place) {
+  const spells = place.periods.map(p =>
+    `${p.from_date} → ${p.to_date}${p.still_on ? ' <span class="k">(still on)</span>' : ''}`).join('<br>');
+  const site = place.website
+    ? `<br><span class="k">${esc(place.website.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</span>`
+    : '<br><span class="k">no website on file</span>';
+  return `<b>${esc(place.name)}</b>${place.address ? `<br>${esc(place.address)}` : ''}` +
+         `<br><span class="k">${spells}</span>${site}`;
+}
+
+const layer = L.geoJSON(null, {
+  pointToLayer: (f, latlng) => L.circleMarker(latlng, Object.assign({}, BASE, {
+    fillColor: f.properties.on_list_now ? NOW : PAST
+  })),
+  onEachFeature: (f, l) => {
+    const place = state.byId.get(f.properties.id);
+    if (!place) return;
+    markers.set(place.id, l);
+    l.bindTooltip(tooltipHtml(place), { className: 'e38', sticky: true, direction: 'top', opacity: 1 });
+    l.on('mouseover', () => l.openTooltip());
+    l.on('mouseout', () => l.closeTooltip());
+    l.on('click', () => openSite(place));
+  }
+});   // not added to the map here: applyView() decides which pins are visible
+
+function openSite(place) {
+  const url = place.website || place.eater_url;
+  if (url) window.open(url, '_blank', 'noopener');
+}
+
+function highlight(id, on) {
+  const m = markers.get(id);
+  if (!m || !map.hasLayer(m)) return;
+  m.setStyle(on ? HOT : Object.assign({}, BASE, { fillColor: defaultColor(id) }));
+  if (on) { m.bringToFront(); m.openTooltip(); } else { m.closeTooltip(); }
+}
+
+/* ---- panel rendering -------------------------------------------------- */
+const fmtPeriod = p => `${p.from_date} → ${p.to_date}${p.still_on ? ' (still on)' : ''}`;
+const periodsText = p => p.periods.map(fmtPeriod).join(' · ');
+
+function currentRows() {
+  return (state.current?.entries || []).map(e => {
+    const place = state.byId.get(e.place_id);
+    return place ? { ...place, name: e.name, position: e.position } : null;
+  }).filter(Boolean);
+}
+
+function render() {
+  const list = $('#list');
+  const q = state.q.toLowerCase();
+  const hint = $('#hint');
+
+  if (state.view === 'updates') {
+    hint.textContent = 'Hover an update to plot what it added and removed.';
+    const rows = state.updates.map((u, i) => ({ u, i })).reverse();
+    list.innerHTML = rows.map(({ u, i }) => {
+      const unmapped = [...(u.added_ids || []), ...(u.removed_ids || [])]
+        .filter(id => !markers.has(id)).length;
+      return `
+      <div class="upd" data-idx="${i}">
+        <div class="when">${esc(u.after_date)} → ${esc(u.by_date)}</div>
+        ${u.added.length ? `<div class="add">+ ${u.added.map(esc).join(', ')}</div>` : ''}
+        ${u.removed.length ? `<div class="del">− ${u.removed.map(esc).join(', ')}</div>` : ''}
+        ${unmapped ? `<span class="nopin">${unmapped} of these ${unmapped === 1 ? 'has' : 'have'} no pin</span>` : ''}
+      </div>`;
+    }).join('');
+    return;
+  }
+
+  hint.textContent = state.view === 'current'
+    ? 'Hover an entry to spotlight its pin · click a pin to open the restaurant’s website.'
+    : 'Showing every restaurant that was ever on the list, including those rotated out.';
+
+  let rows = state.view === 'current'
+    ? currentRows()
+    : [...state.places].sort((a, b) => a.name.localeCompare(b.name));
+  if (q) rows = rows.filter(r => (r.name + ' ' + (r.address || '')).toLowerCase().includes(q));
+
+  list.innerHTML = rows.map(r => {
+    const mapped = isMapped(r);
+    const site = r.website || r.eater_url;
+    return `
+    <div class="row${mapped ? '' : ' unmapped'}" data-place="${esc(r.id)}"
+         ${mapped ? '' : 'title="No coordinates in the source data for this restaurant"'}>
+      <div class="name">${state.view === 'current' ? r.position + '. ' : ''}${esc(r.name)}
+        ${r.on_list_now && state.view === 'all' ? '<span class="chip">on list</span>' : ''}
+        ${mapped ? '' : '<span class="nopin">no pin</span>'}</div>
+      <div class="meta">${esc(periodsText(r))}</div>
+      ${r.address ? `<div class="meta">${esc(r.address)}</div>` : ''}
+      ${site ? `<div class="site"><a href="${esc(site)}" target="_blank" rel="noopener"
+         title="${r.website ? 'Restaurant website' : 'Eater entry (no restaurant website on file)'}"
+         >${r.website ? esc(r.website.replace(/^https?:\/\//, '').replace(/\/$/, '')) : 'Eater entry ↗'}</a></div>` : ''}
+    </div>`;
+  }).join('') || '<p class="meta">No matches.</p>';
+}
+
+/* ---- update-hover -> green/red pins ----------------------------------- */
+function showUpdate(idx) {
+  const u = state.updates[idx];
+  if (!u) return;
+  const addedIds = u.added_ids || [];
+  const removedIds = u.removed_ids || [];
+  const added = addedIds.filter(id => markers.has(id));
+  const removed = removedIds.filter(id => markers.has(id));
+  paint([...added, ...removed], id => (addedIds.includes(id) ? ADDED : REMOVED));
+  updateLegend(`Update ${u.after_date}`, [[ADDED, 'added'], [REMOVED, 'removed']],
+               added.length + removed.length);
+  list_mark(idx);
+}
+
+let hotUpdate = null;
+function list_mark(idx) {
+  if (hotUpdate === idx) return;
+  hotUpdate = idx;
+  document.querySelectorAll('.upd').forEach(el =>
+    el.classList.toggle('hot', Number(el.dataset.idx) === idx));
+}
+
+/* ---- events ----------------------------------------------------------- */
+$('#list').addEventListener('mouseover', e => {
+  const upd = e.target.closest('.upd');
+  if (upd && state.view === 'updates') { showUpdate(Number(upd.dataset.idx)); return; }
+  const row = e.target.closest('.row');
+  if (!row || !row.dataset.place) return;
+  row.classList.add('hot');
+  highlight(row.dataset.place, true);
+});
+
+$('#list').addEventListener('mouseout', e => {
+  const upd = e.target.closest('.upd');
+  if (upd && state.view === 'updates') {
+    if (e.relatedTarget && upd.contains(e.relatedTarget)) return;
+    upd.classList.remove('hot');
+    hotUpdate = null;
+    paint([]);
+    updateLegend('Updates', [[ADDED, 'added by that update'], [REMOVED, 'removed by that update']], null);
+    return;
+  }
+  const row = e.target.closest('.row');
+  if (!row || !row.dataset.place) return;
+  if (e.relatedTarget && row.contains(e.relatedTarget)) return;
+  row.classList.remove('hot');
+  highlight(row.dataset.place, false);
+});
+
+document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
+  state.view = b.dataset.view;
+  document.querySelectorAll('nav button').forEach(x => x.setAttribute('aria-selected', x === b));
+  $('#searchWrap').hidden = state.view !== 'all' && state.view !== 'current';
+  hotUpdate = null;
+  render();
+  applyView();
+}));
+
+$('#search').addEventListener('input', e => {
+  state.q = e.target.value;
+  render();
+  if (state.view !== 'updates') {
+    const q = state.q.toLowerCase();
+    const rows = state.view === 'current' ? currentRows() : state.places;
+    const ids = rows.filter(r => (r.name + ' ' + (r.address || '')).toLowerCase().includes(q))
+                    .map(r => r.id).filter(id => markers.has(id));
+    paint(ids);
+    updateLegend(state.view === 'current' ? 'Current list' : 'All restaurants',
+                 state.view === 'current' ? [[NOW, 'on the list today']]
+                                          : [[NOW, 'on the list today'], [PAST, 'rotated out']],
+                 ids.length);
+  }
+});
+
+/* ---- boot ------------------------------------------------------------- */
+const load = name => fetch(`data/${name}`, { cache: 'no-store' }).then(r => r.json());
+Promise.all([
+  load('places.json'), load('current.json'), load('updates.json'),
+  load('meta.json'), load('places.geojson'),
+]).then(([places, current, updates, meta, geo]) => {
+  Object.assign(state, { places, current, updates });
+  state.byId = new Map(places.map(p => [p.id, p]));
+  $('#meta').textContent =
+    `${meta.counts.places} restaurants · ${meta.counts.stretches} list stints · ` +
+    `${meta.counts.changes} changes · ${meta.counts.on_list_now} on the list today · ` +
+    `${meta.counts.mapped} with map coordinates · ` +
+    `${meta.coverage.captures_indexed} captures indexed (${meta.coverage.first_observation} → ${meta.coverage.last_observation})`;
+  layer.addData(geo);          // registers markers; visibility is set by applyView()
+  render();
+  applyView();
+}).catch(err => { $('#meta').textContent = 'Could not load data: ' + err.message; });
+</script>
+</body>
+</html>

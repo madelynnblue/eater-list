@@ -1,0 +1,10 @@
+{
+  "_comment": "Eater renames and re-slugs entries over time. Key = normalised name seen in an older capture, value = normalised name of the same restaurant later on. Auto-populated candidates can be listed with `e38 build --suggest-aliases`.",
+  "the odeon": "odeon",
+  "roberta s": "roberto s",
+  "russ and daughters": "russ and daughters cafe",
+  "charles country pan fried chicken": "charles pan fried chicken",
+  "s and p": "s and p lunch",
+  "haidilao": "haidilao hot pot",
+  "adda indian canteen": "adda"
+}

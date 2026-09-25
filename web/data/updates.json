@@ -1,0 +1,1549 @@
+[
+ {
+  "after": "20170805051251",
+  "by": "20180203083717",
+  "added": [
+   "Flaming Kitchen",
+   "Madison Square Garden",
+   "Prune",
+   "Hanoi House",
+   "Momofuku Ssäm Bar",
+   "Aldea",
+   "Cote Korean Steakhouse",
+   "Sullivan Street Bakery",
+   "Jongro BBQ",
+   "Sakagura",
+   "The Grill",
+   "Victor's Cafe",
+   "Charles Country Pan Fried Chicken",
+   "Dumpling Galaxy"
+  ],
+  "removed": [
+   "The Odeon",
+   "Mission Chinese Food",
+   "Lure Fishbar",
+   "Somtum Der",
+   "Momofuku Noodle Bar",
+   "Gramercy Tavern",
+   "Cosme",
+   "The NoMad Restaurant",
+   "The Breslin",
+   "New Wonjo",
+   "Patsy's Pizza - East Harlem",
+   "Casa Enrique",
+   "Prime Meats"
+  ],
+  "added_ids": [
+   "flaming-kitchen",
+   "madison-square-garden",
+   "prune",
+   "hanoi-house",
+   "momofuku-ssam-bar",
+   "aldea",
+   "cote-korean-steakhouse",
+   "sullivan-street-bakery",
+   "jongro-bbq",
+   "sakagura",
+   "the-grill",
+   "victor-s-cafe",
+   "charles-pan-fried-chicken",
+   "dumpling-galaxy"
+  ],
+  "removed_ids": [
+   "odeon",
+   "mission-chinese-food",
+   "lure-fishbar",
+   "somtum-der",
+   "momofuku-noodle-bar",
+   "gramercy-tavern",
+   "cosme",
+   "the-nomad-restaurant",
+   "the-breslin",
+   "new-wonjo",
+   "patsy-s-pizza-east-harlem",
+   "casa-enrique",
+   "prime-meats"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2017-08-05",
+  "by_date": "2018-02-03"
+ },
+ {
+  "after": "20180218213216",
+  "by": "20180711092854",
+  "added": [
+   "Ping Seafood Restaurant",
+   "Yankee Stadium",
+   "Atla",
+   "Her Name is Han",
+   "MáLà Project",
+   "Torishin",
+   "Gregory's 26 Corner Taverna",
+   "Win Son",
+   "Peppa's",
+   "Claro",
+   "Ugly Baby"
+  ],
+  "removed": [
+   "Flaming Kitchen",
+   "Madison Square Garden",
+   "Prune",
+   "Oiji",
+   "Jongro BBQ",
+   "Sakagura",
+   "Indian Accent",
+   "Boulud Sud",
+   "Flora Bar",
+   "Mu Ramen",
+   "El Atoradero Brooklyn"
+  ],
+  "added_ids": [
+   "ping-seafood-restaurant",
+   "yankee-stadium",
+   "atla",
+   "her-name-is-han",
+   "mala-project",
+   "torishin",
+   "gregory-s-26-corner-taverna",
+   "win-son",
+   "peppa-s",
+   "claro",
+   "ugly-baby"
+  ],
+  "removed_ids": [
+   "flaming-kitchen",
+   "madison-square-garden",
+   "prune",
+   "oiji",
+   "jongro-bbq",
+   "sakagura",
+   "indian-accent",
+   "boulud-sud",
+   "flora-bar",
+   "mu-ramen",
+   "el-atoradero-brooklyn"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2018-02-18",
+  "by_date": "2018-07-11"
+ },
+ {
+  "after": "20180716075932",
+  "by": "20181001122718",
+  "added": [],
+  "removed": [
+   "Yankee Stadium"
+  ],
+  "added_ids": [],
+  "removed_ids": [
+   "yankee-stadium"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2018-07-16",
+  "by_date": "2018-10-01"
+ },
+ {
+  "after": "20181003095938",
+  "by": "20190119093712",
+  "added": [
+   "Kopitiam",
+   "Xi'an Famous Foods",
+   "Frenchette",
+   "Tomiño Taberna Gallega",
+   "Fish Cheeks",
+   "Via Carota",
+   "Madame Vo",
+   "Rahi",
+   "Nur",
+   "Bolivian Llama Party",
+   "Roberto's",
+   "Szechuan Mountain House",
+   "Chez Ma Tante",
+   "Ops"
+  ],
+  "removed": [
+   "Ping Seafood Restaurant",
+   "Spicy Village",
+   "Wildair",
+   "Uncle Boons",
+   "Balthazar",
+   "I Sodi",
+   "Hanoi House",
+   "Aldea",
+   "MáLà Project",
+   "Victor's Cafe",
+   "Dumpling Galaxy",
+   "Lilia",
+   "St. Anselm",
+   "Roberta's"
+  ],
+  "added_ids": [
+   "kopitiam",
+   "xi-an-famous-foods",
+   "frenchette",
+   "tomino-taberna-gallega",
+   "fish-cheeks",
+   "via-carota",
+   "madame-vo",
+   "rahi",
+   "nur",
+   "bolivian-llama-party",
+   "roberto-s",
+   "szechuan-mountain-house",
+   "chez-ma-tante",
+   "ops"
+  ],
+  "removed_ids": [
+   "ping-seafood-restaurant",
+   "spicy-village",
+   "wildair",
+   "uncle-boons",
+   "balthazar",
+   "i-sodi",
+   "hanoi-house",
+   "aldea",
+   "mala-project",
+   "victor-s-cafe",
+   "dumpling-galaxy",
+   "lilia",
+   "st-anselm",
+   "roberto-s"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2018-10-03",
+  "by_date": "2019-01-19"
+ },
+ {
+  "after": "20190202235314",
+  "by": "20190417081732",
+  "added": [
+   "Adda Indian Canteen",
+   "Di An Di",
+   "Harry & Ida's Meat and Supply Co.",
+   "Le Sia",
+   "Cervo's"
+  ],
+  "removed": [
+   "Tomiño Taberna Gallega",
+   "Madame Vo",
+   "Rahi",
+   "Szechuan Mountain House",
+   "Ugly Baby"
+  ],
+  "added_ids": [
+   "adda",
+   "di-an-di",
+   "harry-and-ida-s-meat-and-supply-co",
+   "le-sia",
+   "cervo-s"
+  ],
+  "removed_ids": [
+   "tomino-taberna-gallega",
+   "madame-vo",
+   "rahi",
+   "szechuan-mountain-house",
+   "ugly-baby"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2019-02-02",
+  "by_date": "2019-04-17"
+ },
+ {
+  "after": "20190528133625",
+  "by": "20190721000015",
+  "added": [
+   "Noda",
+   "Atomix",
+   "E.A.K. Ramen (West Village)",
+   "Scarr's Pizza",
+   "MeMe's Diner",
+   "Haenyeo"
+  ],
+  "removed": [
+   "Torishin",
+   "Sullivan Street Bakery",
+   "Her Name is Han",
+   "Shuko",
+   "Chez Ma Tante",
+   "Le Coucou"
+  ],
+  "added_ids": [
+   "noda",
+   "atomix",
+   "e-a-k-ramen-west-village",
+   "scarr-s-pizza",
+   "meme-s-diner",
+   "haenyeo"
+  ],
+  "removed_ids": [
+   "torishin",
+   "sullivan-street-bakery",
+   "her-name-is-han",
+   "shuko",
+   "chez-ma-tante",
+   "le-coucou"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2019-05-28",
+  "by_date": "2019-07-21"
+ },
+ {
+  "after": "20190815181821",
+  "by": "20191023151523",
+  "added": [
+   "Liebman’s Deli",
+   "La Morada",
+   "Flora Bar",
+   "Fiaschetteria \"Pistoia\"",
+   "Miss Ada"
+  ],
+  "removed": [
+   "Roberto's",
+   "Cote Korean Steakhouse",
+   "Nur",
+   "Marlow & Sons",
+   "Claro"
+  ],
+  "added_ids": [
+   "liebman-s-deli",
+   "la-morada",
+   "flora-bar",
+   "fiaschetteria-pistoia",
+   "miss-ada"
+  ],
+  "removed_ids": [
+   "roberto-s",
+   "cote-korean-steakhouse",
+   "nur",
+   "marlow-and-sons",
+   "claro"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2019-08-15",
+  "by_date": "2019-10-23"
+ },
+ {
+  "after": "20191023151523",
+  "by": "20191205030922",
+  "added": [
+   "Gertie"
+  ],
+  "removed": [
+   "Harry & Ida's Meat and Supply Co."
+  ],
+  "added_ids": [
+   "gertie"
+  ],
+  "removed_ids": [
+   "harry-and-ida-s-meat-and-supply-co"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2019-10-23",
+  "by_date": "2019-12-05"
+ },
+ {
+  "after": "20191205030922",
+  "by": "20200318174839",
+  "added": [
+   "Africa Kine",
+   "Sushi Noz",
+   "Le Bernardin",
+   "Haidilao",
+   "Farida",
+   "Momofuku Kāwi",
+   "Rezdôra",
+   "Llama San"
+  ],
+  "removed": [
+   "Charles' Country Pan Fried Chicken",
+   "The Grill",
+   "Noda",
+   "Via Carota",
+   "Momofuku Ssäm Bar",
+   "Le Sia",
+   "Cheburechnaya",
+   "La Vara"
+  ],
+  "added_ids": [
+   "africa-kine",
+   "sushi-noz",
+   "le-bernardin",
+   "haidilao-hot-pot",
+   "farida",
+   "momofuku-kawi",
+   "rezdora",
+   "llama-san"
+  ],
+  "removed_ids": [
+   "charles-pan-fried-chicken",
+   "the-grill",
+   "noda",
+   "via-carota",
+   "momofuku-ssam-bar",
+   "le-sia",
+   "cheburechnaya",
+   "la-vara"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2019-12-05",
+  "by_date": "2020-03-18"
+ },
+ {
+  "after": "20201112023808",
+  "by": "20201121234630",
+  "added": [
+   "Mario's",
+   "Fieldtrip",
+   "Yu Kitchen",
+   "Golden Palace Gourmet",
+   "Birria-Landia",
+   "Qanoon Restaurant",
+   "Bread & Salt",
+   "Jeju Noodle Bar",
+   "NY Dosas",
+   "Crop Circle",
+   "Thai Diner",
+   "Yi Ji Shi Mo",
+   "Jing Fong",
+   "Golden Diner",
+   "Ugly Baby",
+   "Denino’s Pizzeria & Tavern"
+  ],
+  "removed": [
+   "Liebman’s Deli",
+   "Gregory's 26 Corner Taverna",
+   "Flora Bar",
+   "Le Bernardin",
+   "Haidilao",
+   "Momofuku Kāwi",
+   "Atomix",
+   "Los Tacos No. 1",
+   "E.A.K. Ramen (West Village)",
+   "Fish Cheeks",
+   "Cervo's",
+   "Gertie",
+   "Peter Luger Steak House",
+   "Win Son",
+   "MeMe's Diner",
+   "Olmsted"
+  ],
+  "added_ids": [
+   "mario-s",
+   "fieldtrip",
+   "yu-kitchen",
+   "golden-palace-gourmet",
+   "birria-landia",
+   "qanoon-restaurant",
+   "bread-and-salt",
+   "jeju-noodle-bar",
+   "ny-dosas",
+   "crop-circle",
+   "thai-diner",
+   "yi-ji-shi-mo",
+   "jing-fong",
+   "golden-diner",
+   "ugly-baby",
+   "denino-s-pizzeria-and-tavern"
+  ],
+  "removed_ids": [
+   "liebman-s-deli",
+   "gregory-s-26-corner-taverna",
+   "flora-bar",
+   "le-bernardin",
+   "haidilao-hot-pot",
+   "momofuku-kawi",
+   "atomix",
+   "los-tacos-no-1",
+   "e-a-k-ramen-west-village",
+   "fish-cheeks",
+   "cervo-s",
+   "gertie",
+   "peter-luger-steak-house",
+   "win-son",
+   "meme-s-diner",
+   "olmsted"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2020-11-12",
+  "by_date": "2020-11-21"
+ },
+ {
+  "after": "20210106211533",
+  "by": "20210122010700",
+  "added": [
+   "Peaches HotHouse",
+   "A&A Bake Doubles and Roti"
+  ],
+  "removed": [
+   "Llama San",
+   "Superiority Burger"
+  ],
+  "added_ids": [
+   "peaches-hothouse",
+   "a-and-a-bake-doubles-and-roti"
+  ],
+  "removed_ids": [
+   "llama-san",
+   "superiority-burger"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2021-01-06",
+  "by_date": "2021-01-22"
+ },
+ {
+  "after": "20210317013452",
+  "by": "20210421035621",
+  "added": [
+   "Tony & Tina's Pizzeria",
+   "Happy Hot Hunan",
+   "Via Carota",
+   "Bolero",
+   "Bo Ky",
+   "Wu's Wonton King",
+   "Bunna Cafe",
+   "Court Street Grocers",
+   "Kashkar Cafe"
+  ],
+  "removed": [
+   "Mario's",
+   "Yu Kitchen",
+   "Rezdôra",
+   "Atla",
+   "Frenchette",
+   "Jing Fong",
+   "Kopitiam",
+   "Ugly Baby",
+   "Hometown Bar-B-Que"
+  ],
+  "added_ids": [
+   "tony-and-tina-s-pizzeria",
+   "happy-hot-hunan",
+   "via-carota",
+   "bolero",
+   "bo-ky",
+   "wu-s-wonton-king",
+   "bunna-cafe",
+   "court-street-grocers",
+   "kashkar-cafe"
+  ],
+  "removed_ids": [
+   "mario-s",
+   "yu-kitchen",
+   "rezdora",
+   "atla",
+   "frenchette",
+   "jing-fong",
+   "kopitiam",
+   "ugly-baby",
+   "hometown-bar-b-que"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2021-03-17",
+  "by_date": "2021-04-21"
+ },
+ {
+  "after": "20210424125601",
+  "by": "20210614081056",
+  "added": [
+   "Hudson Smokehouse",
+   "Bánh Vietnamese Shop House",
+   "Blue Willow",
+   "Ruta Oaxaca Mexican Cuisine",
+   "Chez Ma Tante",
+   "Dhamaka",
+   "Cervo's",
+   "Ernesto's",
+   "Tong",
+   "Falansai",
+   "Ras Plant Based",
+   "Chuan Tian Xia",
+   "Coszcal De Allende"
+  ],
+  "removed": [
+   "Tony & Tina's Pizzeria",
+   "La Morada",
+   "Happy Hot Hunan",
+   "Qanoon Restaurant",
+   "Adda Indian Canteen",
+   "Jeju Noodle Bar",
+   "Crop Circle",
+   "Fiaschetteria \"Pistoia\"",
+   "Yi Ji Shi Mo",
+   "Bo Ky",
+   "Scarr's Pizza",
+   "Xi'an Famous Foods",
+   "Court Street Grocers"
+  ],
+  "added_ids": [
+   "hudson-smokehouse",
+   "banh-vietnamese-shop-house",
+   "blue-willow",
+   "ruta-oaxaca-mexican-cuisine",
+   "chez-ma-tante",
+   "dhamaka",
+   "cervo-s",
+   "ernesto-s",
+   "tong",
+   "falansai",
+   "ras-plant-based",
+   "chuan-tian-xia",
+   "coszcal-de-allende"
+  ],
+  "removed_ids": [
+   "tony-and-tina-s-pizzeria",
+   "la-morada",
+   "happy-hot-hunan",
+   "qanoon-restaurant",
+   "adda",
+   "jeju-noodle-bar",
+   "crop-circle",
+   "fiaschetteria-pistoia",
+   "yi-ji-shi-mo",
+   "bo-ky",
+   "scarr-s-pizza",
+   "xi-an-famous-foods",
+   "court-street-grocers"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2021-04-24",
+  "by_date": "2021-06-14"
+ },
+ {
+  "after": "20211011120537",
+  "by": "20211015212624",
+  "added": [
+   "Mariscos El Submarino",
+   "Jua",
+   "Cadence",
+   "Gage & Tollner",
+   "Indian Table",
+   "Winner",
+   "Ayat"
+  ],
+  "removed": [
+   "Fieldtrip",
+   "Farida",
+   "Via Carota",
+   "Chez Ma Tante",
+   "Bolero",
+   "Peaches HotHouse",
+   "Ras Plant Based"
+  ],
+  "added_ids": [
+   "mariscos-el-submarino",
+   "jua",
+   "cadence",
+   "gage-and-tollner",
+   "indian-table",
+   "winner",
+   "ayat"
+  ],
+  "removed_ids": [
+   "fieldtrip",
+   "farida",
+   "via-carota",
+   "chez-ma-tante",
+   "bolero",
+   "peaches-hothouse",
+   "ras-plant-based"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2021-10-11",
+  "by_date": "2021-10-15"
+ },
+ {
+  "after": "20211220193907",
+  "by": "20220122170212",
+  "added": [
+   "Liebman’s Deli",
+   "Nepali Bhanchha Ghar",
+   "Yellow Rose",
+   "Soothr",
+   "Dame",
+   "Taqueria Ramirez",
+   "The Four Horsemen",
+   "L'Industrie Pizzeria",
+   "Killmeyer's"
+  ],
+  "removed": [
+   "Di An Di",
+   "Katz's Delicatessen",
+   "Thai Diner",
+   "Cervo's",
+   "Ernesto's",
+   "Tong",
+   "Ops",
+   "Miss Ada",
+   "Denino’s Pizzeria & Tavern"
+  ],
+  "added_ids": [
+   "liebman-s-deli",
+   "nepali-bhanchha-ghar",
+   "yellow-rose",
+   "soothr",
+   "dame",
+   "taqueria-ramirez",
+   "the-four-horsemen",
+   "l-industrie-pizzeria",
+   "killmeyer-s"
+  ],
+  "removed_ids": [
+   "di-an-di",
+   "katz-s-delicatessen",
+   "thai-diner",
+   "cervo-s",
+   "ernesto-s",
+   "tong",
+   "ops",
+   "miss-ada",
+   "denino-s-pizzeria-and-tavern"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2021-12-20",
+  "by_date": "2022-01-22"
+ },
+ {
+  "after": "20220407163839",
+  "by": "20220426152416",
+  "added": [
+   "Kingston Tropical Bakery",
+   "Playground",
+   "Shuko",
+   "CheLi",
+   "Mel",
+   "Saga",
+   "Al Badawi"
+  ],
+  "removed": [
+   "Sushi Noz",
+   "Blue Willow",
+   "Soothr",
+   "Indian Table",
+   "Haenyeo",
+   "Winner",
+   "Ayat"
+  ],
+  "added_ids": [
+   "kingston-tropical-bakery",
+   "playground",
+   "shuko",
+   "cheli",
+   "mel",
+   "saga",
+   "al-badawi"
+  ],
+  "removed_ids": [
+   "sushi-noz",
+   "blue-willow",
+   "soothr",
+   "indian-table",
+   "haenyeo",
+   "winner",
+   "ayat"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2022-04-07",
+  "by_date": "2022-04-26"
+ },
+ {
+  "after": "20220616232813",
+  "by": "20220811220937",
+  "added": [
+   "Katz's Delicatessen",
+   "Bamonte's",
+   "Aldama"
+  ],
+  "removed": [
+   "Liebman’s Deli",
+   "CheLi",
+   "Gage & Tollner"
+  ],
+  "added_ids": [
+   "katz-s-delicatessen",
+   "bamonte-s",
+   "aldama"
+  ],
+  "removed_ids": [
+   "liebman-s-deli",
+   "cheli",
+   "gage-and-tollner"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2022-06-16",
+  "by_date": "2022-08-11"
+ },
+ {
+  "after": "20220922054533",
+  "by": "20221013182624",
+  "added": [
+   "Malecon",
+   "Marea",
+   "New World Mall",
+   "Zaab Zaab",
+   "Semma",
+   "I Sodi",
+   "Veselka",
+   "Great NY Noodletown",
+   "La Vara",
+   "Hometown Bar-B-Que"
+  ],
+  "removed": [
+   "Hudson Smokehouse",
+   "Playground",
+   "Bread & Salt",
+   "Dame",
+   "Cadence",
+   "Katz's Delicatessen",
+   "Dhamaka",
+   "Mel",
+   "Falansai",
+   "Saga"
+  ],
+  "added_ids": [
+   "malecon",
+   "marea",
+   "new-world-mall",
+   "zaab-zaab",
+   "semma",
+   "i-sodi",
+   "veselka",
+   "great-ny-noodletown",
+   "la-vara",
+   "hometown-bar-b-que"
+  ],
+  "removed_ids": [
+   "hudson-smokehouse",
+   "playground",
+   "bread-and-salt",
+   "dame",
+   "cadence",
+   "katz-s-delicatessen",
+   "dhamaka",
+   "mel",
+   "falansai",
+   "saga"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2022-09-22",
+  "by_date": "2022-10-13"
+ },
+ {
+  "after": "20221227073040",
+  "by": "20230113225417",
+  "added": [
+   "Claudy’s Empanadas",
+   "Dominick's",
+   "Charles Pan-Fried Chicken",
+   "Pastrami Queen",
+   "Haidilao Hot Pot",
+   "Urban Hawker",
+   "Koloman",
+   "Corner Bar",
+   "Dept of Culture",
+   "Ugly Baby"
+  ],
+  "removed": [
+   "Africa Kine",
+   "Birria-Landia",
+   "Jua",
+   "Bolivian Llama Party",
+   "I Sodi",
+   "Yellow Rose",
+   "Bamonte's",
+   "Wu's Wonton King",
+   "Golden Diner",
+   "Peppa's"
+  ],
+  "added_ids": [
+   "claudy-s-empanadas",
+   "dominick-s",
+   "charles-pan-fried-chicken",
+   "pastrami-queen",
+   "haidilao-hot-pot",
+   "urban-hawker",
+   "koloman",
+   "corner-bar",
+   "dept-of-culture",
+   "ugly-baby"
+  ],
+  "removed_ids": [
+   "africa-kine",
+   "birria-landia",
+   "jua",
+   "bolivian-llama-party",
+   "i-sodi",
+   "yellow-rose",
+   "bamonte-s",
+   "wu-s-wonton-king",
+   "golden-diner",
+   "peppa-s"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2022-12-27",
+  "by_date": "2023-01-13"
+ },
+ {
+  "after": "20230321204829",
+  "by": "20230328171700",
+  "added": [
+   "Roberto's",
+   "Papaye",
+   "Sylvia's",
+   "Le Bernardin",
+   "Szechuan Mountain House",
+   "Grand Central Oyster Bar",
+   "Keens Steakhouse",
+   "Baekjeong",
+   "Sushi On Me",
+   "Noz 17",
+   "Los Tacos No.1",
+   "Chama Mama",
+   "Via Carota",
+   "B&H Dairy",
+   "Raku",
+   "Ho Foods",
+   "Balthazar",
+   "Russ & Daughters",
+   "Katz's Delicatessen",
+   "Una Pizza Napoletana",
+   "Thai Diner",
+   "The Original Buddha Bodai Kosher Vegetarian Restaurant",
+   "Kopitiam",
+   "Misi",
+   "Ayat",
+   "Joe's of Avenue U"
+  ],
+  "removed": [
+   "Claudy’s Empanadas",
+   "Kingston Tropical Bakery",
+   "Dominick's",
+   "Malecon",
+   "Charles Pan-Fried Chicken",
+   "Pastrami Queen",
+   "Marea",
+   "Urban Hawker",
+   "Ruta Oaxaca Mexican Cuisine",
+   "New World Mall",
+   "Golden Palace Gourmet",
+   "Mariscos El Submarino",
+   "Nepali Bhanchha Ghar",
+   "Zaab Zaab",
+   "Shuko",
+   "Veselka",
+   "Corner Bar",
+   "Aldama",
+   "Bunna Cafe",
+   "Al Badawi",
+   "La Vara",
+   "A&A Bake Doubles and Roti",
+   "Chuan Tian Xia",
+   "Coszcal De Allende",
+   "Kashkar Cafe",
+   "Killmeyer's"
+  ],
+  "added_ids": [
+   "roberto-s",
+   "papaye",
+   "sylvia-s",
+   "le-bernardin",
+   "szechuan-mountain-house",
+   "grand-central-oyster-bar",
+   "keens-steakhouse",
+   "baekjeong",
+   "sushi-on-me",
+   "noz-17",
+   "los-tacos-no-1",
+   "chama-mama",
+   "via-carota",
+   "b-and-h-dairy",
+   "raku",
+   "ho-foods",
+   "balthazar",
+   "russ-and-daughters-cafe",
+   "katz-s-delicatessen",
+   "una-pizza-napoletana",
+   "thai-diner",
+   "the-original-buddha-bodai-kosher-vegetarian-restaurant",
+   "kopitiam",
+   "misi",
+   "ayat",
+   "joe-s-of-avenue-u"
+  ],
+  "removed_ids": [
+   "claudy-s-empanadas",
+   "kingston-tropical-bakery",
+   "dominick-s",
+   "malecon",
+   "charles-pan-fried-chicken",
+   "pastrami-queen",
+   "marea",
+   "urban-hawker",
+   "ruta-oaxaca-mexican-cuisine",
+   "new-world-mall",
+   "golden-palace-gourmet",
+   "mariscos-el-submarino",
+   "nepali-bhanchha-ghar",
+   "zaab-zaab",
+   "shuko",
+   "veselka",
+   "corner-bar",
+   "aldama",
+   "bunna-cafe",
+   "al-badawi",
+   "la-vara",
+   "a-and-a-bake-doubles-and-roti",
+   "chuan-tian-xia",
+   "coszcal-de-allende",
+   "kashkar-cafe",
+   "killmeyer-s"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2023-03-21",
+  "by_date": "2023-03-28"
+ },
+ {
+  "after": "20230412084221",
+  "by": "20230419083346",
+  "added": [
+   "Russ & Daughters Cafe"
+  ],
+  "removed": [
+   "Russ & Daughters"
+  ],
+  "added_ids": [
+   "russ-and-daughters-cafe"
+  ],
+  "removed_ids": [
+   "russ-and-daughters-cafe"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2023-04-12",
+  "by_date": "2023-04-19"
+ },
+ {
+  "after": "20230530234936",
+  "by": "20230713042759",
+  "added": [
+   "Gallaghers Steakhouse",
+   "Ci Siamo",
+   "Mariscos El Submarino",
+   "S&P",
+   "Superiority Burger",
+   "Bánh Mì Saigon",
+   "Dhamaka",
+   "While in Kathmandu"
+  ],
+  "removed": [
+   "Keens Steakhouse",
+   "Los Tacos No.1",
+   "Semma",
+   "NY Dosas",
+   "Ho Foods",
+   "The Original Buddha Bodai Kosher Vegetarian Restaurant",
+   "Kopitiam",
+   "Joe's of Avenue U"
+  ],
+  "added_ids": [
+   "gallaghers-steakhouse",
+   "ci-siamo",
+   "mariscos-el-submarino",
+   "s-and-p-lunch",
+   "superiority-burger",
+   "banh-mi-saigon",
+   "dhamaka",
+   "while-in-kathmandu"
+  ],
+  "removed_ids": [
+   "keens-steakhouse",
+   "los-tacos-no-1",
+   "semma",
+   "ny-dosas",
+   "ho-foods",
+   "the-original-buddha-bodai-kosher-vegetarian-restaurant",
+   "kopitiam",
+   "joe-s-of-avenue-u"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2023-05-30",
+  "by_date": "2023-07-13"
+ },
+ {
+  "after": "20231003233735",
+  "by": "20231013010311",
+  "added": [
+   "Pranakhon",
+   "Win Son",
+   "A&A Bake Doubles and Roti"
+  ],
+  "removed": [
+   "B&H Dairy",
+   "Thai Diner",
+   "Dept of Culture"
+  ],
+  "added_ids": [
+   "pranakhon",
+   "win-son",
+   "a-and-a-bake-doubles-and-roti"
+  ],
+  "removed_ids": [
+   "b-and-h-dairy",
+   "thai-diner",
+   "dept-of-culture"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2023-10-03",
+  "by_date": "2023-10-13"
+ },
+ {
+  "after": "20231128115018",
+  "by": "20240113013737",
+  "added": [
+   "Liebman’s Deli",
+   "Hyderabadi Zaiqa",
+   "Café China",
+   "Jongro Gopchang",
+   "Tosokchon",
+   "Nepali Bhanchha Ghar",
+   "Ayada",
+   "Semma",
+   "Sushi Ichimura",
+   "Odeon",
+   "Uncle Lou"
+  ],
+  "removed": [
+   "Papaye",
+   "Haidilao Hot Pot",
+   "Szechuan Mountain House",
+   "Baekjeong",
+   "Noz 17",
+   "Pranakhon",
+   "Russ & Daughters Cafe",
+   "Bánh Mì Saigon",
+   "Dhamaka",
+   "Great NY Noodletown",
+   "While in Kathmandu"
+  ],
+  "added_ids": [
+   "liebman-s-deli",
+   "hyderabadi-zaiqa",
+   "cafe-china",
+   "jongro-gopchang",
+   "tosokchon",
+   "nepali-bhanchha-ghar",
+   "ayada",
+   "semma",
+   "sushi-ichimura",
+   "odeon",
+   "uncle-lou"
+  ],
+  "removed_ids": [
+   "papaye",
+   "haidilao-hot-pot",
+   "szechuan-mountain-house",
+   "baekjeong",
+   "noz-17",
+   "pranakhon",
+   "russ-and-daughters-cafe",
+   "banh-mi-saigon",
+   "dhamaka",
+   "great-ny-noodletown",
+   "while-in-kathmandu"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2023-11-28",
+  "by_date": "2024-01-13"
+ },
+ {
+  "after": "20240317100757",
+  "by": "20240409192342",
+  "added": [
+   "Agnanti",
+   "Woorijip",
+   "Awang Kitchen",
+   "Uluh",
+   "Mam"
+  ],
+  "removed": [
+   "Bánh Vietnamese Shop House",
+   "Café China",
+   "Jongro Gopchang",
+   "Sushi On Me",
+   "Hometown Bar-B-Que"
+  ],
+  "added_ids": [
+   "agnanti",
+   "woorijip",
+   "awang-kitchen",
+   "uluh",
+   "mam"
+  ],
+  "removed_ids": [
+   "banh-vietnamese-shop-house",
+   "cafe-china",
+   "jongro-gopchang",
+   "sushi-on-me",
+   "hometown-bar-b-que"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2024-03-17",
+  "by_date": "2024-04-09"
+ },
+ {
+  "after": "20240617063617",
+  "by": "20240711012928",
+  "added": [
+   "Abuqir",
+   "Keens Steakhouse",
+   "Jongro BBQ",
+   "Bangkok Supper Club",
+   "Don Angie",
+   "Monte's Trattoria",
+   "Hamburger America",
+   "Royal Seafood"
+  ],
+  "removed": [
+   "Agnanti",
+   "Gallaghers Steakhouse",
+   "Ci Siamo",
+   "Woorijip",
+   "Tosokchon",
+   "Ayada",
+   "Uncle Lou",
+   "Ayat"
+  ],
+  "added_ids": [
+   "abuqir",
+   "keens-steakhouse",
+   "jongro-bbq",
+   "bangkok-supper-club",
+   "don-angie",
+   "monte-s-trattoria",
+   "hamburger-america",
+   "royal-seafood"
+  ],
+  "removed_ids": [
+   "agnanti",
+   "gallaghers-steakhouse",
+   "ci-siamo",
+   "woorijip",
+   "tosokchon",
+   "ayada",
+   "uncle-lou",
+   "ayat"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2024-06-17",
+  "by_date": "2024-07-11"
+ },
+ {
+  "after": "20241007234140",
+  "by": "20241010013808",
+  "added": [
+   "Cha Long",
+   "Kanyakumari",
+   "Ho Foods",
+   "Le Gratin"
+  ],
+  "removed": [
+   "Bangkok Supper Club",
+   "Monte's Trattoria",
+   "Odeon",
+   "Win Son"
+  ],
+  "added_ids": [
+   "cha-long",
+   "kanyakumari",
+   "ho-foods",
+   "le-gratin"
+  ],
+  "removed_ids": [
+   "bangkok-supper-club",
+   "monte-s-trattoria",
+   "odeon",
+   "win-son"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2024-10-07",
+  "by_date": "2024-10-10"
+ },
+ {
+  "after": "20250106070510",
+  "by": "20250115013855",
+  "added": [
+   "Cafe Boulud",
+   "Le Veau d'Or",
+   "Sky Pavilion",
+   "I Sodi",
+   "Kisa",
+   "Sailor",
+   "Cafe Kestrel"
+  ],
+  "removed": [
+   "Mariscos El Submarino",
+   "Koloman",
+   "Via Carota",
+   "Uluh",
+   "Raku",
+   "Le Gratin",
+   "Ugly Baby"
+  ],
+  "added_ids": [
+   "cafe-boulud",
+   "le-veau-d-or",
+   "sky-pavilion",
+   "i-sodi",
+   "kisa",
+   "sailor",
+   "cafe-kestrel"
+  ],
+  "removed_ids": [
+   "mariscos-el-submarino",
+   "koloman",
+   "via-carota",
+   "uluh",
+   "raku",
+   "le-gratin",
+   "ugly-baby"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2025-01-06",
+  "by_date": "2025-01-15"
+ },
+ {
+  "after": "20250405183949",
+  "by": "20250418021237",
+  "added": [
+   "Noz Market",
+   "2nd Ave Deli",
+   "Zaab Zaab",
+   "Carnitas Ramirez",
+   "Golden Diner",
+   "Rolo’s",
+   "Saint Julivert",
+   "Ayat"
+  ],
+  "removed": [
+   "Liebman’s Deli",
+   "Jongro BBQ",
+   "Don Angie",
+   "Awang Kitchen",
+   "Taqueria Ramirez",
+   "Katz's Delicatessen",
+   "Sushi Ichimura",
+   "Royal Seafood"
+  ],
+  "added_ids": [
+   "noz-market",
+   "2nd-ave-deli",
+   "zaab-zaab",
+   "carnitas-ramirez",
+   "golden-diner",
+   "rolo-s",
+   "saint-julivert",
+   "ayat"
+  ],
+  "removed_ids": [
+   "liebman-s-deli",
+   "jongro-bbq",
+   "don-angie",
+   "awang-kitchen",
+   "taqueria-ramirez",
+   "katz-s-delicatessen",
+   "sushi-ichimura",
+   "royal-seafood"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2025-04-05",
+  "by_date": "2025-04-18"
+ },
+ {
+  "after": "20250702202951",
+  "by": "20250708234812",
+  "added": [
+   "Txikito",
+   "Via Carota",
+   "Claud",
+   "Lilia"
+  ],
+  "removed": [
+   "Kanyakumari",
+   "I Sodi",
+   "Misi",
+   "Saint Julivert"
+  ],
+  "added_ids": [
+   "txikito",
+   "via-carota",
+   "claud",
+   "lilia"
+  ],
+  "removed_ids": [
+   "kanyakumari",
+   "i-sodi",
+   "misi",
+   "saint-julivert"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2025-07-02",
+  "by_date": "2025-07-08"
+ },
+ {
+  "after": "20250929021904",
+  "by": "20251008212049",
+  "added": [
+   "La Piraña Lechonera",
+   "Cafe Commerce",
+   "Restaurant Daniel",
+   "Adda",
+   "Sunn’s",
+   "Red Hook Tavern"
+  ],
+  "removed": [
+   "Roberto’s",
+   "Cafe Boulud",
+   "S&P",
+   "Semma",
+   "Kisa",
+   "Cafe Kestrel"
+  ],
+  "added_ids": [
+   "la-pirana-lechonera",
+   "cafe-commerce",
+   "restaurant-daniel",
+   "adda",
+   "sunn-s",
+   "red-hook-tavern"
+  ],
+  "removed_ids": [
+   "roberto-s",
+   "cafe-boulud",
+   "s-and-p-lunch",
+   "semma",
+   "kisa",
+   "cafe-kestrel"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2025-09-29",
+  "by_date": "2025-10-08"
+ },
+ {
+  "after": "20251218001030",
+  "by": "20260113200808",
+  "added": [
+   "Charles Pan-Fried Chicken",
+   "Kabawa",
+   "Al Badawi",
+   "Bong"
+  ],
+  "removed": [
+   "Sylvia’s",
+   "Cha Long",
+   "2nd Ave Deli",
+   "Ayat"
+  ],
+  "added_ids": [
+   "charles-pan-fried-chicken",
+   "kabawa",
+   "al-badawi",
+   "bong"
+  ],
+  "removed_ids": [
+   "sylvia-s",
+   "cha-long",
+   "2nd-ave-deli",
+   "ayat"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2025-12-18",
+  "by_date": "2026-01-13"
+ },
+ {
+  "after": "20260314114219",
+  "by": "20260406212201",
+  "added": [
+   "Gallaghers Steakhouse",
+   "Borgo",
+   "Filé Gumbo Bar",
+   "Lei",
+   "Ernesto’s"
+  ],
+  "removed": [
+   "Restaurant Daniel",
+   "Keens Steakhouse",
+   "Txikito",
+   "Ho Foods",
+   "Sailor"
+  ],
+  "added_ids": [
+   "gallaghers-steakhouse",
+   "borgo",
+   "file-gumbo-bar",
+   "lei",
+   "ernesto-s"
+  ],
+  "removed_ids": [
+   "restaurant-daniel",
+   "keens-steakhouse",
+   "txikito",
+   "ho-foods",
+   "sailor"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2026-03-14",
+  "by_date": "2026-04-06"
+ },
+ {
+  "after": "20260709055840",
+  "by": "20260710150816",
+  "added": [
+   "Makina Cafe Ethiopian-Eritrean Eatery",
+   "S&P Lunch",
+   "Zimmi’s",
+   "Crevette",
+   "Smithereens",
+   "Vato"
+  ],
+  "removed": [
+   "Charles Pan-Fried Chicken",
+   "Cafe Commerce",
+   "Grand Central Oyster Bar",
+   "Via Carota",
+   "L’Industrie Pizzeria",
+   "Red Hook Tavern"
+  ],
+  "added_ids": [
+   "makina-cafe-ethiopian-eritrean-eatery",
+   "s-and-p-lunch",
+   "zimmi-s",
+   "crevette",
+   "smithereens",
+   "vato"
+  ],
+  "removed_ids": [
+   "charles-pan-fried-chicken",
+   "cafe-commerce",
+   "grand-central-oyster-bar",
+   "via-carota",
+   "l-industrie-pizzeria",
+   "red-hook-tavern"
+  ],
+  "unsampled_captures": 0,
+  "after_date": "2026-07-09",
+  "by_date": "2026-07-10"
+ },
+ {
+  "after": "20260813122621",
+  "by": "20260813151224",
+  "added": [
+   "Coqodaq"
+  ],
+  "removed": [],
+  "added_ids": [
+   "coqodaq"
+  ],
+  "removed_ids": [],
+  "unsampled_captures": 0,
+  "after_date": "2026-08-13",
+  "by_date": "2026-08-13"
+ }
+]

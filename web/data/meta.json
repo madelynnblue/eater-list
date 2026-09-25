@@ -1,0 +1,18 @@
+{
+ "generated_at": "2026-09-25T05:25:02Z",
+ "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+ "extractor_version": 4,
+ "coverage": {
+  "captures_indexed": 749,
+  "observations_used": 726,
+  "first_observation": "2017-08-05",
+  "last_observation": "2026-09-21"
+ },
+ "counts": {
+  "places": 245,
+  "stretches": 293,
+  "changes": 35,
+  "on_list_now": 39,
+  "mapped": 244
+ }
+}

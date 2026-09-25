@@ -1,0 +1,58 @@
+# Eater 38 history pipeline — configuration.
+# Paths are resolved relative to this file, so the project is relocatable.
+
+[wayback]
+# Pages to track. Each is crawled independently but shares the rate limiter.
+urls = [
+  "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+  # Optional extra: the pandemic-era "still open for takeout" variant is a
+  # *different* list, so it is crawled separately and is not merged into the
+  # main history. Re-add if you want it tracked:
+  # "https://ny.eater.com/maps/best-new-york-restaurants-38-map-coronavirus-delivery-takeout",
+]
+
+# The Internet Archive asks automated clients to identify themselves.
+# Put a real contact here before running large crawls.
+user_agent = "eater38-history/1.0 (personal research; contact: you@example.com)"
+
+# Politeness: sustained request rate, burst allowance, and parallel connections.
+# The Internet Archive throttles hard above a few requests/second from one IP.
+requests_per_second = 1.5
+burst = 4
+max_concurrency = 4
+
+timeout = 45.0
+max_retries = 6
+
+# Ignore anything smaller than this: Wayback error/stub pages.
+min_body_bytes = 5000
+
+
+[crawl]
+# Earliest capture to consider.
+since = "2017-01-01"
+
+# "bisect"    -> fetch a fraction of captures and binary-search the change points
+#                (cheap; assumes the list only ever changes, never changes back)
+# "exhaustive"-> fetch every 200 capture (used for verification / audits)
+strategy = "bisect"
+
+# Safety valve per run, so a weekly cron can never spiral.
+max_fetches_per_run = 500
+
+# Set true only to re-walk captures whose content is already cached.
+refetch = false
+
+# Archive the untouched HTML (gzipped) under data/raw/. Costs disk, buys the
+# ability to improve the extractor and re-parse everything offline — no
+# re-downloading, no extra load on the Internet Archive.
+store_raw = true
+
+
+[build]
+db = "data/eater38.sqlite"
+aliases = "aliases.json"
+out_dir = "web/data"
+# Human-readable exports alongside the JSON.
+csv_dir = "out"
+raw_dir = "data/raw"

@@ -1,0 +1,8346 @@
+[
+ {
+  "id": "2nd-ave-deli",
+  "name": "2nd Ave Deli",
+  "key": "2nd ave deli",
+  "names_seen": [
+   "2nd Ave Deli"
+  ],
+  "address": "162 E 33rd St, New York, NY, 10016, US",
+  "phone": "(212) 689-9000",
+  "website": "http://www.2ndavedeli.com/",
+  "eater_url": "",
+  "lat": 40.745132,
+  "lng": -73.979233,
+  "periods": [
+   {
+    "from": "20250418021237",
+    "to": "20251218001030",
+    "from_date": "2025-04-18",
+    "to_date": "2025-12-18",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "a-and-a-bake-doubles-and-roti",
+  "name": "A&A Bake Doubles and Roti",
+  "key": "a and a bake doubles and roti",
+  "names_seen": [
+   "A&A Bake Doubles and Roti"
+  ],
+  "address": "1337 Fulton Street, Brooklyn, NY 11216",
+  "phone": "(347) 425-0016",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#a-a-bake-doubles-and-roti",
+  "lat": 40.680491,
+  "lng": -73.947949,
+  "periods": [
+   {
+    "from": "20210122010700",
+    "to": "20230321204829",
+    "from_date": "2021-01-22",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-01-06",
+     "2021-01-22"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20231013010311",
+    "to": "20260921113426",
+    "from_date": "2023-10-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-10-03",
+     "2023-10-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "abuqir",
+  "name": "Abuqir",
+  "key": "abuqir",
+  "names_seen": [
+   "Abuqir"
+  ],
+  "address": "2419 Steinway St, Astoria, NY, 11103, US",
+  "phone": "(718) 274-3474",
+  "website": "https://www.instagram.com/abuqir",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#abuqir",
+  "lat": 40.768398,
+  "lng": -73.911003,
+  "periods": [
+   {
+    "from": "20240711012928",
+    "to": "20260921113426",
+    "from_date": "2024-07-11",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "adda",
+  "name": "Adda",
+  "key": "adda",
+  "names_seen": [
+   "Adda",
+   "Adda Indian Canteen"
+  ],
+  "address": "107 1st Ave, New York, NY, 10003, US",
+  "phone": "",
+  "website": "https://www.addanyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#adda-3",
+  "lat": 40.726842,
+  "lng": -73.986245,
+  "periods": [
+   {
+    "from": "20190417081732",
+    "to": "20210424125601",
+    "from_date": "2019-04-17",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20251008212049",
+    "to": "20260921113426",
+    "from_date": "2025-10-08",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "africa-kine",
+  "name": "Africa Kine",
+  "key": "africa kine",
+  "names_seen": [
+   "Africa Kine"
+  ],
+  "address": "2267 Adam Clayton Powell Jr Blvd, New York, NY 10027",
+  "phone": "",
+  "website": "http://www.africakinenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/africa-kine",
+  "lat": 40.814159,
+  "lng": -73.944111,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20221227073040",
+    "from_date": "2020-03-18",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "agnanti",
+  "name": "Agnanti",
+  "key": "agnanti",
+  "names_seen": [
+   "Agnanti"
+  ],
+  "address": "1906 Ditmars Blvd (at 19th St), Astoria, NY 11105",
+  "phone": "",
+  "website": "http://www.agnantimeze.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-2",
+  "lat": 40.780993,
+  "lng": -73.91789,
+  "periods": [
+   {
+    "from": "20240409192342",
+    "to": "20240617063617",
+    "from_date": "2024-04-09",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "al-badawi",
+  "name": "Al Badawi",
+  "key": "al badawi",
+  "names_seen": [
+   "Al Badawi"
+  ],
+  "address": "151 Atlantic Ave, Brooklyn, NY, 11201, US",
+  "phone": "(718) 689-5888",
+  "website": "http://www.albadawinyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#al-badawi",
+  "lat": 40.690641,
+  "lng": -73.995003,
+  "periods": [
+   {
+    "from": "20220426152416",
+    "to": "20230321204829",
+    "from_date": "2022-04-26",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20260113200808",
+    "to": "20260921113426",
+    "from_date": "2026-01-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "aldama",
+  "name": "Aldama",
+  "key": "aldama",
+  "names_seen": [
+   "Aldama"
+  ],
+  "address": "91 S 6th St, Brooklyn, NY 11249",
+  "phone": "",
+  "website": "https://aldamarestaurantbk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/aldama",
+  "lat": 40.711038,
+  "lng": -73.964891,
+  "periods": [
+   {
+    "from": "20220811220937",
+    "to": "20230321204829",
+    "from_date": "2022-08-11",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-06-16",
+     "2022-08-11"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "aldea",
+  "name": "Aldea",
+  "key": "aldea",
+  "names_seen": [
+   "Aldea"
+  ],
+  "address": "31 W 17th St New York, NY 10011",
+  "phone": "(212) 675-7223",
+  "website": "http://www.aldearestaurant.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/aldea",
+  "lat": 40.738798,
+  "lng": -73.993752,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20181003095938",
+    "from_date": "2018-02-03",
+    "to_date": "2018-10-03",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "atla",
+  "name": "Atla",
+  "key": "atla",
+  "names_seen": [
+   "Atla"
+  ],
+  "address": "372 Lafayette St New York, NY 10012",
+  "phone": "",
+  "website": "http://atlanyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/atla",
+  "lat": 40.727163,
+  "lng": -73.993991,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20210317013452",
+    "from_date": "2018-07-11",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "atomix",
+  "name": "Atomix",
+  "key": "atomix",
+  "names_seen": [
+   "Atomix"
+  ],
+  "address": "104 E 30th St New York, NY 10016",
+  "phone": "",
+  "website": "http://www.atomixnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/atomix",
+  "lat": 40.744208,
+  "lng": -73.982863,
+  "periods": [
+   {
+    "from": "20190721000015",
+    "to": "20201112023808",
+    "from_date": "2019-07-21",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "awang-kitchen",
+  "name": "Awang Kitchen",
+  "key": "awang kitchen",
+  "names_seen": [
+   "Awang Kitchen"
+  ],
+  "address": "8405 Queens Blvd, New York, NY 11373",
+  "phone": "",
+  "website": "https://awangkitchen.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-15",
+  "lat": 40.737429,
+  "lng": -73.879089,
+  "periods": [
+   {
+    "from": "20240409192342",
+    "to": "20250405183949",
+    "from_date": "2024-04-09",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ayada",
+  "name": "Ayada",
+  "key": "ayada",
+  "names_seen": [
+   "Ayada"
+  ],
+  "address": "7708 Woodside Ave (btwn 77th & 78th St), Elmhurst, NY 11373",
+  "phone": "",
+  "website": "http://ayadanyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-7",
+  "lat": 40.743433,
+  "lng": -73.887621,
+  "periods": [
+   {
+    "from": "20240113013737",
+    "to": "20240617063617",
+    "from_date": "2024-01-13",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ayat",
+  "name": "Ayat",
+  "key": "ayat",
+  "names_seen": [
+   "Ayat"
+  ],
+  "address": "8504 3rd Avenue, Brooklyn, NY, 11209",
+  "phone": "(718) 831-2585",
+  "website": "http://www.ayatnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ayat",
+  "lat": 40.624218,
+  "lng": -74.03093,
+  "periods": [
+   {
+    "from": "20211015212624",
+    "to": "20220407163839",
+    "from_date": "2021-10-15",
+    "to_date": "2022-04-07",
+    "added_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "removed_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20240617063617",
+    "from_date": "2023-03-28",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20250418021237",
+    "to": "20251218001030",
+    "from_date": "2025-04-18",
+    "to_date": "2025-12-18",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "b-and-h-dairy",
+  "name": "B&H Dairy",
+  "key": "b and h dairy",
+  "names_seen": [
+   "B&H Dairy"
+  ],
+  "address": "127 2nd Ave, New York, NY 10003",
+  "phone": "",
+  "website": "https://www.instagram.com/bandhdairy/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/b-amp-h-dairy",
+  "lat": 40.728466,
+  "lng": -73.988132,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20231003233735",
+    "from_date": "2023-03-28",
+    "to_date": "2023-10-03",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-10-03",
+     "2023-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "baekjeong",
+  "name": "Baekjeong",
+  "key": "baekjeong",
+  "names_seen": [
+   "Baekjeong"
+  ],
+  "address": "1 E 32nd St, New York, NY 10016",
+  "phone": "",
+  "website": "http://www.baekjeongnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/baekjeong",
+  "lat": 40.747118,
+  "lng": -73.985035,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20231128115018",
+    "from_date": "2023-03-28",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "balthazar",
+  "name": "Balthazar",
+  "key": "balthazar",
+  "names_seen": [
+   "Balthazar"
+  ],
+  "address": "80 Spring St, New York, NY, 10012, US",
+  "phone": "(212) 965-1414",
+  "website": "http://www.balthazarny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#balthazar",
+  "lat": 40.722668,
+  "lng": -73.99823,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20181003095938",
+    "from_date": "2017-08-05",
+    "to_date": "2018-10-03",
+    "added_between": null,
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20260921113426",
+    "from_date": "2023-03-28",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "bamonte-s",
+  "name": "Bamonte's",
+  "key": "bamonte s",
+  "names_seen": [
+   "Bamonte's"
+  ],
+  "address": "32 Withers St, Brooklyn, NY 11211",
+  "phone": "",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/bamontes",
+  "lat": 40.716495,
+  "lng": -73.951208,
+  "periods": [
+   {
+    "from": "20220811220937",
+    "to": "20221227073040",
+    "from_date": "2022-08-11",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2022-06-16",
+     "2022-08-11"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "bangkok-supper-club",
+  "name": "Bangkok Supper Club",
+  "key": "bangkok supper club",
+  "names_seen": [
+   "Bangkok Supper Club"
+  ],
+  "address": "641 Hudson St (at Jane St), New York, NY 10014",
+  "phone": "",
+  "website": "https://www.bangkoksupperclubnyc.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-7",
+  "lat": 40.739035,
+  "lng": -74.005802,
+  "periods": [
+   {
+    "from": "20240711012928",
+    "to": "20241007234140",
+    "from_date": "2024-07-11",
+    "to_date": "2024-10-07",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "birria-landia",
+  "name": "Birria-Landia",
+  "key": "birria landia",
+  "names_seen": [
+   "Birria-Landia"
+  ],
+  "address": "77-99 Roosevelt Ave, Queens, NY 11372",
+  "phone": "",
+  "website": "https://www.instagram.com/birrialandianyc_/?hl=en",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/birria-landia",
+  "lat": 40.74752,
+  "lng": -73.888239,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20221227073040",
+    "from_date": "2020-11-21",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "blue-willow",
+  "name": "Blue Willow",
+  "key": "blue willow",
+  "names_seen": [
+   "Blue Willow"
+  ],
+  "address": "40 W 56th St New York, NY 10019",
+  "phone": "",
+  "website": "http://bluewillownyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/blue-willow",
+  "lat": 40.762926,
+  "lng": -73.976539,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20220407163839",
+    "from_date": "2021-06-14",
+    "to_date": "2022-04-07",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "bo-ky",
+  "name": "Bo Ky",
+  "key": "bo ky",
+  "names_seen": [
+   "Bo Ky"
+  ],
+  "address": "80 Bayard St New York, NY 10013",
+  "phone": "",
+  "website": "http://www.bo-ky-nyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/bo-ky",
+  "lat": 40.715838,
+  "lng": -73.998707,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20210424125601",
+    "from_date": "2021-04-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "bolero",
+  "name": "Bolero",
+  "key": "bolero",
+  "names_seen": [
+   "Bolero"
+  ],
+  "address": "177 Bedford Ave Brooklyn, NY 11211",
+  "phone": "",
+  "website": "http://www.bolero.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/bolero",
+  "lat": 40.717948,
+  "lng": -73.957326,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20211011120537",
+    "from_date": "2021-04-21",
+    "to_date": "2021-10-11",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "bolivian-llama-party",
+  "name": "Bolivian Llama Party",
+  "key": "bolivian llama party",
+  "names_seen": [
+   "Bolivian Llama Party"
+  ],
+  "address": "44-14 48th Ave, Queens, NY 11377",
+  "phone": "",
+  "website": "http://www.blp.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/bolivian-llama-party",
+  "lat": 40.739291,
+  "lng": -73.920777,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20221227073040",
+    "from_date": "2019-01-19",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "bong",
+  "name": "Bong",
+  "key": "bong",
+  "names_seen": [
+   "Bong"
+  ],
+  "address": "724 Sterling Pl, Brooklyn, NY, 11216, US",
+  "phone": "(347) 221-1315",
+  "website": "https://www.bongnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#bong",
+  "lat": 40.672693,
+  "lng": -73.954813,
+  "periods": [
+   {
+    "from": "20260113200808",
+    "to": "20260921113426",
+    "from_date": "2026-01-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "borgo",
+  "name": "Borgo",
+  "key": "borgo",
+  "names_seen": [
+   "Borgo"
+  ],
+  "address": "124 E 27th St, New York, NY, 10016, US",
+  "phone": "(646) 360-2404",
+  "website": "https://borgonyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#borgo",
+  "lat": 40.742159,
+  "lng": -73.983503,
+  "periods": [
+   {
+    "from": "20260406212201",
+    "to": "20260921113426",
+    "from_date": "2026-04-06",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "boulud-sud",
+  "name": "Boulud Sud",
+  "key": "boulud sud",
+  "names_seen": [
+   "Boulud Sud"
+  ],
+  "address": "20 W 64th St New York, NY",
+  "phone": "(212) 595-1313",
+  "website": "http://www.bouludsud.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/boulud-sud-2",
+  "lat": 40.77197698419511,
+  "lng": -73.9818177971927,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20180218213216",
+    "from_date": "2017-08-05",
+    "to_date": "2018-02-18",
+    "added_between": null,
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "bread-and-salt",
+  "name": "Bread & Salt",
+  "key": "bread and salt",
+  "names_seen": [
+   "Bread & Salt"
+  ],
+  "address": "435 Palisade Ave, Jersey City, NJ 07307",
+  "phone": "",
+  "website": "http://breadandsalt.square.site/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/bread-amp-salt",
+  "lat": 40.879677,
+  "lng": -73.921458,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20220922054533",
+    "from_date": "2020-11-21",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "bunna-cafe",
+  "name": "Bunna Cafe",
+  "key": "bunna cafe",
+  "names_seen": [
+   "Bunna Cafe"
+  ],
+  "address": "1084 Flushing Ave, Brooklyn, NY 11237",
+  "phone": "",
+  "website": "https://bunnaethiopia.net/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/bunna-cafe",
+  "lat": 40.704878,
+  "lng": -73.927825,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20230321204829",
+    "from_date": "2021-04-21",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "banh-mi-saigon",
+  "name": "Bánh Mì Saigon",
+  "key": "banh mi saigon",
+  "names_seen": [
+   "Bánh Mì Saigon"
+  ],
+  "address": "198 Grand St, New York, NY 10013",
+  "phone": "",
+  "website": "https://kubiti.blog/banh-mi-saigon-new-york/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/banh-mi-saigon",
+  "lat": 40.719323,
+  "lng": -73.996697,
+  "periods": [
+   {
+    "from": "20230713042759",
+    "to": "20231128115018",
+    "from_date": "2023-07-13",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "banh-vietnamese-shop-house",
+  "name": "Bánh Vietnamese Shop House",
+  "key": "banh vietnamese shop house",
+  "names_seen": [
+   "Bánh Vietnamese Shop House"
+  ],
+  "address": "942 Amsterdam Ave, New York, NY 10024",
+  "phone": "",
+  "website": "https://www.banhny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/banh-vietnamese-shop-house",
+  "lat": 40.781283,
+  "lng": -73.979333,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20240317100757",
+    "from_date": "2021-06-14",
+    "to_date": "2024-03-17",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cadence",
+  "name": "Cadence",
+  "key": "cadence",
+  "names_seen": [
+   "Cadence"
+  ],
+  "address": "111 E 7th St, New York, NY 10009",
+  "phone": "",
+  "website": "https://www.overthrowhospitality.com/venues/cadence",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/cadence",
+  "lat": 40.726661,
+  "lng": -73.984487,
+  "periods": [
+   {
+    "from": "20211015212624",
+    "to": "20220922054533",
+    "from_date": "2021-10-15",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cafe-boulud",
+  "name": "Cafe Boulud",
+  "key": "cafe boulud",
+  "names_seen": [
+   "Cafe Boulud"
+  ],
+  "address": "100 East 63rd Street, New York, New York 10065",
+  "phone": "(212)-772-2600",
+  "website": "https://www.cafeboulud.com/nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-5",
+  "lat": 40.765082,
+  "lng": -73.967603,
+  "periods": [
+   {
+    "from": "20250115013855",
+    "to": "20250929021904",
+    "from_date": "2025-01-15",
+    "to_date": "2025-09-29",
+    "added_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "removed_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cafe-commerce",
+  "name": "Cafe Commerce",
+  "key": "cafe commerce",
+  "names_seen": [
+   "Cafe Commerce"
+  ],
+  "address": "964 Lexington Ave, New York, NY 10021",
+  "phone": "(212) 390-8106",
+  "website": "https://cafecommercenyc.com/",
+  "eater_url": "",
+  "lat": 40.76941879473296,
+  "lng": -73.96320104598999,
+  "periods": [
+   {
+    "from": "20251008212049",
+    "to": "20260709055840",
+    "from_date": "2025-10-08",
+    "to_date": "2026-07-09",
+    "added_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "removed_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cafe-kestrel",
+  "name": "Cafe Kestrel",
+  "key": "cafe kestrel",
+  "names_seen": [
+   "Cafe Kestrel"
+  ],
+  "address": "293 Van Brunt Street, Brooklyn, New York 11231",
+  "phone": "",
+  "website": "https://www.kesnewyork.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-35",
+  "lat": 40.678716,
+  "lng": -74.011066,
+  "periods": [
+   {
+    "from": "20250115013855",
+    "to": "20250929021904",
+    "from_date": "2025-01-15",
+    "to_date": "2025-09-29",
+    "added_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "removed_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cafe-china",
+  "name": "Café China",
+  "key": "cafe china",
+  "names_seen": [
+   "Café China"
+  ],
+  "address": "13 E 37th St (btwn 5th Ave & Madison Ave), New York, NY 10016",
+  "phone": "",
+  "website": "http://www.cafechinanyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-3",
+  "lat": 40.75034199411,
+  "lng": -73.983173963681,
+  "periods": [
+   {
+    "from": "20240113013737",
+    "to": "20240317100757",
+    "from_date": "2024-01-13",
+    "to_date": "2024-03-17",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "carnitas-ramirez",
+  "name": "Carnitas Ramirez",
+  "key": "carnitas ramirez",
+  "names_seen": [
+   "Carnitas Ramirez"
+  ],
+  "address": "210 E 3rd St, New York, NY, 10009, US",
+  "phone": "+19293643634",
+  "website": "https://www.carnitasramirez.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#carnitas-ramirez",
+  "lat": 40.722503,
+  "lng": -73.982831,
+  "periods": [
+   {
+    "from": "20250418021237",
+    "to": "20260921113426",
+    "from_date": "2025-04-18",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "casa-enrique",
+  "name": "Casa Enrique",
+  "key": "casa enrique",
+  "names_seen": [
+   "Casa Enrique"
+  ],
+  "address": "5-48 49th Ave Queens, NY",
+  "phone": "(347) 448-6040",
+  "website": "http://www.henrinyc.com/casa-enrique.html",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/casa-enrique",
+  "lat": 40.7433837980786,
+  "lng": -73.95429342985153,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cervo-s",
+  "name": "Cervo's",
+  "key": "cervo s",
+  "names_seen": [
+   "Cervo's"
+  ],
+  "address": "43 Canal St New York, NY 10002",
+  "phone": "",
+  "website": "http://cervosnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/cervos",
+  "lat": 40.714896,
+  "lng": -73.991318,
+  "periods": [
+   {
+    "from": "20190417081732",
+    "to": "20201112023808",
+    "from_date": "2019-04-17",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20210614081056",
+    "to": "20211220193907",
+    "from_date": "2021-06-14",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cha-long",
+  "name": "Cha Long",
+  "key": "cha long",
+  "names_seen": [
+   "Cha Long"
+  ],
+  "address": "749 9th Ave, New York, NY, 10019, US",
+  "phone": "(212) 466-6456",
+  "website": "https://www.chalongnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-7",
+  "lat": 40.763956,
+  "lng": -73.988977,
+  "periods": [
+   {
+    "from": "20241010013808",
+    "to": "20251218001030",
+    "from_date": "2024-10-10",
+    "to_date": "2025-12-18",
+    "added_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "removed_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "chama-mama",
+  "name": "Chama Mama",
+  "key": "chama mama",
+  "names_seen": [
+   "Chama Mama"
+  ],
+  "address": "149 West 14th Street, Manhattan, NY, 10011",
+  "phone": "(646) 438-9007",
+  "website": "http://www.chamamama.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#chama-mama",
+  "lat": 40.738459,
+  "lng": -73.99888,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20260921113426",
+    "from_date": "2023-03-28",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "charles-pan-fried-chicken",
+  "name": "Charles Pan-Fried Chicken",
+  "key": "charles pan fried chicken",
+  "names_seen": [
+   "Charles Country Pan Fried Chicken",
+   "Charles Pan-Fried Chicken",
+   "Charles' Country Pan Fried Chicken"
+  ],
+  "address": "439 W 125th St, New York, NY, 10027, US",
+  "phone": "(212) 281-1800",
+  "website": "https://www.charlespanfriedchicken.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/charles-pan-fried-chicken",
+  "lat": 40.812565,
+  "lng": -73.955323,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20191205030922",
+    "from_date": "2018-02-03",
+    "to_date": "2019-12-05",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230113225417",
+    "to": "20230321204829",
+    "from_date": "2023-01-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20260113200808",
+    "to": "20260709055840",
+    "from_date": "2026-01-13",
+    "to_date": "2026-07-09",
+    "added_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "removed_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cheburechnaya",
+  "name": "Cheburechnaya",
+  "key": "cheburechnaya",
+  "names_seen": [
+   "Cheburechnaya"
+  ],
+  "address": "9209 63rd Dr Ste A Flushing, NY",
+  "phone": "(718) 897-9080",
+  "website": "http://www.cheburechnaya.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/cheburechnaya",
+  "lat": 40.727664828300476,
+  "lng": -73.863976,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20191205030922",
+    "from_date": "2017-08-05",
+    "to_date": "2019-12-05",
+    "added_between": null,
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cheli",
+  "name": "CheLi",
+  "key": "cheli",
+  "names_seen": [
+   "CheLi"
+  ],
+  "address": "19 St Marks Pl New York, NY 10003",
+  "phone": "",
+  "website": "http://www.che-li.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/cheli",
+  "lat": 40.729275,
+  "lng": -73.988592,
+  "periods": [
+   {
+    "from": "20220426152416",
+    "to": "20220616232813",
+    "from_date": "2022-04-26",
+    "to_date": "2022-06-16",
+    "added_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "removed_between": [
+     "2022-06-16",
+     "2022-08-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "chez-ma-tante",
+  "name": "Chez Ma Tante",
+  "key": "chez ma tante",
+  "names_seen": [
+   "Chez Ma Tante"
+  ],
+  "address": "90 Calyer St Brooklyn, NY 11222",
+  "phone": "",
+  "website": "http://www.chezmatantebk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/chez-ma-tante",
+  "lat": 40.726889,
+  "lng": -73.957595,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20190528133625",
+    "from_date": "2019-01-19",
+    "to_date": "2019-05-28",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20210614081056",
+    "to": "20211011120537",
+    "from_date": "2021-06-14",
+    "to_date": "2021-10-11",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "chuan-tian-xia",
+  "name": "Chuan Tian Xia",
+  "key": "chuan tian xia",
+  "names_seen": [
+   "Chuan Tian Xia"
+  ],
+  "address": "5502 7th Ave, Brooklyn, NY 11220",
+  "phone": "",
+  "website": "https://chuantianxiany.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/chuan-tian-xia",
+  "lat": 40.639701,
+  "lng": -74.009139,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20230321204829",
+    "from_date": "2021-06-14",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ci-siamo",
+  "name": "Ci Siamo",
+  "key": "ci siamo",
+  "names_seen": [
+   "Ci Siamo"
+  ],
+  "address": "440 W 33rd St Suite #100, New York, NY 10001",
+  "phone": "",
+  "website": "https://www.cisiamonyc.com/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ci-siamo",
+  "lat": 40.75307,
+  "lng": -73.998559,
+  "periods": [
+   {
+    "from": "20230713042759",
+    "to": "20240617063617",
+    "from_date": "2023-07-13",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "claro",
+  "name": "Claro",
+  "key": "claro",
+  "names_seen": [
+   "Claro"
+  ],
+  "address": "284 3rd Ave Brooklyn, NY 11215",
+  "phone": "",
+  "website": "http://clarobk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/claro",
+  "lat": 40.677442,
+  "lng": -73.986287,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20190815181821",
+    "from_date": "2018-07-11",
+    "to_date": "2019-08-15",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "claud",
+  "name": "Claud",
+  "key": "claud",
+  "names_seen": [
+   "Claud"
+  ],
+  "address": "90 E 10th St, New York, NY, 10003, US",
+  "phone": "(917) 261-6791",
+  "website": "http://claudnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#claud-2",
+  "lat": 40.730858,
+  "lng": -73.989683,
+  "periods": [
+   {
+    "from": "20250708234812",
+    "to": "20260921113426",
+    "from_date": "2025-07-08",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "claudy-s-empanadas",
+  "name": "Claudy’s Empanadas",
+  "key": "claudy s empanadas",
+  "names_seen": [
+   "Claudy’s Empanadas"
+  ],
+  "address": "5981 Broadway, The Bronx, NY 10471",
+  "phone": "",
+  "website": "https://www.claudys.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/claudy-s-empanadas",
+  "lat": 40.889918,
+  "lng": -73.898574,
+  "periods": [
+   {
+    "from": "20230113225417",
+    "to": "20230321204829",
+    "from_date": "2023-01-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "coqodaq",
+  "name": "Coqodaq",
+  "key": "coqodaq",
+  "names_seen": [
+   "Coqodaq"
+  ],
+  "address": "12 E 22nd St, New York, NY 10010",
+  "phone": "(855) 446-7379",
+  "website": "https://www.coqodaq.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#coqodaq",
+  "lat": 40.740047,
+  "lng": -73.988757,
+  "periods": [
+   {
+    "from": "20260813151224",
+    "to": "20260921113426",
+    "from_date": "2026-08-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-08-13",
+     "2026-08-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "corner-bar",
+  "name": "Corner Bar",
+  "key": "corner bar",
+  "names_seen": [
+   "Corner Bar"
+  ],
+  "address": "60 Canal St, New York, NY 10002",
+  "phone": "",
+  "website": "http://cornerbarnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/corner-bar",
+  "lat": 40.714822,
+  "lng": -73.992332,
+  "periods": [
+   {
+    "from": "20230113225417",
+    "to": "20230321204829",
+    "from_date": "2023-01-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cosme",
+  "name": "Cosme",
+  "key": "cosme",
+  "names_seen": [
+   "Cosme"
+  ],
+  "address": "35 E 21st St New York, NY",
+  "phone": "(212) 913-9659",
+  "website": "http://www.cosmenyc.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/cosme-2",
+  "lat": 40.739345544549906,
+  "lng": -73.9883660914967,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "coszcal-de-allende",
+  "name": "Coszcal De Allende",
+  "key": "coszcal de allende",
+  "names_seen": [
+   "Coszcal De Allende"
+  ],
+  "address": "6824 3rd Ave, Brooklyn, NY 11220",
+  "phone": "",
+  "website": "http://www.coszcaldeallende.com/#/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/coszcal-de-allende",
+  "lat": 40.636156,
+  "lng": -74.026136,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20230321204829",
+    "from_date": "2021-06-14",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "cote-korean-steakhouse",
+  "name": "Cote Korean Steakhouse",
+  "key": "cote korean steakhouse",
+  "names_seen": [
+   "Cote Korean Steakhouse"
+  ],
+  "address": "16 W 22nd St New York, NY 10010",
+  "phone": "(212) 401-7986",
+  "website": "http://www.cotenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/cote-korean-steakhouse",
+  "lat": 40.74099,
+  "lng": -73.991429,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20190815181821",
+    "from_date": "2018-02-03",
+    "to_date": "2019-08-15",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "court-street-grocers",
+  "name": "Court Street Grocers",
+  "key": "court street grocers",
+  "names_seen": [
+   "Court Street Grocers"
+  ],
+  "address": "485 Court St Brooklyn, NY 11231",
+  "phone": "",
+  "website": "http://www.courtstreetgrocers.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/court-street-grocers",
+  "lat": 40.676217,
+  "lng": -73.998614,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20210424125601",
+    "from_date": "2021-04-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "crevette",
+  "name": "Crevette",
+  "key": "crevette",
+  "names_seen": [
+   "Crevette"
+  ],
+  "address": "10 Downing St, New York, NY, 10014, US",
+  "phone": "(646) 397-4073",
+  "website": "https://www.crevettenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#crevette",
+  "lat": 40.72949,
+  "lng": -74.002692,
+  "periods": [
+   {
+    "from": "20260710150816",
+    "to": "20260921113426",
+    "from_date": "2026-07-10",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "crop-circle",
+  "name": "Crop Circle",
+  "key": "crop circle",
+  "names_seen": [
+   "Crop Circle"
+  ],
+  "address": "126 MacDougal St New York, NY 10012",
+  "phone": "",
+  "website": "https://cropcirclenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/crop-circle",
+  "lat": 40.729982,
+  "lng": -74.000229,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20210424125601",
+    "from_date": "2020-11-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "dame",
+  "name": "Dame",
+  "key": "dame",
+  "names_seen": [
+   "Dame"
+  ],
+  "address": "87 MacDougal St, New York, NY 10012",
+  "phone": "",
+  "website": "https://www.damenewyork.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/dame",
+  "lat": 40.729049,
+  "lng": -74.00146,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20220922054533",
+    "from_date": "2022-01-22",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "denino-s-pizzeria-and-tavern",
+  "name": "Denino’s Pizzeria & Tavern",
+  "key": "denino s pizzeria and tavern",
+  "names_seen": [
+   "Denino’s Pizzeria & Tavern"
+  ],
+  "address": "524 Port Richmond Ave Staten Island, NY 10302",
+  "phone": "",
+  "website": "http://deninossi.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/denino-s-pizzeria-amp-tavern",
+  "lat": 40.630176,
+  "lng": -74.140353,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20211220193907",
+    "from_date": "2020-11-21",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "dept-of-culture",
+  "name": "Dept of Culture",
+  "key": "dept of culture",
+  "names_seen": [
+   "Dept of Culture"
+  ],
+  "address": "327 Nostrand Ave., Brooklyn, NY 11216",
+  "phone": "",
+  "website": "https://www.deptofculturebk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/dept-of-culture",
+  "lat": 40.687197,
+  "lng": -73.950705,
+  "periods": [
+   {
+    "from": "20230113225417",
+    "to": "20231003233735",
+    "from_date": "2023-01-13",
+    "to_date": "2023-10-03",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-10-03",
+     "2023-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "dhamaka",
+  "name": "Dhamaka",
+  "key": "dhamaka",
+  "names_seen": [
+   "Dhamaka"
+  ],
+  "address": "119 Delancey St, New York, NY 10002",
+  "phone": "",
+  "website": "http://dhamaka.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/dhamaka",
+  "lat": 40.717928,
+  "lng": -73.988044,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20220922054533",
+    "from_date": "2021-06-14",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230713042759",
+    "to": "20231128115018",
+    "from_date": "2023-07-13",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "di-an-di",
+  "name": "Di An Di",
+  "key": "di an di",
+  "names_seen": [
+   "Di An Di"
+  ],
+  "address": "68 Greenpoint Ave Brooklyn, NY 11222",
+  "phone": "",
+  "website": "https://www.diandi.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/di-an-di",
+  "lat": 40.729583,
+  "lng": -73.958256,
+  "periods": [
+   {
+    "from": "20190417081732",
+    "to": "20211220193907",
+    "from_date": "2019-04-17",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "dominick-s",
+  "name": "Dominick's",
+  "key": "dominick s",
+  "names_seen": [
+   "Dominick's"
+  ],
+  "address": "2335 Arthur Ave, The Bronx, NY 10458",
+  "phone": "",
+  "website": "https://www.facebook.com/Dominicks-Restaurant-102210239822815/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/dominicks",
+  "lat": 40.854302,
+  "lng": -73.888921,
+  "periods": [
+   {
+    "from": "20230113225417",
+    "to": "20230321204829",
+    "from_date": "2023-01-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "don-angie",
+  "name": "Don Angie",
+  "key": "don angie",
+  "names_seen": [
+   "Don Angie"
+  ],
+  "address": "103 Greenwich Ave, New York, NY 10014",
+  "phone": "",
+  "website": "http://donangie.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-14",
+  "lat": 40.737812,
+  "lng": -74.002074,
+  "periods": [
+   {
+    "from": "20240711012928",
+    "to": "20250405183949",
+    "from_date": "2024-07-11",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "dumpling-galaxy",
+  "name": "Dumpling Galaxy",
+  "key": "dumpling galaxy",
+  "names_seen": [
+   "Dumpling Galaxy"
+  ],
+  "address": "42-35 Main St Flushing, NY 11355",
+  "phone": "(718) 461-0808",
+  "website": "http://www.dumplinggalaxy.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/dumpling-galaxy",
+  "lat": 40.754786,
+  "lng": -73.827512,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20181003095938",
+    "from_date": "2018-02-03",
+    "to_date": "2018-10-03",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "e-a-k-ramen-west-village",
+  "name": "E.A.K. Ramen (West Village)",
+  "key": "e a k ramen west village",
+  "names_seen": [
+   "E.A.K. Ramen (West Village)"
+  ],
+  "address": "469 6th Ave New York, NY 10011",
+  "phone": "",
+  "website": "http://www.eakramen.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/e-a-k-ramen-west-village",
+  "lat": 40.735706,
+  "lng": -73.998379,
+  "periods": [
+   {
+    "from": "20190721000015",
+    "to": "20201112023808",
+    "from_date": "2019-07-21",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "el-atoradero-brooklyn",
+  "name": "El Atoradero Brooklyn",
+  "key": "el atoradero brooklyn",
+  "names_seen": [
+   "El Atoradero Brooklyn"
+  ],
+  "address": "708 Washington Ave Brooklyn, NY",
+  "phone": "(718) 399-8226",
+  "website": "http://www.elatoraderobrooklyn.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/el-atoradero-brooklyn",
+  "lat": 40.67675577263091,
+  "lng": -73.96368112928391,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20180218213216",
+    "from_date": "2017-08-05",
+    "to_date": "2018-02-18",
+    "added_between": null,
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ernesto-s",
+  "name": "Ernesto’s",
+  "key": "ernesto s",
+  "names_seen": [
+   "Ernesto's",
+   "Ernesto’s"
+  ],
+  "address": "259 E Broadway, New York, NY, 10002, US",
+  "phone": "(646) 692-8300",
+  "website": "http://www.ernestosnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#ernesto-s",
+  "lat": 40.71428,
+  "lng": -73.985419,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20211220193907",
+    "from_date": "2021-06-14",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20260406212201",
+    "to": "20260921113426",
+    "from_date": "2026-04-06",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "falansai",
+  "name": "Falansai",
+  "key": "falansai",
+  "names_seen": [
+   "Falansai"
+  ],
+  "address": "112 Harrison Pl, Brooklyn, NY 11237",
+  "phone": "",
+  "website": "http://falansai.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/falansai",
+  "lat": 40.706688,
+  "lng": -73.92875,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20220922054533",
+    "from_date": "2021-06-14",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "farida",
+  "name": "Farida",
+  "key": "farida",
+  "names_seen": [
+   "Farida"
+  ],
+  "address": "498 9th Ave New York, NY 10018",
+  "phone": "",
+  "website": "https://www.farida.us/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/farida",
+  "lat": 40.755624,
+  "lng": -73.994269,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20211011120537",
+    "from_date": "2020-03-18",
+    "to_date": "2021-10-11",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "fiaschetteria-pistoia",
+  "name": "Fiaschetteria \"Pistoia\"",
+  "key": "fiaschetteria pistoia",
+  "names_seen": [
+   "Fiaschetteria \"Pistoia\""
+  ],
+  "address": "647 E 11th St New York, NY 10009",
+  "phone": "",
+  "website": "https://www.fiaschetteriapistoia.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/fiaschetteria-pistoia",
+  "lat": 40.726717,
+  "lng": -73.977262,
+  "periods": [
+   {
+    "from": "20191023151523",
+    "to": "20210424125601",
+    "from_date": "2019-10-23",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "fieldtrip",
+  "name": "Fieldtrip",
+  "key": "fieldtrip",
+  "names_seen": [
+   "Fieldtrip"
+  ],
+  "address": "109 Malcolm X Blvd New York, NY 10026",
+  "phone": "",
+  "website": "https://www.fieldtripnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/fieldtrip",
+  "lat": 40.80161,
+  "lng": -73.950417,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20211011120537",
+    "from_date": "2020-11-21",
+    "to_date": "2021-10-11",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "file-gumbo-bar",
+  "name": "Filé Gumbo Bar",
+  "key": "file gumbo bar",
+  "names_seen": [
+   "Filé Gumbo Bar"
+  ],
+  "address": "275 Church St, New York, NY, 10013, US",
+  "phone": "(646) 851-0810",
+  "website": "https://www.filenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#fil-gumbo-bar",
+  "lat": 40.718527,
+  "lng": -74.004899,
+  "periods": [
+   {
+    "from": "20260406212201",
+    "to": "20260921113426",
+    "from_date": "2026-04-06",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "fish-cheeks",
+  "name": "Fish Cheeks",
+  "key": "fish cheeks",
+  "names_seen": [
+   "Fish Cheeks"
+  ],
+  "address": "55 Bond St New York, NY 10012",
+  "phone": "",
+  "website": "http://www.fishcheeksnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/fish-cheeks",
+  "lat": 40.725732,
+  "lng": -73.992728,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20201112023808",
+    "from_date": "2019-01-19",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "flaming-kitchen",
+  "name": "Flaming Kitchen",
+  "key": "flaming kitchen",
+  "names_seen": [
+   "Flaming Kitchen"
+  ],
+  "address": "97 Bowery New York, NY 10002",
+  "phone": "(212) 925-8083",
+  "website": "http://www.flamingkitchenny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/flaming-kitchen",
+  "lat": 40.717341,
+  "lng": -73.995018,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20180218213216",
+    "from_date": "2018-02-03",
+    "to_date": "2018-02-18",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "flora-bar",
+  "name": "Flora Bar",
+  "key": "flora bar",
+  "names_seen": [
+   "Flora Bar"
+  ],
+  "address": "945 Madison Ave New York, NY 10021",
+  "phone": "(646) 558-5383",
+  "website": "http://florabarnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/flora-bar",
+  "lat": 40.77352187640244,
+  "lng": -73.96402716636658,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20180218213216",
+    "from_date": "2017-08-05",
+    "to_date": "2018-02-18",
+    "added_between": null,
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20191023151523",
+    "to": "20201112023808",
+    "from_date": "2019-10-23",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "frenchette",
+  "name": "Frenchette",
+  "key": "frenchette",
+  "names_seen": [
+   "Frenchette"
+  ],
+  "address": "241 W Broadway New York, NY 10013",
+  "phone": "",
+  "website": "http://frenchettenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/frenchette",
+  "lat": 40.719617,
+  "lng": -74.005658,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20210317013452",
+    "from_date": "2019-01-19",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "gage-and-tollner",
+  "name": "Gage & Tollner",
+  "key": "gage and tollner",
+  "names_seen": [
+   "Gage & Tollner"
+  ],
+  "address": "372 Fulton St Brooklyn, NY 11201",
+  "phone": "",
+  "website": "http://gageandtollner.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/gage-amp-tollner",
+  "lat": 40.691327,
+  "lng": -73.987834,
+  "periods": [
+   {
+    "from": "20211015212624",
+    "to": "20220616232813",
+    "from_date": "2021-10-15",
+    "to_date": "2022-06-16",
+    "added_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "removed_between": [
+     "2022-06-16",
+     "2022-08-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "gallaghers-steakhouse",
+  "name": "Gallaghers Steakhouse",
+  "key": "gallaghers steakhouse",
+  "names_seen": [
+   "Gallaghers Steakhouse"
+  ],
+  "address": "228 W 52nd St, New York, NY, 10019, US",
+  "phone": "(212) 586-5000",
+  "website": "http://gallaghersnysteakhouse.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#gallaghers",
+  "lat": 40.762797,
+  "lng": -73.98391,
+  "periods": [
+   {
+    "from": "20230713042759",
+    "to": "20240617063617",
+    "from_date": "2023-07-13",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20260406212201",
+    "to": "20260921113426",
+    "from_date": "2026-04-06",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "gertie",
+  "name": "Gertie",
+  "key": "gertie",
+  "names_seen": [
+   "Gertie"
+  ],
+  "address": "357 Grand St Brooklyn, NY 11211",
+  "phone": "",
+  "website": "http://www.gertie.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/gertie",
+  "lat": 40.712462,
+  "lng": -73.955631,
+  "periods": [
+   {
+    "from": "20191205030922",
+    "to": "20201112023808",
+    "from_date": "2019-12-05",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-10-23",
+     "2019-12-05"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "golden-diner",
+  "name": "Golden Diner",
+  "key": "golden diner",
+  "names_seen": [
+   "Golden Diner"
+  ],
+  "address": "123 Madison St Apt 2, New York, NY, 10002, US",
+  "phone": "(917) 472-7800",
+  "website": "http://www.goldendinerny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#golden-diner",
+  "lat": 40.712427,
+  "lng": -73.994195,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20221227073040",
+    "from_date": "2020-11-21",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20250418021237",
+    "to": "20260921113426",
+    "from_date": "2025-04-18",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "golden-palace-gourmet",
+  "name": "Golden Palace Gourmet",
+  "key": "golden palace gourmet",
+  "names_seen": [
+   "Golden Palace Gourmet"
+  ],
+  "address": "140-09 Cherry Ave, Queens, NY 11355",
+  "phone": "",
+  "website": "https://goldenpalacegourmetny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/golden-palace-gourmet",
+  "lat": 40.754275,
+  "lng": -73.822538,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20230321204829",
+    "from_date": "2020-11-21",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "gramercy-tavern",
+  "name": "Gramercy Tavern",
+  "key": "gramercy tavern",
+  "names_seen": [
+   "Gramercy Tavern"
+  ],
+  "address": "42 E 20th St New York, NY",
+  "phone": "(212) 477-0777",
+  "website": "http://www.gramercytavern.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/gramercy-tavern-2",
+  "lat": 40.73857555787898,
+  "lng": -73.9883279800415,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "grand-central-oyster-bar",
+  "name": "Grand Central Oyster Bar",
+  "key": "grand central oyster bar",
+  "names_seen": [
+   "Grand Central Oyster Bar"
+  ],
+  "address": "89 East 42nd Street, Manhattan, NY, 10017",
+  "phone": "(212) 490-6650",
+  "website": "http://www.oysterbarny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-10",
+  "lat": 40.752579,
+  "lng": -73.977314,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20260709055840",
+    "from_date": "2023-03-28",
+    "to_date": "2026-07-09",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "great-ny-noodletown",
+  "name": "Great NY Noodletown",
+  "key": "great ny noodletown",
+  "names_seen": [
+   "Great NY Noodletown"
+  ],
+  "address": "28 Bowery, New York, NY 10013",
+  "phone": "",
+  "website": "http://greatnewyorknoodletown.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/great-ny-noodletown",
+  "lat": 40.71504,
+  "lng": -73.997177,
+  "periods": [
+   {
+    "from": "20221013182624",
+    "to": "20231128115018",
+    "from_date": "2022-10-13",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "gregory-s-26-corner-taverna",
+  "name": "Gregory's 26 Corner Taverna",
+  "key": "gregory s 26 corner taverna",
+  "names_seen": [
+   "Gregory's 26 Corner Taverna"
+  ],
+  "address": "26-02 23rd Ave Long Island City, NY 11105",
+  "phone": "",
+  "website": "https://www.facebook.com/Gregorys-26-Corner-426359910728563/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/gregorys-26-corner-taverna",
+  "lat": 40.776296,
+  "lng": -73.915995,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20201112023808",
+    "from_date": "2018-07-11",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "haenyeo",
+  "name": "Haenyeo",
+  "key": "haenyeo",
+  "names_seen": [
+   "Haenyeo"
+  ],
+  "address": "239 5th Ave Brooklyn, NY 11215",
+  "phone": "",
+  "website": "https://haenyeobk.com/home",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/haenyeo",
+  "lat": 40.675159,
+  "lng": -73.981035,
+  "periods": [
+   {
+    "from": "20190721000015",
+    "to": "20220407163839",
+    "from_date": "2019-07-21",
+    "to_date": "2022-04-07",
+    "added_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "removed_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "haidilao-hot-pot",
+  "name": "Haidilao Hot Pot",
+  "key": "haidilao hot pot",
+  "names_seen": [
+   "Haidilao",
+   "Haidilao Hot Pot"
+  ],
+  "address": "138-23 39th Ave, Queens, NY 11354",
+  "phone": "",
+  "website": "http://www.haidilao.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/haidilao-hot-pot",
+  "lat": 40.76124,
+  "lng": -73.82771,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20201112023808",
+    "from_date": "2020-03-18",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230113225417",
+    "to": "20231128115018",
+    "from_date": "2023-01-13",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "hamburger-america",
+  "name": "Hamburger America",
+  "key": "hamburger america",
+  "names_seen": [
+   "Hamburger America"
+  ],
+  "address": "155 West Houston Street, New York, NY 10012",
+  "phone": "(646) 707-0497",
+  "website": "https://hamburgeramerica.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#hamburger-america",
+  "lat": 40.728013,
+  "lng": -74.00257,
+  "periods": [
+   {
+    "from": "20240711012928",
+    "to": "20260921113426",
+    "from_date": "2024-07-11",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "hanoi-house",
+  "name": "Hanoi House",
+  "key": "hanoi house",
+  "names_seen": [
+   "Hanoi House"
+  ],
+  "address": "119 St Marks Pl New York, NY 10009",
+  "phone": "(212) 995-5010",
+  "website": "http://www.hanoihousenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/hanoi-house",
+  "lat": 40.727034,
+  "lng": -73.983518,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20181003095938",
+    "from_date": "2018-02-03",
+    "to_date": "2018-10-03",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "happy-hot-hunan",
+  "name": "Happy Hot Hunan",
+  "key": "happy hot hunan",
+  "names_seen": [
+   "Happy Hot Hunan"
+  ],
+  "address": "969 Amsterdam Ave New York, NY 10025",
+  "phone": "",
+  "website": "http://www.happyhothunanny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/happy-hot-hunan",
+  "lat": 40.801346,
+  "lng": -73.964679,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20210424125601",
+    "from_date": "2021-04-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "harry-and-ida-s-meat-and-supply-co",
+  "name": "Harry & Ida's Meat and Supply Co.",
+  "key": "harry and ida s meat and supply co",
+  "names_seen": [
+   "Harry & Ida's Meat and Supply Co."
+  ],
+  "address": "189 Avenue A New York, NY 10009",
+  "phone": "",
+  "website": "http://www.harryandidas.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/harry-amp-idas-meat-and-supply-co",
+  "lat": 40.728989,
+  "lng": -73.981662,
+  "periods": [
+   {
+    "from": "20190417081732",
+    "to": "20191023151523",
+    "from_date": "2019-04-17",
+    "to_date": "2019-10-23",
+    "added_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "removed_between": [
+     "2019-10-23",
+     "2019-12-05"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "her-name-is-han",
+  "name": "Her Name is Han",
+  "key": "her name is han",
+  "names_seen": [
+   "Her Name is Han"
+  ],
+  "address": "17 E 31st St New York, NY 10016",
+  "phone": "",
+  "website": "http://www.hernameishan.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/her-name-is-han",
+  "lat": 40.74624,
+  "lng": -73.984758,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20190528133625",
+    "from_date": "2018-07-11",
+    "to_date": "2019-05-28",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ho-foods",
+  "name": "Ho Foods",
+  "key": "ho foods",
+  "names_seen": [
+   "Ho Foods"
+  ],
+  "address": "110 E 7th St, New York, NY, 10009, US",
+  "phone": "(347) 788-0682",
+  "website": "http://www.hofoodsnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-22",
+  "lat": 40.726288,
+  "lng": -73.984825,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20230530234936",
+    "from_date": "2023-03-28",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20241010013808",
+    "to": "20260314114219",
+    "from_date": "2024-10-10",
+    "to_date": "2026-03-14",
+    "added_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "removed_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "hometown-bar-b-que",
+  "name": "Hometown Bar-B-Que",
+  "key": "hometown bar b que",
+  "names_seen": [
+   "Hometown Bar-B-Que"
+  ],
+  "address": "454 Van Brunt St, Brooklyn, NY 11231",
+  "phone": "(347) 294-4644",
+  "website": "http://www.hometownbarbque.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/hometown-bar-b-que",
+  "lat": 40.67492612403677,
+  "lng": -74.01620149612425,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20210317013452",
+    "from_date": "2017-08-05",
+    "to_date": "2021-03-17",
+    "added_between": null,
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20221013182624",
+    "to": "20240317100757",
+    "from_date": "2022-10-13",
+    "to_date": "2024-03-17",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "hudson-smokehouse",
+  "name": "Hudson Smokehouse",
+  "key": "hudson smokehouse",
+  "names_seen": [
+   "Hudson Smokehouse"
+  ],
+  "address": "37 Bruckner Blvd, Bronx, NY 10454",
+  "phone": "",
+  "website": "https://hudsonsmokehousebx.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/hudson-smokehouse",
+  "lat": 40.807112,
+  "lng": -73.927653,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20220922054533",
+    "from_date": "2021-06-14",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "hyderabadi-zaiqa",
+  "name": "Hyderabadi Zaiqa",
+  "key": "hyderabadi zaiqa",
+  "names_seen": [
+   "Hyderabadi Zaiqa"
+  ],
+  "address": "184 Lexington Ave # 10016, New York, NY, 10016, US",
+  "phone": "(646) 952-0066",
+  "website": "https://hyderabadizaiqa2026.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#hyderabadi-zaiqa-2",
+  "lat": 40.74486,
+  "lng": -73.981079,
+  "periods": [
+   {
+    "from": "20240113013737",
+    "to": "20260921113426",
+    "from_date": "2024-01-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "i-sodi",
+  "name": "I Sodi",
+  "key": "i sodi",
+  "names_seen": [
+   "I Sodi"
+  ],
+  "address": "105 Christopher St (at Bleecker St), New York, NY 10014",
+  "phone": "(212) 414-5774",
+  "website": "http://www.isodinyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-18",
+  "lat": 40.732789,
+  "lng": -74.004053,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20181003095938",
+    "from_date": "2017-08-05",
+    "to_date": "2018-10-03",
+    "added_between": null,
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20221013182624",
+    "to": "20221227073040",
+    "from_date": "2022-10-13",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20250115013855",
+    "to": "20250702202951",
+    "from_date": "2025-01-15",
+    "to_date": "2025-07-02",
+    "added_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "removed_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "indian-accent",
+  "name": "Indian Accent",
+  "key": "indian accent",
+  "names_seen": [
+   "Indian Accent"
+  ],
+  "address": "123 W 56th St New York, NY",
+  "phone": "(212) 842-8070",
+  "website": "http://indianaccent.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/indian-accent-2",
+  "lat": 40.76422134626763,
+  "lng": -73.9787874855538,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20180218213216",
+    "from_date": "2017-08-05",
+    "to_date": "2018-02-18",
+    "added_between": null,
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "indian-table",
+  "name": "Indian Table",
+  "key": "indian table",
+  "names_seen": [
+   "Indian Table"
+  ],
+  "address": "234 Court St Brooklyn, NY 11201",
+  "phone": "",
+  "website": "http://indiantableny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/indian-table",
+  "lat": 40.686036,
+  "lng": -73.994406,
+  "periods": [
+   {
+    "from": "20211015212624",
+    "to": "20220407163839",
+    "from_date": "2021-10-15",
+    "to_date": "2022-04-07",
+    "added_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "removed_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "jeju-noodle-bar",
+  "name": "Jeju Noodle Bar",
+  "key": "jeju noodle bar",
+  "names_seen": [
+   "Jeju Noodle Bar"
+  ],
+  "address": "679 Greenwich St New York, NY 10014",
+  "phone": "",
+  "website": "http://jejunoodlebar.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/jeju-noodle-bar",
+  "lat": 40.733042,
+  "lng": -74.007233,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20210424125601",
+    "from_date": "2020-11-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "jing-fong",
+  "name": "Jing Fong",
+  "key": "jing fong",
+  "names_seen": [
+   "Jing Fong"
+  ],
+  "address": "20 Elizabeth St New York, NY 10013",
+  "phone": "",
+  "website": "http://jingfongny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/jing-fong",
+  "lat": 40.715969,
+  "lng": -73.996746,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20210317013452",
+    "from_date": "2020-11-21",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "joe-s-of-avenue-u",
+  "name": "Joe's of Avenue U",
+  "key": "joe s of avenue u",
+  "names_seen": [
+   "Joe's of Avenue U"
+  ],
+  "address": "",
+  "phone": "",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/joes-of-avenue-u",
+  "lat": null,
+  "lng": null,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20230530234936",
+    "from_date": "2023-03-28",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "jongro-bbq",
+  "name": "Jongro BBQ",
+  "key": "jongro bbq",
+  "names_seen": [
+   "Jongro BBQ"
+  ],
+  "address": "22 W 32nd St (btwn Broadway & 5th Ave), New York, NY 10001",
+  "phone": "(212) 473-2233",
+  "website": "http://www.jongrobbqny.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-12",
+  "lat": 40.748289015143,
+  "lng": -73.98817703639,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20180218213216",
+    "from_date": "2018-02-03",
+    "to_date": "2018-02-18",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20240711012928",
+    "to": "20250405183949",
+    "from_date": "2024-07-11",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "jongro-gopchang",
+  "name": "Jongro Gopchang",
+  "key": "jongro gopchang",
+  "names_seen": [
+   "Jongro Gopchang"
+  ],
+  "address": "22 W 32nd St, New York, NY 10001",
+  "phone": "",
+  "website": "https://www.jongrogopchang.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-4",
+  "lat": 40.747534,
+  "lng": -73.986931,
+  "periods": [
+   {
+    "from": "20240113013737",
+    "to": "20240317100757",
+    "from_date": "2024-01-13",
+    "to_date": "2024-03-17",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "jua",
+  "name": "Jua",
+  "key": "jua",
+  "names_seen": [
+   "Jua"
+  ],
+  "address": "36 E 22nd St, New York, NY 10010",
+  "phone": "",
+  "website": "http://www.juanyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/jua",
+  "lat": 40.7397,
+  "lng": -73.987828,
+  "periods": [
+   {
+    "from": "20211015212624",
+    "to": "20221227073040",
+    "from_date": "2021-10-15",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "kabawa",
+  "name": "Kabawa",
+  "key": "kabawa",
+  "names_seen": [
+   "Kabawa"
+  ],
+  "address": "8 Extra Pl, New York, NY, 10003, US",
+  "phone": "(212) 203-8095",
+  "website": "https://www.momofuku.com/restaurants/kabawa",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#kabawa",
+  "lat": 40.724839,
+  "lng": -73.991637,
+  "periods": [
+   {
+    "from": "20260113200808",
+    "to": "20260921113426",
+    "from_date": "2026-01-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "kanyakumari",
+  "name": "Kanyakumari",
+  "key": "kanyakumari",
+  "names_seen": [
+   "Kanyakumari"
+  ],
+  "address": "20 East 17th Street, New York, New York 10003",
+  "phone": "(212) 641-0401",
+  "website": "http://kanyakumarinyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-16",
+  "lat": 40.737271,
+  "lng": -73.991245,
+  "periods": [
+   {
+    "from": "20241010013808",
+    "to": "20250702202951",
+    "from_date": "2024-10-10",
+    "to_date": "2025-07-02",
+    "added_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "removed_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "kashkar-cafe",
+  "name": "Kashkar Cafe",
+  "key": "kashkar cafe",
+  "names_seen": [
+   "Kashkar Cafe"
+  ],
+  "address": "1141 Brighton Beach Ave, Brooklyn, NY 11235",
+  "phone": "",
+  "website": "https://www.kashkar-cafe.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/kashkar-cafe",
+  "lat": 40.577856,
+  "lng": -73.955285,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20230321204829",
+    "from_date": "2021-04-21",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "katz-s-delicatessen",
+  "name": "Katz's Delicatessen",
+  "key": "katz s delicatessen",
+  "names_seen": [
+   "Katz's Delicatessen"
+  ],
+  "address": "205 E Houston St (at Ludlow St), New York, NY 10002",
+  "phone": "(800) 446-8364",
+  "website": "https://katzsdelicatessen.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-25",
+  "lat": 40.72230706635953,
+  "lng": -73.98735165596008,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20211220193907",
+    "from_date": "2017-08-05",
+    "to_date": "2021-12-20",
+    "added_between": null,
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20220811220937",
+    "to": "20220922054533",
+    "from_date": "2022-08-11",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2022-06-16",
+     "2022-08-11"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20250405183949",
+    "from_date": "2023-03-28",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "keens-steakhouse",
+  "name": "Keens Steakhouse",
+  "key": "keens steakhouse",
+  "names_seen": [
+   "Keens Steakhouse"
+  ],
+  "address": "72 W 36th St, New York, NY, 10018, US",
+  "phone": "(212) 947-3636",
+  "website": "http://www.keens.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-11",
+  "lat": 40.750711,
+  "lng": -73.986519,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20230530234936",
+    "from_date": "2023-03-28",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20240711012928",
+    "to": "20260314114219",
+    "from_date": "2024-07-11",
+    "to_date": "2026-03-14",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "killmeyer-s",
+  "name": "Killmeyer's",
+  "key": "killmeyer s",
+  "names_seen": [
+   "Killmeyer's"
+  ],
+  "address": "4254 Arthur Kill Rd, Staten Island, NY 10309",
+  "phone": "",
+  "website": "http://www.killmeyers.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/killmeyers",
+  "lat": 40.538496,
+  "lng": -74.237111,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20230321204829",
+    "from_date": "2022-01-22",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "kingston-tropical-bakery",
+  "name": "Kingston Tropical Bakery",
+  "key": "kingston tropical bakery",
+  "names_seen": [
+   "Kingston Tropical Bakery"
+  ],
+  "address": "4000 White Plains Rd, Bronx, NY 10466",
+  "phone": "",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/kingston-tropical-bakery",
+  "lat": 40.888646,
+  "lng": -73.859699,
+  "periods": [
+   {
+    "from": "20220426152416",
+    "to": "20230321204829",
+    "from_date": "2022-04-26",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "kisa",
+  "name": "Kisa",
+  "key": "kisa",
+  "names_seen": [
+   "Kisa"
+  ],
+  "address": "205 Allen Street, New York, New York 10002",
+  "phone": "",
+  "website": "https://www.kisaus.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-23",
+  "lat": 40.722694,
+  "lng": -73.989071,
+  "periods": [
+   {
+    "from": "20250115013855",
+    "to": "20250929021904",
+    "from_date": "2025-01-15",
+    "to_date": "2025-09-29",
+    "added_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "removed_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "koloman",
+  "name": "Koloman",
+  "key": "koloman",
+  "names_seen": [
+   "Koloman"
+  ],
+  "address": "16 W 29th St, New York, NY 10001",
+  "phone": "",
+  "website": "https://kolomanrestaurant.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/koloman",
+  "lat": 40.745664,
+  "lng": -73.988135,
+  "periods": [
+   {
+    "from": "20230113225417",
+    "to": "20250106070510",
+    "from_date": "2023-01-13",
+    "to_date": "2025-01-06",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "kopitiam",
+  "name": "Kopitiam",
+  "key": "kopitiam",
+  "names_seen": [
+   "Kopitiam"
+  ],
+  "address": "151 E Broadway, New York, NY 10002",
+  "phone": "",
+  "website": "https://www.kopitiamnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/kopitiam",
+  "lat": 40.713791,
+  "lng": -73.990896,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20210317013452",
+    "from_date": "2019-01-19",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20230530234936",
+    "from_date": "2023-03-28",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "la-morada",
+  "name": "La Morada",
+  "key": "la morada",
+  "names_seen": [
+   "La Morada"
+  ],
+  "address": "308 Willis Ave The Bronx, NY 10454",
+  "phone": "",
+  "website": "http://lamoradanyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/la-morada",
+  "lat": 40.810579,
+  "lng": -73.921475,
+  "periods": [
+   {
+    "from": "20191023151523",
+    "to": "20210424125601",
+    "from_date": "2019-10-23",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "la-pirana-lechonera",
+  "name": "La Piraña Lechonera",
+  "key": "la pirana lechonera",
+  "names_seen": [
+   "La Piraña Lechonera"
+  ],
+  "address": "766 E 152nd St, Bronx, NY, 10455, US",
+  "phone": "(914) 217-9636",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#lechonera-la-pira-a",
+  "lat": 40.815576,
+  "lng": -73.90649,
+  "periods": [
+   {
+    "from": "20251008212049",
+    "to": "20260921113426",
+    "from_date": "2025-10-08",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "la-vara",
+  "name": "La Vara",
+  "key": "la vara",
+  "names_seen": [
+   "La Vara"
+  ],
+  "address": "268 Clinton St, Brooklyn, NY 11201",
+  "phone": "(718) 422-0065",
+  "website": "http://www.lavarany.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/la-vara",
+  "lat": 40.687824212725424,
+  "lng": -73.99553968946574,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20191205030922",
+    "from_date": "2017-08-05",
+    "to_date": "2019-12-05",
+    "added_between": null,
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20221013182624",
+    "to": "20230321204829",
+    "from_date": "2022-10-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "le-bernardin",
+  "name": "Le Bernardin",
+  "key": "le bernardin",
+  "names_seen": [
+   "Le Bernardin"
+  ],
+  "address": "155 West 51st Street, New York, New York 10019",
+  "phone": "(212) 554-1515",
+  "website": "https://www.le-bernardin.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#le-bernardin",
+  "lat": 40.761421,
+  "lng": -73.981758,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20201112023808",
+    "from_date": "2020-03-18",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20260921113426",
+    "from_date": "2023-03-28",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "le-coucou",
+  "name": "Le Coucou",
+  "key": "le coucou",
+  "names_seen": [
+   "Le Coucou"
+  ],
+  "address": "138 Lafayette St New York, NY",
+  "phone": "(212) 271-4252",
+  "website": "http://lecoucou.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/le-coucou",
+  "lat": 40.719052,
+  "lng": -74.000061,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20190528133625",
+    "from_date": "2017-08-05",
+    "to_date": "2019-05-28",
+    "added_between": null,
+    "removed_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "le-gratin",
+  "name": "Le Gratin",
+  "key": "le gratin",
+  "names_seen": [
+   "Le Gratin"
+  ],
+  "address": "5 Beekman St, New York, NY 10038",
+  "phone": "",
+  "website": "http://www.legratinnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-17",
+  "lat": 40.711199,
+  "lng": -74.006899,
+  "periods": [
+   {
+    "from": "20241010013808",
+    "to": "20250106070510",
+    "from_date": "2024-10-10",
+    "to_date": "2025-01-06",
+    "added_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "removed_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "le-sia",
+  "name": "Le Sia",
+  "key": "le sia",
+  "names_seen": [
+   "Le Sia"
+  ],
+  "address": "11 E 7th St New York, NY 10003",
+  "phone": "",
+  "website": "http://nyclesia.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/le-sia",
+  "lat": 40.72889,
+  "lng": -73.989829,
+  "periods": [
+   {
+    "from": "20190417081732",
+    "to": "20191205030922",
+    "from_date": "2019-04-17",
+    "to_date": "2019-12-05",
+    "added_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "le-veau-d-or",
+  "name": "Le Veau d’Or",
+  "key": "le veau d or",
+  "names_seen": [
+   "Le Veau d'Or",
+   "Le Veau d’Or"
+  ],
+  "address": "129 E 60th St, New York, NY 10022",
+  "phone": "(212) 838-8133",
+  "website": "https://www.lvdnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#le-veau-d-or",
+  "lat": 40.763208,
+  "lng": -73.968103,
+  "periods": [
+   {
+    "from": "20250115013855",
+    "to": "20260921113426",
+    "from_date": "2025-01-15",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "lei",
+  "name": "Lei",
+  "key": "lei",
+  "names_seen": [
+   "Lei"
+  ],
+  "address": "15 - 17 Doyers St, New York, NY, 10013, US",
+  "phone": "",
+  "website": "https://www.leiwine.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#lei",
+  "lat": 40.714576,
+  "lng": -73.998267,
+  "periods": [
+   {
+    "from": "20260406212201",
+    "to": "20260921113426",
+    "from_date": "2026-04-06",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "liebman-s-deli",
+  "name": "Liebman’s Deli",
+  "key": "liebman s deli",
+  "names_seen": [
+   "Liebman’s Deli"
+  ],
+  "address": "552 W 235th St (Johnson Ave), Bronx, NY 10463",
+  "phone": "",
+  "website": "http://liebmansdeli.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article",
+  "lat": 40.885298,
+  "lng": -73.90959,
+  "periods": [
+   {
+    "from": "20191023151523",
+    "to": "20201112023808",
+    "from_date": "2019-10-23",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20220122170212",
+    "to": "20220616232813",
+    "from_date": "2022-01-22",
+    "to_date": "2022-06-16",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2022-06-16",
+     "2022-08-11"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20240113013737",
+    "to": "20250405183949",
+    "from_date": "2024-01-13",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "lilia",
+  "name": "Lilia",
+  "key": "lilia",
+  "names_seen": [
+   "Lilia"
+  ],
+  "address": "567 Union Ave, Brooklyn, NY, 11211, US",
+  "phone": "(718) 576-3095",
+  "website": "http://www.lilianewyork.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#lilia",
+  "lat": 40.71755,
+  "lng": -73.952412,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20181003095938",
+    "from_date": "2017-08-05",
+    "to_date": "2018-10-03",
+    "added_between": null,
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20250708234812",
+    "to": "20260921113426",
+    "from_date": "2025-07-08",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "llama-san",
+  "name": "Llama San",
+  "key": "llama san",
+  "names_seen": [
+   "Llama San"
+  ],
+  "address": "359 6th Ave New York, NY 10014",
+  "phone": "",
+  "website": "http://www.llamasannyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/llama-san",
+  "lat": 40.732308,
+  "lng": -74.000897,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20210106211533",
+    "from_date": "2020-03-18",
+    "to_date": "2021-01-06",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2021-01-06",
+     "2021-01-22"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "los-tacos-no-1",
+  "name": "Los Tacos No.1",
+  "key": "los tacos no 1",
+  "names_seen": [
+   "Los Tacos No. 1",
+   "Los Tacos No.1"
+  ],
+  "address": "75 9th Ave, New York, NY 10011",
+  "phone": "(212) 256-0343",
+  "website": "https://www.lostacos1.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/los-tacos-no-1",
+  "lat": 40.74222952697974,
+  "lng": -74.00585353374481,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20201112023808",
+    "from_date": "2017-08-05",
+    "to_date": "2020-11-12",
+    "added_between": null,
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20230530234936",
+    "from_date": "2023-03-28",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "lure-fishbar",
+  "name": "Lure Fishbar",
+  "key": "lure fishbar",
+  "names_seen": [
+   "Lure Fishbar"
+  ],
+  "address": "142 Mercer St New York, NY",
+  "phone": "(212) 431-7676",
+  "website": "http://lurefishbar.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/lure-fishbar-2",
+  "lat": 40.72463457437033,
+  "lng": -73.99840235710144,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "l-industrie-pizzeria",
+  "name": "L’Industrie Pizzeria",
+  "key": "l industrie pizzeria",
+  "names_seen": [
+   "L'Industrie Pizzeria",
+   "L’Industrie Pizzeria"
+  ],
+  "address": "254 S 2nd St Side, Brooklyn, NY, 11211, US",
+  "phone": "(718) 599-0002",
+  "website": "http://www.lindustriebk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-32",
+  "lat": 40.711605,
+  "lng": -73.95787,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20260709055840",
+    "from_date": "2022-01-22",
+    "to_date": "2026-07-09",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "madame-vo",
+  "name": "Madame Vo",
+  "key": "madame vo",
+  "names_seen": [
+   "Madame Vo"
+  ],
+  "address": "212 E 10th St New York, NY 10003",
+  "phone": "",
+  "website": "http://www.madamevo.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/madame-vo",
+  "lat": 40.72927,
+  "lng": -73.986105,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20190202235314",
+    "from_date": "2019-01-19",
+    "to_date": "2019-02-02",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "madison-square-garden",
+  "name": "Madison Square Garden",
+  "key": "madison square garden",
+  "names_seen": [
+   "Madison Square Garden"
+  ],
+  "address": "4 Penn Plz New York, NY 10121",
+  "phone": "(212) 465-6741",
+  "website": "http://www.thegarden.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/madison-square-garden",
+  "lat": 40.749981,
+  "lng": -73.992188,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20180218213216",
+    "from_date": "2018-02-03",
+    "to_date": "2018-02-18",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "makina-cafe-ethiopian-eritrean-eatery",
+  "name": "Makina Cafe Ethiopian-Eritrean Eatery",
+  "key": "makina cafe ethiopian eritrean eatery",
+  "names_seen": [
+   "Makina Cafe Ethiopian-Eritrean Eatery"
+  ],
+  "address": "46-11 Skillman Avenue Sunnyside, Queens 11104",
+  "phone": "(917) 426-5649",
+  "website": "http://makinacafenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#makina-cafe-ethiopian-eritrean-eatery",
+  "lat": 40.746652,
+  "lng": -73.917671,
+  "periods": [
+   {
+    "from": "20260710150816",
+    "to": "20260921113426",
+    "from_date": "2026-07-10",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "malecon",
+  "name": "Malecon",
+  "key": "malecon",
+  "names_seen": [
+   "Malecon"
+  ],
+  "address": "4141 Broadway, New York, NY 10033",
+  "phone": "",
+  "website": "http://maleconrestaurants.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/malecon",
+  "lat": 40.846512,
+  "lng": -73.938894,
+  "periods": [
+   {
+    "from": "20221013182624",
+    "to": "20230321204829",
+    "from_date": "2022-10-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "marea",
+  "name": "Marea",
+  "key": "marea",
+  "names_seen": [
+   "Marea"
+  ],
+  "address": "240 Central Park S, New York, NY 10019",
+  "phone": "",
+  "website": "https://www.marearestaurant.com/new-york?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/marea",
+  "lat": 40.767339,
+  "lng": -73.981175,
+  "periods": [
+   {
+    "from": "20221013182624",
+    "to": "20230321204829",
+    "from_date": "2022-10-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "mario-s",
+  "name": "Mario's",
+  "key": "mario s",
+  "names_seen": [
+   "Mario's"
+  ],
+  "address": "2342 Arthur Ave The Bronx, NY 10458",
+  "phone": "",
+  "website": "http://www.mariosarthurave.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/marios",
+  "lat": 40.854135,
+  "lng": -73.888453,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20210317013452",
+    "from_date": "2020-11-21",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "mariscos-el-submarino",
+  "name": "Mariscos El Submarino",
+  "key": "mariscos el submarino",
+  "names_seen": [
+   "Mariscos El Submarino"
+  ],
+  "address": "8805 Roosevelt Ave, Queens, NY 11372",
+  "phone": "",
+  "website": "https://www.mariscoselsubmarino.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mariscos-el-submarino",
+  "lat": 40.748444,
+  "lng": -73.878107,
+  "periods": [
+   {
+    "from": "20211015212624",
+    "to": "20230321204829",
+    "from_date": "2021-10-15",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230713042759",
+    "to": "20250106070510",
+    "from_date": "2023-07-13",
+    "to_date": "2025-01-06",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "marlow-and-sons",
+  "name": "Marlow & Sons",
+  "key": "marlow and sons",
+  "names_seen": [
+   "Marlow & Sons"
+  ],
+  "address": "81 Broadway Brooklyn, NY",
+  "phone": "(718) 384-1441",
+  "website": "http://marlowandsons.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/marlow-amp-sons",
+  "lat": 40.71061048948564,
+  "lng": -73.965684281892,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20190815181821",
+    "from_date": "2017-08-05",
+    "to_date": "2019-08-15",
+    "added_between": null,
+    "removed_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "mel",
+  "name": "Mel",
+  "key": "mel",
+  "names_seen": [
+   "Mel"
+  ],
+  "address": "1 Ludlow St, New York, NY 10002",
+  "phone": "",
+  "website": "https://www.melthebakery.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mel",
+  "lat": 40.714588,
+  "lng": -73.991317,
+  "periods": [
+   {
+    "from": "20220426152416",
+    "to": "20220922054533",
+    "from_date": "2022-04-26",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "meme-s-diner",
+  "name": "MeMe's Diner",
+  "key": "meme s diner",
+  "names_seen": [
+   "MeMe's Diner"
+  ],
+  "address": "657 Washington Ave Brooklyn, NY 11238",
+  "phone": "",
+  "website": "http://memesdiner.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/memes-diner",
+  "lat": 40.677707,
+  "lng": -73.963523,
+  "periods": [
+   {
+    "from": "20190721000015",
+    "to": "20201112023808",
+    "from_date": "2019-07-21",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "misi",
+  "name": "Misi",
+  "key": "misi",
+  "names_seen": [
+   "Misi"
+  ],
+  "address": "329 Kent Ave (at S 4th St), Brooklyn, NY 11249",
+  "phone": "(347) 566-3262",
+  "website": "http://www.misinewyork.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-30",
+  "lat": 40.713402,
+  "lng": -73.967186,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20250702202951",
+    "from_date": "2023-03-28",
+    "to_date": "2025-07-02",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "miss-ada",
+  "name": "Miss Ada",
+  "key": "miss ada",
+  "names_seen": [
+   "Miss Ada"
+  ],
+  "address": "184 Dekalb Ave Brooklyn, NY 11205",
+  "phone": "",
+  "website": "http://www.missadanyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/miss-ada",
+  "lat": 40.689449,
+  "lng": -73.972385,
+  "periods": [
+   {
+    "from": "20191023151523",
+    "to": "20211220193907",
+    "from_date": "2019-10-23",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "mission-chinese-food",
+  "name": "Mission Chinese Food",
+  "key": "mission chinese food",
+  "names_seen": [
+   "Mission Chinese Food"
+  ],
+  "address": "171 E Broadway New York, NY",
+  "phone": "(212) 432-0300",
+  "website": "http://www.mcfny.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mission-chinese-food-2",
+  "lat": 40.71406967691378,
+  "lng": -73.98980855941772,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "momofuku-kawi",
+  "name": "Momofuku Kāwi",
+  "key": "momofuku kawi",
+  "names_seen": [
+   "Momofuku Kāwi"
+  ],
+  "address": "20 Hudson Yards New York, NY 10001",
+  "phone": "",
+  "website": "https://kawi.momofuku.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/momofuku-kawi",
+  "lat": 40.754529,
+  "lng": -74.000106,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20201112023808",
+    "from_date": "2020-03-18",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "momofuku-noodle-bar",
+  "name": "Momofuku Noodle Bar",
+  "key": "momofuku noodle bar",
+  "names_seen": [
+   "Momofuku Noodle Bar"
+  ],
+  "address": "171 1st Ave New York, NY",
+  "phone": "(212) 777-7773",
+  "website": "http://momofuku.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/momofuku-noodle-bar",
+  "lat": 40.729110403548944,
+  "lng": -73.9842454555664,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "momofuku-ssam-bar",
+  "name": "Momofuku Ssäm Bar",
+  "key": "momofuku ssam bar",
+  "names_seen": [
+   "Momofuku Ssäm Bar"
+  ],
+  "address": "207 2nd Ave New York, NY 10003",
+  "phone": "(212) 254-3500",
+  "website": "http://ssambar.momofuku.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/momofuku-ssam-bar",
+  "lat": 40.731698,
+  "lng": -73.985843,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20191205030922",
+    "from_date": "2018-02-03",
+    "to_date": "2019-12-05",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "monte-s-trattoria",
+  "name": "Monte's Trattoria",
+  "key": "monte s trattoria",
+  "names_seen": [
+   "Monte's Trattoria"
+  ],
+  "address": "97 MacDougal St (Bleecker), New York, NY 10012",
+  "phone": "",
+  "website": "http://www.montestrattorianyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-11",
+  "lat": 40.72959,
+  "lng": -74.001097,
+  "periods": [
+   {
+    "from": "20240711012928",
+    "to": "20241007234140",
+    "from_date": "2024-07-11",
+    "to_date": "2024-10-07",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "mu-ramen",
+  "name": "Mu Ramen",
+  "key": "mu ramen",
+  "names_seen": [
+   "Mu Ramen"
+  ],
+  "address": "1209 Jackson Ave Queens, NY",
+  "phone": "(917) 868-8903",
+  "website": "http://ramennyc.wix.com/popup",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mu-ramen-2",
+  "lat": 40.74367717129966,
+  "lng": -73.9505367180311,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20180218213216",
+    "from_date": "2017-08-05",
+    "to_date": "2018-02-18",
+    "added_between": null,
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "mala-project",
+  "name": "MáLà Project",
+  "key": "mala project",
+  "names_seen": [
+   "MáLà Project"
+  ],
+  "address": "41 West 46th St New York, NY 10036",
+  "phone": "",
+  "website": "https://www.malaproject.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mala-project",
+  "lat": 40.756933,
+  "lng": -73.980559,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20181003095938",
+    "from_date": "2018-07-11",
+    "to_date": "2018-10-03",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "mam",
+  "name": "Mắm",
+  "key": "mam",
+  "names_seen": [
+   "Mam",
+   "Mắm"
+  ],
+  "address": "70 Forsyth Street, New York, New York 10002",
+  "phone": "",
+  "website": "https://www.instagram.com/mam.nyc",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#mam",
+  "lat": 40.717026,
+  "lng": -73.993312,
+  "periods": [
+   {
+    "from": "20240409192342",
+    "to": "20260921113426",
+    "from_date": "2024-04-09",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "nepali-bhanchha-ghar",
+  "name": "Nepali Bhanchha Ghar",
+  "key": "nepali bhanchha ghar",
+  "names_seen": [
+   "Nepali Bhanchha Ghar"
+  ],
+  "address": "7415 Roosevelt Ave, Jackson Heights, NY, 11372, US",
+  "phone": "(917) 745-0533",
+  "website": "https://www.bhanchhagharny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#nepali-bhanchha-ghar-2",
+  "lat": 40.747049,
+  "lng": -73.890824,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20230321204829",
+    "from_date": "2022-01-22",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20240113013737",
+    "to": "20260921113426",
+    "from_date": "2024-01-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "new-wonjo",
+  "name": "New Wonjo",
+  "key": "new wonjo",
+  "names_seen": [
+   "New Wonjo"
+  ],
+  "address": "23 W 32nd St New York, NY",
+  "phone": "(212) 695-5815",
+  "website": "http://www.newwonjo.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/new-wonjo",
+  "lat": 40.747899752227816,
+  "lng": -73.98695429583053,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "new-world-mall",
+  "name": "New World Mall",
+  "key": "new world mall",
+  "names_seen": [
+   "New World Mall"
+  ],
+  "address": "136-20 Roosevelt Ave, Queens, NY 11354",
+  "phone": "",
+  "website": "http://www.newworldmallny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/new-world-mall",
+  "lat": 40.759358,
+  "lng": -73.829205,
+  "periods": [
+   {
+    "from": "20221013182624",
+    "to": "20230321204829",
+    "from_date": "2022-10-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "noda",
+  "name": "Noda",
+  "key": "noda",
+  "names_seen": [
+   "Noda"
+  ],
+  "address": "6 W 28th St New York, NY 10001",
+  "phone": "",
+  "website": "http://noda.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/noda",
+  "lat": 40.744803,
+  "lng": -73.988105,
+  "periods": [
+   {
+    "from": "20190721000015",
+    "to": "20191205030922",
+    "from_date": "2019-07-21",
+    "to_date": "2019-12-05",
+    "added_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "noz-17",
+  "name": "Noz 17",
+  "key": "noz 17",
+  "names_seen": [
+   "Noz 17"
+  ],
+  "address": "458 W 17th St, New York, NY 10011",
+  "phone": "",
+  "website": "http://noz17.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/noz-17",
+  "lat": 40.743844,
+  "lng": -74.006571,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20231128115018",
+    "from_date": "2023-03-28",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "noz-market",
+  "name": "Noz Market",
+  "key": "noz market",
+  "names_seen": [
+   "Noz Market"
+  ],
+  "address": "1374 3rd Ave, New York, NY, 10075, US",
+  "phone": "(917) 338-1792",
+  "website": "http://www.nozmarket.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#noz-market",
+  "lat": 40.773779,
+  "lng": -73.957909,
+  "periods": [
+   {
+    "from": "20250418021237",
+    "to": "20260921113426",
+    "from_date": "2025-04-18",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "nur",
+  "name": "Nur",
+  "key": "nur",
+  "names_seen": [
+   "Nur"
+  ],
+  "address": "34 E 20th St New York, NY 10003",
+  "phone": "",
+  "website": "http://www.nurnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/nur",
+  "lat": 40.738545,
+  "lng": -73.988804,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20190815181821",
+    "from_date": "2019-01-19",
+    "to_date": "2019-08-15",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ny-dosas",
+  "name": "NY Dosas",
+  "key": "ny dosas",
+  "names_seen": [
+   "NY Dosas"
+  ],
+  "address": "50 Washington Square S, New York, NY 10012",
+  "phone": "",
+  "website": "http://nydosas.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ny-dosas",
+  "lat": 40.730451,
+  "lng": -73.998873,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20230530234936",
+    "from_date": "2020-11-21",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "odeon",
+  "name": "Odeon",
+  "key": "odeon",
+  "names_seen": [
+   "Odeon",
+   "The Odeon"
+  ],
+  "address": "145 West Broadway, New York, New York 10013",
+  "phone": "(212) 233-0507",
+  "website": "http://www.theodeonrestaurant.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-17",
+  "lat": 40.71700358931347,
+  "lng": -74.00810144732247,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20240113013737",
+    "to": "20241007234140",
+    "from_date": "2024-01-13",
+    "to_date": "2024-10-07",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "oiji",
+  "name": "Oiji",
+  "key": "oiji",
+  "names_seen": [
+   "Oiji"
+  ],
+  "address": "119 1st Ave New York, NY",
+  "phone": "(646) 767-9050",
+  "website": "http://www.oijinyc.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/oiji-2",
+  "lat": 40.72718411782339,
+  "lng": -73.98561709767907,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20180218213216",
+    "from_date": "2017-08-05",
+    "to_date": "2018-02-18",
+    "added_between": null,
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "olmsted",
+  "name": "Olmsted",
+  "key": "olmsted",
+  "names_seen": [
+   "Olmsted"
+  ],
+  "address": "659 Vanderbilt Ave Brooklyn, NY",
+  "phone": "(718) 552-2610",
+  "website": "http://www.olmstednyc.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/olmsted",
+  "lat": 40.67718208563987,
+  "lng": -73.96885828909762,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20201112023808",
+    "from_date": "2017-08-05",
+    "to_date": "2020-11-12",
+    "added_between": null,
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ops",
+  "name": "Ops",
+  "key": "ops",
+  "names_seen": [
+   "Ops"
+  ],
+  "address": "346 Himrod St Brooklyn, NY 11237",
+  "phone": "",
+  "website": "http://www.opsbk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ops",
+  "lat": 40.702697,
+  "lng": -73.917119,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20211220193907",
+    "from_date": "2019-01-19",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "papaye",
+  "name": "Papaye",
+  "key": "papaye",
+  "names_seen": [
+   "Papaye"
+  ],
+  "address": "196 McClellan St, Bronx, NY 10456",
+  "phone": "",
+  "website": "http://www.papayenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/papaye",
+  "lat": 40.832521,
+  "lng": -73.917952,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20231128115018",
+    "from_date": "2023-03-28",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "pastrami-queen",
+  "name": "Pastrami Queen",
+  "key": "pastrami queen",
+  "names_seen": [
+   "Pastrami Queen"
+  ],
+  "address": "1125 Lexington Ave # 2, New York, NY 10075",
+  "phone": "",
+  "website": "http://pastramiqueen.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/pastrami-queen",
+  "lat": 40.774363,
+  "lng": -73.959106,
+  "periods": [
+   {
+    "from": "20230113225417",
+    "to": "20230321204829",
+    "from_date": "2023-01-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "patsy-s-pizza-east-harlem",
+  "name": "Patsy's Pizza - East Harlem",
+  "key": "patsy s pizza east harlem",
+  "names_seen": [
+   "Patsy's Pizza - East Harlem"
+  ],
+  "address": "2287 1st Ave New York, NY",
+  "phone": "(212) 534-9783",
+  "website": "http://www.thepatsyspizza.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/patsys-pizza-east-harlem",
+  "lat": 40.79708774312914,
+  "lng": -73.93450965907283,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "peaches-hothouse",
+  "name": "Peaches HotHouse",
+  "key": "peaches hothouse",
+  "names_seen": [
+   "Peaches HotHouse"
+  ],
+  "address": "415 Tompkins Ave Brooklyn, NY 11216",
+  "phone": "",
+  "website": "http://www.bcrestaurantgroup.com/hothouse",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/peaches-hothouse",
+  "lat": 40.683401,
+  "lng": -73.943661,
+  "periods": [
+   {
+    "from": "20210122010700",
+    "to": "20211011120537",
+    "from_date": "2021-01-22",
+    "to_date": "2021-10-11",
+    "added_between": [
+     "2021-01-06",
+     "2021-01-22"
+    ],
+    "removed_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "peppa-s",
+  "name": "Peppa's",
+  "key": "peppa s",
+  "names_seen": [
+   "Peppa's"
+  ],
+  "address": "738 Flatbush Ave, Brooklyn, NY 11226",
+  "phone": "",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/peppas",
+  "lat": 40.654904,
+  "lng": -73.960013,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20221227073040",
+    "from_date": "2018-07-11",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "peter-luger-steak-house",
+  "name": "Peter Luger Steak House",
+  "key": "peter luger steak house",
+  "names_seen": [
+   "Peter Luger Steak House"
+  ],
+  "address": "178 Broadway Brooklyn, NY",
+  "phone": "(718) 387-7400",
+  "website": "http://peterluger.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/peter-luger-steak-house",
+  "lat": 40.71004419200894,
+  "lng": -73.96247578387509,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20201112023808",
+    "from_date": "2017-08-05",
+    "to_date": "2020-11-12",
+    "added_between": null,
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ping-seafood-restaurant",
+  "name": "Ping Seafood Restaurant",
+  "key": "ping seafood restaurant",
+  "names_seen": [
+   "Ping Seafood Restaurant"
+  ],
+  "address": "22 Mott St New York, NY 10013",
+  "phone": "",
+  "website": "https://www.eatatpings.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ping-seafood-restaurant",
+  "lat": 40.714448,
+  "lng": -73.998537,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20181003095938",
+    "from_date": "2018-07-11",
+    "to_date": "2018-10-03",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "playground",
+  "name": "Playground",
+  "key": "playground",
+  "names_seen": [
+   "Playground"
+  ],
+  "address": "71-30 Roosevelt Ave, Jackson Heights, NY 11372",
+  "phone": "",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/playground",
+  "lat": 40.746404,
+  "lng": -73.893796,
+  "periods": [
+   {
+    "from": "20220426152416",
+    "to": "20220922054533",
+    "from_date": "2022-04-26",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "pranakhon",
+  "name": "Pranakhon",
+  "key": "pranakhon",
+  "names_seen": [
+   "Pranakhon"
+  ],
+  "address": "88 University Pl, New York, NY 10003",
+  "phone": "",
+  "website": "http://www.pranakhonnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/pranakhon",
+  "lat": 40.733948,
+  "lng": -73.993309,
+  "periods": [
+   {
+    "from": "20231013010311",
+    "to": "20231128115018",
+    "from_date": "2023-10-13",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-10-03",
+     "2023-10-13"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "prime-meats",
+  "name": "Prime Meats",
+  "key": "prime meats",
+  "names_seen": [
+   "Prime Meats"
+  ],
+  "address": "465 Court St Brooklyn, NY",
+  "phone": "(718) 254-0327",
+  "website": "http://www.frankspm.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/prime-meats-2",
+  "lat": 40.67715357960969,
+  "lng": -73.99817705154419,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "prune",
+  "name": "Prune",
+  "key": "prune",
+  "names_seen": [
+   "Prune"
+  ],
+  "address": "54 E 1st St # 1 New York, NY 10003",
+  "phone": "(212) 677-6221",
+  "website": "http://www.prunerestaurant.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/prune",
+  "lat": 40.723929,
+  "lng": -73.989374,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20180218213216",
+    "from_date": "2018-02-03",
+    "to_date": "2018-02-18",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "qanoon-restaurant",
+  "name": "Qanoon Restaurant",
+  "key": "qanoon restaurant",
+  "names_seen": [
+   "Qanoon Restaurant"
+  ],
+  "address": "180 9th Ave New York, NY 10011",
+  "phone": "",
+  "website": "https://qanoonnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/qanoon-restaurant",
+  "lat": 40.745211,
+  "lng": -74.001938,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20210424125601",
+    "from_date": "2020-11-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "rahi",
+  "name": "Rahi",
+  "key": "rahi",
+  "names_seen": [
+   "Rahi"
+  ],
+  "address": "60 Greenwich Ave New York, NY 10011",
+  "phone": "",
+  "website": "http://www.rahinyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/rahi",
+  "lat": 40.736035,
+  "lng": -74.000519,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20190202235314",
+    "from_date": "2019-01-19",
+    "to_date": "2019-02-02",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "raku",
+  "name": "Raku",
+  "key": "raku",
+  "names_seen": [
+   "Raku"
+  ],
+  "address": "342 E 6th St, New York, NY 10003",
+  "phone": "",
+  "website": "http://www.rakunyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/raku",
+  "lat": 40.726488,
+  "lng": -73.986671,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20250106070510",
+    "from_date": "2023-03-28",
+    "to_date": "2025-01-06",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ras-plant-based",
+  "name": "Ras Plant Based",
+  "key": "ras plant based",
+  "names_seen": [
+   "Ras Plant Based"
+  ],
+  "address": "739 Franklin Ave Brooklyn, NY 11238",
+  "phone": "",
+  "website": "http://www.rasplantbased.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ras-plant-based",
+  "lat": 40.673417,
+  "lng": -73.956709,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20211011120537",
+    "from_date": "2021-06-14",
+    "to_date": "2021-10-11",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "red-hook-tavern",
+  "name": "Red Hook Tavern",
+  "key": "red hook tavern",
+  "names_seen": [
+   "Red Hook Tavern"
+  ],
+  "address": "329 Van Brunt St, Brooklyn, NY, 11231, US",
+  "phone": "(917) 966-6094",
+  "website": "https://www.redhooktavern.com",
+  "eater_url": "",
+  "lat": 40.677876,
+  "lng": -74.012083,
+  "periods": [
+   {
+    "from": "20251008212049",
+    "to": "20260709055840",
+    "from_date": "2025-10-08",
+    "to_date": "2026-07-09",
+    "added_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "removed_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "restaurant-daniel",
+  "name": "Restaurant Daniel",
+  "key": "restaurant daniel",
+  "names_seen": [
+   "Restaurant Daniel"
+  ],
+  "address": "60 E 65th St, New York, NY, 10065, US",
+  "phone": "(212) 288-0033",
+  "website": "http://www.danielnyc.com/",
+  "eater_url": "",
+  "lat": 40.766483,
+  "lng": -73.966393,
+  "periods": [
+   {
+    "from": "20251008212049",
+    "to": "20260314114219",
+    "from_date": "2025-10-08",
+    "to_date": "2026-03-14",
+    "added_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "removed_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "rezdora",
+  "name": "Rezdôra",
+  "key": "rezdora",
+  "names_seen": [
+   "Rezdôra"
+  ],
+  "address": "27 E 20th St New York, NY 10003",
+  "phone": "",
+  "website": "https://rezdora.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/rezdora",
+  "lat": 40.739105,
+  "lng": -73.989033,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20210317013452",
+    "from_date": "2020-03-18",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "roberto-s",
+  "name": "Roberto’s",
+  "key": "roberto s",
+  "names_seen": [
+   "Roberta's",
+   "Roberto's",
+   "Roberto’s"
+  ],
+  "address": "603 Crescent Avenue, The Bronx, NY 10458",
+  "phone": "(718) 733-9503",
+  "website": "https://www.robertosbronx.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-2",
+  "lat": 40.853763,
+  "lng": -73.888434,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20190815181821",
+    "from_date": "2017-08-05",
+    "to_date": "2019-08-15",
+    "added_between": null,
+    "removed_between": [
+     "2019-08-15",
+     "2019-10-23"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20250929021904",
+    "from_date": "2023-03-28",
+    "to_date": "2025-09-29",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "rolo-s",
+  "name": "Rolo’s",
+  "key": "rolo s",
+  "names_seen": [
+   "Rolo’s"
+  ],
+  "address": "853 Onderdonk Avenue, Queens, NY 11385",
+  "phone": "(718) 417-6567",
+  "website": "http://www.rolosnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#rolo-s-2",
+  "lat": 40.701942,
+  "lng": -73.903534,
+  "periods": [
+   {
+    "from": "20250418021237",
+    "to": "20260921113426",
+    "from_date": "2025-04-18",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "royal-seafood",
+  "name": "Royal Seafood",
+  "key": "royal seafood",
+  "names_seen": [
+   "Royal Seafood"
+  ],
+  "address": "103-105 Mott St (btwn Canal & Hester St), New York, NY 10013",
+  "phone": "",
+  "website": "http://www.royal-seafood.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-28",
+  "lat": 40.717406,
+  "lng": -73.997691,
+  "periods": [
+   {
+    "from": "20240711012928",
+    "to": "20250405183949",
+    "from_date": "2024-07-11",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "russ-and-daughters-cafe",
+  "name": "Russ & Daughters Cafe",
+  "key": "russ and daughters cafe",
+  "names_seen": [
+   "Russ & Daughters",
+   "Russ & Daughters Cafe"
+  ],
+  "address": "127 Orchard St, New York, NY 10002",
+  "phone": "",
+  "website": "https://russanddaughters.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/russ-amp-daughters-cafe",
+  "lat": 40.719676,
+  "lng": -73.989659,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20231128115018",
+    "from_date": "2023-03-28",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ruta-oaxaca-mexican-cuisine",
+  "name": "Ruta Oaxaca Mexican Cuisine",
+  "key": "ruta oaxaca mexican cuisine",
+  "names_seen": [
+   "Ruta Oaxaca Mexican Cuisine"
+  ],
+  "address": "35-03 Broadway, Queens, NY 11106",
+  "phone": "",
+  "website": "http://rutaoaxacamex.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ruta-oaxaca-mexican-cuisine",
+  "lat": 40.760606,
+  "lng": -73.921847,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20230321204829",
+    "from_date": "2021-06-14",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "s-and-p-lunch",
+  "name": "S&P Lunch",
+  "key": "s and p lunch",
+  "names_seen": [
+   "S&P",
+   "S&P Lunch"
+  ],
+  "address": "174 5th Avenue, Manhattan, NY",
+  "phone": "(212) 691-8862",
+  "website": "http://www.sandwich.place/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#s-p",
+  "lat": 40.741159,
+  "lng": -73.990194,
+  "periods": [
+   {
+    "from": "20230713042759",
+    "to": "20250929021904",
+    "from_date": "2023-07-13",
+    "to_date": "2025-09-29",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20260710150816",
+    "to": "20260921113426",
+    "from_date": "2026-07-10",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "saga",
+  "name": "Saga",
+  "key": "saga",
+  "names_seen": [
+   "Saga"
+  ],
+  "address": "70 Pine St 63rd Floor, New York, NY 10005",
+  "phone": "",
+  "website": "http://saga-nyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/saga",
+  "lat": 40.706487,
+  "lng": -74.007752,
+  "periods": [
+   {
+    "from": "20220426152416",
+    "to": "20220922054533",
+    "from_date": "2022-04-26",
+    "to_date": "2022-09-22",
+    "added_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "removed_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sailor",
+  "name": "Sailor",
+  "key": "sailor",
+  "names_seen": [
+   "Sailor"
+  ],
+  "address": "228 DeKalb Ave, Brooklyn, NY, 11205, US",
+  "phone": "(201) 565-0978",
+  "website": "https://www.sailor.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-33",
+  "lat": 40.689383,
+  "lng": -73.970311,
+  "periods": [
+   {
+    "from": "20250115013855",
+    "to": "20260314114219",
+    "from_date": "2025-01-15",
+    "to_date": "2026-03-14",
+    "added_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "removed_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "saint-julivert",
+  "name": "Saint Julivert",
+  "key": "saint julivert",
+  "names_seen": [
+   "Saint Julivert"
+  ],
+  "address": "264 Clinton St (Verandah Place), New York, NY 10002",
+  "phone": "(347) 987-3710",
+  "website": "http://www.saintjulivertbk.com/",
+  "eater_url": "",
+  "lat": 40.687883,
+  "lng": -73.995709,
+  "periods": [
+   {
+    "from": "20250418021237",
+    "to": "20250702202951",
+    "from_date": "2025-04-18",
+    "to_date": "2025-07-02",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sakagura",
+  "name": "Sakagura",
+  "key": "sakagura",
+  "names_seen": [
+   "Sakagura"
+  ],
+  "address": "211 E 43rd St B1, New York, NY 10017",
+  "phone": "(212) 953-7253",
+  "website": "http://www.sakagura.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/sakagura",
+  "lat": 40.751455,
+  "lng": -73.973,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20180218213216",
+    "from_date": "2018-02-03",
+    "to_date": "2018-02-18",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "scarr-s-pizza",
+  "name": "Scarr's Pizza",
+  "key": "scarr s pizza",
+  "names_seen": [
+   "Scarr's Pizza"
+  ],
+  "address": "22 Orchard St New York, NY 10002",
+  "phone": "",
+  "website": "http://www.scarrspizza.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/scarrs-pizza",
+  "lat": 40.715362,
+  "lng": -73.991426,
+  "periods": [
+   {
+    "from": "20190721000015",
+    "to": "20210424125601",
+    "from_date": "2019-07-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "semma",
+  "name": "Semma",
+  "key": "semma",
+  "names_seen": [
+   "Semma"
+  ],
+  "address": "60 Greenwich Avenue, Manhattan, NY, 10011",
+  "phone": "(212) 373-8900",
+  "website": "http://semma.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-17",
+  "lat": 40.736037,
+  "lng": -74.000467,
+  "periods": [
+   {
+    "from": "20221013182624",
+    "to": "20230530234936",
+    "from_date": "2022-10-13",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20240113013737",
+    "to": "20250929021904",
+    "from_date": "2024-01-13",
+    "to_date": "2025-09-29",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "shuko",
+  "name": "Shuko",
+  "key": "shuko",
+  "names_seen": [
+   "Shuko"
+  ],
+  "address": "47 E 12th St, New York, NY 10003",
+  "phone": "(212) 228-6088",
+  "website": "http://shukonyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/shuko",
+  "lat": 40.73349113043757,
+  "lng": -73.99166024099635,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20190528133625",
+    "from_date": "2017-08-05",
+    "to_date": "2019-05-28",
+    "added_between": null,
+    "removed_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20220426152416",
+    "to": "20230321204829",
+    "from_date": "2022-04-26",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sky-pavilion",
+  "name": "Sky Pavilion",
+  "key": "sky pavilion",
+  "names_seen": [
+   "Sky Pavilion"
+  ],
+  "address": "325 West 42nd Street, New York, New York 10036",
+  "phone": "(646) 371-9839",
+  "website": "https://www.skypavilionnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#sky-pavilion-nyc-chuan-yun-jian",
+  "lat": 40.757983,
+  "lng": -73.990813,
+  "periods": [
+   {
+    "from": "20250115013855",
+    "to": "20260921113426",
+    "from_date": "2025-01-15",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "smithereens",
+  "name": "Smithereens",
+  "key": "smithereens",
+  "names_seen": [
+   "Smithereens"
+  ],
+  "address": "414 E 9th St, New York, NY, 10009, US",
+  "phone": "",
+  "website": "https://www.smithereensnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#smithereens",
+  "lat": 40.727785,
+  "lng": -73.984193,
+  "periods": [
+   {
+    "from": "20260710150816",
+    "to": "20260921113426",
+    "from_date": "2026-07-10",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "somtum-der",
+  "name": "Somtum Der",
+  "key": "somtum der",
+  "names_seen": [
+   "Somtum Der"
+  ],
+  "address": "85 Avenue A New York, NY",
+  "phone": "(212) 260-8570",
+  "website": "http://www.somtumdernewyork.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/somtum-der",
+  "lat": 40.72528,
+  "lng": -73.984394,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "soothr",
+  "name": "Soothr",
+  "key": "soothr",
+  "names_seen": [
+   "Soothr"
+  ],
+  "address": "204 E 13th St New York, NY 10003",
+  "phone": "",
+  "website": "http://soothrnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/soothr",
+  "lat": 40.732282,
+  "lng": -73.98735,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20220407163839",
+    "from_date": "2022-01-22",
+    "to_date": "2022-04-07",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "spicy-village",
+  "name": "Spicy Village",
+  "key": "spicy village",
+  "names_seen": [
+   "Spicy Village"
+  ],
+  "address": "68B Forsyth St New York, NY",
+  "phone": "(212) 625-8299",
+  "website": "http://www.spicyvillageny.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/spicy-village",
+  "lat": 40.71706901054625,
+  "lng": -73.9937606621895,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20181003095938",
+    "from_date": "2017-08-05",
+    "to_date": "2018-10-03",
+    "added_between": null,
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "st-anselm",
+  "name": "St. Anselm",
+  "key": "st anselm",
+  "names_seen": [
+   "St. Anselm"
+  ],
+  "address": "355 Metropolitan Ave Brooklyn, NY",
+  "phone": "(718) 384-5054",
+  "website": "http://www.stanselm.net",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/st-anselm-2",
+  "lat": 40.714210869857595,
+  "lng": -73.95611028727457,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20181003095938",
+    "from_date": "2017-08-05",
+    "to_date": "2018-10-03",
+    "added_between": null,
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sullivan-street-bakery",
+  "name": "Sullivan Street Bakery",
+  "key": "sullivan street bakery",
+  "names_seen": [
+   "Sullivan Street Bakery"
+  ],
+  "address": "236 9th Ave New York, NY 10011",
+  "phone": "(212) 929-5900",
+  "website": "http://www.sullivanstreetbakery.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/sullivan-street-bakery",
+  "lat": 40.741358,
+  "lng": -74.005535,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20190528133625",
+    "from_date": "2018-02-03",
+    "to_date": "2019-05-28",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sunn-s",
+  "name": "Sunn’s",
+  "key": "sunn s",
+  "names_seen": [
+   "Sunn’s"
+  ],
+  "address": "139 Division St, New York, NY, 10002, US",
+  "phone": "(917) 540-0884",
+  "website": "https://sunnsnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#sunn-s",
+  "lat": 40.714422,
+  "lng": -73.990962,
+  "periods": [
+   {
+    "from": "20251008212049",
+    "to": "20260921113426",
+    "from_date": "2025-10-08",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-09-29",
+     "2025-10-08"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "superiority-burger",
+  "name": "Superiority Burger",
+  "key": "superiority burger",
+  "names_seen": [
+   "Superiority Burger"
+  ],
+  "address": "119 Avenue A, New York, NY, 10009, US",
+  "phone": "(212) 339-7425",
+  "website": "http://www.superiorityburger.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#superiority-burger-2",
+  "lat": 40.726464,
+  "lng": -73.983507,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20210106211533",
+    "from_date": "2017-08-05",
+    "to_date": "2021-01-06",
+    "added_between": null,
+    "removed_between": [
+     "2021-01-06",
+     "2021-01-22"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230713042759",
+    "to": "20260921113426",
+    "from_date": "2023-07-13",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "sushi-ichimura",
+  "name": "Sushi Ichimura",
+  "key": "sushi ichimura",
+  "names_seen": [
+   "Sushi Ichimura"
+  ],
+  "address": "412 Greenwich Street, Manhattan, NY 10013",
+  "phone": "",
+  "website": "http://www.sushiichimura.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-26",
+  "lat": 40.721904,
+  "lng": -74.01009,
+  "periods": [
+   {
+    "from": "20240113013737",
+    "to": "20250405183949",
+    "from_date": "2024-01-13",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sushi-noz",
+  "name": "Sushi Noz",
+  "key": "sushi noz",
+  "names_seen": [
+   "Sushi Noz"
+  ],
+  "address": "181 E 78th St New York, NY 10075",
+  "phone": "",
+  "website": "http://sushinoz.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/sushi-noz",
+  "lat": 40.773879,
+  "lng": -73.958119,
+  "periods": [
+   {
+    "from": "20200318174839",
+    "to": "20220407163839",
+    "from_date": "2020-03-18",
+    "to_date": "2022-04-07",
+    "added_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "removed_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sushi-on-me",
+  "name": "Sushi On Me",
+  "key": "sushi on me",
+  "names_seen": [
+   "Sushi On Me"
+  ],
+  "address": "71-26 Roosevelt Ave, Queens, NY 11372",
+  "phone": "",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/sushi-on-me",
+  "lat": 40.746392,
+  "lng": -73.893901,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20240317100757",
+    "from_date": "2023-03-28",
+    "to_date": "2024-03-17",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "sylvia-s",
+  "name": "Sylvia’s",
+  "key": "sylvia s",
+  "names_seen": [
+   "Sylvia's",
+   "Sylvia’s"
+  ],
+  "address": "328 Malcolm X Boulevard, Manhattan, NY 10027",
+  "phone": "(212) 996-0660",
+  "website": "http://www.sylviasrestaurant.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-3",
+  "lat": 40.808645,
+  "lng": -73.944479,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20251218001030",
+    "from_date": "2023-03-28",
+    "to_date": "2025-12-18",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2025-12-18",
+     "2026-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "szechuan-mountain-house",
+  "name": "Szechuan Mountain House",
+  "key": "szechuan mountain house",
+  "names_seen": [
+   "Szechuan Mountain House"
+  ],
+  "address": "3916 Prince St g03, Queens, NY 11354",
+  "phone": "",
+  "website": "https://www.szechuanmountainhouse.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/szechuan-mountain-house",
+  "lat": 40.759064,
+  "lng": -73.832282,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20190202235314",
+    "from_date": "2019-01-19",
+    "to_date": "2019-02-02",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20231128115018",
+    "from_date": "2023-03-28",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "taqueria-ramirez",
+  "name": "Taqueria Ramirez",
+  "key": "taqueria ramirez",
+  "names_seen": [
+   "Taqueria Ramirez"
+  ],
+  "address": "94 Franklin St (at Oak St), Brooklyn, NY 11222",
+  "phone": "",
+  "website": "https://taqueriaramirezbk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-20",
+  "lat": 40.727895,
+  "lng": -73.957007,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20250405183949",
+    "from_date": "2022-01-22",
+    "to_date": "2025-04-05",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "thai-diner",
+  "name": "Thai Diner",
+  "key": "thai diner",
+  "names_seen": [
+   "Thai Diner"
+  ],
+  "address": "186 Mott St, New York, NY 10012",
+  "phone": "",
+  "website": "http://www.thaidiner.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/thai-diner",
+  "lat": 40.720668,
+  "lng": -73.995585,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20211220193907",
+    "from_date": "2020-11-21",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20231003233735",
+    "from_date": "2023-03-28",
+    "to_date": "2023-10-03",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-10-03",
+     "2023-10-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "the-breslin",
+  "name": "The Breslin",
+  "key": "the breslin",
+  "names_seen": [
+   "The Breslin"
+  ],
+  "address": "16 W 29th St New York, NY",
+  "phone": "(212) 679-1939",
+  "website": "http://www.thebreslin.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/the-breslin",
+  "lat": 40.74583734577147,
+  "lng": -73.98799265354255,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "the-four-horsemen",
+  "name": "The Four Horsemen",
+  "key": "the four horsemen",
+  "names_seen": [
+   "The Four Horsemen"
+  ],
+  "address": "295 Grand St Side, Brooklyn, NY, 11211, US",
+  "phone": "(718) 599-4900",
+  "website": "http://fourhorsemenbk.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#the-four-horsemen-2",
+  "lat": 40.713058,
+  "lng": -73.957321,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20260921113426",
+    "from_date": "2022-01-22",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "the-grill",
+  "name": "The Grill",
+  "key": "the grill",
+  "names_seen": [
+   "The Grill"
+  ],
+  "address": "99 E 52nd St New York, NY 10022",
+  "phone": "(212) 375-9001",
+  "website": "http://www.thegrillnewyork.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/the-grill",
+  "lat": 40.758363,
+  "lng": -73.972028,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20191205030922",
+    "from_date": "2018-02-03",
+    "to_date": "2019-12-05",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "the-nomad-restaurant",
+  "name": "The NoMad Restaurant",
+  "key": "the nomad restaurant",
+  "names_seen": [
+   "The NoMad Restaurant"
+  ],
+  "address": "1170 Broadway New York, NY",
+  "phone": "(212) 796-1500",
+  "website": "http://www.thenomadhotel.com/#/dining",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/the-nomad-restaurant-2",
+  "lat": 40.74507433709667,
+  "lng": -73.98856121691024,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20170805051251",
+    "from_date": "2017-08-05",
+    "to_date": "2017-08-05",
+    "added_between": null,
+    "removed_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "the-original-buddha-bodai-kosher-vegetarian-restaurant",
+  "name": "The Original Buddha Bodai Kosher Vegetarian Restaurant",
+  "key": "the original buddha bodai kosher vegetarian restaurant",
+  "names_seen": [
+   "The Original Buddha Bodai Kosher Vegetarian Restaurant"
+  ],
+  "address": "5 Mott St, New York, NY 10013",
+  "phone": "",
+  "website": "http://www.buddha-bodai.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/the-original-buddha-bodai-kosher-vegetarian-restaurant",
+  "lat": 40.713862,
+  "lng": -73.998963,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20230530234936",
+    "from_date": "2023-03-28",
+    "to_date": "2023-05-30",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "tomino-taberna-gallega",
+  "name": "Tomiño Taberna Gallega",
+  "key": "tomino taberna gallega",
+  "names_seen": [
+   "Tomiño Taberna Gallega"
+  ],
+  "address": "192 Grand St New York, NY 10013",
+  "phone": "",
+  "website": "http://www.tominonyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/tomino-taberna-gallega",
+  "lat": 40.719443,
+  "lng": -73.996925,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20190202235314",
+    "from_date": "2019-01-19",
+    "to_date": "2019-02-02",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "tong",
+  "name": "Tong",
+  "key": "tong",
+  "names_seen": [
+   "Tong"
+  ],
+  "address": "321 Starr St Brooklyn, NY 11237",
+  "phone": "",
+  "website": "http://tongbrooklyn.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/tong",
+  "lat": 40.708079,
+  "lng": -73.9205,
+  "periods": [
+   {
+    "from": "20210614081056",
+    "to": "20211220193907",
+    "from_date": "2021-06-14",
+    "to_date": "2021-12-20",
+    "added_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "removed_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "tony-and-tina-s-pizzeria",
+  "name": "Tony & Tina's Pizzeria",
+  "key": "tony and tina s pizzeria",
+  "names_seen": [
+   "Tony & Tina's Pizzeria"
+  ],
+  "address": "2483 Arthur Ave The Bronx, NY 10458",
+  "phone": "",
+  "website": "",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/tony-amp-tinas-pizzeria",
+  "lat": 40.857574,
+  "lng": -73.88611,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20210424125601",
+    "from_date": "2021-04-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "torishin",
+  "name": "Torishin",
+  "key": "torishin",
+  "names_seen": [
+   "Torishin"
+  ],
+  "address": "362 W 53rd St New York, NY 10019",
+  "phone": "",
+  "website": "http://torishinny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/torishin",
+  "lat": 40.764987,
+  "lng": -73.98719,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20190528133625",
+    "from_date": "2018-07-11",
+    "to_date": "2019-05-28",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2019-05-28",
+     "2019-07-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "tosokchon",
+  "name": "Tosokchon",
+  "key": "tosokchon",
+  "names_seen": [
+   "Tosokchon"
+  ],
+  "address": "14 East 33rd Street, New York, New York 10016",
+  "phone": "",
+  "website": "https://www.tosokchonnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-5",
+  "lat": 40.747234,
+  "lng": -73.984312,
+  "periods": [
+   {
+    "from": "20240113013737",
+    "to": "20240617063617",
+    "from_date": "2024-01-13",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "txikito",
+  "name": "Txikito",
+  "key": "txikito",
+  "names_seen": [
+   "Txikito"
+  ],
+  "address": "240 9th Ave, New York, NY, 10001, US",
+  "phone": "(212) 242-4730",
+  "website": "http://www.txikitonyc.com/",
+  "eater_url": "",
+  "lat": 40.747368,
+  "lng": -74.000366,
+  "periods": [
+   {
+    "from": "20250708234812",
+    "to": "20260314114219",
+    "from_date": "2025-07-08",
+    "to_date": "2026-03-14",
+    "added_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "removed_between": [
+     "2026-03-14",
+     "2026-04-06"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "ugly-baby",
+  "name": "Ugly Baby",
+  "key": "ugly baby",
+  "names_seen": [
+   "Ugly Baby"
+  ],
+  "address": "407 Smith St, Brooklyn, NY 11231",
+  "phone": "",
+  "website": "http://www.uglybabynyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/ugly-baby",
+  "lat": 40.677943,
+  "lng": -73.99605,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20190202235314",
+    "from_date": "2018-07-11",
+    "to_date": "2019-02-02",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2019-02-02",
+     "2019-04-17"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20201121234630",
+    "to": "20210317013452",
+    "from_date": "2020-11-21",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230113225417",
+    "to": "20250106070510",
+    "from_date": "2023-01-13",
+    "to_date": "2025-01-06",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "uluh",
+  "name": "Uluh",
+  "key": "uluh",
+  "names_seen": [
+   "Uluh"
+  ],
+  "address": "152 2nd Ave (btw 9th & 10th St), New York, NY 10003",
+  "phone": "",
+  "website": "http://www.uluhny.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-11",
+  "lat": 40.729353,
+  "lng": -73.986664,
+  "periods": [
+   {
+    "from": "20240409192342",
+    "to": "20250106070510",
+    "from_date": "2024-04-09",
+    "to_date": "2025-01-06",
+    "added_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "removed_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "una-pizza-napoletana",
+  "name": "Una Pizza Napoletana",
+  "key": "una pizza napoletana",
+  "names_seen": [
+   "Una Pizza Napoletana"
+  ],
+  "address": "175 Orchard St, New York, NY, 10002, US",
+  "phone": "(646) 476-4457",
+  "website": "https://unapizza.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#una-pizza-napoletana",
+  "lat": 40.721756,
+  "lng": -73.988625,
+  "periods": [
+   {
+    "from": "20230328171700",
+    "to": "20260921113426",
+    "from_date": "2023-03-28",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "uncle-boons",
+  "name": "Uncle Boons",
+  "key": "uncle boons",
+  "names_seen": [
+   "Uncle Boons"
+  ],
+  "address": "7 Spring St New York, NY",
+  "phone": "(646) 370-6650",
+  "website": "http://www.uncleboons.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/uncle-boons",
+  "lat": 40.721209348747244,
+  "lng": -73.9942717552185,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20181003095938",
+    "from_date": "2017-08-05",
+    "to_date": "2018-10-03",
+    "added_between": null,
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "uncle-lou",
+  "name": "Uncle Lou",
+  "key": "uncle lou",
+  "names_seen": [
+   "Uncle Lou"
+  ],
+  "address": "73 Mulberry St (btw Canal & Bayard), New York, NY 10013",
+  "phone": "",
+  "website": "http://www.unclelounyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-14",
+  "lat": 40.716292,
+  "lng": -73.999391,
+  "periods": [
+   {
+    "from": "20240113013737",
+    "to": "20240617063617",
+    "from_date": "2024-01-13",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "urban-hawker",
+  "name": "Urban Hawker",
+  "key": "urban hawker",
+  "names_seen": [
+   "Urban Hawker"
+  ],
+  "address": "135 W 50th St, New York, NY 10020",
+  "phone": "",
+  "website": "https://www.urbanhawker.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/urban-hawker",
+  "lat": 40.760951,
+  "lng": -73.982122,
+  "periods": [
+   {
+    "from": "20230113225417",
+    "to": "20230321204829",
+    "from_date": "2023-01-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "vato",
+  "name": "Vato",
+  "key": "vato",
+  "names_seen": [
+   "Vato"
+  ],
+  "address": "226 7th Avenue, Brooklyn, New York 11215, United States",
+  "phone": "",
+  "website": "https://www.instagram.com/vato.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#vato",
+  "lat": 40.670263,
+  "lng": -73.979019,
+  "periods": [
+   {
+    "from": "20260710150816",
+    "to": "20260921113426",
+    "from_date": "2026-07-10",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "veselka",
+  "name": "Veselka",
+  "key": "veselka",
+  "names_seen": [
+   "Veselka"
+  ],
+  "address": "144 2nd Ave, New York, NY 10003",
+  "phone": "",
+  "website": "https://www.veselka.com/?utm_source=google&utm_medium=gmb&utm_campaign=veselka",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/veselka",
+  "lat": 40.728945,
+  "lng": -73.986961,
+  "periods": [
+   {
+    "from": "20221013182624",
+    "to": "20230321204829",
+    "from_date": "2022-10-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "via-carota",
+  "name": "Via Carota",
+  "key": "via carota",
+  "names_seen": [
+   "Via Carota"
+  ],
+  "address": "51 Grove St, New York, NY, 10014, US",
+  "phone": "(212) 255-1962",
+  "website": "http://viacarota.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/via-carota",
+  "lat": 40.731701,
+  "lng": -74.003403,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20191205030922",
+    "from_date": "2019-01-19",
+    "to_date": "2019-12-05",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2019-12-05",
+     "2020-03-18"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20210421035621",
+    "to": "20211011120537",
+    "from_date": "2021-04-21",
+    "to_date": "2021-10-11",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20230328171700",
+    "to": "20250106070510",
+    "from_date": "2023-03-28",
+    "to_date": "2025-01-06",
+    "added_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "removed_between": [
+     "2025-01-06",
+     "2025-01-15"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20250708234812",
+    "to": "20260709055840",
+    "from_date": "2025-07-08",
+    "to_date": "2026-07-09",
+    "added_between": [
+     "2025-07-02",
+     "2025-07-08"
+    ],
+    "removed_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "victor-s-cafe",
+  "name": "Victor's Cafe",
+  "key": "victor s cafe",
+  "names_seen": [
+   "Victor's Cafe"
+  ],
+  "address": "236 W 52nd St New York, NY 10019",
+  "phone": "(212) 586-7714",
+  "website": "http://www.victorscafe.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/victors-cafe",
+  "lat": 40.762884,
+  "lng": -73.984075,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20181003095938",
+    "from_date": "2018-02-03",
+    "to_date": "2018-10-03",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "while-in-kathmandu",
+  "name": "While in Kathmandu",
+  "key": "while in kathmandu",
+  "names_seen": [
+   "While in Kathmandu"
+  ],
+  "address": "758 Seneca Ave, Ridgewood, NY 11385",
+  "phone": "",
+  "website": "http://www.whileinkathmanduny.com/?utm_source=gmb&utm_medium=website",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/while-in-kathmandu",
+  "lat": 40.702077,
+  "lng": -73.906804,
+  "periods": [
+   {
+    "from": "20230713042759",
+    "to": "20231128115018",
+    "from_date": "2023-07-13",
+    "to_date": "2023-11-28",
+    "added_between": [
+     "2023-05-30",
+     "2023-07-13"
+    ],
+    "removed_between": [
+     "2023-11-28",
+     "2024-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "wildair",
+  "name": "Wildair",
+  "key": "wildair",
+  "names_seen": [
+   "Wildair"
+  ],
+  "address": "142 Orchard St New York, NY",
+  "phone": "(646) 964-5624",
+  "website": "http://wildair.nyc",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/wildair",
+  "lat": 40.72005215094157,
+  "lng": -73.98936467240519,
+  "periods": [
+   {
+    "from": "20170805051251",
+    "to": "20181003095938",
+    "from_date": "2017-08-05",
+    "to_date": "2018-10-03",
+    "added_between": null,
+    "removed_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "win-son",
+  "name": "Win Son",
+  "key": "win son",
+  "names_seen": [
+   "Win Son"
+  ],
+  "address": "159 Graham Ave, Brooklyn, NY 11206",
+  "phone": "",
+  "website": "https://winsonbrooklyn.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/win-son",
+  "lat": 40.707458,
+  "lng": -73.943501,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20201112023808",
+    "from_date": "2018-07-11",
+    "to_date": "2020-11-12",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20231013010311",
+    "to": "20241007234140",
+    "from_date": "2023-10-13",
+    "to_date": "2024-10-07",
+    "added_between": [
+     "2023-10-03",
+     "2023-10-13"
+    ],
+    "removed_between": [
+     "2024-10-07",
+     "2024-10-10"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "winner",
+  "name": "Winner",
+  "key": "winner",
+  "names_seen": [
+   "Winner"
+  ],
+  "address": "367 7th Ave Brooklyn, NY 11215",
+  "phone": "",
+  "website": "http://winner.nyc/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/winner",
+  "lat": 40.665684,
+  "lng": -73.982278,
+  "periods": [
+   {
+    "from": "20211015212624",
+    "to": "20220407163839",
+    "from_date": "2021-10-15",
+    "to_date": "2022-04-07",
+    "added_between": [
+     "2021-10-11",
+     "2021-10-15"
+    ],
+    "removed_between": [
+     "2022-04-07",
+     "2022-04-26"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "woorijip",
+  "name": "Woorijip",
+  "key": "woorijip",
+  "names_seen": [
+   "Woorijip"
+  ],
+  "address": "12 W 32nd St (btwn Broadway & 5th Ave), New York, NY 10001",
+  "phone": "",
+  "website": "http://woorijipnyc.com",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-4",
+  "lat": 40.748289015143,
+  "lng": -73.98817703639,
+  "periods": [
+   {
+    "from": "20240409192342",
+    "to": "20240617063617",
+    "from_date": "2024-04-09",
+    "to_date": "2024-06-17",
+    "added_between": [
+     "2024-03-17",
+     "2024-04-09"
+    ],
+    "removed_between": [
+     "2024-06-17",
+     "2024-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "wu-s-wonton-king",
+  "name": "Wu's Wonton King",
+  "key": "wu s wonton king",
+  "names_seen": [
+   "Wu's Wonton King"
+  ],
+  "address": "165 E Broadway, New York, NY 10002",
+  "phone": "",
+  "website": "http://www.wuswontonking.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/wus-wonton-king",
+  "lat": 40.713834,
+  "lng": -73.989941,
+  "periods": [
+   {
+    "from": "20210421035621",
+    "to": "20221227073040",
+    "from_date": "2021-04-21",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "xi-an-famous-foods",
+  "name": "Xi'an Famous Foods",
+  "key": "xi an famous foods",
+  "names_seen": [
+   "Xi'an Famous Foods"
+  ],
+  "address": "45 Bayard St New York, NY 10013",
+  "phone": "",
+  "website": "http://xianfoods.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/xian-famous-foods",
+  "lat": 40.715087,
+  "lng": -73.997357,
+  "periods": [
+   {
+    "from": "20190119093712",
+    "to": "20210424125601",
+    "from_date": "2019-01-19",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2018-10-03",
+     "2019-01-19"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "yankee-stadium",
+  "name": "Yankee Stadium",
+  "key": "yankee stadium",
+  "names_seen": [
+   "Yankee Stadium"
+  ],
+  "address": "1 E 161st St Bronx, NY 10451",
+  "phone": "",
+  "website": "http://newyork.yankees.mlb.com/nyy/ballpark/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/yankee-stadium",
+  "lat": 40.823036,
+  "lng": -73.910767,
+  "periods": [
+   {
+    "from": "20180711092854",
+    "to": "20180716075932",
+    "from_date": "2018-07-11",
+    "to_date": "2018-07-16",
+    "added_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "removed_between": [
+     "2018-07-16",
+     "2018-10-01"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "yellow-rose",
+  "name": "Yellow Rose",
+  "key": "yellow rose",
+  "names_seen": [
+   "Yellow Rose"
+  ],
+  "address": "102 3rd Ave, New York, NY 10003",
+  "phone": "",
+  "website": "http://www.yellowrosenyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/yellow-rose",
+  "lat": 40.732545,
+  "lng": -73.988059,
+  "periods": [
+   {
+    "from": "20220122170212",
+    "to": "20221227073040",
+    "from_date": "2022-01-22",
+    "to_date": "2022-12-27",
+    "added_between": [
+     "2021-12-20",
+     "2022-01-22"
+    ],
+    "removed_between": [
+     "2022-12-27",
+     "2023-01-13"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "yi-ji-shi-mo",
+  "name": "Yi Ji Shi Mo",
+  "key": "yi ji shi mo",
+  "names_seen": [
+   "Yi Ji Shi Mo"
+  ],
+  "address": "88 Elizabeth St New York, NY 10013",
+  "phone": "",
+  "website": "https://www.restaurantji.com/ny/new-york/yi-ji-stone-ground-noodles-corp-/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/yi-ji-shi-mo",
+  "lat": 40.718187,
+  "lng": -73.995731,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20210424125601",
+    "from_date": "2020-11-21",
+    "to_date": "2021-04-24",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-04-24",
+     "2021-06-14"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "yu-kitchen",
+  "name": "Yu Kitchen",
+  "key": "yu kitchen",
+  "names_seen": [
+   "Yu Kitchen"
+  ],
+  "address": "2656 Broadway New York, NY 10025",
+  "phone": "",
+  "website": "https://yu-kitchen-mandarin-restaurant.business.site/?utm_source=gmb&utm_medium=referral",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/yu-kitchen",
+  "lat": 40.797415,
+  "lng": -73.969181,
+  "periods": [
+   {
+    "from": "20201121234630",
+    "to": "20210317013452",
+    "from_date": "2020-11-21",
+    "to_date": "2021-03-17",
+    "added_between": [
+     "2020-11-12",
+     "2020-11-21"
+    ],
+    "removed_between": [
+     "2021-03-17",
+     "2021-04-21"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false
+ },
+ {
+  "id": "zaab-zaab",
+  "name": "Zaab Zaab",
+  "key": "zaab zaab",
+  "names_seen": [
+   "Zaab Zaab"
+  ],
+  "address": "7604 Woodside Ave, Elmhurst, NY, 11373, US",
+  "phone": "(631) 526-1664",
+  "website": "https://www.zaabzaabnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#zaab-zaab",
+  "lat": 40.743263,
+  "lng": -73.888664,
+  "periods": [
+   {
+    "from": "20221013182624",
+    "to": "20230321204829",
+    "from_date": "2022-10-13",
+    "to_date": "2023-03-21",
+    "added_between": [
+     "2022-09-22",
+     "2022-10-13"
+    ],
+    "removed_between": [
+     "2023-03-21",
+     "2023-03-28"
+    ],
+    "still_on": false
+   },
+   {
+    "from": "20250418021237",
+    "to": "20260921113426",
+    "from_date": "2025-04-18",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2025-04-05",
+     "2025-04-18"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ },
+ {
+  "id": "zimmi-s",
+  "name": "Zimmi’s",
+  "key": "zimmi s",
+  "names_seen": [
+   "Zimmi’s"
+  ],
+  "address": "72 Bedford St, New York, NY, 10014, US",
+  "phone": "(646) 770-9038",
+  "website": "https://www.zimmisnyc.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map#zimmi-s",
+  "lat": 40.731474,
+  "lng": -74.00478,
+  "periods": [
+   {
+    "from": "20260710150816",
+    "to": "20260921113426",
+    "from_date": "2026-07-10",
+    "to_date": "2026-09-21",
+    "added_between": [
+     "2026-07-09",
+     "2026-07-10"
+    ],
+    "removed_between": null,
+    "still_on": true
+   }
+  ],
+  "on_list_now": true
+ }
+]
