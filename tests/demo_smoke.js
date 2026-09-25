@@ -45,8 +45,12 @@ function runPage(webDir) {
   });
 
   const mapObj = {
-    _layers: new Set(), _zoom: 11, lastFly: null,
-    setView() { return this; }, fitBounds() {}, on() {},
+    _layers: new Set(), _zoom: 11, lastFly: null, _handlers: {},
+    setView() { return this; }, fitBounds() {},
+    on(type, fn) { (mapObj._handlers[type] = mapObj._handlers[type] || []).push(fn); },
+    fire(type, evt) { (mapObj._handlers[type] || []).forEach(fn => fn(evt)); },
+    getContainer: () => ({ getBoundingClientRect: () =>
+      ({ left: 0, right: 1000, top: 0, bottom: 600 }) }),
     getZoom() { return mapObj._zoom; },
     flyTo(latlng, zoom) { mapObj.lastFly = { latlng, zoom }; },
     hasLayer: l => mapObj._layers.has(l),
@@ -58,7 +62,11 @@ function runPage(webDir) {
     map: () => mapObj,
     tileLayer: () => ({ addTo() { return this; } }),
     control: () => { const c = { onAdd: null, _div: null, addTo() { c._div = c.onAdd(); return c; } }; return c; },
-    DomUtil: { create: () => stubElement() },
+    DomUtil: {
+      create: () => stubElement(),
+      getPosition: el => el._pos || { x: 0, y: 0, add: ([dx, dy]) => ({ x: (el._pos?.x || 0) + dx, y: (el._pos?.y || 0) + dy }) },
+      setPosition: (el, pos) => { el._pos = pos; },
+    },
     circleMarker(latlng, opts) {
       return {
         latlng, opts, tooltip: null,
@@ -244,6 +252,19 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(all.a.markers.get(here.id).opts.fillOpacity === 1
         && all.a.markers.get(here.id).opts.weight >= 2,
            'pins should be solid with a visible casing');
+  });
+
+  check('a tooltip wider than the map edge is nudged back inside', () => {
+    const el = { getBoundingClientRect: () => ({ left: -50, right: 470, top: 0, bottom: 200 }) };
+    all.map.fire('tooltipopen', { tooltip: { getElement: () => el } });
+    assert(el._pos && el._pos.x > 0,
+           `expected the tooltip to be pushed right, got ${JSON.stringify(el._pos)}`);
+  });
+
+  check('a tooltip that already fits is left alone', () => {
+    const el = { getBoundingClientRect: () => ({ left: 300, right: 820, top: 0, bottom: 200 }) };
+    all.map.fire('tooltipopen', { tooltip: { getElement: () => el } });
+    assert(!el._pos, 'a tooltip that fits should not be repositioned');
   });
 
   check('markers exist for mapped places', () => {

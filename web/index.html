@@ -53,10 +53,10 @@
   .nopin { font-size:11px; color:#9a9a9a; margin-left:6px; }
   footer { padding:9px 24px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
   .leaflet-tooltip.e38 { font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-    white-space:normal; max-width:min(320px,78vw); padding:9px 11px; }
+    white-space:normal; max-width:min(520px,78vw); padding:10px 13px; }
   .leaflet-tooltip.e38 b { font-size:13.5px; }
   .leaflet-tooltip.e38 .k { color:var(--muted); font-size:12px; }
-  .leaflet-tooltip.e38 .blurb { margin:5px 0 5px; }
+  .leaflet-tooltip.e38 .blurb { margin:6px 0 6px; line-height:1.5; }
   /* One shadow for the entire pin layer. A filter per path would mean 244
      compositing layers; this is a single one. */
   .leaflet-overlay-pane svg { filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); }
@@ -218,6 +218,19 @@ function focusPlace(id) {
   map.flyTo([place.lat, place.lng], Math.max(map.getZoom(), FOCUS_ZOOM), { duration: 0.7 });
   return true;
 }
+
+/** Keep a wide tooltip inside the map instead of letting it clip at an edge. */
+map.on('tooltipopen', e => {
+  const el = e.tooltip.getElement();
+  if (!el) return;
+  const frame = map.getContainer().getBoundingClientRect();
+  const box = el.getBoundingClientRect();
+  const pad = 6;
+  let dx = 0;
+  if (box.left < frame.left + pad) dx = frame.left + pad - box.left;
+  else if (box.right > frame.right - pad) dx = frame.right - pad - box.right;
+  if (dx) L.DomUtil.setPosition(el, L.DomUtil.getPosition(el).add([dx, 0]));
+});
 
 function highlight(id, on) {
   const m = markers.get(id);
