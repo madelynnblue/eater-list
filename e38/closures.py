@@ -51,6 +51,12 @@ def load_research(pattern: str) -> tuple[dict, list[str]]:
             confidence = row.get("confidence")
             if confidence not in VALID_CONFIDENCE:
                 confidence = "low"
+            if status == "closed" and confidence == "low":
+                # A low-confidence closure rests on aggregator listings rather
+                # than reporting. Removing a restaurant on that basis is exactly
+                # the silent-corruption case, so it stays recorded but inert.
+                problems.append(f"{pid}: low-confidence closed -> recorded as unknown")
+                status = "unknown"
             findings[pid] = {
                 "status": status,
                 "closed_date": row.get("closed_date") or None,

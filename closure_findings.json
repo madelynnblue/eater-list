@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T20:43:02Z",
+ "generated_at": "2026-09-28T20:52:20Z",
  "findings": {
   "2nd-ave-deli": {
    "status": "open",
@@ -152,7 +152,7 @@
    "status": "open",
    "closed_date": null,
    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=camis%3D%2750044289%27&$order=inspection_date%20DESC&$limit=3",
-   "evidence": "NYC DOHMH records for Bo Ky (CAMIS 50044289) at 78 Bayard St show a 2026-06-24 inspection whose action reads \"No violations were recorded at the time of this inspection.\"",
+   "evidence": "NYC DOHMH records for Bo Ky (CAMIS 50044289, 78 Bayard St) show a 2026-06-24 inspection whose action reads \"No violations were recorded at the time of this inspection.\"",
    "confidence": "high"
   },
   "bolero": {
@@ -281,6 +281,146 @@
    "evidence": "NYC DOHMH records for Chalong (CAMIS 50129760), the Southern Thai restaurant at 749 9 Avenue listed here as \"Cha Long,\" show a re-inspection with grade A on 2026-04-22, and chalongnyc.com is live with current hours.",
    "confidence": "high"
   },
+  "chama-mama": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.chamamama.com/",
+   "evidence": "Official site lists five active locations, including Chelsea at 149 West 14th Street, with live reservations.",
+   "confidence": "high"
+  },
+  "charles-pan-fried-chicken": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/venue/934918/charles-pan-fried-chicken",
+   "evidence": "Eater's venue page for the 439 W 125th St Harlem flagship lists current daily hours (11 a.m.-10 p.m.) and a 2026 photo.",
+   "confidence": "high"
+  },
+  "cheburechnaya": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.cheburechnayakosher.com/",
+   "evidence": "Official ordering site lists \"92-09 63rd Drive, Rego Park\" with current opening hours and pickup/delivery; Eater reviewed it in June 2024 as still going.",
+   "confidence": "high"
+  },
+  "cheli": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.che-li.com/",
+   "evidence": "Official site lists both Che Li East Village (19 St Marks Pl) and Flushing locations with live reservations.",
+   "confidence": "high"
+  },
+  "chez-ma-tante": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/new-york-restaurant-news/408044/chez-ma-tante-manhattan-hudson-square-lease-restaurant",
+   "evidence": "Eater (Dec 2025): the Greenpoint original \"closed in January 2024 for structural repairs... and reopened in July 2024\" - a temporary closure, not permanent.",
+   "confidence": "medium"
+  },
+  "chuan-tian-xia": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://chuantianxiany.com/",
+   "evidence": "Official site and current Google listing show 5502 7th Ave, Brooklyn NY 11220 with daily hours 11:30 a.m.-10:30 p.m.; no closure reports found.",
+   "confidence": "medium"
+  },
+  "ci-siamo": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.cisiamo.com/",
+   "evidence": "Official site lists 440 West 33rd Street, Suite 100 with live OpenTable reservations and current menus.",
+   "confidence": "high"
+  },
+  "claro": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "Google/Wanderlog currently flags Claro as \"Temporarily Closed\" and clarobk.com no longer resolves, but no permanent-closure report was found, so closure cannot be confirmed.",
+   "confidence": "low"
+  },
+  "claud": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.claudnyc.com/",
+   "evidence": "Official site lists 90 E. 10th St with live Resy bookings and current menu.",
+   "confidence": "high"
+  },
+  "claudy-s-empanadas": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.riverdalepress.com/stories/claudys-kitchen-celebrates-five-years-of-peruvian-flavor-and-resilience-in-riverdale,187045",
+   "evidence": "Riverdale Press (June 2025) on Claudy's Kitchen at 5981 Broadway: \"Claudy's remains at 5981 Broadway, five years later.\"",
+   "confidence": "medium"
+  },
+  "coqodaq": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.coqodaq.com/",
+   "evidence": "Official site is live with current menus, delivery ordering and Resy bookings for 12 E 22nd St.",
+   "confidence": "high"
+  },
+  "corner-bar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://cornerbarnyc.com/",
+   "evidence": "Official site lists 60 Canal Street with daily breakfast-to-dinner hours and menus dated September 2026.",
+   "confidence": "high"
+  },
+  "cosme": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://cosmenyc.com/",
+   "evidence": "Official site lists 35 E 21st St with current hours and reservations.",
+   "confidence": "high"
+  },
+  "coszcal-de-allende": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/2024/7/30/24206396/coszcal-de-allende-bay-ridge-reopening-review",
+   "evidence": "The original 6824 3rd Ave location closed July 2023, but Eater reports \"Coszcal de Allende has reopened in Bay Ridge\" at 7506 Third Avenue (relocation, so not permanently closed).",
+   "confidence": "medium"
+  },
+  "cote-korean-steakhouse": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.cotekoreansteakhouse.com/locations/cotenycflatiron",
+   "evidence": "Official Flatiron page lists 16 West 22nd St with current dinner hours and reservations.",
+   "confidence": "high"
+  },
+  "court-street-grocers": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.courtstreetgrocers.com/contact-hours-csg",
+   "evidence": "Official Carroll Gardens page lists \"485 COURT STREET BROOKLYN, NY 11231\" and \"OPEN 7 DAYS, 8am - 5pm\".",
+   "confidence": "high"
+  },
+  "crevette": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.crevettenyc.com/",
+   "evidence": "Official site is live with an active Resy reservation link, current menu and gift cards for 10 Downing St.",
+   "confidence": "high"
+  },
+  "crop-circle": {
+   "status": "closed",
+   "closed_date": "2022-08",
+   "source_url": "https://ny.eater.com/2022/8/12/23302959/crop-circle-guokui-closing-greenwich-village",
+   "evidence": "Eater NY (Aug 12, 2022): \"Crop Circle, a Chinese restaurant known for its stuffed flatbreads, has called it quits after two years in Greenwich Village.\"",
+   "confidence": "high"
+  },
+  "dame": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.damenewyork.com/reserve",
+   "evidence": "Official reservation page: \"We are open Monday through Saturday at 5pm\" at 87 MacDougal Street, with live Resy bookings.",
+   "confidence": "high"
+  },
+  "denino-s-pizzeria-and-tavern": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://web.archive.org/web/20260521005040/https://www.deninos.com/order-online",
+   "evidence": "Official order-online page (May 2026 snapshot) lists \"Denino's Pizzeria, 524 Port Richmond Ave. Staten Island, NY 10302\" with an active Staten Island ordering link.",
+   "confidence": "high"
+  },
   "dept-of-culture": {
    "status": "open",
    "closed_date": null,
@@ -387,7 +527,7 @@
    "confidence": "high"
   },
   "flaming-kitchen": {
-   "status": "closed",
+   "status": "unknown",
    "closed_date": null,
    "source_url": "https://wanderlog.com/place/details/398070",
    "evidence": "The listing for the 97 Bowery Chinese restaurant is marked 'Permanently Closed' (Google-derived data) and its former website domain no longer resolves.",
@@ -419,6 +559,286 @@
    "closed_date": null,
    "source_url": "https://www.gallaghersnysteakhouse.com/",
    "evidence": "Gallaghers' official site is live with active NYC reservations at 228 W 52nd St and a timeline ending with plans to celebrate 100 years in 2027.",
+   "confidence": "high"
+  },
+  "gertie": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/news/406322/gertie-nyc-jewish-deli-open-brooklyn-restaurant-reopen-prospect-heights",
+   "evidence": "Relocated, not permanently closed: Eater reports 'Gertie 2.0 will open in Prospect Heights at 602 Vanderbilt Avenue... on Monday, December 1' after the original Williamsburg space at 357 Grand Street shut in June 2025.",
+   "confidence": "high"
+  },
+  "golden-diner": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.doordash.com/store/golden-diner-new-york-705890/2342049/",
+   "evidence": "Golden Diner at 123 Madison St remains listed as an active, orderable storefront on DoorDash and is still on Eater's current 38 best restaurants list.",
+   "confidence": "medium"
+  },
+  "golden-palace-gourmet": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://goldenpalacegourmetny.com/",
+   "evidence": "The restaurant's own site is live with 2025 copyright, current daily hours and online ordering for 140-09 Cherry Ave, Flushing.",
+   "confidence": "medium"
+  },
+  "gramercy-tavern": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.opentable.com/restaurant/profile/942",
+   "evidence": "Gramercy Tavern's own OpenTable page shows the dining room bookable for current dates, and Resy lists active reservations for the Tavern.",
+   "confidence": "high"
+  },
+  "grand-central-oyster-bar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.oysterbarny.com/",
+   "evidence": "The restaurant's official site posts current hours ('We are open Monday through Friday from 11:30 AM') with a live OpenTable reservation link for 89 E 42nd St.",
+   "confidence": "medium"
+  },
+  "great-ny-noodletown": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/dining-report/407957/great-ny-noodletown-chinatown-manhattan-review",
+   "evidence": "Eater's December 18, 2025 review reports that after 'a brief six-month closure for a refresh in 2022... the cash-only restaurant marches on.'",
+   "confidence": "high"
+  },
+  "gregory-s-26-corner-taverna": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "No authoritative recent source found; only stale aggregator and pre-2021 listings for the 26-02 23rd Ave taverna, and no credible confirmation of permanent closure or continued operation.",
+   "confidence": "low"
+  },
+  "haenyeo": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://haenyeobk.com/home",
+   "evidence": "Haenyeo's official site lists current hours and an active Resy booking link for '239 Fifth Avenue, Brooklyn, New York 11215.'",
+   "confidence": "high"
+  },
+  "haidilao-hot-pot": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.doordash.com/store/haidilao-hot-pot-%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85-(139-23-39th-ave)-flushing-42105901/112763645/",
+   "evidence": "The Flushing Haidilao is still operating and taking orders at nearby 139-23 39th Ave on DoorDash and Postmates.",
+   "confidence": "medium"
+  },
+  "hamburger-america": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://hamburgeramerica.com/",
+   "evidence": "The restaurant's official site is live with current West Houston Street hours and online ordering, and it remains on Eater's current 38 best list.",
+   "confidence": "high"
+  },
+  "hanoi-house": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://gilmartinherbstteam.squarespace.com/blog/2026/6/10/hanoi-house-east-village",
+   "evidence": "A June 10, 2026 first-person review of Hanoi House at 119 St. Marks Place describes a current visit ('we're already looking forward to going back').",
+   "confidence": "high"
+  },
+  "happy-hot-hunan": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.happyhothunanny.com",
+   "evidence": "The restaurant's own ordering site shows 'Open 11:00AM - 10:00PM' at 969 Amsterdam Ave with live menu categories and a 2026 site footer.",
+   "confidence": "medium"
+  },
+  "harry-and-ida-s-meat-and-supply-co": {
+   "status": "closed",
+   "closed_date": "2019-11",
+   "source_url": "https://ny.eater.com/2019/11/11/20955897/harry-and-idas-east-village-sandwich-closing",
+   "evidence": "Eater: 'Siblings Julie and Will Horowitz are lowering the curtain on their celebrated East Village sandwich shop Harry & Ida's Meat and Supply Co., closing shop at the end of November.'",
+   "confidence": "high"
+  },
+  "her-name-is-han": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://toast.app/r/her-name-is-han",
+   "evidence": "Her Name Is Han's Toast ordering page for 17 E 31st St shows current order hours and remains an active storefront on DoorDash.",
+   "confidence": "medium"
+  },
+  "ho-foods": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://eatthisny.com/2025/11/03/dish-of-the-week/dish-of-the-week-in-new-york-savory-soy-milk-with-yo-tiao-at-ho-foods/",
+   "evidence": "A November 3, 2025 'Dish of the Week' feature covers a current dish at Ho Foods, and the East 7th Street shop remains an active Caviar/DoorDash storefront.",
+   "confidence": "medium"
+  },
+  "hometown-bar-b-que": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://hometownbbq.com/",
+   "evidence": "Hometown's official site lists current Red Hook hours for '454 Van Brunt St, Brooklyn, NY 11231' plus its second Industry City location.",
+   "confidence": "high"
+  },
+  "hudson-smokehouse": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://hudsonsmokehousebx.com/",
+   "evidence": "The restaurant's official site lists current Tuesday-Sunday hours for 37 Bruckner Blvd with live Grubhub, Seamless, Uber Eats and DoorDash ordering links.",
+   "confidence": "medium"
+  },
+  "hyderabadi-zaiqa": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.ubereats.com/store/hyderabadi-zaiqa/0vTMIvJnWJ2fnjMVwYkqVw",
+   "evidence": "Hyderabadi Zaiqa remains an active delivery storefront on Uber Eats and DoorDash, and its 2026-dated site domain is live.",
+   "confidence": "medium"
+  },
+  "i-sodi": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/2023/7/10/23787034/i-sodi-greenwich-village-reopening-bleecker-street",
+   "evidence": "Relocated, not closed: Eater reported 'the newly reopened I Sodi at 314 Bleecker Street' after moving from its original Christopher Street space; a Toast ordering page for 314 Bleecker St is still live.",
+   "confidence": "medium"
+  },
+  "indian-accent": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "The restaurant's own newyork pages return empty content and no authoritative report confirming either permanent closure or current operation of the 123 W 56th St location could be found.",
+   "confidence": "low"
+  },
+  "indian-table": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://indiantableny.com/",
+   "evidence": "Official site lists current daily hours and reservations at 234 Court St, Brooklyn (\"Monday - Sunday 12pm - 2.45pm & 5 pm - 9.45pm\").",
+   "confidence": "medium"
+  },
+  "jeju-noodle-bar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theinfatuation.com/new-york/reviews/jeju-noodle-bar",
+   "evidence": "Infatuation venue record for Jeju Noodle Bar still carries closedStatus \"Open\".",
+   "confidence": "medium"
+  },
+  "jing-fong": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://jingfongny.com/about.html",
+   "evidence": "Official site: the 20 Elizabeth St ballroom \"shuttered\" in May 2021 and \"In December 2021, Jing Fong re-opened in Chinatown at 202 Centre Street.\" Relocated, not permanently closed.",
+   "confidence": "high"
+  },
+  "joe-s-of-avenue-u": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theinfatuation.com/new-york/reviews/joes-of-avenue-u",
+   "evidence": "Infatuation profile for Joe's of Avenue U at 287 Avenue U, Brooklyn (not the separate closed Staten Island listing) shows closedStatus \"Open\" with a 2024 photo.",
+   "confidence": "medium"
+  },
+  "jongro-bbq": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.jongrobbqny.com/",
+   "evidence": "Official site lists current service hours at 22 W 32nd St, 2nd FL, New York.",
+   "confidence": "high"
+  },
+  "jongro-gopchang": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.jongrogopchang.com/",
+   "evidence": "Official site offers current Resy reservations for 22 W 32nd St and lists menu, hours, and contact.",
+   "confidence": "high"
+  },
+  "jua": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theinfatuation.com/new-york/reviews/jua",
+   "evidence": "Infatuation venue record for Jua shows closedStatus \"Open\"; Michelin Guide also still lists the restaurant.",
+   "confidence": "high"
+  },
+  "kabawa": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.momofuku.com/restaurants/kabawa",
+   "evidence": "Momofuku's official page lists Kabawa at 8 Extra Place with current opening times (\"Tuesday to Saturday 5:30pm — 10pm\") and reservations.",
+   "confidence": "high"
+  },
+  "kanyakumari": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://guide.michelin.com/en/new-york-state/new-york/restaurant/kanyakumari",
+   "evidence": "Michelin Guide currently lists Kanyakumari at 20 East 17th Street with no closure notice.",
+   "confidence": "medium"
+  },
+  "kashkar-cafe": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.kashkar-cafe.com/",
+   "evidence": "Official site lists current daily hours and the 1141 Brighton Beach Ave address.",
+   "confidence": "medium"
+  },
+  "katz-s-delicatessen": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://katzsdelicatessen.com/",
+   "evidence": "Official site is live with current menus and nationwide shipping at 205 E Houston St; Eater NY's 2026 homepage still features it.",
+   "confidence": "high"
+  },
+  "keens-steakhouse": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "http://www.keens.com/",
+   "evidence": "Official site lists current lunch, dinner, and pub menus at 72 West 36th St.",
+   "confidence": "high"
+  },
+  "killmeyer-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.foodrepublic.com/2079320/killmeyers-retro-german-tavern-staten-island/",
+   "evidence": "Jan. 25, 2026 Food Republic feature describes Killmeyer's Old Bavaria Inn as operating with 28 taps, a food menu, and seasonal beer garden.",
+   "confidence": "medium"
+  },
+  "kingston-tropical-bakery": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theinfatuation.com/new-york/reviews/kingston-tropical-bakery",
+   "evidence": "Infatuation venue record for Kingston Tropical Bakery (Bronx) still carries closedStatus \"Open\".",
+   "confidence": "medium"
+  },
+  "kisa": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.kisaus.com/",
+   "evidence": "Official site lists current hours at 205 Allen Street; Aug. 2025 Eater/EV Grieve coverage describes the team expanding, not closing Kisa.",
+   "confidence": "high"
+  },
+  "koloman": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/restaurant-closings/404015/koloman-ace-hotel-closing-markus-glocker",
+   "evidence": "Eater (Aug 2025): Koloman \"will close on Saturday, August 30, with plans to reopen in Noho in the spring\" — a relocation, not a permanent closure.",
+   "confidence": "medium"
+  },
+  "kopitiam": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.kopitiamnyc.com/",
+   "evidence": "Official site lists the 151 East Broadway address and current hours (\"7 DAYS A WEEK 10:00 AM – 10:00 PM\").",
+   "confidence": "medium"
+  },
+  "la-morada": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.nyctourism.com/restaurants/la-morada/",
+   "evidence": "NYC Tourism's official listing gives an active La Morada at 308 Willis Ave., Bronx with phone number; a May 2025 blog post also reports dining there.",
+   "confidence": "medium"
+  },
+  "la-pirana-lechonera": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://maps.apple.com/place?address=766%20E%20152nd%20St%2C%20Bronx%2C%20NY%2010455%2C%20United%20States&name=Lechonera%20La%20Pira%C3%B1a",
+   "evidence": "Apple Maps currently lists Lechonera La Piraña at 766 E 152nd St, Bronx as an active place.",
+   "confidence": "medium"
+  },
+  "la-vara": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "http://www.lavarany.com/",
+   "evidence": "Official site is live (\"Join us for dinner\", 11 years in Cobble Hill) and Resy shows bookable reservations in 2026.",
    "confidence": "high"
   },
   "le-bernardin": {

@@ -1,11 +1,12 @@
 {
  "_comment": "Places confirmed permanently closed, with the source for each. Curated by a sourced research pass, not inferred: leaving the Eater list is not evidence of closure. Add entries by hand if you like; an entry needs status 'closed' and a source_url to take effect.",
- "generated_at": "2026-09-28T20:43:02Z",
+ "generated_at": "2026-09-28T20:52:20Z",
  "counts": {
   "places_reviewed": 245,
-  "closed": 33,
-  "open": 144,
-  "unknown": 8
+  "places_on_list": 210,
+  "closed": 34,
+  "open": 199,
+  "unknown": 12
  },
  "places": {
   "aldea": {
@@ -43,6 +44,13 @@
    "evidence": "Eater's November 2025 closures roundup: the East Village vegan restaurant \"has closed on Saturday, November 22. The Overthrow Hospitality spot had announced this eventual shutter over the summer\" (same Cadence opened in 2021 by chef Shenarri Freeman).",
    "confidence": "high"
   },
+  "crop-circle": {
+   "status": "closed",
+   "closed_date": "2022-08",
+   "source_url": "https://ny.eater.com/2022/8/12/23302959/crop-circle-guokui-closing-greenwich-village",
+   "evidence": "Eater NY (Aug 12, 2022): \"Crop Circle, a Chinese restaurant known for its stuffed flatbreads, has called it quits after two years in Greenwich Village.\"",
+   "confidence": "high"
+  },
   "dumpling-galaxy": {
    "status": "closed",
    "closed_date": null,
@@ -71,18 +79,18 @@
    "evidence": "Eater's August 2023 closings list: 'Midtown: Farida, a Central Asian restaurant praised for its charcoal-grilled meats, closed at the start of the month' (the separate FiDi location remained open).",
    "confidence": "high"
   },
-  "flaming-kitchen": {
-   "status": "closed",
-   "closed_date": null,
-   "source_url": "https://wanderlog.com/place/details/398070",
-   "evidence": "The listing for the 97 Bowery Chinese restaurant is marked 'Permanently Closed' (Google-derived data) and its former website domain no longer resolves.",
-   "confidence": "low"
-  },
   "flora-bar": {
    "status": "closed",
    "closed_date": "2021-02",
    "source_url": "https://ny.eater.com/2021/2/9/22275190/upper-east-side-seafood-restaurant-flora-bar-permanent-closure",
    "evidence": "Eater, Feb 9, 2021: 'Flora Bar... will not reopen after a four-year run,' with chef Ignacio Mattos announcing the permanent closure of the Met Breuer restaurant.",
+   "confidence": "high"
+  },
+  "harry-and-ida-s-meat-and-supply-co": {
+   "status": "closed",
+   "closed_date": "2019-11",
+   "source_url": "https://ny.eater.com/2019/11/11/20955897/harry-and-idas-east-village-sandwich-closing",
+   "evidence": "Eater: 'Siblings Julie and Will Horowitz are lowering the curtain on their celebrated East Village sandwich shop Harry & Ida's Meat and Supply Co., closing shop at the end of November.'",
    "confidence": "high"
   },
   "le-sia": {

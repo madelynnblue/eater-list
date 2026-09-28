@@ -34,6 +34,7 @@
    "Prime Meats"
   ],
   "added_ids": [
+   "flaming-kitchen",
    "madison-square-garden",
    "prune",
    "hanoi-house",
@@ -101,6 +102,7 @@
    "ugly-baby"
   ],
   "removed_ids": [
+   "flaming-kitchen",
    "madison-square-garden",
    "prune",
    "jongro-bbq",
@@ -212,7 +214,6 @@
   "added_ids": [
    "adda",
    "di-an-di",
-   "harry-and-ida-s-meat-and-supply-co",
    "cervo-s"
   ],
   "removed_ids": [
@@ -305,9 +306,7 @@
   "added_ids": [
    "gertie"
   ],
-  "removed_ids": [
-   "harry-and-ida-s-meat-and-supply-co"
-  ],
+  "removed_ids": [],
   "unsampled_captures": 0,
   "after_date": "2019-10-23",
   "by_date": "2019-12-05"
@@ -402,7 +401,6 @@
    "bread-and-salt",
    "jeju-noodle-bar",
    "ny-dosas",
-   "crop-circle",
    "thai-diner",
    "yi-ji-shi-mo",
    "jing-fong",
@@ -552,7 +550,6 @@
    "qanoon-restaurant",
    "adda",
    "jeju-noodle-bar",
-   "crop-circle",
    "fiaschetteria-pistoia",
    "yi-ji-shi-mo",
    "bo-ky",

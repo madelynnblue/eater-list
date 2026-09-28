@@ -1056,26 +1056,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -74.000229,
-     40.729982
-    ]
-   },
-   "properties": {
-    "id": "crop-circle",
-    "name": "Crop Circle",
-    "address": "126 MacDougal St New York, NY 10012",
-    "on_list_now": false,
-    "periods": [
-     "2020-11-21..2021-04-24"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -74.00146,
      40.729049
     ]
@@ -1329,6 +1309,26 @@
     "on_list_now": false,
     "periods": [
      "2019-01-19..2020-11-12"
+    ],
+    "period_count": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.995018,
+     40.717341
+    ]
+   },
+   "properties": {
+    "id": "flaming-kitchen",
+    "name": "Flaming Kitchen",
+    "address": "97 Bowery New York, NY 10002",
+    "on_list_now": false,
+    "periods": [
+     "2018-02-03..2018-02-18"
     ],
     "period_count": 1
    }
@@ -1632,26 +1632,6 @@
     "on_list_now": false,
     "periods": [
      "2021-04-21..2021-04-24"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.981662,
-     40.728989
-    ]
-   },
-   "properties": {
-    "id": "harry-and-ida-s-meat-and-supply-co",
-    "name": "Harry & Ida's Meat and Supply Co.",
-    "address": "189 Avenue A New York, NY 10009",
-    "on_list_now": false,
-    "periods": [
-     "2019-04-17..2019-10-23"
     ],
     "period_count": 1
    }

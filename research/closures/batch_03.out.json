@@ -1,0 +1,162 @@
+[
+  {
+    "id": "chama-mama",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.chamamama.com/",
+    "evidence": "Official site lists five active locations, including Chelsea at 149 West 14th Street, with live reservations.",
+    "confidence": "high"
+  },
+  {
+    "id": "charles-pan-fried-chicken",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/venue/934918/charles-pan-fried-chicken",
+    "evidence": "Eater's venue page for the 439 W 125th St Harlem flagship lists current daily hours (11 a.m.-10 p.m.) and a 2026 photo.",
+    "confidence": "high"
+  },
+  {
+    "id": "cheburechnaya",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.cheburechnayakosher.com/",
+    "evidence": "Official ordering site lists \"92-09 63rd Drive, Rego Park\" with current opening hours and pickup/delivery; Eater reviewed it in June 2024 as still going.",
+    "confidence": "high"
+  },
+  {
+    "id": "cheli",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.che-li.com/",
+    "evidence": "Official site lists both Che Li East Village (19 St Marks Pl) and Flushing locations with live reservations.",
+    "confidence": "high"
+  },
+  {
+    "id": "chez-ma-tante",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/new-york-restaurant-news/408044/chez-ma-tante-manhattan-hudson-square-lease-restaurant",
+    "evidence": "Eater (Dec 2025): the Greenpoint original \"closed in January 2024 for structural repairs... and reopened in July 2024\" - a temporary closure, not permanent.",
+    "confidence": "medium"
+  },
+  {
+    "id": "chuan-tian-xia",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://chuantianxiany.com/",
+    "evidence": "Official site and current Google listing show 5502 7th Ave, Brooklyn NY 11220 with daily hours 11:30 a.m.-10:30 p.m.; no closure reports found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ci-siamo",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.cisiamo.com/",
+    "evidence": "Official site lists 440 West 33rd Street, Suite 100 with live OpenTable reservations and current menus.",
+    "confidence": "high"
+  },
+  {
+    "id": "claro",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": null,
+    "evidence": "Google/Wanderlog currently flags Claro as \"Temporarily Closed\" and clarobk.com no longer resolves, but no permanent-closure report was found, so closure cannot be confirmed.",
+    "confidence": "low"
+  },
+  {
+    "id": "claud",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.claudnyc.com/",
+    "evidence": "Official site lists 90 E. 10th St with live Resy bookings and current menu.",
+    "confidence": "high"
+  },
+  {
+    "id": "claudy-s-empanadas",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.riverdalepress.com/stories/claudys-kitchen-celebrates-five-years-of-peruvian-flavor-and-resilience-in-riverdale,187045",
+    "evidence": "Riverdale Press (June 2025) on Claudy's Kitchen at 5981 Broadway: \"Claudy's remains at 5981 Broadway, five years later.\"",
+    "confidence": "medium"
+  },
+  {
+    "id": "coqodaq",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.coqodaq.com/",
+    "evidence": "Official site is live with current menus, delivery ordering and Resy bookings for 12 E 22nd St.",
+    "confidence": "high"
+  },
+  {
+    "id": "corner-bar",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://cornerbarnyc.com/",
+    "evidence": "Official site lists 60 Canal Street with daily breakfast-to-dinner hours and menus dated September 2026.",
+    "confidence": "high"
+  },
+  {
+    "id": "cosme",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://cosmenyc.com/",
+    "evidence": "Official site lists 35 E 21st St with current hours and reservations.",
+    "confidence": "high"
+  },
+  {
+    "id": "coszcal-de-allende",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/2024/7/30/24206396/coszcal-de-allende-bay-ridge-reopening-review",
+    "evidence": "The original 6824 3rd Ave location closed July 2023, but Eater reports \"Coszcal de Allende has reopened in Bay Ridge\" at 7506 Third Avenue (relocation, so not permanently closed).",
+    "confidence": "medium"
+  },
+  {
+    "id": "cote-korean-steakhouse",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.cotekoreansteakhouse.com/locations/cotenycflatiron",
+    "evidence": "Official Flatiron page lists 16 West 22nd St with current dinner hours and reservations.",
+    "confidence": "high"
+  },
+  {
+    "id": "court-street-grocers",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.courtstreetgrocers.com/contact-hours-csg",
+    "evidence": "Official Carroll Gardens page lists \"485 COURT STREET BROOKLYN, NY 11231\" and \"OPEN 7 DAYS, 8am - 5pm\".",
+    "confidence": "high"
+  },
+  {
+    "id": "crevette",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.crevettenyc.com/",
+    "evidence": "Official site is live with an active Resy reservation link, current menu and gift cards for 10 Downing St.",
+    "confidence": "high"
+  },
+  {
+    "id": "crop-circle",
+    "status": "closed",
+    "closed_date": "2022-08",
+    "source_url": "https://ny.eater.com/2022/8/12/23302959/crop-circle-guokui-closing-greenwich-village",
+    "evidence": "Eater NY (Aug 12, 2022): \"Crop Circle, a Chinese restaurant known for its stuffed flatbreads, has called it quits after two years in Greenwich Village.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "dame",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.damenewyork.com/reserve",
+    "evidence": "Official reservation page: \"We are open Monday through Saturday at 5pm\" at 87 MacDougal Street, with live Resy bookings.",
+    "confidence": "high"
+  },
+  {
+    "id": "denino-s-pizzeria-and-tavern",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://web.archive.org/web/20260521005040/https://www.deninos.com/order-online",
+    "evidence": "Official order-online page (May 2026 snapshot) lists \"Denino's Pizzeria, 524 Port Richmond Ave. Staten Island, NY 10302\" with an active Staten Island ordering link.",
+    "confidence": "high"
+  }
+]

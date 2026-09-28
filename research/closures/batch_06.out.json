@@ -1,0 +1,162 @@
+[
+ {
+  "id": "indian-table",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://indiantableny.com/",
+  "evidence": "Official site lists current daily hours and reservations at 234 Court St, Brooklyn (\"Monday - Sunday 12pm - 2.45pm & 5 pm - 9.45pm\").",
+  "confidence": "medium"
+ },
+ {
+  "id": "jeju-noodle-bar",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.theinfatuation.com/new-york/reviews/jeju-noodle-bar",
+  "evidence": "Infatuation venue record for Jeju Noodle Bar still carries closedStatus \"Open\".",
+  "confidence": "medium"
+ },
+ {
+  "id": "jing-fong",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://jingfongny.com/about.html",
+  "evidence": "Official site: the 20 Elizabeth St ballroom \"shuttered\" in May 2021 and \"In December 2021, Jing Fong re-opened in Chinatown at 202 Centre Street.\" Relocated, not permanently closed.",
+  "confidence": "high"
+ },
+ {
+  "id": "joe-s-of-avenue-u",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.theinfatuation.com/new-york/reviews/joes-of-avenue-u",
+  "evidence": "Infatuation profile for Joe's of Avenue U at 287 Avenue U, Brooklyn (not the separate closed Staten Island listing) shows closedStatus \"Open\" with a 2024 photo.",
+  "confidence": "medium"
+ },
+ {
+  "id": "jongro-bbq",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.jongrobbqny.com/",
+  "evidence": "Official site lists current service hours at 22 W 32nd St, 2nd FL, New York.",
+  "confidence": "high"
+ },
+ {
+  "id": "jongro-gopchang",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.jongrogopchang.com/",
+  "evidence": "Official site offers current Resy reservations for 22 W 32nd St and lists menu, hours, and contact.",
+  "confidence": "high"
+ },
+ {
+  "id": "jua",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.theinfatuation.com/new-york/reviews/jua",
+  "evidence": "Infatuation venue record for Jua shows closedStatus \"Open\"; Michelin Guide also still lists the restaurant.",
+  "confidence": "high"
+ },
+ {
+  "id": "kabawa",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.momofuku.com/restaurants/kabawa",
+  "evidence": "Momofuku's official page lists Kabawa at 8 Extra Place with current opening times (\"Tuesday to Saturday 5:30pm — 10pm\") and reservations.",
+  "confidence": "high"
+ },
+ {
+  "id": "kanyakumari",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://guide.michelin.com/en/new-york-state/new-york/restaurant/kanyakumari",
+  "evidence": "Michelin Guide currently lists Kanyakumari at 20 East 17th Street with no closure notice.",
+  "confidence": "medium"
+ },
+ {
+  "id": "kashkar-cafe",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.kashkar-cafe.com/",
+  "evidence": "Official site lists current daily hours and the 1141 Brighton Beach Ave address.",
+  "confidence": "medium"
+ },
+ {
+  "id": "katz-s-delicatessen",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://katzsdelicatessen.com/",
+  "evidence": "Official site is live with current menus and nationwide shipping at 205 E Houston St; Eater NY's 2026 homepage still features it.",
+  "confidence": "high"
+ },
+ {
+  "id": "keens-steakhouse",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "http://www.keens.com/",
+  "evidence": "Official site lists current lunch, dinner, and pub menus at 72 West 36th St.",
+  "confidence": "high"
+ },
+ {
+  "id": "killmeyer-s",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.foodrepublic.com/2079320/killmeyers-retro-german-tavern-staten-island/",
+  "evidence": "Jan. 25, 2026 Food Republic feature describes Killmeyer's Old Bavaria Inn as operating with 28 taps, a food menu, and seasonal beer garden.",
+  "confidence": "medium"
+ },
+ {
+  "id": "kingston-tropical-bakery",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.theinfatuation.com/new-york/reviews/kingston-tropical-bakery",
+  "evidence": "Infatuation venue record for Kingston Tropical Bakery (Bronx) still carries closedStatus \"Open\".",
+  "confidence": "medium"
+ },
+ {
+  "id": "kisa",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.kisaus.com/",
+  "evidence": "Official site lists current hours at 205 Allen Street; Aug. 2025 Eater/EV Grieve coverage describes the team expanding, not closing Kisa.",
+  "confidence": "high"
+ },
+ {
+  "id": "koloman",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/restaurant-closings/404015/koloman-ace-hotel-closing-markus-glocker",
+  "evidence": "Eater (Aug 2025): Koloman \"will close on Saturday, August 30, with plans to reopen in Noho in the spring\" — a relocation, not a permanent closure.",
+  "confidence": "medium"
+ },
+ {
+  "id": "kopitiam",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.kopitiamnyc.com/",
+  "evidence": "Official site lists the 151 East Broadway address and current hours (\"7 DAYS A WEEK 10:00 AM – 10:00 PM\").",
+  "confidence": "medium"
+ },
+ {
+  "id": "la-morada",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.nyctourism.com/restaurants/la-morada/",
+  "evidence": "NYC Tourism's official listing gives an active La Morada at 308 Willis Ave., Bronx with phone number; a May 2025 blog post also reports dining there.",
+  "confidence": "medium"
+ },
+ {
+  "id": "la-pirana-lechonera",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://maps.apple.com/place?address=766%20E%20152nd%20St%2C%20Bronx%2C%20NY%2010455%2C%20United%20States&name=Lechonera%20La%20Pira%C3%B1a",
+  "evidence": "Apple Maps currently lists Lechonera La Piraña at 766 E 152nd St, Bronx as an active place.",
+  "confidence": "medium"
+ },
+ {
+  "id": "la-vara",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "http://www.lavarany.com/",
+  "evidence": "Official site is live (\"Join us for dinner\", 11 years in Cobble Hill) and Resy shows bookable reservations in 2026.",
+  "confidence": "high"
+ }
+]

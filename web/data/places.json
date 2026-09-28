@@ -334,10 +334,54 @@
    }
   ],
   "on_list_now": true,
-  "hours": null,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
   "meal_periods": [
    "lunch",
-   "dinner"
+   "dinner",
+   "late"
   ],
   "closed": null
  },
@@ -613,7 +657,38 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
   "meal_periods": [
    "lunch",
    "dinner"
@@ -913,8 +988,48 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "16:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -993,8 +1108,54 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
   "closed": null
  },
  {
@@ -1799,11 +1960,75 @@
    }
   ],
   "on_list_now": true,
-  "hours": null,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ],
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:00"
+    ],
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:00"
+    ],
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:00"
+    ],
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "22:00"
+    ],
+    [
+     "16:00",
+     "23:00"
+    ]
+   ]
+  },
   "meal_periods": [
-   "brunch",
+   "breakfast",
    "lunch",
-   "dinner"
+   "dinner",
+   "late"
   ],
   "closed": null
  },
@@ -1993,8 +2218,55 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -2870,46 +3142,6 @@
   "closed": null
  },
  {
-  "id": "crop-circle",
-  "name": "Crop Circle",
-  "key": "crop circle",
-  "names_seen": [
-   "Crop Circle"
-  ],
-  "address": "126 MacDougal St New York, NY 10012",
-  "phone": "",
-  "website": "https://cropcirclenyc.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/crop-circle",
-  "blurb": "New York’s selection of northern Chinese restaurants only continues to grow, with representation from Dongbei, Shaanxi, Hubei, and Beijing cuisines. Greenwich Village’s Crop Circle specializes in a single flatbread street food from Hubei called guo kui (pronounced gwow kway). Cooked in a round vertical oven similar in appearance to a tandoor, the flatbreads come stuffed with meats, poultry, or pickled mustard greens. A few southern Chinese dim sum are available, as well, including notably good shrimp rice noodle rolls.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.729982,
-  "lng": -74.000229,
-  "periods": [
-   {
-    "from": "20201121234630",
-    "to": "20210424125601",
-    "from_date": "2020-11-21",
-    "to_date": "2021-04-24",
-    "added_between": [
-     "2020-11-12",
-     "2020-11-21"
-    ],
-    "removed_between": [
-     "2021-04-24",
-     "2021-06-14"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
-  "closed": null
- },
- {
   "id": "dame",
   "name": "Dame",
   "key": "dame",
@@ -3560,6 +3792,87 @@
    }
   ],
   "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "22:15"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:15"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:15"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:15"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "23:15"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:15"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
+ },
+ {
+  "id": "flaming-kitchen",
+  "name": "Flaming Kitchen",
+  "key": "flaming kitchen",
+  "names_seen": [
+   "Flaming Kitchen"
+  ],
+  "address": "97 Bowery New York, NY 10002",
+  "phone": "(212) 925-8083",
+  "website": "http://www.flamingkitchenny.com/",
+  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/flaming-kitchen",
+  "blurb": "New York’s a Sichuan Chinese-obsessed town, and bilevel Bowery restaurant Flaming Kitchen stands out from the rest with sharp takes on classics like pork dumplings in chili oil and mapo tofu. But the place on the menu to dive is the array of whole fish. Though flaky, tender bits of fish look doused in pools of chili, spice tends to be gentle rather than biting — while not sacrificing on flavor. The roomy, bright space makes it an ideal setting for large parties, families, or a date with a longterm spouse.",
+  "open_for": "",
+  "price": "",
+  "drink": "",
+  "tip": "",
+  "lat": 40.717341,
+  "lng": -73.995018,
+  "periods": [
+   {
+    "from": "20180203083717",
+    "to": "20180218213216",
+    "from_date": "2018-02-03",
+    "to_date": "2018-02-18",
+    "added_between": [
+     "2017-08-05",
+     "2018-02-03"
+    ],
+    "removed_between": [
+     "2018-02-18",
+     "2018-07-11"
+    ],
+    "still_on": false
+   }
+  ],
+  "on_list_now": false,
   "hours": null,
   "meal_periods": [],
   "closed": null
@@ -3692,10 +4005,54 @@
    }
   ],
   "on_list_now": true,
-  "hours": null,
+  "hours": {
+   "mon": [
+    [
+     "11:45",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:45",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:45",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:45",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:45",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:45",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:45",
+     "22:00"
+    ]
+   ]
+  },
   "meal_periods": [
    "lunch",
-   "dinner"
+   "dinner",
+   "late"
   ],
   "closed": null
  },
@@ -3915,8 +4272,53 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
   "closed": null
  },
  {
@@ -4423,46 +4825,6 @@
   "closed": null
  },
  {
-  "id": "harry-and-ida-s-meat-and-supply-co",
-  "name": "Harry & Ida's Meat and Supply Co.",
-  "key": "harry and ida s meat and supply co",
-  "names_seen": [
-   "Harry & Ida's Meat and Supply Co."
-  ],
-  "address": "189 Avenue A New York, NY 10009",
-  "phone": "",
-  "website": "http://www.harryandidas.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/harry-amp-idas-meat-and-supply-co",
-  "blurb": "Harry & Ida’s is a thoroughly modern riff on the traditional Jewish delicatessen, with a short but strong menu. It’s named after the grandparents of sibling owners Julie and Will Horowitz, and the deli itself channels the aesthetic of a Catskills country store. The hot pastrami is the dish to get at this counter-service shop, though the smoked eel and bluefish sandwiches are solid options, too .",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.728989,
-  "lng": -73.981662,
-  "periods": [
-   {
-    "from": "20190417081732",
-    "to": "20191023151523",
-    "from_date": "2019-04-17",
-    "to_date": "2019-10-23",
-    "added_between": [
-     "2019-02-02",
-     "2019-04-17"
-    ],
-    "removed_between": [
-     "2019-10-23",
-     "2019-12-05"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
-  "closed": null
- },
- {
   "id": "her-name-is-han",
   "name": "Her Name is Han",
   "key": "her name is han",
@@ -4498,8 +4860,79 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "15:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "00:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -5644,8 +6077,38 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -8061,8 +8524,48 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -8781,8 +9284,55 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -9067,10 +9617,17 @@
    }
   ],
   "on_list_now": true,
-  "hours": null,
+  "hours": {
+   "sun": [
+    [
+     "03:00",
+     "17:00"
+    ]
+   ]
+  },
   "meal_periods": [
-   "brunch",
-   "dinner"
+   "breakfast",
+   "lunch"
   ],
   "closed": null
  },
@@ -9365,11 +9922,83 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "14:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "14:00"
+    ],
+    [
+     "14:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ]
+  },
   "meal_periods": [
-   "brunch",
+   "breakfast",
    "lunch",
-   "dinner"
+   "dinner",
+   "late"
   ],
   "closed": null
  },
@@ -9552,8 +10181,83 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "00:00"
+    ],
+    [
+     "11:30",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "00:00"
+    ],
+    [
+     "11:30",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "00:00"
+    ],
+    [
+     "11:30",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "00:00"
+    ],
+    [
+     "11:30",
+     "00:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "02:00"
+    ],
+    [
+     "11:30",
+     "02:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "02:00"
+    ],
+    [
+     "11:30",
+     "02:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "00:00"
+    ],
+    [
+     "11:30",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -9944,8 +10648,55 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
   "closed": null
  },
  {
@@ -11137,8 +11888,75 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "18:00"
+    ],
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "18:00"
+    ],
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "18:00"
+    ],
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "18:00"
+    ],
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "18:00"
+    ],
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -11342,8 +12160,128 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "09:00",
+     "00:00"
+    ],
+    [
+     "09:00",
+     "22:00"
+    ],
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "23:00"
+    ],
+    [
+     "09:00",
+     "00:00"
+    ],
+    [
+     "09:00",
+     "22:00"
+    ],
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "23:00"
+    ],
+    [
+     "09:00",
+     "00:00"
+    ],
+    [
+     "09:00",
+     "22:00"
+    ],
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "23:00"
+    ],
+    [
+     "09:00",
+     "00:00"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ],
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ],
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ],
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "09:00",
+     "22:00"
+    ],
+    [
+     "11:00",
+     "02:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -11515,8 +12453,49 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "tue": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -11767,8 +12746,75 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "20:00"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "20:00"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "20:00"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "20:00"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "20:00"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
   "closed": null
  },
  {
@@ -11847,8 +12893,56 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -11887,8 +12981,43 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "03:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "03:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "03:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "03:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "03:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
   "closed": null
  },
  {
@@ -11967,8 +13096,69 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "22:00"
+    ],
+    [
+     "11:00",
+     "16:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
   "closed": null
  },
  {
@@ -12007,8 +13197,48 @@
    }
   ],
   "on_list_now": false,
-  "hours": null,
-  "meal_periods": [],
+  "hours": {
+   "tue": [
+    [
+     "07:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "16:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch"
+  ],
   "closed": null
  },
  {
@@ -12059,10 +13289,91 @@
    }
   ],
   "on_list_now": true,
-  "hours": null,
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "15:30"
+    ],
+    [
+     "17:30",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "15:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "15:30"
+    ],
+    [
+     "17:30",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "15:30"
+    ],
+    [
+     "17:30",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "15:30"
+    ],
+    [
+     "11:30",
+     "23:30"
+    ],
+    [
+     "12:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "23:00"
+    ],
+    [
+     "09:30",
+     "23:00"
+    ],
+    [
+     "11:30",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "21:30"
+    ],
+    [
+     "09:30",
+     "22:30"
+    ],
+    [
+     "11:30",
+     "22:30"
+    ]
+   ]
+  },
   "meal_periods": [
+   "breakfast",
    "lunch",
-   "dinner"
+   "dinner",
+   "late"
   ],
   "closed": null
  },
