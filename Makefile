@@ -3,7 +3,7 @@
 
 PYTHON ?= python3
 
-.PHONY: help init scan full status enrich build test test-demo serve clean weekly
+.PHONY: help init scan full status enrich build test test-demo validate serve closures hours clean weekly
 
 help:
 	@echo "make init     create the database"
@@ -14,6 +14,7 @@ help:
 	@echo "make build    regenerate web/data and out/"
 	@echo "make test     run the unit tests"
 	@echo "make test-demo run the headless browser-demo checks (needs node)"
+	@echo "make validate  check the exported site data is publishable"
 	@echo "make serve    serve web/ on http://127.0.0.1:8787"
 
 init:
@@ -44,6 +45,15 @@ test:
 
 test-demo:
 	node tests/demo_smoke.js .
+
+validate:
+	$(PYTHON) scripts/validate_site.py web
+
+closures:
+	$(PYTHON) -m e38 closures
+
+hours:
+	$(PYTHON) -m e38 hours
 
 serve:
 	@echo "http://127.0.0.1:8787"

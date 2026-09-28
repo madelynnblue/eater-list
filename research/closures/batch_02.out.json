@@ -12,7 +12,7 @@
     "status": "open",
     "closed_date": null,
     "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=camis%3D%2750044289%27&$order=inspection_date%20DESC&$limit=3",
-    "evidence": "NYC DOHMH records for Bo Ky (CAMIS 50044289) at 78 Bayard St show a 2026-06-24 inspection whose action reads \"No violations were recorded at the time of this inspection.\"",
+    "evidence": "NYC DOHMH records for Bo Ky (CAMIS 50044289, 78 Bayard St) show a 2026-06-24 inspection whose action reads \"No violations were recorded at the time of this inspection.\"",
     "confidence": "high"
   },
   {

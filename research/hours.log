@@ -1,0 +1,73 @@
+245 places to fetch (0 already cached)
+    Atla: URLError
+    Atla: URLError
+    Atla: URLError
+  10/245  found=1 none=7 skipped=2
+  20/245  found=3 none=12 skipped=5
+  30/245  found=4 none=21 skipped=5
+    Cadence: URLError
+  40/245  found=6 none=29 skipped=5
+    Cheburechnaya: URLError
+    Cheburechnaya: URLError
+    Cheburechnaya: URLError
+    Claro: URLError
+    Claro: URLError
+    Claro: URLError
+  50/245  found=7 none=38 skipped=5
+    Coszcal De Allende: URLError
+    Coszcal De Allende: URLError
+    Coszcal De Allende: URLError
+  60/245  found=13 none=42 skipped=5
+  70/245  found=15 none=49 skipped=6
+    Flaming Kitchen: URLError
+    Flaming Kitchen: URLError
+    Flaming Kitchen: URLError
+    Gage & Tollner: URLError
+    Gage & Tollner: URLError
+    Gage & Tollner: URLError
+  80/245  found=16 none=58 skipped=6
+  90/245  found=20 none=63 skipped=7
+  100/245  found=22 none=71 skipped=7
+  110/245  found=29 none=73 skipped=8
+  120/245  found=32 none=78 skipped=10
+    Llama San: URLError
+    Llama San: URLError
+    Llama San: URLError
+  130/245  found=35 none=85 skipped=10
+    Madison Square Garden: URLError
+    Madison Square Garden: URLError
+    Madison Square Garden: URLError
+  140/245  found=37 none=93 skipped=10
+    Momofuku Kāwi: URLError
+    Momofuku Kāwi: URLError
+    Momofuku Kāwi: URLError
+  150/245  found=39 none=101 skipped=10
+  160/245  found=41 none=108 skipped=11
+    Olmsted: URLError
+    Olmsted: URLError
+    Olmsted: URLError
+  170/245  found=41 none=117 skipped=12
+    Prune: URLError
+    Prune: URLError
+    Prune: URLError
+  180/245  found=43 none=124 skipped=13
+    Rezdôra: URLError
+    Rezdôra: URLError
+    Rezdôra: URLError
+    Saga: URLError
+    Saga: URLError
+    Saga: URLError
+  190/245  found=46 none=131 skipped=13
+    Somtum Der: URLError
+    Somtum Der: URLError
+    Somtum Der: URLError
+  200/245  found=48 none=139 skipped=13
+  210/245  found=52 none=144 skipped=14
+  220/245  found=55 none=150 skipped=15
+  230/245  found=59 none=155 skipped=16
+    Woorijip: TimeoutError
+    Woorijip: TimeoutError
+    Woorijip: TimeoutError
+  240/245  found=63 none=161 skipped=16
+this run: {'found': 65, 'none': 164, 'skipped': 16, 'cached': 0}
+65 of 245 places have parsed hours (245 looked at)

@@ -304,6 +304,29 @@ tests/            39 unit tests + a headless browser-demo check
 explore/          the original throwaway scripts, kept for provenance
 ```
 
+## Publishing
+
+`.github/workflows/pages.yml` runs the unit tests, the headless demo checks and
+`scripts/validate_site.py`, then publishes `web/` to GitHub Pages.
+
+Enable it once: **Settings → Pages → Build and deployment → Source: "GitHub
+Actions"**. After that every push to `main` that touches `web/`, `closed.json` or
+the workflow redeploys.
+
+The crawl database is deliberately not in git, so CI **validates and publishes**
+the committed data rather than re-crawling — a fresh clone cannot cheaply rebuild
+749 captures. Regenerating the data stays a local (or DB-backed, scheduled) job:
+
+```bash
+make weekly       # incremental scan + rebuild the exported JSON
+make validate     # what CI checks before publishing
+```
+
+`validate_site.py` is not a formality: it cross-checks the counts between
+`places.json`, `current.json`, `meta.json` and the GeoJSON, confirms every id
+referenced by the current list and the change log resolves, and **fails the build
+if a place marked closed is still being published**.
+
 ## Known limits
 
 * **The archive starts 2017‑08‑05.** The first capture already holds 38 names, so

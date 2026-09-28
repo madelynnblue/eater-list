@@ -1,0 +1,162 @@
+[
+ {
+  "id": "gertie",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/news/406322/gertie-nyc-jewish-deli-open-brooklyn-restaurant-reopen-prospect-heights",
+  "evidence": "Relocated, not permanently closed: Eater reports 'Gertie 2.0 will open in Prospect Heights at 602 Vanderbilt Avenue... on Monday, December 1' after the original Williamsburg space at 357 Grand Street shut in June 2025.",
+  "confidence": "high"
+ },
+ {
+  "id": "golden-diner",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.doordash.com/store/golden-diner-new-york-705890/2342049/",
+  "evidence": "Golden Diner at 123 Madison St remains listed as an active, orderable storefront on DoorDash and is still on Eater's current 38 best restaurants list.",
+  "confidence": "medium"
+ },
+ {
+  "id": "golden-palace-gourmet",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://goldenpalacegourmetny.com/",
+  "evidence": "The restaurant's own site is live with 2025 copyright, current daily hours and online ordering for 140-09 Cherry Ave, Flushing.",
+  "confidence": "medium"
+ },
+ {
+  "id": "gramercy-tavern",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.opentable.com/restaurant/profile/942",
+  "evidence": "Gramercy Tavern's own OpenTable page shows the dining room bookable for current dates, and Resy lists active reservations for the Tavern.",
+  "confidence": "high"
+ },
+ {
+  "id": "grand-central-oyster-bar",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.oysterbarny.com/",
+  "evidence": "The restaurant's official site posts current hours ('We are open Monday through Friday from 11:30 AM') with a live OpenTable reservation link for 89 E 42nd St.",
+  "confidence": "medium"
+ },
+ {
+  "id": "great-ny-noodletown",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/dining-report/407957/great-ny-noodletown-chinatown-manhattan-review",
+  "evidence": "Eater's December 18, 2025 review reports that after 'a brief six-month closure for a refresh in 2022... the cash-only restaurant marches on.'",
+  "confidence": "high"
+ },
+ {
+  "id": "gregory-s-26-corner-taverna",
+  "status": "unknown",
+  "closed_date": null,
+  "source_url": null,
+  "evidence": "No authoritative recent source found; only stale aggregator and pre-2021 listings for the 26-02 23rd Ave taverna, and no credible confirmation of permanent closure or continued operation.",
+  "confidence": "low"
+ },
+ {
+  "id": "haenyeo",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://haenyeobk.com/home",
+  "evidence": "Haenyeo's official site lists current hours and an active Resy booking link for '239 Fifth Avenue, Brooklyn, New York 11215.'",
+  "confidence": "high"
+ },
+ {
+  "id": "haidilao-hot-pot",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.doordash.com/store/haidilao-hot-pot-%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85-(139-23-39th-ave)-flushing-42105901/112763645/",
+  "evidence": "The Flushing Haidilao is still operating and taking orders at nearby 139-23 39th Ave on DoorDash and Postmates.",
+  "confidence": "medium"
+ },
+ {
+  "id": "hamburger-america",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://hamburgeramerica.com/",
+  "evidence": "The restaurant's official site is live with current West Houston Street hours and online ordering, and it remains on Eater's current 38 best list.",
+  "confidence": "high"
+ },
+ {
+  "id": "hanoi-house",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://gilmartinherbstteam.squarespace.com/blog/2026/6/10/hanoi-house-east-village",
+  "evidence": "A June 10, 2026 first-person review of Hanoi House at 119 St. Marks Place describes a current visit ('we're already looking forward to going back').",
+  "confidence": "high"
+ },
+ {
+  "id": "happy-hot-hunan",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.happyhothunanny.com",
+  "evidence": "The restaurant's own ordering site shows 'Open 11:00AM - 10:00PM' at 969 Amsterdam Ave with live menu categories and a 2026 site footer.",
+  "confidence": "medium"
+ },
+ {
+  "id": "harry-and-ida-s-meat-and-supply-co",
+  "status": "closed",
+  "closed_date": "2019-11",
+  "source_url": "https://ny.eater.com/2019/11/11/20955897/harry-and-idas-east-village-sandwich-closing",
+  "evidence": "Eater: 'Siblings Julie and Will Horowitz are lowering the curtain on their celebrated East Village sandwich shop Harry & Ida's Meat and Supply Co., closing shop at the end of November.'",
+  "confidence": "high"
+ },
+ {
+  "id": "her-name-is-han",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://toast.app/r/her-name-is-han",
+  "evidence": "Her Name Is Han's Toast ordering page for 17 E 31st St shows current order hours and remains an active storefront on DoorDash.",
+  "confidence": "medium"
+ },
+ {
+  "id": "ho-foods",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://eatthisny.com/2025/11/03/dish-of-the-week/dish-of-the-week-in-new-york-savory-soy-milk-with-yo-tiao-at-ho-foods/",
+  "evidence": "A November 3, 2025 'Dish of the Week' feature covers a current dish at Ho Foods, and the East 7th Street shop remains an active Caviar/DoorDash storefront.",
+  "confidence": "medium"
+ },
+ {
+  "id": "hometown-bar-b-que",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://hometownbbq.com/",
+  "evidence": "Hometown's official site lists current Red Hook hours for '454 Van Brunt St, Brooklyn, NY 11231' plus its second Industry City location.",
+  "confidence": "high"
+ },
+ {
+  "id": "hudson-smokehouse",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://hudsonsmokehousebx.com/",
+  "evidence": "The restaurant's official site lists current Tuesday-Sunday hours for 37 Bruckner Blvd with live Grubhub, Seamless, Uber Eats and DoorDash ordering links.",
+  "confidence": "medium"
+ },
+ {
+  "id": "hyderabadi-zaiqa",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.ubereats.com/store/hyderabadi-zaiqa/0vTMIvJnWJ2fnjMVwYkqVw",
+  "evidence": "Hyderabadi Zaiqa remains an active delivery storefront on Uber Eats and DoorDash, and its 2026-dated site domain is live.",
+  "confidence": "medium"
+ },
+ {
+  "id": "i-sodi",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/2023/7/10/23787034/i-sodi-greenwich-village-reopening-bleecker-street",
+  "evidence": "Relocated, not closed: Eater reported 'the newly reopened I Sodi at 314 Bleecker Street' after moving from its original Christopher Street space; a Toast ordering page for 314 Bleecker St is still live.",
+  "confidence": "medium"
+ },
+ {
+  "id": "indian-accent",
+  "status": "unknown",
+  "closed_date": null,
+  "source_url": null,
+  "evidence": "The restaurant's own newyork pages return empty content and no authoritative report confirming either permanent closure or current operation of the 123 W 56th St location could be found.",
+  "confidence": "low"
+ }
+]
