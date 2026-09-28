@@ -313,6 +313,23 @@ def cmd_geocode(args, cfg):
     store.close()
 
 
+def cmd_hours(args, cfg):
+    """Fetch and parse real opening hours from each restaurant's own site."""
+    from .hours import HoursFetcher
+
+    store = Store(cfg.db_path, cfg.raw_dir if cfg.store_raw else None)
+    builder = Builder(cfg, store)
+    url = args.url or (cfg.urls[0] if cfg.urls else None)
+    places = sorted(builder.build(url)["places"].values(), key=lambda p: p["name"].lower())
+    fetcher = HoursFetcher(cfg, store)
+    tally = fetcher.run(places, limit=args.limit, refresh=args.refresh)
+    have = sum(1 for row in store.all_hours().values() if row["hours"])
+    print(f"this run: {tally}")
+    cached = len(store.all_hours())
+    print(f"{have} of {len(places)} places have parsed hours ({cached} looked at)")
+    store.close()
+
+
 # --------------------------------------------------------------------------
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
@@ -345,6 +362,12 @@ def build_parser() -> argparse.ArgumentParser:
     enrich.add_argument("--limit", type=int, default=120)
     enrich.add_argument("--min-ts", default="", help="skip captures older than this (coords only exist in modern pages)")
     enrich.set_defaults(func=cmd_enrich)
+
+    hrs = sub.add_parser("hours", help="fetch real opening hours from restaurant sites")
+    hrs.add_argument("--url", default=None)
+    hrs.add_argument("--limit", type=int, default=400)
+    hrs.add_argument("--refresh", action="store_true", help="re-fetch places already cached")
+    hrs.set_defaults(func=cmd_hours)
 
     geo = sub.add_parser("geocode", help="fill remaining coordinates from public geocoders")
     geo.add_argument("--url", default=None)

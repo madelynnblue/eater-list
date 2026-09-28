@@ -1,0 +1,162 @@
+[
+  {
+    "id": "restaurant-daniel",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.danielnyc.com/",
+    "evidence": "Restaurant Daniel's official site lists current hours (Tue-Sun 5:00-9:30PM) at 60 East 65th Street and takes reservations via Resy.",
+    "confidence": "high"
+  },
+  {
+    "id": "rezdora",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.rezdora.nyc/who-we-are/",
+    "evidence": "Official site describes Rezdora as \"a 2021-2025 Michelin Star recipient\" at 27 East 20th Street with an active reservation form.",
+    "confidence": "high"
+  },
+  {
+    "id": "roberto-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://robertosbronx.com/",
+    "evidence": "Roberto's official site lists current open hours for 603 Crescent Ave, The Bronx, with an OpenTable reservation link.",
+    "confidence": "medium"
+  },
+  {
+    "id": "rolo-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.rolosnyc.com/",
+    "evidence": "Rolo's official site is live with current menus, hours and Resy reservations at 853 Onderdonk Ave, Ridgewood.",
+    "confidence": "high"
+  },
+  {
+    "id": "royal-seafood",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": null,
+    "evidence": "No closure record or reliable current-operation source found; the strongest item is an Eater review from May 2024, and later listings are unverifiable aggregators.",
+    "confidence": "low"
+  },
+  {
+    "id": "russ-and-daughters-cafe",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://shop.russanddaughters.com/locations",
+    "evidence": "Russ & Daughters' official locations page still lists \"THE CAFE, 127 orchard street\" among its current locations.",
+    "confidence": "high"
+  },
+  {
+    "id": "ruta-oaxaca-mexican-cuisine",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://rutaoaxacamex.com/",
+    "evidence": "Ruta Oaxaca's official site lists the Astoria location at 35-03 Broadway with live online ordering and OpenTable reservations.",
+    "confidence": "medium"
+  },
+  {
+    "id": "s-and-p-lunch",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+    "evidence": "Eater's current 38 Best list states: \"For summer 2026, we've added ... Flatiron counter S&P.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "saga",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.timeout.com/newyork/news/two-michelin-starred-saga-reopens-after-tragedy-with-chef-charlie-mitchell-debuting-new-menu-090225",
+    "evidence": "Time Out (Sept 2, 2025): \"Two Michelin-starred Saga reopens after tragedy, with chef Charlie Mitchell debuting new menu.\"",
+    "confidence": "medium"
+  },
+  {
+    "id": "sailor",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/dining-report/409349/sailor-fort-greene-review-update-2026",
+    "evidence": "Eater's February 2026 dining report describes a recent visit to Sailor at 228 Dekalb Avenue, Brooklyn.",
+    "confidence": "high"
+  },
+  {
+    "id": "saint-julivert",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/saint-julivert-fisherie",
+    "evidence": "Resy shows Saint Julivert Fisherie accepting reservations at 264 Clinton Street (Cobble Hill) for dates in 2026.",
+    "confidence": "medium"
+  },
+  {
+    "id": "sakagura",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "http://www.sakagura.com/",
+    "evidence": "Sakagura's own site lists current lunch/dinner hours and reservations for 211 East 43rd St Bsmt, and parent group T.I.C. still lists the restaurant.",
+    "confidence": "medium"
+  },
+  {
+    "id": "scarr-s-pizza",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.scarrspizza.com/",
+    "evidence": "Scarr's Pizza official site is live with menus, online ordering and reservations at 35 Orchard St, LES.",
+    "confidence": "medium"
+  },
+  {
+    "id": "semma",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://nypost.com/2026/07/20/us-news/nyc-michelin-starred-eatery-semma-hid-b-health-rating-for-food-temp-contamination-concerns/",
+    "evidence": "A July 2026 New York Post report about Semma's health rating describes the Greenwich Avenue restaurant as currently operating.",
+    "confidence": "medium"
+  },
+  {
+    "id": "shuko",
+    "status": "closed",
+    "closed_date": "2026-01",
+    "source_url": "https://ny.eater.com/news/408505/shuko-closing-nyc-omakase-restaurant-union-square",
+    "evidence": "Eater: \"Shuko will have its last day of service in January ... Its last day of service at Union Square will be on Saturday, January 24.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "sky-pavilion",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+    "evidence": "Sky Pavilion is listed in Eater's 38 Best Restaurants in New York City guide (Winter 2026 edition) at 325 West 42nd Street.",
+    "confidence": "medium"
+  },
+  {
+    "id": "smithereens",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+    "evidence": "Eater's current 38 Best list states: \"For summer 2026, we've added ... fun New England-style East Village spot Smithereens.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "somtum-der",
+    "status": "closed",
+    "closed_date": "2026-05",
+    "source_url": "https://ny.eater.com/news/411103/nyc-restaurants-closed-may-2026",
+    "evidence": "Eater's May 2026 closures roundup: \"EV Grieve reports Thai restaurant Somtum Der is closing on Sunday, May 31\" at 85 Avenue A.",
+    "confidence": "high"
+  },
+  {
+    "id": "soothr",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/new-york-restaurant-news/404809/soothr-opening-long-island-city",
+    "evidence": "Eater (Sept 2025) calls Soothr \"the popular East Village Thai restaurant\" and refers to \"the Manhattan original that opened in the East Village in 2020.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "spicy-village",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://spicy-village.com/",
+    "evidence": "Spicy Village's site (\"Updated September 2026\") lists current hours and the 68 Forsyth St B address as an operating restaurant.",
+    "confidence": "medium"
+  }
+]

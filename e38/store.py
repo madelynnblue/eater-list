@@ -46,6 +46,15 @@ CREATE TABLE IF NOT EXISTS contents (
   payload           TEXT,
   PRIMARY KEY (url, digest)
 );
+CREATE TABLE IF NOT EXISTS hours (
+  place_id   TEXT PRIMARY KEY,
+  url        TEXT,
+  http_status INTEGER,
+  source     TEXT,
+  hours_json TEXT,
+  raw_text   TEXT,
+  fetched_at TEXT
+);
 CREATE TABLE IF NOT EXISTS geocache (
   query      TEXT PRIMARY KEY,
   lat        REAL,
@@ -198,6 +207,35 @@ class Store:
             return 0
         bucket = os.path.join(self.raw_dir, hashlib.sha1(url.encode("utf-8")).hexdigest()[:12])
         return len(os.listdir(bucket)) if os.path.isdir(bucket) else 0
+
+    # -- opening hours ----------------------------------------------------
+    def get_hours(self, place_id: str):
+        row = self.conn.execute(
+            "SELECT * FROM hours WHERE place_id=?", (place_id,)
+        ).fetchone()
+        return dict(row) if row else None
+
+    def put_hours(self, place_id, url, http_status, source, hours, raw_text):
+        self.conn.execute(
+            """INSERT INTO hours(place_id,url,http_status,source,hours_json,raw_text,fetched_at)
+               VALUES(?,?,?,?,?,?,?)
+               ON CONFLICT(place_id) DO UPDATE SET
+                 url=excluded.url, http_status=excluded.http_status, source=excluded.source,
+                 hours_json=excluded.hours_json, raw_text=excluded.raw_text,
+                 fetched_at=excluded.fetched_at""",
+            (place_id, url, http_status, source,
+             json.dumps(hours, ensure_ascii=False) if hours else None,
+             raw_text, now()),
+        )
+        self.conn.commit()
+
+    def all_hours(self) -> dict:
+        out = {}
+        for row in self.conn.execute("SELECT * FROM hours"):
+            d = dict(row)
+            d["hours"] = json.loads(d["hours_json"]) if d["hours_json"] else None
+            out[d["place_id"]] = d
+        return out
 
     # -- geocoding cache --------------------------------------------------
     def get_geo(self, query: str):

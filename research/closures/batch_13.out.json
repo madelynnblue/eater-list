@@ -1,0 +1,42 @@
+[
+  {
+    "id": "yellow-rose",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/news/411770/yellow-rose-brooklyn-opening-tex-mex-restaurant-williamsburg-rose-marie-closing",
+    "evidence": "Eater (June 1, 2026) describes the original as 'the East Village's Tex-Mex dining destination Yellow Rose' while reporting a second location opening in Brooklyn, and its own site (yellowrosenyc.com) and Resy page are active.",
+    "confidence": "medium"
+  },
+  {
+    "id": "yi-ji-shi-mo",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.foodandwine.com/yi-ji-shi-mo-noodle-corp-11817105",
+    "evidence": "Still listed as an operating restaurant at 88 Elizabeth St with current hours (Tue-Sun 7am-4pm) via Google/Fine Dining Lovers and a recent Food & Wine feature; no closure record found.",
+    "confidence": "low"
+  },
+  {
+    "id": "yu-kitchen",
+    "status": "closed",
+    "closed_date": "2021-10",
+    "source_url": "https://www.ilovetheupperwestside.com/new-vietnamese-restaurant-just-pho-you-opening-monday/",
+    "evidence": "The space at 2656 Broadway 'was formerly occupied by Yu Kitchen, which closed in October'; Just Pho You opened there March 28, 2022 (West Side Rag also: 'The restaurant replaces Yu Kitchen').",
+    "confidence": "high"
+  },
+  {
+    "id": "zaab-zaab",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/news/408274/zohran-mamdani-mayor-nyc-queens-restaurants-kabab-king-boishakhi-zaab-zaab",
+    "evidence": "Eater reports the mayor dining at the Elmhurst location in 2026, and Wikipedia (updated July 2026) still lists 76-04 Woodside Avenue plus Williamsburg, Pier 57, and Flushing locations.",
+    "confidence": "high"
+  },
+  {
+    "id": "zimmi-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://mercerhotel.com/zimmis/",
+    "evidence": "The Mercer Hotel page for Zimmi's at 72 Bedford Street lists current dinner hours (Monday-Sunday 5-11pm), and The Infatuation reviewed it in 2025.",
+    "confidence": "high"
+  }
+]

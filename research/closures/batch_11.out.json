@@ -1,0 +1,162 @@
+[
+  {
+    "id": "st-anselm",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/2025/2/4/24355508/st-anselm-reopening-brooklyn-fire",
+    "evidence": "Eater: \"Brooklyn's St. Anselm Reopens After a Fire\" (Feb. 2025) — the Sept. 2024 fire closure was temporary and it reopened at 355 Metropolitan Ave.",
+    "confidence": "high"
+  },
+  {
+    "id": "sullivan-street-bakery",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.sullivanstreetbakery.com/location/chelsea-sullivan-street-bakery/",
+    "evidence": "Bakery's own site still lists the Chelsea shop at \"236 9th Ave\" with hours Monday-Sunday 8:00am-7:00pm and online ordering.",
+    "confidence": "high"
+  },
+  {
+    "id": "sunn-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://sunnsnyc.com/",
+    "evidence": "Official site is live and current: \"139 Division Street, New York, NY 10002\" with an active OpenTable booking link; no closure reporting found.",
+    "confidence": "high"
+  },
+  {
+    "id": "superiority-burger",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/superiority-burger?seats=2&date=2026-08-22",
+    "evidence": "Resy still takes reservations at 119 Avenue A into 2026 and the Michelin Guide lists it; its earlier 9th Street space closed in 2021 but the current Avenue A location is open.",
+    "confidence": "high"
+  },
+  {
+    "id": "sushi-ichimura",
+    "status": "closed",
+    "closed_date": "2025-08",
+    "source_url": "https://ny.eater.com/2025/3/25/24393125/ichimura-tribeca-closing",
+    "evidence": "Eater: \"the 10-seat Sushi Ichimura (412 Greenwich Street, near Laight Street) will close permanently\" when Eiji Ichimura retires in mid-August 2025.",
+    "confidence": "high"
+  },
+  {
+    "id": "sushi-noz",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.doordash.com/reservations/r/sushinoznyc?date=2026-02-25&party-size=2&time=Anytime",
+    "evidence": "Reservation platform lists Sushi Noz at 181 E 78th St with bookable dates in 2026; no closure reporting found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "sushi-on-me",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.opentable.com/restaurant/profile/1194724",
+    "evidence": "OpenTable profile for \"Sushi on Me - Jackson Heights\" (71-26 Roosevelt Ave) remains active and its menu listings are live; no closure report found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "sylvia-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://citymeetings.nyc/meetings/new-york-city-council/2025-04-23-1000-am-committee-on-transportation-and-infrastructure/chapter/testimony-by-krizette-woods-owner-of-sylvias-restaurant/",
+    "evidence": "Owner Krizette Woods testified before the NY City Council as \"Owner of Sylvia's Restaurant\" in April 2025, and online ordering at 328 Malcolm X Blvd is live.",
+    "confidence": "high"
+  },
+  {
+    "id": "szechuan-mountain-house",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.doordash.com/store/szechuan-mountain-house-flushing-1816468/82700550/",
+    "evidence": "Live delivery/ordering listings (DoorDash, Uber Eats, Toast) for the Flushing location at 39-16 Prince St and 2026 food-blog visits; no closure news found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "taqueria-ramirez",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.bkmag.com/2026/06/01/socceria-taqueria-ramirez-world-cup-sports-cantina-greenpoint-opening/",
+    "evidence": "June 2026 Brooklyn Magazine piece still refers to Tania Apolinar and Gio Cervantes' \"game-changing Taqueria Ramirez in Greenpoint\" among their operating restaurants.",
+    "confidence": "medium"
+  },
+  {
+    "id": "thai-diner",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.timeout.com/newyork/news/the-thai-diner-team-is-taking-over-their-old-uncle-boons-sister-spot-062625",
+    "evidence": "June 2025 Time Out and Aug. 2025 Eater coverage of the Thai Diner team's new Mommy Pai's project; Thai Diner at 186 Mott St is still listed by the Michelin Guide.",
+    "confidence": "high"
+  },
+  {
+    "id": "the-breslin",
+    "status": "closed",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/2022/9/15/23353362/koloman-restaurant-opening-manhattan-ace-hotel",
+    "evidence": "Eater: Koloman opened in Sept. 2022 in \"what had been the Breslin\"; Eater also reported the Breslin was rebranded as Breslin Burger in 2021 (Breslin Burger is gone too).",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-four-horsemen",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/the-four-horsemen?date=2026-09-13&seats=2",
+    "evidence": "Resy shows bookable reservations at 295 Grand St into September 2026 and the Michelin Guide still lists The Four Horsemen.",
+    "confidence": "high"
+  },
+  {
+    "id": "the-grill",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/the-grill-ny?seats=2&date=2026-04-10",
+    "evidence": "Resy takes THE GRILL reservations at 99 E 52nd St for April 2026, and Major Food Group's site and the Michelin Guide still list it.",
+    "confidence": "high"
+  },
+  {
+    "id": "the-nomad-restaurant",
+    "status": "closed",
+    "closed_date": "2021-03",
+    "source_url": "https://ny.eater.com/2021/3/26/22352206/nomad-hotel-restaurant-shut-down-renovations",
+    "evidence": "Eater: \"The restaurant and bar will close down on March 28\" 2021 as the NoMad Hotel shut for renovations; it never returned — the property reopened as The Ned NoMad with new restaurants.",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-original-buddha-bodai-kosher-vegetarian-restaurant",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://buddha-bodai.com/",
+    "evidence": "Official site is live and current, listing \"5 Mott Street\" with daily hours, online ordering and catering; no closure reporting found.",
+    "confidence": "high"
+  },
+  {
+    "id": "tomino-taberna-gallega",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": null,
+    "evidence": "No closure report and no recent confirmation of operation found; only stale Michelin Guide/OpenTable/aggregator listings for 192 Grand St, so status could not be verified.",
+    "confidence": "low"
+  },
+  {
+    "id": "tong",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://guide.michelin.com/at/en/new-york-state/brooklyn/restaurant/tong",
+    "evidence": "Michelin Guide still lists Tong at 321 Starr St, live online-ordering pages exist, and a 2025 Crain's story describes it as the building's current \"Michelin-endorsed Thai restaurant tenant.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "tony-and-tina-s-pizzeria",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": null,
+    "evidence": "Address 2483 Arthur Ave now appears as \"Arthur Ave Crust & Kitchen\" (same owners per listing text), so it is unclear whether Tony & Tina's closed or was merely rebranded.",
+    "confidence": "low"
+  },
+  {
+    "id": "torishin",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/torishin?seats=2&date=2026-04-01",
+    "evidence": "Resy shows bookable Yakitori Torishin reservations at 362 W 53rd St for April 2026; no closure reporting found.",
+    "confidence": "high"
+  }
+]

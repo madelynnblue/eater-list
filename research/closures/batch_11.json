@@ -1,0 +1,182 @@
+[
+ {
+  "id": "st-anselm",
+  "name": "St. Anselm",
+  "address": "355 Metropolitan Ave Brooklyn, NY",
+  "website": "http://www.stanselm.net",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "sullivan-street-bakery",
+  "name": "Sullivan Street Bakery",
+  "address": "236 9th Ave New York, NY 10011",
+  "website": "http://www.sullivanstreetbakery.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2019-05-28",
+  "still_on_list": false
+ },
+ {
+  "id": "sunn-s",
+  "name": "Sunn’s",
+  "address": "139 Division St, New York, NY, 10002, US",
+  "website": "https://sunnsnyc.com/",
+  "on_list_from": "2025-10-08",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "superiority-burger",
+  "name": "Superiority Burger",
+  "address": "119 Avenue A, New York, NY, 10009, US",
+  "website": "http://www.superiorityburger.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "sushi-ichimura",
+  "name": "Sushi Ichimura",
+  "address": "412 Greenwich Street, Manhattan, NY 10013",
+  "website": "http://www.sushiichimura.nyc/",
+  "on_list_from": "2024-01-13",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "sushi-noz",
+  "name": "Sushi Noz",
+  "address": "181 E 78th St New York, NY 10075",
+  "website": "http://sushinoz.com/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2022-04-07",
+  "still_on_list": false
+ },
+ {
+  "id": "sushi-on-me",
+  "name": "Sushi On Me",
+  "address": "71-26 Roosevelt Ave, Queens, NY 11372",
+  "website": "",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2024-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "sylvia-s",
+  "name": "Sylvia’s",
+  "address": "328 Malcolm X Boulevard, Manhattan, NY 10027",
+  "website": "http://www.sylviasrestaurant.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2025-12-18",
+  "still_on_list": false
+ },
+ {
+  "id": "szechuan-mountain-house",
+  "name": "Szechuan Mountain House",
+  "address": "3916 Prince St g03, Queens, NY 11354",
+  "website": "https://www.szechuanmountainhouse.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "taqueria-ramirez",
+  "name": "Taqueria Ramirez",
+  "address": "94 Franklin St (at Oak St), Brooklyn, NY 11222",
+  "website": "https://taqueriaramirezbk.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "thai-diner",
+  "name": "Thai Diner",
+  "address": "186 Mott St, New York, NY 10012",
+  "website": "http://www.thaidiner.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2023-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "the-breslin",
+  "name": "The Breslin",
+  "address": "16 W 29th St New York, NY",
+  "website": "http://www.thebreslin.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "the-four-horsemen",
+  "name": "The Four Horsemen",
+  "address": "295 Grand St Side, Brooklyn, NY, 11211, US",
+  "website": "http://fourhorsemenbk.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "the-grill",
+  "name": "The Grill",
+  "address": "99 E 52nd St New York, NY 10022",
+  "website": "http://www.thegrillnewyork.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2019-12-05",
+  "still_on_list": false
+ },
+ {
+  "id": "the-nomad-restaurant",
+  "name": "The NoMad Restaurant",
+  "address": "1170 Broadway New York, NY",
+  "website": "http://www.thenomadhotel.com/#/dining",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "the-original-buddha-bodai-kosher-vegetarian-restaurant",
+  "name": "The Original Buddha Bodai Kosher Vegetarian Restaurant",
+  "address": "5 Mott St, New York, NY 10013",
+  "website": "http://www.buddha-bodai.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2023-05-30",
+  "still_on_list": false
+ },
+ {
+  "id": "tomino-taberna-gallega",
+  "name": "Tomiño Taberna Gallega",
+  "address": "192 Grand St New York, NY 10013",
+  "website": "http://www.tominonyc.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2019-02-02",
+  "still_on_list": false
+ },
+ {
+  "id": "tong",
+  "name": "Tong",
+  "address": "321 Starr St Brooklyn, NY 11237",
+  "website": "http://tongbrooklyn.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2021-12-20",
+  "still_on_list": false
+ },
+ {
+  "id": "tony-and-tina-s-pizzeria",
+  "name": "Tony & Tina's Pizzeria",
+  "address": "2483 Arthur Ave The Bronx, NY 10458",
+  "website": "",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "torishin",
+  "name": "Torishin",
+  "address": "362 W 53rd St New York, NY 10019",
+  "website": "http://torishinny.com/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2019-05-28",
+  "still_on_list": false
+ }
+]

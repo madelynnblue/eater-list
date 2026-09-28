@@ -1,0 +1,182 @@
+[
+ {
+  "id": "odeon",
+  "name": "Odeon",
+  "address": "145 West Broadway, New York, New York 10013",
+  "website": "http://www.theodeonrestaurant.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2024-10-07",
+  "still_on_list": false
+ },
+ {
+  "id": "oiji",
+  "name": "Oiji",
+  "address": "119 1st Ave New York, NY",
+  "website": "http://www.oijinyc.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "olmsted",
+  "name": "Olmsted",
+  "address": "659 Vanderbilt Ave Brooklyn, NY",
+  "website": "http://www.olmstednyc.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "ops",
+  "name": "Ops",
+  "address": "346 Himrod St Brooklyn, NY 11237",
+  "website": "http://www.opsbk.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2021-12-20",
+  "still_on_list": false
+ },
+ {
+  "id": "papaye",
+  "name": "Papaye",
+  "address": "196 McClellan St, Bronx, NY 10456",
+  "website": "http://www.papayenyc.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "pastrami-queen",
+  "name": "Pastrami Queen",
+  "address": "1125 Lexington Ave # 2, New York, NY 10075",
+  "website": "http://pastramiqueen.com/",
+  "on_list_from": "2023-01-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "patsy-s-pizza-east-harlem",
+  "name": "Patsy's Pizza - East Harlem",
+  "address": "2287 1st Ave New York, NY",
+  "website": "http://www.thepatsyspizza.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "peaches-hothouse",
+  "name": "Peaches HotHouse",
+  "address": "415 Tompkins Ave Brooklyn, NY 11216",
+  "website": "http://www.bcrestaurantgroup.com/hothouse",
+  "on_list_from": "2021-01-22",
+  "on_list_through": "2021-10-11",
+  "still_on_list": false
+ },
+ {
+  "id": "peppa-s",
+  "name": "Peppa's",
+  "address": "738 Flatbush Ave, Brooklyn, NY 11226",
+  "website": "",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ },
+ {
+  "id": "peter-luger-steak-house",
+  "name": "Peter Luger Steak House",
+  "address": "178 Broadway Brooklyn, NY",
+  "website": "http://peterluger.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "ping-seafood-restaurant",
+  "name": "Ping Seafood Restaurant",
+  "address": "22 Mott St New York, NY 10013",
+  "website": "https://www.eatatpings.com/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "playground",
+  "name": "Playground",
+  "address": "71-30 Roosevelt Ave, Jackson Heights, NY 11372",
+  "website": "",
+  "on_list_from": "2022-04-26",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "pranakhon",
+  "name": "Pranakhon",
+  "address": "88 University Pl, New York, NY 10003",
+  "website": "http://www.pranakhonnyc.com/",
+  "on_list_from": "2023-10-13",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "prime-meats",
+  "name": "Prime Meats",
+  "address": "465 Court St Brooklyn, NY",
+  "website": "http://www.frankspm.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "prune",
+  "name": "Prune",
+  "address": "54 E 1st St # 1 New York, NY 10003",
+  "website": "http://www.prunerestaurant.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "qanoon-restaurant",
+  "name": "Qanoon Restaurant",
+  "address": "180 9th Ave New York, NY 10011",
+  "website": "https://qanoonnyc.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "rahi",
+  "name": "Rahi",
+  "address": "60 Greenwich Ave New York, NY 10011",
+  "website": "http://www.rahinyc.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2019-02-02",
+  "still_on_list": false
+ },
+ {
+  "id": "raku",
+  "name": "Raku",
+  "address": "342 E 6th St, New York, NY 10003",
+  "website": "http://www.rakunyc.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2025-01-06",
+  "still_on_list": false
+ },
+ {
+  "id": "ras-plant-based",
+  "name": "Ras Plant Based",
+  "address": "739 Franklin Ave Brooklyn, NY 11238",
+  "website": "http://www.rasplantbased.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2021-10-11",
+  "still_on_list": false
+ },
+ {
+  "id": "red-hook-tavern",
+  "name": "Red Hook Tavern",
+  "address": "329 Van Brunt St, Brooklyn, NY, 11231, US",
+  "website": "https://www.redhooktavern.com",
+  "on_list_from": "2025-10-08",
+  "on_list_through": "2026-07-09",
+  "still_on_list": false
+ }
+]

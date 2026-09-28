@@ -1,0 +1,182 @@
+[
+ {
+  "id": "indian-table",
+  "name": "Indian Table",
+  "address": "234 Court St Brooklyn, NY 11201",
+  "website": "http://indiantableny.com/",
+  "on_list_from": "2021-10-15",
+  "on_list_through": "2022-04-07",
+  "still_on_list": false
+ },
+ {
+  "id": "jeju-noodle-bar",
+  "name": "Jeju Noodle Bar",
+  "address": "679 Greenwich St New York, NY 10014",
+  "website": "http://jejunoodlebar.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "jing-fong",
+  "name": "Jing Fong",
+  "address": "20 Elizabeth St New York, NY 10013",
+  "website": "http://jingfongny.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "joe-s-of-avenue-u",
+  "name": "Joe's of Avenue U",
+  "address": "",
+  "website": "",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2023-05-30",
+  "still_on_list": false
+ },
+ {
+  "id": "jongro-bbq",
+  "name": "Jongro BBQ",
+  "address": "22 W 32nd St (btwn Broadway & 5th Ave), New York, NY 10001",
+  "website": "http://www.jongrobbqny.com",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "jongro-gopchang",
+  "name": "Jongro Gopchang",
+  "address": "22 W 32nd St, New York, NY 10001",
+  "website": "https://www.jongrogopchang.com/",
+  "on_list_from": "2024-01-13",
+  "on_list_through": "2024-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "jua",
+  "name": "Jua",
+  "address": "36 E 22nd St, New York, NY 10010",
+  "website": "http://www.juanyc.com/",
+  "on_list_from": "2021-10-15",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ },
+ {
+  "id": "kabawa",
+  "name": "Kabawa",
+  "address": "8 Extra Pl, New York, NY, 10003, US",
+  "website": "https://www.momofuku.com/restaurants/kabawa",
+  "on_list_from": "2026-01-13",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "kanyakumari",
+  "name": "Kanyakumari",
+  "address": "20 East 17th Street, New York, New York 10003",
+  "website": "http://kanyakumarinyc.com/",
+  "on_list_from": "2024-10-10",
+  "on_list_through": "2025-07-02",
+  "still_on_list": false
+ },
+ {
+  "id": "kashkar-cafe",
+  "name": "Kashkar Cafe",
+  "address": "1141 Brighton Beach Ave, Brooklyn, NY 11235",
+  "website": "https://www.kashkar-cafe.com/",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "katz-s-delicatessen",
+  "name": "Katz's Delicatessen",
+  "address": "205 E Houston St (at Ludlow St), New York, NY 10002",
+  "website": "https://katzsdelicatessen.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "keens-steakhouse",
+  "name": "Keens Steakhouse",
+  "address": "72 W 36th St, New York, NY, 10018, US",
+  "website": "http://www.keens.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2026-03-14",
+  "still_on_list": false
+ },
+ {
+  "id": "killmeyer-s",
+  "name": "Killmeyer's",
+  "address": "4254 Arthur Kill Rd, Staten Island, NY 10309",
+  "website": "http://www.killmeyers.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "kingston-tropical-bakery",
+  "name": "Kingston Tropical Bakery",
+  "address": "4000 White Plains Rd, Bronx, NY 10466",
+  "website": "",
+  "on_list_from": "2022-04-26",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "kisa",
+  "name": "Kisa",
+  "address": "205 Allen Street, New York, New York 10002",
+  "website": "https://www.kisaus.com/",
+  "on_list_from": "2025-01-15",
+  "on_list_through": "2025-09-29",
+  "still_on_list": false
+ },
+ {
+  "id": "koloman",
+  "name": "Koloman",
+  "address": "16 W 29th St, New York, NY 10001",
+  "website": "https://kolomanrestaurant.com/",
+  "on_list_from": "2023-01-13",
+  "on_list_through": "2025-01-06",
+  "still_on_list": false
+ },
+ {
+  "id": "kopitiam",
+  "name": "Kopitiam",
+  "address": "151 E Broadway, New York, NY 10002",
+  "website": "https://www.kopitiamnyc.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2023-05-30",
+  "still_on_list": false
+ },
+ {
+  "id": "la-morada",
+  "name": "La Morada",
+  "address": "308 Willis Ave The Bronx, NY 10454",
+  "website": "http://lamoradanyc.com/",
+  "on_list_from": "2019-10-23",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "la-pirana-lechonera",
+  "name": "La Piraña Lechonera",
+  "address": "766 E 152nd St, Bronx, NY, 10455, US",
+  "website": "",
+  "on_list_from": "2025-10-08",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "la-vara",
+  "name": "La Vara",
+  "address": "268 Clinton St, Brooklyn, NY 11201",
+  "website": "http://www.lavarany.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ }
+]

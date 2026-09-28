@@ -1,0 +1,162 @@
+[
+  {
+    "id": "blue-willow",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=camis%3D%2750106095%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH inspection records for Blue Willow (CAMIS 50106095) at 40 West 56 St show a Cycle Inspection / Re-inspection on 2026-09-23, so the Chinese restaurant is still operating.",
+    "confidence": "high"
+  },
+  {
+    "id": "bo-ky",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=camis%3D%2750044289%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Bo Ky (CAMIS 50044289) at 78 Bayard St show a 2026-06-24 inspection whose action reads \"No violations were recorded at the time of this inspection.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "bolero",
+    "status": "closed",
+    "closed_date": null,
+    "source_url": "https://www.nyctourism.com/restaurants/bolero/",
+    "evidence": "NYC Tourism's official listing for Bolero at 177 Bedford Ave is tagged \"Out of Business,\" and 177 Bedford Ave is now occupied by 7th Street Burger (NYC DOHMH pre-permit inspection there in April 2024).",
+    "confidence": "medium"
+  },
+  {
+    "id": "bolivian-llama-party",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25BOLIVIAN%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Bolivian Llama Party (CAMIS 50105453) at 44-14 48 Ave, Queens, show a 2025-11-19 Cycle Inspection / Re-inspection with grade A, and blp.nyc is live with current ordering.",
+    "confidence": "high"
+  },
+  {
+    "id": "bong",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=building%3D%27724%27%20AND%20upper(street)%20like%20%27%25STERLING%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Bong (CAMIS 50167493) at 724 Sterling Place show an operational pre-permit inspection on 2026-01-06, and Michelin added Bong to its New York guide in April 2026.",
+    "confidence": "high"
+  },
+  {
+    "id": "borgo",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25BORGO%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Borgo (CAMIS 50156555) at 124 E 27 St show an operational inspection with grade A on 2025-12-01, and Eater NY still referred in February 2026 to \"the wildly popular Borgo in Manhattan.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "boulud-sud",
+    "status": "closed",
+    "closed_date": "2025-06",
+    "source_url": "https://ny.eater.com/coming-attractions/399514/bar-boulud-boulud-sud-closing-manhattan-daniel-boulud",
+    "evidence": "Eater NY (June 20, 2025) reported Daniel Boulud was \"shuttering\" Boulud Sud with Bar Boulud and Epicerie Boulud for a new brasserie: \"The restaurants will close on June 23\"; the space became Brasserie Boulud.",
+    "confidence": "high"
+  },
+  {
+    "id": "bread-and-salt",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://thedigestonline.com/dining/best-italian-bakeries-and-pastry-shops-in-nj/",
+    "evidence": "NJ Digest's April 16, 2026 Italian-bakery guide still calls Bread & Salt in Jersey City Heights \"a must\" and features its current Instagram; no closure report was found for this Jersey City location (a 2016 \"Bread and Salt Bakery is Closed\" story is the Pittsburgh original).",
+    "confidence": "medium"
+  },
+  {
+    "id": "bunna-cafe",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25BUNNA%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Bunna Cafe (CAMIS 50006264) at 1084 Flushing Ave show a 2026-04-09 inspection with \"No violations were recorded at the time of this inspection.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "banh-mi-saigon",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=building%3D%27198%27%20AND%20upper(street)%20like%20%27%25GRAND%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Banh Mi Saigon Bakery (CAMIS 41494286) at 198 Grand St show a Cycle Inspection / Initial Inspection on 2025-12-10 with grade A; the \"permanently closing\" Facebook post found in search belongs to Boston's New Saigon Sandwich, not this shop.",
+    "confidence": "high"
+  },
+  {
+    "id": "banh-vietnamese-shop-house",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=building%3D%27942%27%20AND%20upper(street)%20like%20%27%25AMSTERDAM%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for the shop trading as BANH (CAMIS 50107904) at 942 Amsterdam Ave show an inspection with \"No violations were recorded\" on 2026-07-18, and West Side Rag visited in July 2026 when \"every single table was full.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "cadence",
+    "status": "closed",
+    "closed_date": "2025-11",
+    "source_url": "https://ny.eater.com/news/406331/nyc-restaurants-closed-november-2025",
+    "evidence": "Eater's November 2025 closures roundup: the East Village vegan restaurant \"has closed on Saturday, November 22. The Overthrow Hospitality spot had announced this eventual shutter over the summer\" (same Cadence opened in 2021 by chef Shenarri Freeman).",
+    "confidence": "high"
+  },
+  {
+    "id": "cafe-boulud",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.cafeboulud.com/nyc/",
+    "evidence": "The official site is live as \"Café Boulud at Maison Barnes,\" 100 E. 63rd Street, with current brunch/lunch/dinner hours and a working Resy link, and DOHMH records locate Café Boulud at 100 East 63 Street; the 2021 closure was of the old Surrey-hotel location, not this address.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cafe-commerce",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://itsadate.nyc/restaurants/cafe-commerce-reservations",
+    "evidence": "Reservation guide for Cafe Commerce at 964 Lexington Ave was \"Last verified Jul 11, 2026\" with a live Resy release window and current menu; DOHMH also holds a registered establishment record for the address (no closure coverage found).",
+    "confidence": "medium"
+  },
+  {
+    "id": "cafe-kestrel",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://itsadate.nyc/restaurants/cafe-kestrel-reservations",
+    "evidence": "Café Kestrel's reservation guide was \"Last verified Jul 11, 2026\" with an active 30-date Resy booking window at 293 Van Brunt St, and DOHMH shows a grade A inspection in February 2025.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cafe-china",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CAFE%20CHINA%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Cafe China (CAMIS 50112960) at 59 West 37 Street show an inspection on 2026-03-12, confirming the restaurant relocated from 13 E 37th St (as Eater reported in 2021) and is still operating.",
+    "confidence": "high"
+  },
+  {
+    "id": "carnitas-ramirez",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://evgrieve.com/2026/06/carnitas-ramirez-marks-2-years-in-east.html",
+    "evidence": "EV Grieve (June 24, 2026): \"Carnitas Ramirez recently celebrated its second anniversary at 210 E. Third St.\" and its chefs were 2026 James Beard finalists.",
+    "confidence": "high"
+  },
+  {
+    "id": "casa-enrique",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CASA%20ENRIQUE%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Casa Enrique (CAMIS 41643074) at 5-48 49 Ave, Queens, show a Cycle Inspection / Initial Inspection on 2026-04-23 with grade A.",
+    "confidence": "high"
+  },
+  {
+    "id": "cervo-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CERVO%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Cervo's (CAMIS 50064374) at 43 Canal St show a Cycle Inspection / Re-inspection on 2025-11-25, and a July 2026 Resy feature lists Cervo's as a current restaurant.",
+    "confidence": "high"
+  },
+  {
+    "id": "cha-long",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CHALONG%25%27&$order=inspection_date%20DESC&$limit=3",
+    "evidence": "NYC DOHMH records for Chalong (CAMIS 50129760), the Southern Thai restaurant at 749 9 Avenue listed here as \"Cha Long,\" show a re-inspection with grade A on 2026-04-22, and chalongnyc.com is live with current hours.",
+    "confidence": "high"
+  }
+]

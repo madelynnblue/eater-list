@@ -1,0 +1,182 @@
+[
+ {
+  "id": "chama-mama",
+  "name": "Chama Mama",
+  "address": "149 West 14th Street, Manhattan, NY, 10011",
+  "website": "http://www.chamamama.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "charles-pan-fried-chicken",
+  "name": "Charles Pan-Fried Chicken",
+  "address": "439 W 125th St, New York, NY, 10027, US",
+  "website": "https://www.charlespanfriedchicken.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2026-07-09",
+  "still_on_list": false
+ },
+ {
+  "id": "cheburechnaya",
+  "name": "Cheburechnaya",
+  "address": "9209 63rd Dr Ste A Flushing, NY",
+  "website": "http://www.cheburechnaya.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2019-12-05",
+  "still_on_list": false
+ },
+ {
+  "id": "cheli",
+  "name": "CheLi",
+  "address": "19 St Marks Pl New York, NY 10003",
+  "website": "http://www.che-li.com/",
+  "on_list_from": "2022-04-26",
+  "on_list_through": "2022-06-16",
+  "still_on_list": false
+ },
+ {
+  "id": "chez-ma-tante",
+  "name": "Chez Ma Tante",
+  "address": "90 Calyer St Brooklyn, NY 11222",
+  "website": "http://www.chezmatantebk.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2021-10-11",
+  "still_on_list": false
+ },
+ {
+  "id": "chuan-tian-xia",
+  "name": "Chuan Tian Xia",
+  "address": "5502 7th Ave, Brooklyn, NY 11220",
+  "website": "https://chuantianxiany.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "ci-siamo",
+  "name": "Ci Siamo",
+  "address": "440 W 33rd St Suite #100, New York, NY 10001",
+  "website": "https://www.cisiamonyc.com/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+  "on_list_from": "2023-07-13",
+  "on_list_through": "2024-06-17",
+  "still_on_list": false
+ },
+ {
+  "id": "claro",
+  "name": "Claro",
+  "address": "284 3rd Ave Brooklyn, NY 11215",
+  "website": "http://clarobk.com/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2019-08-15",
+  "still_on_list": false
+ },
+ {
+  "id": "claud",
+  "name": "Claud",
+  "address": "90 E 10th St, New York, NY, 10003, US",
+  "website": "http://claudnyc.com/",
+  "on_list_from": "2025-07-08",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "claudy-s-empanadas",
+  "name": "Claudy’s Empanadas",
+  "address": "5981 Broadway, The Bronx, NY 10471",
+  "website": "https://www.claudys.com/",
+  "on_list_from": "2023-01-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "coqodaq",
+  "name": "Coqodaq",
+  "address": "12 E 22nd St, New York, NY 10010",
+  "website": "https://www.coqodaq.com",
+  "on_list_from": "2026-08-13",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "corner-bar",
+  "name": "Corner Bar",
+  "address": "60 Canal St, New York, NY 10002",
+  "website": "http://cornerbarnyc.com/",
+  "on_list_from": "2023-01-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "cosme",
+  "name": "Cosme",
+  "address": "35 E 21st St New York, NY",
+  "website": "http://www.cosmenyc.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "coszcal-de-allende",
+  "name": "Coszcal De Allende",
+  "address": "6824 3rd Ave, Brooklyn, NY 11220",
+  "website": "http://www.coszcaldeallende.com/#/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "cote-korean-steakhouse",
+  "name": "Cote Korean Steakhouse",
+  "address": "16 W 22nd St New York, NY 10010",
+  "website": "http://www.cotenyc.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2019-08-15",
+  "still_on_list": false
+ },
+ {
+  "id": "court-street-grocers",
+  "name": "Court Street Grocers",
+  "address": "485 Court St Brooklyn, NY 11231",
+  "website": "http://www.courtstreetgrocers.com/",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "crevette",
+  "name": "Crevette",
+  "address": "10 Downing St, New York, NY, 10014, US",
+  "website": "https://www.crevettenyc.com/",
+  "on_list_from": "2026-07-10",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "crop-circle",
+  "name": "Crop Circle",
+  "address": "126 MacDougal St New York, NY 10012",
+  "website": "https://cropcirclenyc.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "dame",
+  "name": "Dame",
+  "address": "87 MacDougal St, New York, NY 10012",
+  "website": "https://www.damenewyork.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "denino-s-pizzeria-and-tavern",
+  "name": "Denino’s Pizzeria & Tavern",
+  "address": "524 Port Richmond Ave Staten Island, NY 10302",
+  "website": "http://deninossi.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-12-20",
+  "still_on_list": false
+ }
+]

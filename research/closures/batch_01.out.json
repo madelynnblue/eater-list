@@ -1,0 +1,162 @@
+[
+  {
+    "id": "2nd-ave-deli",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.2ndavedeli.com/",
+    "evidence": "Own site lists 162 East 33rd Street and says \"Now open daily for dine-in, delivery, pickup and takeout\" (daily 11am-8pm), with a 2026 High Holiday menu posted.",
+    "confidence": "high"
+  },
+  {
+    "id": "a-and-a-bake-doubles-and-roti",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://patch.com/new-york/bed-stuy/1-bed-stuy-spot-among-best-nyc-new-ranking-says",
+    "evidence": "Patch (June 4, 2025): \"A&A Bake Doubles and Roti, located at 1337 Fulton Street ... is a new addition to the New York Times' list of the 100 best restaurants in the city.\"",
+    "confidence": "medium"
+  },
+  {
+    "id": "abuqir",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/dining-report/408744/abuqir-review-nyc-pick-your-own-seafood-restaurant-egyptian-queens-fish",
+    "evidence": "Eater dining report dated Jan 27, 2026 describes a first-hand recent visit to \"AbuQir ... 2419 Steinway St, Astoria.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "adda",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/2025/4/29/24420313/adda-nyc-indian-restaurant-lic-closed-reopening-east-village-unapologetic-foods-open",
+    "evidence": "Eater (Apr 29, 2025): the team \"closed the original Long Island City location and have relocated the restaurant into the East Village at 107 First Avenue ... for an opening on Thursday, May 1.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "africa-kine",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.theinfatuation.com/new-york/reviews/kinne",
+    "evidence": "The Infatuation (Sept 10, 2026) calls Kinne \"the second restaurant from the team behind tenured classic Africa Kine\" (2267 Adam Clayton Powell Jr Blvd), and delivery listings for that address remain active.",
+    "confidence": "medium"
+  },
+  {
+    "id": "agnanti",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": null,
+    "evidence": "No source found confirming current status; the last substantial coverage was Eater's April 2024 review, and the restaurant's former domain (agnantimeze.com) now redirects to an unrelated gambling site.",
+    "confidence": "low"
+  },
+  {
+    "id": "al-badawi",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://guide.michelin.com/en/new-york-state/brooklyn/restaurant/al-badawi",
+    "evidence": "Michelin Guide page for Al Badawi, 151 Atlantic Ave., lists current daily hours and a working Resy booking link (2026).",
+    "confidence": "high"
+  },
+  {
+    "id": "aldama",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": "https://www.timeout.com/newyork/news/brooklyns-michelin-starred-taqueria-is-coming-to-union-square-090125",
+    "evidence": "Time Out (Sept 1, 2025): \"Aldama went on a pause in 2024 and has been in limbo ever since\" - no record of permanent closure or of reopening.",
+    "confidence": "medium"
+  },
+  {
+    "id": "aldea",
+    "status": "closed",
+    "closed_date": "2020-02",
+    "source_url": "https://ny.eater.com/2020/2/10/21131277/aldea-closing-date-nyc",
+    "evidence": "Eater (Feb 10, 2020): \"Michelin-Starred Aldea Is Closing After More Than 10 Years\"; Grub Street and OpenTable likewise mark it permanently closed.",
+    "confidence": "high"
+  },
+  {
+    "id": "atla",
+    "status": "closed",
+    "closed_date": "2026-05",
+    "source_url": "https://ny.eater.com/restaurant-closings/411063/atla-noho-closing-enrique-olvera",
+    "evidence": "Eater (Apr 30, 2026): \"Atla ... will close on Sunday, May 31, after nearly a decade at 372 Lafayette Street.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "atomix",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.theworlds50best.com/restaurants/best-in-north-america/the-list/atomix.html",
+    "evidence": "Atomix appears on North America's 50 Best Restaurants 2026 list, and Eater's 2025 dining report calls it \"still one of NYC's hottest restaurants, even after seven years.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "awang-kitchen",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://awangkitchen.com/",
+    "evidence": "Restaurant's own site lists 8405 Queens Boulevard, Elmhurst with \"OPEN 7 DAYS\" and a downloadable 2026 dining menu.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ayada",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.ayadanyc.com/elmhurst/",
+    "evidence": "Ayada's own site lists the Elmhurst location at \"7708 Woodside Ave, Elmhurst, NY 11373\" with current daily hours.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ayat",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.ayatnyc.com/location/bay-ridge/",
+    "evidence": "Ayat's Bay Ridge page lists \"8504 3rd Ave, Brooklyn, NY 11209\" with \"Hours: Open\" and active ordering; Eater (Oct 2024) noted the original Bay Ridge Ayat \"is now a takeout and catering kitchen.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "b-and-h-dairy",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.bandhdairykosher.com/home",
+    "evidence": "B&H Dairy's own site lists 127 Second Ave with current hours (\"Sunday, Tuesday - Saturday 7 a.m. - 11:00 p.m.\") and 2025-2026 photos/merch.",
+    "confidence": "high"
+  },
+  {
+    "id": "baekjeong",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.theinfatuation.com/new-york/reviews/baekjong-black",
+    "evidence": "Eater (Feb 2024): Baekjeong \"shuttered at the start of the year\" at 1 E. 32nd St but \"owners ... are moving Baekjeong down the street\"; The Infatuation (Sept 2026) documents the reopened Baekjeong Black at 49 W. 32nd St.",
+    "confidence": "medium"
+  },
+  {
+    "id": "balthazar",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://balthazarny.com/",
+    "evidence": "Balthazar's own site describes the SoHo brasserie at 80 Spring Street serving \"breakfast through supper every day.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "bamonte-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://airmail.news/issues/2025-1-4/saucy-beast",
+    "evidence": "Airmail (Jan 4, 2025): \"Bamonte's, the Italian-American Staple in Brooklyn, Turns 125.\"",
+    "confidence": "medium"
+  },
+  {
+    "id": "bangkok-supper-club",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/bangkok-supper-club",
+    "evidence": "Resy shows Bangkok Supper Club (641 Hudson St) taking reservations into September 2026, and the Michelin Guide still lists the restaurant.",
+    "confidence": "high"
+  },
+  {
+    "id": "birria-landia",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.timeout.com/newyork/news/this-nyc-birria-destination-was-just-named-one-of-the-top-taco-spots-in-america-100325",
+    "evidence": "Time Out (Oct 3, 2025) names the Roosevelt Ave Birria-Landia truck among America's top taco spots, and Grub Street reports the truck is expanding to a brick-and-mortar location.",
+    "confidence": "medium"
+  }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": "mel",
+  "name": "Mel",
+  "address": "1 Ludlow St, New York, NY 10002",
+  "website": "https://www.melthebakery.com/",
+  "on_list_from": "2022-04-26",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "meme-s-diner",
+  "name": "MeMe's Diner",
+  "address": "657 Washington Ave Brooklyn, NY 11238",
+  "website": "http://memesdiner.com/",
+  "on_list_from": "2019-07-21",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "misi",
+  "name": "Misi",
+  "address": "329 Kent Ave (at S 4th St), Brooklyn, NY 11249",
+  "website": "http://www.misinewyork.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2025-07-02",
+  "still_on_list": false
+ },
+ {
+  "id": "miss-ada",
+  "name": "Miss Ada",
+  "address": "184 Dekalb Ave Brooklyn, NY 11205",
+  "website": "http://www.missadanyc.com/",
+  "on_list_from": "2019-10-23",
+  "on_list_through": "2021-12-20",
+  "still_on_list": false
+ },
+ {
+  "id": "mission-chinese-food",
+  "name": "Mission Chinese Food",
+  "address": "171 E Broadway New York, NY",
+  "website": "http://www.mcfny.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "momofuku-kawi",
+  "name": "Momofuku Kāwi",
+  "address": "20 Hudson Yards New York, NY 10001",
+  "website": "https://kawi.momofuku.com/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "momofuku-noodle-bar",
+  "name": "Momofuku Noodle Bar",
+  "address": "171 1st Ave New York, NY",
+  "website": "http://momofuku.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "momofuku-ssam-bar",
+  "name": "Momofuku Ssäm Bar",
+  "address": "207 2nd Ave New York, NY 10003",
+  "website": "http://ssambar.momofuku.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2019-12-05",
+  "still_on_list": false
+ },
+ {
+  "id": "monte-s-trattoria",
+  "name": "Monte's Trattoria",
+  "address": "97 MacDougal St (Bleecker), New York, NY 10012",
+  "website": "http://www.montestrattorianyc.com/",
+  "on_list_from": "2024-07-11",
+  "on_list_through": "2024-10-07",
+  "still_on_list": false
+ },
+ {
+  "id": "mu-ramen",
+  "name": "Mu Ramen",
+  "address": "1209 Jackson Ave Queens, NY",
+  "website": "http://ramennyc.wix.com/popup",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "mala-project",
+  "name": "MáLà Project",
+  "address": "41 West 46th St New York, NY 10036",
+  "website": "https://www.malaproject.nyc/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "mam",
+  "name": "Mắm",
+  "address": "70 Forsyth Street, New York, New York 10002",
+  "website": "https://www.instagram.com/mam.nyc",
+  "on_list_from": "2024-04-09",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "nepali-bhanchha-ghar",
+  "name": "Nepali Bhanchha Ghar",
+  "address": "7415 Roosevelt Ave, Jackson Heights, NY, 11372, US",
+  "website": "https://www.bhanchhagharny.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "new-wonjo",
+  "name": "New Wonjo",
+  "address": "23 W 32nd St New York, NY",
+  "website": "http://www.newwonjo.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "new-world-mall",
+  "name": "New World Mall",
+  "address": "136-20 Roosevelt Ave, Queens, NY 11354",
+  "website": "http://www.newworldmallny.com/",
+  "on_list_from": "2022-10-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "noda",
+  "name": "Noda",
+  "address": "6 W 28th St New York, NY 10001",
+  "website": "http://noda.nyc/",
+  "on_list_from": "2019-07-21",
+  "on_list_through": "2019-12-05",
+  "still_on_list": false
+ },
+ {
+  "id": "noz-17",
+  "name": "Noz 17",
+  "address": "458 W 17th St, New York, NY 10011",
+  "website": "http://noz17.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "noz-market",
+  "name": "Noz Market",
+  "address": "1374 3rd Ave, New York, NY, 10075, US",
+  "website": "http://www.nozmarket.com",
+  "on_list_from": "2025-04-18",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "nur",
+  "name": "Nur",
+  "address": "34 E 20th St New York, NY 10003",
+  "website": "http://www.nurnyc.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2019-08-15",
+  "still_on_list": false
+ },
+ {
+  "id": "ny-dosas",
+  "name": "NY Dosas",
+  "address": "50 Washington Square S, New York, NY 10012",
+  "website": "http://nydosas.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2023-05-30",
+  "still_on_list": false
+ }
+]

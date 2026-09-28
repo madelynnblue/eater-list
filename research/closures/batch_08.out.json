@@ -1,0 +1,162 @@
+[
+ {
+  "id": "mel",
+  "status": "closed",
+  "closed_date": "2023-04",
+  "source_url": "https://ny.eater.com/2023/12/14/23978040/mel-bakery-opens-hudson-new-york-nora-allen",
+  "evidence": "Eater: the Ludlow Street bakery 'announced it was closing in April this year - the building was being sold' and reopened as Mel the Bakery in Hudson, NY (324 Warren Street).",
+  "confidence": "high"
+ },
+ {
+  "id": "meme-s-diner",
+  "status": "closed",
+  "closed_date": "2020-11",
+  "source_url": "https://ny.eater.com/2020/11/12/21563404/memes-diner-prospect-heights-queer-restaurant-closing-coronavirus",
+  "evidence": "Eater: 'MeMe's Diner ... is closing following a three-year run'; owners wrote 'we made the tough decision to close our doors for good,' last service November 22, 2020.",
+  "confidence": "high"
+ },
+ {
+  "id": "misi",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.misinewyork.com/",
+  "evidence": "Misi's own site lists current service hours and live reservations at 329 Kent Ave, Brooklyn; no closure reports found.",
+  "confidence": "high"
+ },
+ {
+  "id": "miss-ada",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.missadanyc.com/",
+  "evidence": "Miss Ada's official site is live and accepting reservations at 184 DeKalb Ave; it also appears on the current MICHELIN Guide New York list.",
+  "confidence": "high"
+ },
+ {
+  "id": "mission-chinese-food",
+  "status": "closed",
+  "closed_date": "2020-09",
+  "source_url": "https://ny.eater.com/2020/9/17/21443809/mission-lower-east-side-will-permanently-close",
+  "evidence": "Eater: the East Broadway location 'will permanently shutter at the end of September'; last day of service was September 30, 2020.",
+  "confidence": "high"
+ },
+ {
+  "id": "momofuku-kawi",
+  "status": "closed",
+  "closed_date": "2021-03",
+  "source_url": "https://ny.eater.com/2021/3/30/22358657/momofuku-kawi-hudson-yards-closure-eunjo-park-ssam-bar",
+  "evidence": "Eater headline: 'Kawi, Momofuku's Modern Korean Hudson Yards Gem, Permanently Closes' (March 2021).",
+  "confidence": "high"
+ },
+ {
+  "id": "momofuku-noodle-bar",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://order.toasttab.com/online/momofuku-noodle-bar-171-first-ave/item-add-on_b0560b58-c2df-4bf4-96cf-b921f188755f",
+  "evidence": "Momofuku Noodle Bar's 171 First Avenue location has an active online ordering page; the East Village original remains in operation.",
+  "confidence": "medium"
+ },
+ {
+  "id": "momofuku-ssam-bar",
+  "status": "closed",
+  "closed_date": "2023-09",
+  "source_url": "https://ny.eater.com/2023/9/8/23864855/momofuku-ssam-bar-closing-david-chang-seaport-nyc",
+  "evidence": "Eater: 'David Chang's Momofuku Ssam Bar Is Closing'; Crain's reports the Seaport location closed for good September 30, 2023.",
+  "confidence": "high"
+ },
+ {
+  "id": "monte-s-trattoria",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.montestrattorianyc.com/dinner",
+  "evidence": "Monte's Trattoria's official site is live with a current dinner menu, private-events page, and active OpenTable reservations at 97 MacDougal St.",
+  "confidence": "medium"
+ },
+ {
+  "id": "mu-ramen",
+  "status": "closed",
+  "closed_date": "2021-03",
+  "source_url": "https://ny.eater.com/2021/4/14/22370244/mu-ramen-closing-eviction-long-island-city",
+  "evidence": "Eater: 'Acclaimed Long Island City noodle destination Mu Ramen has closed'; the landlord leased 1209 Jackson Ave to Kuku Chicken from March 1, 2021.",
+  "confidence": "high"
+ },
+ {
+  "id": "mala-project",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.malaproject.com/",
+  "evidence": "MaLà Project's official site is live with a Midtown menu and online ordering/reservations across its locations, including 41 West 46th St.",
+  "confidence": "medium"
+ },
+ {
+  "id": "mam",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://joinpearl.co/lists/2026-eater-ny-38-best-restaurants-in-new-york-city",
+  "evidence": "Mắm is on Eater NY's current (2026) 38 Best Restaurants in New York City list; the restaurant also did a November 2025 pop-up per Wikipedia.",
+  "confidence": "high"
+ },
+ {
+  "id": "nepali-bhanchha-ghar",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://joinpearl.co/lists/2026-eater-ny-38-best-restaurants-in-new-york-city",
+  "evidence": "Nepali Bhanchha Ghar is ranked #11 on Eater NY's current 2026 38 Best Restaurants list and was named to the NYT 2026 Top 100 list.",
+  "confidence": "high"
+ },
+ {
+  "id": "new-wonjo",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.newwonjo.com/",
+  "evidence": "New Wonjo's official site and its Toast online-ordering page for 23 W 32nd St are both active; no closure reports found.",
+  "confidence": "medium"
+ },
+ {
+  "id": "new-world-mall",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://en.wikipedia.org/wiki/New_World_Mall",
+  "evidence": "The Flushing mall and its basement food court at 136-20 Roosevelt Ave remain in operation (Wikipedia article current through 2025-26, citing the mall's own site).",
+  "confidence": "medium"
+ },
+ {
+  "id": "noda",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://joinpearl.co/restaurants/new-york-city/noda",
+  "evidence": "Noda is operating as a Michelin one-star eight-seat omakase counter, now at 37 W 20th St (it relocated from its former 6 W 28th St address), bookable on Tock.",
+  "confidence": "high"
+ },
+ {
+  "id": "noz-17",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.sevenrooms.com/explore/noz17/reservations/create/search/",
+  "evidence": "Noz 17 has an active SevenRooms reservation page and live OpenTable listing at 458 W 17th St; no closure reports found.",
+  "confidence": "medium"
+ },
+ {
+  "id": "noz-market",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://nozmarket.com/",
+  "evidence": "Noz Market's official site lists current hours (Mon-Sun 12-9) and live reservations at 1374 Third Ave; it ranks #3 on Eater NY's 2026 38 Best list.",
+  "confidence": "high"
+ },
+ {
+  "id": "nur",
+  "status": "closed",
+  "closed_date": "2022-01",
+  "source_url": "https://ny.eater.com/2022/2/1/22912222/nur-flatiron-modern-israeli-middle-eastern-restaurant-closed-nyc",
+  "evidence": "Eater: Nur 'has permanently closed. The popular restaurant abruptly ended its four-year run in Flatiron ... after dinner service on January 22.'",
+  "confidence": "high"
+ },
+ {
+  "id": "ny-dosas",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.yelp.com/biz/ny-dosas-new-york",
+  "evidence": "Thiru Kumar's NY Dosas cart at 50 Washington Square S remains listed as an active business with recent reviews; no closure reports found.",
+  "confidence": "medium"
+ }
+]

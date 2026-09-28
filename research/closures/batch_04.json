@@ -1,0 +1,182 @@
+[
+ {
+  "id": "dept-of-culture",
+  "name": "Dept of Culture",
+  "address": "327 Nostrand Ave., Brooklyn, NY 11216",
+  "website": "https://www.deptofculturebk.com/",
+  "on_list_from": "2023-01-13",
+  "on_list_through": "2023-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "dhamaka",
+  "name": "Dhamaka",
+  "address": "119 Delancey St, New York, NY 10002",
+  "website": "http://dhamaka.nyc/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "di-an-di",
+  "name": "Di An Di",
+  "address": "68 Greenpoint Ave Brooklyn, NY 11222",
+  "website": "https://www.diandi.nyc/",
+  "on_list_from": "2019-04-17",
+  "on_list_through": "2021-12-20",
+  "still_on_list": false
+ },
+ {
+  "id": "dominick-s",
+  "name": "Dominick's",
+  "address": "2335 Arthur Ave, The Bronx, NY 10458",
+  "website": "https://www.facebook.com/Dominicks-Restaurant-102210239822815/",
+  "on_list_from": "2023-01-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "don-angie",
+  "name": "Don Angie",
+  "address": "103 Greenwich Ave, New York, NY 10014",
+  "website": "http://donangie.com/",
+  "on_list_from": "2024-07-11",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "dumpling-galaxy",
+  "name": "Dumpling Galaxy",
+  "address": "42-35 Main St Flushing, NY 11355",
+  "website": "http://www.dumplinggalaxy.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "e-a-k-ramen-west-village",
+  "name": "E.A.K. Ramen (West Village)",
+  "address": "469 6th Ave New York, NY 10011",
+  "website": "http://www.eakramen.com/",
+  "on_list_from": "2019-07-21",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "el-atoradero-brooklyn",
+  "name": "El Atoradero Brooklyn",
+  "address": "708 Washington Ave Brooklyn, NY",
+  "website": "http://www.elatoraderobrooklyn.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "ernesto-s",
+  "name": "Ernesto’s",
+  "address": "259 E Broadway, New York, NY, 10002, US",
+  "website": "http://www.ernestosnyc.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "falansai",
+  "name": "Falansai",
+  "address": "112 Harrison Pl, Brooklyn, NY 11237",
+  "website": "http://falansai.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "farida",
+  "name": "Farida",
+  "address": "498 9th Ave New York, NY 10018",
+  "website": "https://www.farida.us/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2021-10-11",
+  "still_on_list": false
+ },
+ {
+  "id": "fiaschetteria-pistoia",
+  "name": "Fiaschetteria \"Pistoia\"",
+  "address": "647 E 11th St New York, NY 10009",
+  "website": "https://www.fiaschetteriapistoia.com/",
+  "on_list_from": "2019-10-23",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "fieldtrip",
+  "name": "Fieldtrip",
+  "address": "109 Malcolm X Blvd New York, NY 10026",
+  "website": "https://www.fieldtripnyc.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-10-11",
+  "still_on_list": false
+ },
+ {
+  "id": "file-gumbo-bar",
+  "name": "Filé Gumbo Bar",
+  "address": "275 Church St, New York, NY, 10013, US",
+  "website": "https://www.filenyc.com/",
+  "on_list_from": "2026-04-06",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "fish-cheeks",
+  "name": "Fish Cheeks",
+  "address": "55 Bond St New York, NY 10012",
+  "website": "http://www.fishcheeksnyc.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "flaming-kitchen",
+  "name": "Flaming Kitchen",
+  "address": "97 Bowery New York, NY 10002",
+  "website": "http://www.flamingkitchenny.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "flora-bar",
+  "name": "Flora Bar",
+  "address": "945 Madison Ave New York, NY 10021",
+  "website": "http://florabarnyc.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "frenchette",
+  "name": "Frenchette",
+  "address": "241 W Broadway New York, NY 10013",
+  "website": "http://frenchettenyc.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2021-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "gage-and-tollner",
+  "name": "Gage & Tollner",
+  "address": "372 Fulton St Brooklyn, NY 11201",
+  "website": "http://gageandtollner.com/",
+  "on_list_from": "2021-10-15",
+  "on_list_through": "2022-06-16",
+  "still_on_list": false
+ },
+ {
+  "id": "gallaghers-steakhouse",
+  "name": "Gallaghers Steakhouse",
+  "address": "228 W 52nd St, New York, NY, 10019, US",
+  "website": "http://gallaghersnysteakhouse.com/",
+  "on_list_from": "2023-07-13",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ }
+]

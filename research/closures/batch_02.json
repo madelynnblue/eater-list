@@ -1,0 +1,182 @@
+[
+ {
+  "id": "blue-willow",
+  "name": "Blue Willow",
+  "address": "40 W 56th St New York, NY 10019",
+  "website": "http://bluewillownyc.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2022-04-07",
+  "still_on_list": false
+ },
+ {
+  "id": "bo-ky",
+  "name": "Bo Ky",
+  "address": "80 Bayard St New York, NY 10013",
+  "website": "http://www.bo-ky-nyc.com/",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "bolero",
+  "name": "Bolero",
+  "address": "177 Bedford Ave Brooklyn, NY 11211",
+  "website": "http://www.bolero.nyc/",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2021-10-11",
+  "still_on_list": false
+ },
+ {
+  "id": "bolivian-llama-party",
+  "name": "Bolivian Llama Party",
+  "address": "44-14 48th Ave, Queens, NY 11377",
+  "website": "http://www.blp.nyc/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ },
+ {
+  "id": "bong",
+  "name": "Bong",
+  "address": "724 Sterling Pl, Brooklyn, NY, 11216, US",
+  "website": "https://www.bongnyc.com/",
+  "on_list_from": "2026-01-13",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "borgo",
+  "name": "Borgo",
+  "address": "124 E 27th St, New York, NY, 10016, US",
+  "website": "https://borgonyc.com/",
+  "on_list_from": "2026-04-06",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "boulud-sud",
+  "name": "Boulud Sud",
+  "address": "20 W 64th St New York, NY",
+  "website": "http://www.bouludsud.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "bread-and-salt",
+  "name": "Bread & Salt",
+  "address": "435 Palisade Ave, Jersey City, NJ 07307",
+  "website": "http://breadandsalt.square.site/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "bunna-cafe",
+  "name": "Bunna Cafe",
+  "address": "1084 Flushing Ave, Brooklyn, NY 11237",
+  "website": "https://bunnaethiopia.net/",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "banh-mi-saigon",
+  "name": "Bánh Mì Saigon",
+  "address": "198 Grand St, New York, NY 10013",
+  "website": "https://kubiti.blog/banh-mi-saigon-new-york/",
+  "on_list_from": "2023-07-13",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "banh-vietnamese-shop-house",
+  "name": "Bánh Vietnamese Shop House",
+  "address": "942 Amsterdam Ave, New York, NY 10024",
+  "website": "https://www.banhny.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2024-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "cadence",
+  "name": "Cadence",
+  "address": "111 E 7th St, New York, NY 10009",
+  "website": "https://www.overthrowhospitality.com/venues/cadence",
+  "on_list_from": "2021-10-15",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "cafe-boulud",
+  "name": "Cafe Boulud",
+  "address": "100 East 63rd Street, New York, New York 10065",
+  "website": "https://www.cafeboulud.com/nyc/",
+  "on_list_from": "2025-01-15",
+  "on_list_through": "2025-09-29",
+  "still_on_list": false
+ },
+ {
+  "id": "cafe-commerce",
+  "name": "Cafe Commerce",
+  "address": "964 Lexington Ave, New York, NY 10021",
+  "website": "https://cafecommercenyc.com/",
+  "on_list_from": "2025-10-08",
+  "on_list_through": "2026-07-09",
+  "still_on_list": false
+ },
+ {
+  "id": "cafe-kestrel",
+  "name": "Cafe Kestrel",
+  "address": "293 Van Brunt Street, Brooklyn, New York 11231",
+  "website": "https://www.kesnewyork.com",
+  "on_list_from": "2025-01-15",
+  "on_list_through": "2025-09-29",
+  "still_on_list": false
+ },
+ {
+  "id": "cafe-china",
+  "name": "Café China",
+  "address": "13 E 37th St (btwn 5th Ave & Madison Ave), New York, NY 10016",
+  "website": "http://www.cafechinanyc.com/",
+  "on_list_from": "2024-01-13",
+  "on_list_through": "2024-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "carnitas-ramirez",
+  "name": "Carnitas Ramirez",
+  "address": "210 E 3rd St, New York, NY, 10009, US",
+  "website": "https://www.carnitasramirez.com/",
+  "on_list_from": "2025-04-18",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "casa-enrique",
+  "name": "Casa Enrique",
+  "address": "5-48 49th Ave Queens, NY",
+  "website": "http://www.henrinyc.com/casa-enrique.html",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "cervo-s",
+  "name": "Cervo's",
+  "address": "43 Canal St New York, NY 10002",
+  "website": "http://cervosnyc.com/",
+  "on_list_from": "2019-04-17",
+  "on_list_through": "2021-12-20",
+  "still_on_list": false
+ },
+ {
+  "id": "cha-long",
+  "name": "Cha Long",
+  "address": "749 9th Ave, New York, NY, 10019, US",
+  "website": "https://www.chalongnyc.com/",
+  "on_list_from": "2024-10-10",
+  "on_list_through": "2025-12-18",
+  "still_on_list": false
+ }
+]

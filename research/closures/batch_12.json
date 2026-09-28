@@ -1,0 +1,182 @@
+[
+ {
+  "id": "tosokchon",
+  "name": "Tosokchon",
+  "address": "14 East 33rd Street, New York, New York 10016",
+  "website": "https://www.tosokchonnyc.com/",
+  "on_list_from": "2024-01-13",
+  "on_list_through": "2024-06-17",
+  "still_on_list": false
+ },
+ {
+  "id": "txikito",
+  "name": "Txikito",
+  "address": "240 9th Ave, New York, NY, 10001, US",
+  "website": "http://www.txikitonyc.com/",
+  "on_list_from": "2025-07-08",
+  "on_list_through": "2026-03-14",
+  "still_on_list": false
+ },
+ {
+  "id": "ugly-baby",
+  "name": "Ugly Baby",
+  "address": "407 Smith St, Brooklyn, NY 11231",
+  "website": "http://www.uglybabynyc.com/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2025-01-06",
+  "still_on_list": false
+ },
+ {
+  "id": "uluh",
+  "name": "Uluh",
+  "address": "152 2nd Ave (btw 9th & 10th St), New York, NY 10003",
+  "website": "http://www.uluhny.com",
+  "on_list_from": "2024-04-09",
+  "on_list_through": "2025-01-06",
+  "still_on_list": false
+ },
+ {
+  "id": "una-pizza-napoletana",
+  "name": "Una Pizza Napoletana",
+  "address": "175 Orchard St, New York, NY, 10002, US",
+  "website": "https://unapizza.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "uncle-boons",
+  "name": "Uncle Boons",
+  "address": "7 Spring St New York, NY",
+  "website": "http://www.uncleboons.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "uncle-lou",
+  "name": "Uncle Lou",
+  "address": "73 Mulberry St (btw Canal & Bayard), New York, NY 10013",
+  "website": "http://www.unclelounyc.com/",
+  "on_list_from": "2024-01-13",
+  "on_list_through": "2024-06-17",
+  "still_on_list": false
+ },
+ {
+  "id": "urban-hawker",
+  "name": "Urban Hawker",
+  "address": "135 W 50th St, New York, NY 10020",
+  "website": "https://www.urbanhawker.com/",
+  "on_list_from": "2023-01-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "vato",
+  "name": "Vato",
+  "address": "226 7th Avenue, Brooklyn, New York 11215, United States",
+  "website": "https://www.instagram.com/vato.nyc/",
+  "on_list_from": "2026-07-10",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "veselka",
+  "name": "Veselka",
+  "address": "144 2nd Ave, New York, NY 10003",
+  "website": "https://www.veselka.com/?utm_source=google&utm_medium=gmb&utm_campaign=veselka",
+  "on_list_from": "2022-10-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "via-carota",
+  "name": "Via Carota",
+  "address": "51 Grove St, New York, NY, 10014, US",
+  "website": "http://viacarota.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2026-07-09",
+  "still_on_list": false
+ },
+ {
+  "id": "victor-s-cafe",
+  "name": "Victor's Cafe",
+  "address": "236 W 52nd St New York, NY 10019",
+  "website": "http://www.victorscafe.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "while-in-kathmandu",
+  "name": "While in Kathmandu",
+  "address": "758 Seneca Ave, Ridgewood, NY 11385",
+  "website": "http://www.whileinkathmanduny.com/?utm_source=gmb&utm_medium=website",
+  "on_list_from": "2023-07-13",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "wildair",
+  "name": "Wildair",
+  "address": "142 Orchard St New York, NY",
+  "website": "http://wildair.nyc",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "win-son",
+  "name": "Win Son",
+  "address": "159 Graham Ave, Brooklyn, NY 11206",
+  "website": "https://winsonbrooklyn.com/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2024-10-07",
+  "still_on_list": false
+ },
+ {
+  "id": "winner",
+  "name": "Winner",
+  "address": "367 7th Ave Brooklyn, NY 11215",
+  "website": "http://winner.nyc/",
+  "on_list_from": "2021-10-15",
+  "on_list_through": "2022-04-07",
+  "still_on_list": false
+ },
+ {
+  "id": "woorijip",
+  "name": "Woorijip",
+  "address": "12 W 32nd St (btwn Broadway & 5th Ave), New York, NY 10001",
+  "website": "http://woorijipnyc.com",
+  "on_list_from": "2024-04-09",
+  "on_list_through": "2024-06-17",
+  "still_on_list": false
+ },
+ {
+  "id": "wu-s-wonton-king",
+  "name": "Wu's Wonton King",
+  "address": "165 E Broadway, New York, NY 10002",
+  "website": "http://www.wuswontonking.com/",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ },
+ {
+  "id": "xi-an-famous-foods",
+  "name": "Xi'an Famous Foods",
+  "address": "45 Bayard St New York, NY 10013",
+  "website": "http://xianfoods.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "yankee-stadium",
+  "name": "Yankee Stadium",
+  "address": "1 E 161st St Bronx, NY 10451",
+  "website": "http://newyork.yankees.mlb.com/nyy/ballpark/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2018-07-16",
+  "still_on_list": false
+ }
+]

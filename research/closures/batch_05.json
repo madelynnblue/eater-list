@@ -1,0 +1,182 @@
+[
+ {
+  "id": "gertie",
+  "name": "Gertie",
+  "address": "357 Grand St Brooklyn, NY 11211",
+  "website": "http://www.gertie.nyc/",
+  "on_list_from": "2019-12-05",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "golden-diner",
+  "name": "Golden Diner",
+  "address": "123 Madison St Apt 2, New York, NY, 10002, US",
+  "website": "http://www.goldendinerny.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "golden-palace-gourmet",
+  "name": "Golden Palace Gourmet",
+  "address": "140-09 Cherry Ave, Queens, NY 11355",
+  "website": "https://goldenpalacegourmetny.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "gramercy-tavern",
+  "name": "Gramercy Tavern",
+  "address": "42 E 20th St New York, NY",
+  "website": "http://www.gramercytavern.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "grand-central-oyster-bar",
+  "name": "Grand Central Oyster Bar",
+  "address": "89 East 42nd Street, Manhattan, NY, 10017",
+  "website": "http://www.oysterbarny.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2026-07-09",
+  "still_on_list": false
+ },
+ {
+  "id": "great-ny-noodletown",
+  "name": "Great NY Noodletown",
+  "address": "28 Bowery, New York, NY 10013",
+  "website": "http://greatnewyorknoodletown.com/",
+  "on_list_from": "2022-10-13",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "gregory-s-26-corner-taverna",
+  "name": "Gregory's 26 Corner Taverna",
+  "address": "26-02 23rd Ave Long Island City, NY 11105",
+  "website": "https://www.facebook.com/Gregorys-26-Corner-426359910728563/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "haenyeo",
+  "name": "Haenyeo",
+  "address": "239 5th Ave Brooklyn, NY 11215",
+  "website": "https://haenyeobk.com/home",
+  "on_list_from": "2019-07-21",
+  "on_list_through": "2022-04-07",
+  "still_on_list": false
+ },
+ {
+  "id": "haidilao-hot-pot",
+  "name": "Haidilao Hot Pot",
+  "address": "138-23 39th Ave, Queens, NY 11354",
+  "website": "http://www.haidilao.com/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "hamburger-america",
+  "name": "Hamburger America",
+  "address": "155 West Houston Street, New York, NY 10012",
+  "website": "https://hamburgeramerica.com/",
+  "on_list_from": "2024-07-11",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "hanoi-house",
+  "name": "Hanoi House",
+  "address": "119 St Marks Pl New York, NY 10009",
+  "website": "http://www.hanoihousenyc.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "happy-hot-hunan",
+  "name": "Happy Hot Hunan",
+  "address": "969 Amsterdam Ave New York, NY 10025",
+  "website": "http://www.happyhothunanny.com/",
+  "on_list_from": "2021-04-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "harry-and-ida-s-meat-and-supply-co",
+  "name": "Harry & Ida's Meat and Supply Co.",
+  "address": "189 Avenue A New York, NY 10009",
+  "website": "http://www.harryandidas.com/",
+  "on_list_from": "2019-04-17",
+  "on_list_through": "2019-10-23",
+  "still_on_list": false
+ },
+ {
+  "id": "her-name-is-han",
+  "name": "Her Name is Han",
+  "address": "17 E 31st St New York, NY 10016",
+  "website": "http://www.hernameishan.com/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2019-05-28",
+  "still_on_list": false
+ },
+ {
+  "id": "ho-foods",
+  "name": "Ho Foods",
+  "address": "110 E 7th St, New York, NY, 10009, US",
+  "website": "http://www.hofoodsnyc.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2026-03-14",
+  "still_on_list": false
+ },
+ {
+  "id": "hometown-bar-b-que",
+  "name": "Hometown Bar-B-Que",
+  "address": "454 Van Brunt St, Brooklyn, NY 11231",
+  "website": "http://www.hometownbarbque.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2024-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "hudson-smokehouse",
+  "name": "Hudson Smokehouse",
+  "address": "37 Bruckner Blvd, Bronx, NY 10454",
+  "website": "https://hudsonsmokehousebx.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "hyderabadi-zaiqa",
+  "name": "Hyderabadi Zaiqa",
+  "address": "184 Lexington Ave # 10016, New York, NY, 10016, US",
+  "website": "https://hyderabadizaiqa2026.com",
+  "on_list_from": "2024-01-13",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "i-sodi",
+  "name": "I Sodi",
+  "address": "105 Christopher St (at Bleecker St), New York, NY 10014",
+  "website": "http://www.isodinyc.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2025-07-02",
+  "still_on_list": false
+ },
+ {
+  "id": "indian-accent",
+  "name": "Indian Accent",
+  "address": "123 W 56th St New York, NY",
+  "website": "http://indianaccent.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ }
+]

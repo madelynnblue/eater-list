@@ -1,0 +1,182 @@
+[
+ {
+  "id": "le-bernardin",
+  "name": "Le Bernardin",
+  "address": "155 West 51st Street, New York, New York 10019",
+  "website": "https://www.le-bernardin.com/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "le-coucou",
+  "name": "Le Coucou",
+  "address": "138 Lafayette St New York, NY",
+  "website": "http://lecoucou.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2019-05-28",
+  "still_on_list": false
+ },
+ {
+  "id": "le-gratin",
+  "name": "Le Gratin",
+  "address": "5 Beekman St, New York, NY 10038",
+  "website": "http://www.legratinnyc.com/",
+  "on_list_from": "2024-10-10",
+  "on_list_through": "2025-01-06",
+  "still_on_list": false
+ },
+ {
+  "id": "le-sia",
+  "name": "Le Sia",
+  "address": "11 E 7th St New York, NY 10003",
+  "website": "http://nyclesia.com/",
+  "on_list_from": "2019-04-17",
+  "on_list_through": "2019-12-05",
+  "still_on_list": false
+ },
+ {
+  "id": "le-veau-d-or",
+  "name": "Le Veau d’Or",
+  "address": "129 E 60th St, New York, NY 10022",
+  "website": "https://www.lvdnyc.com/",
+  "on_list_from": "2025-01-15",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "lei",
+  "name": "Lei",
+  "address": "15 - 17 Doyers St, New York, NY, 10013, US",
+  "website": "https://www.leiwine.nyc/",
+  "on_list_from": "2026-04-06",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "liebman-s-deli",
+  "name": "Liebman’s Deli",
+  "address": "552 W 235th St (Johnson Ave), Bronx, NY 10463",
+  "website": "http://liebmansdeli.com/",
+  "on_list_from": "2019-10-23",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "lilia",
+  "name": "Lilia",
+  "address": "567 Union Ave, Brooklyn, NY, 11211, US",
+  "website": "http://www.lilianewyork.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "llama-san",
+  "name": "Llama San",
+  "address": "359 6th Ave New York, NY 10014",
+  "website": "http://www.llamasannyc.com/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2021-01-06",
+  "still_on_list": false
+ },
+ {
+  "id": "los-tacos-no-1",
+  "name": "Los Tacos No.1",
+  "address": "75 9th Ave, New York, NY 10011",
+  "website": "https://www.lostacos1.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2023-05-30",
+  "still_on_list": false
+ },
+ {
+  "id": "lure-fishbar",
+  "name": "Lure Fishbar",
+  "address": "142 Mercer St New York, NY",
+  "website": "http://lurefishbar.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "l-industrie-pizzeria",
+  "name": "L’Industrie Pizzeria",
+  "address": "254 S 2nd St Side, Brooklyn, NY, 11211, US",
+  "website": "http://www.lindustriebk.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2026-07-09",
+  "still_on_list": false
+ },
+ {
+  "id": "madame-vo",
+  "name": "Madame Vo",
+  "address": "212 E 10th St New York, NY 10003",
+  "website": "http://www.madamevo.com/",
+  "on_list_from": "2019-01-19",
+  "on_list_through": "2019-02-02",
+  "still_on_list": false
+ },
+ {
+  "id": "madison-square-garden",
+  "name": "Madison Square Garden",
+  "address": "4 Penn Plz New York, NY 10121",
+  "website": "http://www.thegarden.com",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "makina-cafe-ethiopian-eritrean-eatery",
+  "name": "Makina Cafe Ethiopian-Eritrean Eatery",
+  "address": "46-11 Skillman Avenue Sunnyside, Queens 11104",
+  "website": "http://makinacafenyc.com/",
+  "on_list_from": "2026-07-10",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "malecon",
+  "name": "Malecon",
+  "address": "4141 Broadway, New York, NY 10033",
+  "website": "http://maleconrestaurants.com/",
+  "on_list_from": "2022-10-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "marea",
+  "name": "Marea",
+  "address": "240 Central Park S, New York, NY 10019",
+  "website": "https://www.marearestaurant.com/new-york?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+  "on_list_from": "2022-10-13",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "mario-s",
+  "name": "Mario's",
+  "address": "2342 Arthur Ave The Bronx, NY 10458",
+  "website": "http://www.mariosarthurave.com/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "mariscos-el-submarino",
+  "name": "Mariscos El Submarino",
+  "address": "8805 Roosevelt Ave, Queens, NY 11372",
+  "website": "https://www.mariscoselsubmarino.com/",
+  "on_list_from": "2021-10-15",
+  "on_list_through": "2025-01-06",
+  "still_on_list": false
+ },
+ {
+  "id": "marlow-and-sons",
+  "name": "Marlow & Sons",
+  "address": "81 Broadway Brooklyn, NY",
+  "website": "http://marlowandsons.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2019-08-15",
+  "still_on_list": false
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "id": "yellow-rose",
+  "name": "Yellow Rose",
+  "address": "102 3rd Ave, New York, NY 10003",
+  "website": "http://www.yellowrosenyc.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ },
+ {
+  "id": "yi-ji-shi-mo",
+  "name": "Yi Ji Shi Mo",
+  "address": "88 Elizabeth St New York, NY 10013",
+  "website": "https://www.restaurantji.com/ny/new-york/yi-ji-stone-ground-noodles-corp-/",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "yu-kitchen",
+  "name": "Yu Kitchen",
+  "address": "2656 Broadway New York, NY 10025",
+  "website": "https://yu-kitchen-mandarin-restaurant.business.site/?utm_source=gmb&utm_medium=referral",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2021-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "zaab-zaab",
+  "name": "Zaab Zaab",
+  "address": "7604 Woodside Ave, Elmhurst, NY, 11373, US",
+  "website": "https://www.zaabzaabnyc.com/",
+  "on_list_from": "2022-10-13",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "zimmi-s",
+  "name": "Zimmi’s",
+  "address": "72 Bedford St, New York, NY, 10014, US",
+  "website": "https://www.zimmisnyc.com/",
+  "on_list_from": "2026-07-10",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ }
+]

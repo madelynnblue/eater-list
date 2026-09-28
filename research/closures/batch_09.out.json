@@ -1,0 +1,162 @@
+[
+  {
+    "id": "odeon",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.theodeonrestaurant.com/",
+    "evidence": "The Odeon's own site is live with current menus, daily hours, and OpenTable reservations for 145 West Broadway.",
+    "confidence": "high"
+  },
+  {
+    "id": "oiji",
+    "status": "closed",
+    "closed_date": "2022-06",
+    "source_url": "https://ny.eater.com/2022/6/29/23187029/oiji-east-village-korean-restaurant-may-be-closing",
+    "evidence": "Eater: the 1st Avenue space \"has been closed since the spring\" 2022 as the team opened Oiji Mi and planned a new Korean concept there.",
+    "confidence": "medium"
+  },
+  {
+    "id": "olmsted",
+    "status": "closed",
+    "closed_date": "2025-08",
+    "source_url": "https://ny.eater.com/restaurant-closings/401443/olmsted-is-closing-in-prospect-heights-greg-baxtrom",
+    "evidence": "Eater (Aug 2025): Olmsted \"will close August 17 after nearly a decade\" and efforts to save it fell through.",
+    "confidence": "high"
+  },
+  {
+    "id": "ops",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://blog.resy.com/2025/06/ops-east-village-nyc/",
+    "evidence": "Resy (June 2025) profiles the new Ops East Village while linking the original Bushwick location as still bookable.",
+    "confidence": "medium"
+  },
+  {
+    "id": "papaye",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.ubereats.com/store/papaye-restaurant-mcclellan-st/KIK7VCS_WeKJTs9MbiHCnw",
+    "evidence": "Active Uber Eats listing for \"Papaye Restaurant (McClellan St)\" at 196 McClellan St, Bronx; no closure reports found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pastrami-queen",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.pastramiqueen.com/locations",
+    "evidence": "Pastrami Queen's own locations page lists \"Upper East Side (Kosher), 1125 Lexington Ave #2, Hours: Every day 10am - 9pm.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "patsy-s-pizza-east-harlem",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.tastingtable.com/1901006/frank-sinatra-favorite-pizza-patsys-harlem/",
+    "evidence": "Tasting Table (July 2025): \"the original storefront in East Harlem still stands,\" still run by owner Frank Brija.",
+    "confidence": "high"
+  },
+  {
+    "id": "peaches-hothouse",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.bcrestaurantgroup.com/location/peaches-hot-house-bed-stuy/",
+    "evidence": "B+C Restaurants' own site lists \"Peaches HotHouse, 415 Tompkins Ave\" with current daily hours and a full menu.",
+    "confidence": "high"
+  },
+  {
+    "id": "peppa-s",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.doordash.com/store/peppa's-jerk-chicken-prospect-lefferts-gardens-brooklyn-29197231/36350551/",
+    "evidence": "Peppa's operates several NYC shops, including an active delivery listing for its Prospect Lefferts Gardens (Flatbush Ave) location; no closure reports found for that address.",
+    "confidence": "low"
+  },
+  {
+    "id": "peter-luger-steak-house",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/peter-luger-steak-house",
+    "evidence": "Resy booking page for Peter Luger at 178 Broadway is active with 2026 reservation dates.",
+    "confidence": "high"
+  },
+  {
+    "id": "ping-seafood-restaurant",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://pingsnewyork.com/",
+    "evidence": "Ping's site lists \"22 Mott Street\" with daily hours and states, \"Since 1996, Ping's has been a cornerstone of NYC's Chinatown.\"",
+    "confidence": "medium"
+  },
+  {
+    "id": "playground",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://pos.do/ca/jackson-heights/restaurant/playground-jackson-heights",
+    "evidence": "Listing for Playground at 71-30 Roosevelt Ave, Jackson Heights shows current daily hours (3pm-11:45pm) and 349 Google reviews; no closure reports found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pranakhon",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://order.toasttab.com/online/pranakhonnyc",
+    "evidence": "Active Toast online-ordering page for Pranakhon at 88 University Place; no closure reports found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "prime-meats",
+    "status": "closed",
+    "closed_date": "2018-11",
+    "source_url": "https://ny.eater.com/2018/11/27/18114411/prime-meats-brooklyn-closing-date",
+    "evidence": "Eater (Nov 2018): \"The Franks Are Closing Brooklyn Favorite Prime Meats This Weekend.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "prune",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": "https://dev.tastecooking.com/this-is-taste-688-gabrielle-hamilton-on-writing-hard-truths-and-prunes-new-era/",
+    "evidence": "Closed to the public since the March 2020 NY PAUSE; in a Nov 2025 interview Hamilton discussed \"how Prune is operating as a private restaurant today,\" so permanent closure is unconfirmed.",
+    "confidence": "medium"
+  },
+  {
+    "id": "qanoon-restaurant",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/qanoon",
+    "evidence": "Resy reservation page for Qanoon at 180 Ninth Ave (Chelsea) is active with 2026 booking dates.",
+    "confidence": "medium"
+  },
+  {
+    "id": "rahi",
+    "status": "closed",
+    "closed_date": "2021-10",
+    "source_url": "https://ny.eater.com/2021/10/13/22723121/semma-restaurant-west-village-opening-menu",
+    "evidence": "Eater (Oct 2021): \"Star Dhamaka Team Closes Rahi to Make Way for a New South Indian Spot.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "raku",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.rakunyc.com/",
+    "evidence": "Raku's own site lists its East Village location at 342 E 6th St with current daily hours and reservation links.",
+    "confidence": "high"
+  },
+  {
+    "id": "ras-plant-based",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.ubereats.com/store/ras-plant-based-739-franklin-ave/REvPVVdNQI-5X0xjeOGXNA/b8ba6a32-c226-554c-984a-174b622e3f56",
+    "evidence": "Active delivery listing for Ras Plant Based at 739 Franklin Ave, Crown Heights; a 2024 fire affected only the separate West Village location.",
+    "confidence": "medium"
+  },
+  {
+    "id": "red-hook-tavern",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://resy.com/cities/new-york-ny/venues/red-hook-tavern",
+    "evidence": "Resy booking page for Red Hook Tavern at 329 Van Brunt St is active with 2026 reservation dates.",
+    "confidence": "high"
+  }
+]

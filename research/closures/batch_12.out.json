@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tosokchon",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.tosokchonnyc.com/",
+    "evidence": "Official site for 14 E 33rd St is live with current menu and Uber/DoorDash/Grubhub pickup-delivery links; NYSLA record shows a restaurant license (serial 6014050, effective 3/1/2026 per March 2026 retail list) at the same address.",
+    "confidence": "medium"
+  },
+  {
+    "id": "txikito",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.infobae.com/espana/2026/09/28/eder-y-alex-la-pareja-de-chefs-que-enseno-a-nueva-york-a-comer-txipirones-encebollados-llevamos-dieciocho-anos-defendiendo-el-pil-pil/",
+    "evidence": "Sept 2026 profile of chefs Eder Montero and Alex Raij describes them as currently running Txikito in Chelsea; Resy shows bookable tables.",
+    "confidence": "high"
+  },
+  {
+    "id": "ugly-baby",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/new-york-restaurant-news/407248/ugly-baby-reopening-nyc-thai-restaurant-williamsburg-emmy-squared-pizza-closed",
+    "evidence": "Eater reported the Smith St original closed in Dec 2024 but that the same team reopened Ugly Baby at 364 Grand St, Williamsburg (site lists current hours); the 407 Smith St address itself is now Hungry Thirsty.",
+    "confidence": "medium"
+  },
+  {
+    "id": "uluh",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": null,
+    "evidence": "Official site uluhny.com and delivery/ordering listings (DoorDash, Uber Eats, a Toast store at 152A 2nd Ave) are live, but I found no dated 2025-2026 source confirming this specific restaurant is currently operating.",
+    "confidence": "low"
+  },
+  {
+    "id": "una-pizza-napoletana",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://unapizza.com/",
+    "evidence": "Official site is live for 175 Orchard St (Cloudflare blocks deeper scraping); no closure coverage found in any search.",
+    "confidence": "medium"
+  },
+  {
+    "id": "uncle-boons",
+    "status": "closed",
+    "closed_date": "2020-08",
+    "source_url": "https://ny.eater.com/2020/8/10/21361965/uncle-boons-nolita-thai-closing-coronavirus",
+    "evidence": "Eater, Aug 10, 2020: \"Michelin-Starred Thai Destination Uncle Boons Permanently Shutters After Seven Years\" (COVID-19).",
+    "confidence": "high"
+  },
+  {
+    "id": "uncle-lou",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.unclelounyc.com/",
+    "evidence": "Official site is live stating \"Uncle Lou is open six days a week 11am to 10pm... Please call 212-966-5538\"; The Infatuation review of 73 Mulberry St shows closed:false, and no closure coverage was found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "urban-hawker",
+    "status": "closed",
+    "closed_date": "2026-07",
+    "source_url": "https://www.tastingtable.com/2205574/anthony-bourdain-urban-hawker-nyc-food-hall-closing/",
+    "evidence": "Founder KF Seetoh announced operations would cease July 17, 2026 because the West 50th St building is being sold for redevelopment (site now returns 404).",
+    "confidence": "high"
+  },
+  {
+    "id": "vato",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+    "evidence": "Eater's 38 Best Restaurants list (updated Jul 9, 2026) names \"Park Slope burrito joint Vato\" among its summer 2026 additions; in the Michelin Guide since April 2026.",
+    "confidence": "high"
+  },
+  {
+    "id": "veselka",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.timeout.com/newyork/news/hooray-for-3am-pierogi-veselka-will-once-again-be-open-24/7-starting-on-this-date-040926",
+    "evidence": "Time Out, Apr 2026: Veselka brought back 24/7 service starting April 17, 2026; official site lists multiple current locations.",
+    "confidence": "high"
+  },
+  {
+    "id": "via-carota",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.viacarota.com/",
+    "evidence": "Official site is live with current daily hours for 51 Grove St and a 2026 Eater review/report of a new project from the Via Carota chefs; it was simply rotated off the Eater 38 in summer 2026.",
+    "confidence": "high"
+  },
+  {
+    "id": "victor-s-cafe",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.victorscafe.com/",
+    "evidence": "Official site is live taking reservations for 236 W 52nd St and describes the restaurant as \"Family-owned since 1963.\"",
+    "confidence": "medium"
+  },
+  {
+    "id": "while-in-kathmandu",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://brooklyndowntownstar.com/lead_story/2026/07/25/ridgewoods-nepalese-oasis-looks-to-the-future/",
+    "evidence": "July 25, 2026 Queens Ledger/Brooklyn Star feature: \"Chef and rapper Bikash Kharel is upgrading his restaurant, While In Kathmandu, for uncertain times.\"",
+    "confidence": "high"
+  },
+  {
+    "id": "wildair",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.theinfatuation.com/new-york/reviews/wildair",
+    "evidence": "The Infatuation review headline reads \"Ten years in, Wildair remains one of NYC's top wine bars\" (closed:false); official site at 142 Orchard St is live with a menu and current hours.",
+    "confidence": "medium"
+  },
+  {
+    "id": "win-son",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://winsonbrooklyn.com/",
+    "evidence": "Official site (© 2026) and active OpenTable/DoorDash listings for 159 Graham Ave; no closure coverage found.",
+    "confidence": "medium"
+  },
+  {
+    "id": "winner",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.winner.nyc/",
+    "evidence": "Official site is live with a WINNER Bakery location at 367 7th Avenue listing daily hours, plus menus updated 9/26/26; Toast ordering page is active.",
+    "confidence": "high"
+  },
+  {
+    "id": "woorijip",
+    "status": "unknown",
+    "closed_date": null,
+    "source_url": null,
+    "evidence": "The restaurant's own site woorijipnyc.com returns a server error (522) and searches surfaced no dated 2025-2026 coverage of the 12 W 32nd St location; only evergreen directory/review listings.",
+    "confidence": "low"
+  },
+  {
+    "id": "wu-s-wonton-king",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://wuswontonking.com/",
+    "evidence": "Official site for 165 E Broadway is live with current online ordering, and a New York food forum thread still discusses the restaurant as operating.",
+    "confidence": "medium"
+  },
+  {
+    "id": "xi-an-famous-foods",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.xianfoods.com/locations",
+    "evidence": "Chain's official locations page lists \"Chinatown 45 Bayard St., New York, NY 10013 Every day 11:00-9:00\" with DoorDash ordering.",
+    "confidence": "high"
+  },
+  {
+    "id": "yankee-stadium",
+    "status": "open",
+    "closed_date": null,
+    "source_url": "https://www.mlb.com/yankees/ballpark",
+    "evidence": "Yankee Stadium (1 E 161st St) is the Yankees' active ballpark hosting the 2026 season; it is a venue, not a restaurant that permanently closes.",
+    "confidence": "medium"
+  }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": "2nd-ave-deli",
+  "name": "2nd Ave Deli",
+  "address": "162 E 33rd St, New York, NY, 10016, US",
+  "website": "http://www.2ndavedeli.com/",
+  "on_list_from": "2025-04-18",
+  "on_list_through": "2025-12-18",
+  "still_on_list": false
+ },
+ {
+  "id": "a-and-a-bake-doubles-and-roti",
+  "name": "A&A Bake Doubles and Roti",
+  "address": "1337 Fulton Street, Brooklyn, NY 11216",
+  "website": "",
+  "on_list_from": "2021-01-22",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "abuqir",
+  "name": "Abuqir",
+  "address": "2419 Steinway St, Astoria, NY, 11103, US",
+  "website": "https://www.instagram.com/abuqir",
+  "on_list_from": "2024-07-11",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "adda",
+  "name": "Adda",
+  "address": "107 1st Ave, New York, NY, 10003, US",
+  "website": "https://www.addanyc.com/",
+  "on_list_from": "2019-04-17",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "africa-kine",
+  "name": "Africa Kine",
+  "address": "2267 Adam Clayton Powell Jr Blvd, New York, NY 10027",
+  "website": "http://www.africakinenyc.com/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ },
+ {
+  "id": "agnanti",
+  "name": "Agnanti",
+  "address": "1906 Ditmars Blvd (at 19th St), Astoria, NY 11105",
+  "website": "http://www.agnantimeze.com/",
+  "on_list_from": "2024-04-09",
+  "on_list_through": "2024-06-17",
+  "still_on_list": false
+ },
+ {
+  "id": "al-badawi",
+  "name": "Al Badawi",
+  "address": "151 Atlantic Ave, Brooklyn, NY, 11201, US",
+  "website": "http://www.albadawinyc.com/",
+  "on_list_from": "2022-04-26",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "aldama",
+  "name": "Aldama",
+  "address": "91 S 6th St, Brooklyn, NY 11249",
+  "website": "https://aldamarestaurantbk.com/",
+  "on_list_from": "2022-08-11",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "aldea",
+  "name": "Aldea",
+  "address": "31 W 17th St New York, NY 10011",
+  "website": "http://www.aldearestaurant.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "atla",
+  "name": "Atla",
+  "address": "372 Lafayette St New York, NY 10012",
+  "website": "http://atlanyc.com/",
+  "on_list_from": "2018-07-11",
+  "on_list_through": "2021-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "atomix",
+  "name": "Atomix",
+  "address": "104 E 30th St New York, NY 10016",
+  "website": "http://www.atomixnyc.com/",
+  "on_list_from": "2019-07-21",
+  "on_list_through": "2020-11-12",
+  "still_on_list": false
+ },
+ {
+  "id": "awang-kitchen",
+  "name": "Awang Kitchen",
+  "address": "8405 Queens Blvd, New York, NY 11373",
+  "website": "https://awangkitchen.com/",
+  "on_list_from": "2024-04-09",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "ayada",
+  "name": "Ayada",
+  "address": "7708 Woodside Ave (btwn 77th & 78th St), Elmhurst, NY 11373",
+  "website": "http://ayadanyc.com/",
+  "on_list_from": "2024-01-13",
+  "on_list_through": "2024-06-17",
+  "still_on_list": false
+ },
+ {
+  "id": "ayat",
+  "name": "Ayat",
+  "address": "8504 3rd Avenue, Brooklyn, NY, 11209",
+  "website": "http://www.ayatnyc.com/",
+  "on_list_from": "2021-10-15",
+  "on_list_through": "2025-12-18",
+  "still_on_list": false
+ },
+ {
+  "id": "b-and-h-dairy",
+  "name": "B&H Dairy",
+  "address": "127 2nd Ave, New York, NY 10003",
+  "website": "https://www.instagram.com/bandhdairy/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2023-10-03",
+  "still_on_list": false
+ },
+ {
+  "id": "baekjeong",
+  "name": "Baekjeong",
+  "address": "1 E 32nd St, New York, NY 10016",
+  "website": "http://www.baekjeongnyc.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "balthazar",
+  "name": "Balthazar",
+  "address": "80 Spring St, New York, NY, 10012, US",
+  "website": "http://www.balthazarny.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "bamonte-s",
+  "name": "Bamonte's",
+  "address": "32 Withers St, Brooklyn, NY 11211",
+  "website": "",
+  "on_list_from": "2022-08-11",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ },
+ {
+  "id": "bangkok-supper-club",
+  "name": "Bangkok Supper Club",
+  "address": "641 Hudson St (at Jane St), New York, NY 10014",
+  "website": "https://www.bangkoksupperclubnyc.com",
+  "on_list_from": "2024-07-11",
+  "on_list_through": "2024-10-07",
+  "still_on_list": false
+ },
+ {
+  "id": "birria-landia",
+  "name": "Birria-Landia",
+  "address": "77-99 Roosevelt Ave, Queens, NY 11372",
+  "website": "https://www.instagram.com/birrialandianyc_/?hl=en",
+  "on_list_from": "2020-11-21",
+  "on_list_through": "2022-12-27",
+  "still_on_list": false
+ }
+]

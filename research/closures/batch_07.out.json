@@ -1,0 +1,162 @@
+[
+ {
+  "id": "le-bernardin",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.le-bernardin.com/",
+  "evidence": "Official site is live with current reservations and menus; no closure reports found.",
+  "confidence": "high"
+ },
+ {
+  "id": "le-coucou",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://resy.com/cities/new-york-ny/venues/le-coucou",
+  "evidence": "Resy shows bookable reservations at Le Coucou for September 2026.",
+  "confidence": "high"
+ },
+ {
+  "id": "le-gratin",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://legratinnyc.com/",
+  "evidence": "Official site is live with current menus; a June 2026 article still describes the FiDi dining room as operating.",
+  "confidence": "high"
+ },
+ {
+  "id": "le-sia",
+  "status": "closed",
+  "closed_date": "2020-07",
+  "source_url": "https://ny.eater.com/2020/7/27/21340043/le-sia-chinese-crawfish-restaurant-east-village-permanently-closed-covid-19",
+  "evidence": "Eater: \"Acclaimed East Village Chinese Crawfish Boil Le Sia Is Permanently Closed.\"",
+  "confidence": "high"
+ },
+ {
+  "id": "le-veau-d-or",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/dining-report/406189/le-veau-d-or-restaurant-review-nyc-french-bistro-upper-east-side",
+  "evidence": "Eater's recent review calls it \"NYC's Oldest French Bistro\" and the restaurant's site lists the 129 E 60th St address and is live.",
+  "confidence": "high"
+ },
+ {
+  "id": "lei",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.nytimes.com/2026/01/06/dining/restaurant-review-lei.html",
+  "evidence": "NYT reviewed Lei in Chinatown in January 2026; official site leiwine.nyc is live.",
+  "confidence": "high"
+ },
+ {
+  "id": "liebman-s-deli",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://liebmansdeli.com/",
+  "evidence": "Official site is live (metadata last modified 2026-04-13) and the Bronx deli is still listed for delivery on DoorDash and Uber Eats.",
+  "confidence": "medium"
+ },
+ {
+  "id": "lilia",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.lilianewyork.com/",
+  "evidence": "Official Lilia site is live with current reservations; no closure reports found.",
+  "confidence": "high"
+ },
+ {
+  "id": "llama-san",
+  "status": "closed",
+  "closed_date": "2025-05",
+  "source_url": "https://ny.eater.com/2025/5/13/24429286/llama-san-greenwich-village-manhattan-closing",
+  "evidence": "Eater: \"Critically Acclaimed Peruvian Japanese Restaurant Calls It Quits in Manhattan\" (Llama San, Greenwich Village); its old domain now redirects to sister restaurant Llama Inn.",
+  "confidence": "high"
+ },
+ {
+  "id": "los-tacos-no-1",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.lostacos1.com/",
+  "evidence": "Official site is live listing the Chelsea Market location at 75 Ninth Ave; the Chelsea stall still takes online orders.",
+  "confidence": "high"
+ },
+ {
+  "id": "lure-fishbar",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://pagesix.com/2026/06/23/style/celebrity-loved-lure-fishbar-is-here-to-stay-after-prada-scraps-plans-to-open-its-own-eatery-at-iconic-soho-spot/",
+  "evidence": "Page Six (June 2026): \"Celebrity-loved Lure Fishbar is here to stay\" after Prada scrapped plans for the Soho space.",
+  "confidence": "high"
+ },
+ {
+  "id": "l-industrie-pizzeria",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.lindustriebk.com/",
+  "evidence": "Official site is live; L'Industrie continues to appear in 2026 NYC best-pizza coverage.",
+  "confidence": "medium"
+ },
+ {
+  "id": "madame-vo",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "http://www.madamevo.com/",
+  "evidence": "Official site is live and Madame Vo is still listed for delivery at its 212 E 10th St address on Uber Eats and DoorDash.",
+  "confidence": "high"
+ },
+ {
+  "id": "madison-square-garden",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.msg.com/madison-square-garden",
+  "evidence": "Madison Square Garden's official site (thegarden.com redirects to msg.com) is live with current event listings.",
+  "confidence": "high"
+ },
+ {
+  "id": "makina-cafe-ethiopian-eritrean-eatery",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://culinaryagents.com/groups/3335-Makina-Cafe",
+  "evidence": "Makina Cafe's official site is live and it is currently hiring for its Sunnyside/Long Island City locations.",
+  "confidence": "medium"
+ },
+ {
+  "id": "malecon",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://maleconnyc.com/",
+  "evidence": "Malecon's official site (maleconrestaurants.com now redirects to maleconnyc.com) lists its current locations and menus.",
+  "confidence": "medium"
+ },
+ {
+  "id": "marea",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/2023/9/22/23884726/marea-reopening-pj-calapa-october-2023",
+  "evidence": "Eater: \"Powerhouse Marea Will Reopen With a New Look and New Chef\" (October 2023); the official site is live.",
+  "confidence": "high"
+ },
+ {
+  "id": "mario-s",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.opentable.com/restaurant/profile/104587",
+  "evidence": "Mario's Restaurant - Arthur Ave. remains listed with bookable reservations on OpenTable at 2342 Arthur Ave.",
+  "confidence": "medium"
+ },
+ {
+  "id": "mariscos-el-submarino",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.ubereats.com/store/mariscos-el-submarino/kDRCBEnMTp--T2tTRGs2_g",
+  "evidence": "Still listed and taking orders on Uber Eats; its Roosevelt Ave domain now hosts an unrelated gambling site, so that URL is not usable evidence.",
+  "confidence": "low"
+ },
+ {
+  "id": "marlow-and-sons",
+  "status": "closed",
+  "closed_date": "2025-04",
+  "source_url": "https://ny.eater.com/2025/3/31/24397846/marlow-and-sons-closing-williamsburg-andrew-tarlow",
+  "evidence": "Eater: \"Marlow and Sons, an Unpretentious Staple of Williamsburg, Is Closing After 20 Years\"; it shut its doors in April 2025.",
+  "confidence": "high"
+ }
+]

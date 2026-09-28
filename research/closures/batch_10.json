@@ -1,0 +1,182 @@
+[
+ {
+  "id": "restaurant-daniel",
+  "name": "Restaurant Daniel",
+  "address": "60 E 65th St, New York, NY, 10065, US",
+  "website": "http://www.danielnyc.com/",
+  "on_list_from": "2025-10-08",
+  "on_list_through": "2026-03-14",
+  "still_on_list": false
+ },
+ {
+  "id": "rezdora",
+  "name": "Rezdôra",
+  "address": "27 E 20th St New York, NY 10003",
+  "website": "https://rezdora.nyc/",
+  "on_list_from": "2020-03-18",
+  "on_list_through": "2021-03-17",
+  "still_on_list": false
+ },
+ {
+  "id": "roberto-s",
+  "name": "Roberto’s",
+  "address": "603 Crescent Avenue, The Bronx, NY 10458",
+  "website": "https://www.robertosbronx.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2025-09-29",
+  "still_on_list": false
+ },
+ {
+  "id": "rolo-s",
+  "name": "Rolo’s",
+  "address": "853 Onderdonk Avenue, Queens, NY 11385",
+  "website": "http://www.rolosnyc.com/",
+  "on_list_from": "2025-04-18",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "royal-seafood",
+  "name": "Royal Seafood",
+  "address": "103-105 Mott St (btwn Canal & Hester St), New York, NY 10013",
+  "website": "http://www.royal-seafood.com/",
+  "on_list_from": "2024-07-11",
+  "on_list_through": "2025-04-05",
+  "still_on_list": false
+ },
+ {
+  "id": "russ-and-daughters-cafe",
+  "name": "Russ & Daughters Cafe",
+  "address": "127 Orchard St, New York, NY 10002",
+  "website": "https://russanddaughters.com/",
+  "on_list_from": "2023-03-28",
+  "on_list_through": "2023-11-28",
+  "still_on_list": false
+ },
+ {
+  "id": "ruta-oaxaca-mexican-cuisine",
+  "name": "Ruta Oaxaca Mexican Cuisine",
+  "address": "35-03 Broadway, Queens, NY 11106",
+  "website": "http://rutaoaxacamex.com/",
+  "on_list_from": "2021-06-14",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "s-and-p-lunch",
+  "name": "S&P Lunch",
+  "address": "174 5th Avenue, Manhattan, NY",
+  "website": "http://www.sandwich.place/",
+  "on_list_from": "2023-07-13",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "saga",
+  "name": "Saga",
+  "address": "70 Pine St 63rd Floor, New York, NY 10005",
+  "website": "http://saga-nyc.com/",
+  "on_list_from": "2022-04-26",
+  "on_list_through": "2022-09-22",
+  "still_on_list": false
+ },
+ {
+  "id": "sailor",
+  "name": "Sailor",
+  "address": "228 DeKalb Ave, Brooklyn, NY, 11205, US",
+  "website": "https://www.sailor.nyc/",
+  "on_list_from": "2025-01-15",
+  "on_list_through": "2026-03-14",
+  "still_on_list": false
+ },
+ {
+  "id": "saint-julivert",
+  "name": "Saint Julivert",
+  "address": "264 Clinton St (Verandah Place), New York, NY 10002",
+  "website": "http://www.saintjulivertbk.com/",
+  "on_list_from": "2025-04-18",
+  "on_list_through": "2025-07-02",
+  "still_on_list": false
+ },
+ {
+  "id": "sakagura",
+  "name": "Sakagura",
+  "address": "211 E 43rd St B1, New York, NY 10017",
+  "website": "http://www.sakagura.com/",
+  "on_list_from": "2018-02-03",
+  "on_list_through": "2018-02-18",
+  "still_on_list": false
+ },
+ {
+  "id": "scarr-s-pizza",
+  "name": "Scarr's Pizza",
+  "address": "22 Orchard St New York, NY 10002",
+  "website": "http://www.scarrspizza.com/",
+  "on_list_from": "2019-07-21",
+  "on_list_through": "2021-04-24",
+  "still_on_list": false
+ },
+ {
+  "id": "semma",
+  "name": "Semma",
+  "address": "60 Greenwich Avenue, Manhattan, NY, 10011",
+  "website": "http://semma.nyc/",
+  "on_list_from": "2022-10-13",
+  "on_list_through": "2025-09-29",
+  "still_on_list": false
+ },
+ {
+  "id": "shuko",
+  "name": "Shuko",
+  "address": "47 E 12th St, New York, NY 10003",
+  "website": "http://shukonyc.com/",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2023-03-21",
+  "still_on_list": false
+ },
+ {
+  "id": "sky-pavilion",
+  "name": "Sky Pavilion",
+  "address": "325 West 42nd Street, New York, New York 10036",
+  "website": "https://www.skypavilionnyc.com/",
+  "on_list_from": "2025-01-15",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "smithereens",
+  "name": "Smithereens",
+  "address": "414 E 9th St, New York, NY, 10009, US",
+  "website": "https://www.smithereensnyc.com/",
+  "on_list_from": "2026-07-10",
+  "on_list_through": "2026-09-21",
+  "still_on_list": true
+ },
+ {
+  "id": "somtum-der",
+  "name": "Somtum Der",
+  "address": "85 Avenue A New York, NY",
+  "website": "http://www.somtumdernewyork.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2017-08-05",
+  "still_on_list": false
+ },
+ {
+  "id": "soothr",
+  "name": "Soothr",
+  "address": "204 E 13th St New York, NY 10003",
+  "website": "http://soothrnyc.com/",
+  "on_list_from": "2022-01-22",
+  "on_list_through": "2022-04-07",
+  "still_on_list": false
+ },
+ {
+  "id": "spicy-village",
+  "name": "Spicy Village",
+  "address": "68B Forsyth St New York, NY",
+  "website": "http://www.spicyvillageny.com",
+  "on_list_from": "2017-08-05",
+  "on_list_through": "2018-10-03",
+  "still_on_list": false
+ }
+]

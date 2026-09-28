@@ -1,0 +1,162 @@
+[
+ {
+  "id": "dept-of-culture",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://resy.com/cities/new-york-ny/venues/dept-of-culture-brooklyn",
+  "evidence": "Resy still lists an active Dept. of Culture reservation page, and the restaurant's official site remains live with bookings and a 2026 NYCWFF appearance for chef Ayo Balogun.",
+  "confidence": "medium"
+ },
+ {
+  "id": "dhamaka",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.sevenrooms.com/explore/dhamakanyc/reservations/create/search/",
+  "evidence": "Dhamaka's SevenRooms booking page is active, and Eater's September 2026 closure roundup still describes Unapologetic Foods as 'the group behind Semma, Dhamaka, and Adda.'",
+  "confidence": "medium"
+ },
+ {
+  "id": "di-an-di",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.diandi.nyc/",
+  "evidence": "The official Di An Di site lists current hours (Mon-Thu 5-10pm; Fri-Sun 12-10pm) and links to live OpenTable reservations and delivery.",
+  "confidence": "medium"
+ },
+ {
+  "id": "dominick-s",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://bronxlittleitaly.com/merchants/restaurants/dominicks-restaurant/",
+  "evidence": "The Arthur Avenue Belmont BID merchant page states Dominick's is 'Open for indoor dining and take out' with current Thursday-Sunday hours.",
+  "confidence": "medium"
+ },
+ {
+  "id": "don-angie",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.opentable.com/r/don-angie-new-york",
+  "evidence": "Don Angie maintains an active OpenTable reservations page, and recent press still calls it one of NYC's most in-demand reservations.",
+  "confidence": "medium"
+ },
+ {
+  "id": "dumpling-galaxy",
+  "status": "closed",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/venue/10245/dumpling-galaxy",
+  "evidence": "Eater's venue page for Dumpling Galaxy at 42-35 Main St is explicitly labeled 'Permanently Closed,' and the space was later taken over by another dumpling house.",
+  "confidence": "high"
+ },
+ {
+  "id": "e-a-k-ramen-west-village",
+  "status": "closed",
+  "closed_date": null,
+  "source_url": "http://eakramen.com/location/",
+  "evidence": "E.A.K. Ramen's official location page lists only Hell's Kitchen, Moynihan Train Station, and NJ branches as current U.S. locations, with the 469 Sixth Ave West Village shop no longer listed (and MapQuest marks it CLOSED).",
+  "confidence": "medium"
+ },
+ {
+  "id": "el-atoradero-brooklyn",
+  "status": "closed",
+  "closed_date": "2018-05",
+  "source_url": "https://ny.eater.com/2018/5/11/17345726/el-atoradero-closed-madre-cocina-mezcales-open",
+  "evidence": "Eater, May 11, 2018: 'the well-liked Brooklyn taqueria has closed to make way for' Madre Cocina & Mezcales in the same 706-708 Washington Ave space.",
+  "confidence": "high"
+ },
+ {
+  "id": "ernesto-s",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.ernestosnyc.com/",
+  "evidence": "Ernesto's official site lists current 2026 dinner hours at 259 East Broadway and links to live OpenTable reservations; it remains on Eater's 38 list.",
+  "confidence": "high"
+ },
+ {
+  "id": "falansai",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.opentable.com/restaurant/profile/1374991",
+  "evidence": "Falansai's OpenTable profile is titled 'Updated 2026' with active reservations for the 112 Harrison Pl address, and its official site is live.",
+  "confidence": "medium"
+ },
+ {
+  "id": "farida",
+  "status": "closed",
+  "closed_date": "2023-08",
+  "source_url": "https://ny.eater.com/2023/8/4/23817076/nyc-restaurant-closings-august-2023",
+  "evidence": "Eater's August 2023 closings list: 'Midtown: Farida, a Central Asian restaurant praised for its charcoal-grilled meats, closed at the start of the month' (the separate FiDi location remained open).",
+  "confidence": "high"
+ },
+ {
+  "id": "fiaschetteria-pistoia",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/venue/28763/fiaschetteria-pistoia",
+  "evidence": "Eater's venue page for the 647 E 11th St restaurant is not marked closed and lists current daily hours of 5:30-10:30 p.m. plus delivery; its 2018 fire closure was temporary.",
+  "confidence": "medium"
+ },
+ {
+  "id": "fieldtrip",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.fieldtripnyc.com/",
+  "evidence": "FIELDTRIP's official Harlem ordering site is live with menu items updated September 28, 2026, and Uber Eats/order.online list the 109 Malcolm X Blvd location for pickup and delivery.",
+  "confidence": "medium"
+ },
+ {
+  "id": "file-gumbo-bar",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.filenyc.com/",
+  "evidence": "Filé Gumbo Bar's official site is live for the 275 Church St Tribeca location, and the restaurant remains on Eater's 38 Best Restaurants list as of September 2026.",
+  "confidence": "medium"
+ },
+ {
+  "id": "fish-cheeks",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://ny.eater.com/dining-report/413700/fish-cheeks-nyc-thai-restaurant-review-nolita-seafood",
+  "evidence": "Eater dining report dated September 9, 2026: 'A decade later, the Nolita original is still a prime Thai seafood destination' at 55 Bond St.",
+  "confidence": "high"
+ },
+ {
+  "id": "flaming-kitchen",
+  "status": "closed",
+  "closed_date": null,
+  "source_url": "https://wanderlog.com/place/details/398070",
+  "evidence": "The listing for the 97 Bowery Chinese restaurant is marked 'Permanently Closed' (Google-derived data) and its former website domain no longer resolves.",
+  "confidence": "low"
+ },
+ {
+  "id": "flora-bar",
+  "status": "closed",
+  "closed_date": "2021-02",
+  "source_url": "https://ny.eater.com/2021/2/9/22275190/upper-east-side-seafood-restaurant-flora-bar-permanent-closure",
+  "evidence": "Eater, Feb 9, 2021: 'Flora Bar... will not reopen after a four-year run,' with chef Ignacio Mattos announcing the permanent closure of the Met Breuer restaurant.",
+  "confidence": "high"
+ },
+ {
+  "id": "frenchette",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.frenchettenyc.com/",
+  "evidence": "Frenchette's official site is live at 241 West Broadway with current menus, private events, and an active SevenRooms reservation link.",
+  "confidence": "high"
+ },
+ {
+  "id": "gage-and-tollner",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://abc7chicago.com/videoClip/19389724/",
+  "evidence": "ABC7 feature dated June 26, 2026: '125 years later, Brooklyn's oldest restaurant Gage & Tollner is still building community,' quoting chef-partner Sohui Kim.",
+  "confidence": "high"
+ },
+ {
+  "id": "gallaghers-steakhouse",
+  "status": "open",
+  "closed_date": null,
+  "source_url": "https://www.gallaghersnysteakhouse.com/",
+  "evidence": "Gallaghers' official site is live with active NYC reservations at 228 W 52nd St and a timeline ending with plans to celebrate 100 years in 2027.",
+  "confidence": "high"
+ }
+]
