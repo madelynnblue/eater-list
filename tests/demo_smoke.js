@@ -282,6 +282,44 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(!row.classList.contains('hot'), 'the highlight was not cleared on mouseout');
   });
 
+  check('closed places are excluded from the exported data', () => {
+    let closed = {};
+    try {
+      closed = JSON.parse(fs.readFileSync(path.join(ROOT, 'closed.json'), 'utf8')).places || {};
+    } catch { /* no closed list yet */ }
+    const ids = new Set(places.map(p => p.id));
+    const leaked = Object.keys(closed).filter(id => ids.has(id));
+    assert(leaked.length === 0, `closed places still present: ${leaked.slice(0, 5).join(', ')}`);
+  });
+
+  check('sidebar offers an opening-hours filter', () => {
+    const html = all.get('#mealFilters').innerHTML;
+    assert(all.get('#mealFilters').hidden === false, 'the filter bar is hidden');
+    assert(/data-meal="dinner"/.test(html), 'no dinner chip');
+    assert(/data-meal=""/.test(html), 'no "any hours" reset chip');
+  });
+
+  check('choosing an hours filter narrows the list to those places', () => {
+    all.a.state.meal = 'dinner';
+    all.a.state.view = 'all';
+    all.a.render();
+    const got = countRows(all.get('#list').innerHTML);
+    const want = places.filter(p => (p.meal_periods || []).includes('dinner')).length;
+    assert(got === want, `expected ${want} dinner rows, got ${got}`);
+    all.a.state.meal = '';
+    all.a.render();
+    assert(countRows(all.get('#list').innerHTML) === places.length, 'reset did not restore the list');
+  });
+
+  check('rows show real opening hours when they were fetched', () => {
+    all.a.state.view = 'all';
+    all.a.render();
+    const html = all.get('#list').innerHTML;
+    const withHours = places.filter(p => p.hours).length;
+    assert(withHours > 0, 'no place has hours yet');
+    assert(/(am|pm)/.test(html), 'no rendered hours found in the rows');
+  });
+
   check('markers exist for mapped places', () => {
     const mapped = places.filter(p => p.lat !== null && p.lng !== null).length;
     assert(all.a.markers.size === mapped, `expected ${mapped} markers, got ${all.a.markers.size}`);

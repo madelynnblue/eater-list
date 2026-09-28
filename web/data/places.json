@@ -34,7 +34,26 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "fri": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "a-and-a-bake-doubles-and-roti",
@@ -83,7 +102,14 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "abuqir",
@@ -117,7 +143,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "adda",
@@ -167,7 +199,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "africa-kine",
@@ -204,7 +241,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "agnanti",
@@ -241,7 +281,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "al-badawi",
@@ -290,7 +333,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "aldama",
@@ -327,81 +376,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "aldea",
-  "name": "Aldea",
-  "key": "aldea",
-  "names_seen": [
-   "Aldea"
-  ],
-  "address": "31 W 17th St New York, NY 10011",
-  "phone": "(212) 675-7223",
-  "website": "http://www.aldearestaurant.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/aldea",
-  "blurb": "Quietly putting out top-notch Portuguese fare since 2009, chef-owner George Mendes’ food has not faltered. The Flatiron restaurant has had a Michelin star for most of its life, for dishes like mussel soup, suckling pig terrine, and the ever-popular duck rice, served in a comfortable room with a very open kitchen. It’s an upscale option with a price that’s comparatively low — it’s possible to get four courses for $89 — making it an accessible way to experience one of NYC’s top fine-dining restaurants.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.738798,
-  "lng": -73.993752,
-  "periods": [
-   {
-    "from": "20180203083717",
-    "to": "20181003095938",
-    "from_date": "2018-02-03",
-    "to_date": "2018-10-03",
-    "added_between": [
-     "2017-08-05",
-     "2018-02-03"
-    ],
-    "removed_between": [
-     "2018-10-03",
-     "2019-01-19"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "atla",
-  "name": "Atla",
-  "key": "atla",
-  "names_seen": [
-   "Atla"
-  ],
-  "address": "372 Lafayette St New York, NY 10012",
-  "phone": "",
-  "website": "http://atlanyc.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/atla",
-  "blurb": "Mexican cuisine gets a stylish, uber-hip setting at Atla , the highly-acclaimed all-day restaurant in Noho from Enrique Olvera, and previously Daniela Soto-Innes, who left the establishment in December. Expect lots of light yet flavor-packed dishes, including striped bass with passionfruit, beef suadero tacos, shrimp tacos, duck wings, nopal tlayudas, and lobster burritos. The restaurant is open for delivery and takeout.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.727163,
-  "lng": -73.993991,
-  "periods": [
-   {
-    "from": "20180711092854",
-    "to": "20210317013452",
-    "from_date": "2018-07-11",
-    "to_date": "2021-03-17",
-    "added_between": [
-     "2018-02-18",
-     "2018-07-11"
-    ],
-    "removed_between": [
-     "2021-03-17",
-     "2021-04-21"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "atomix",
@@ -438,7 +416,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "awang-kitchen",
@@ -475,7 +456,56 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "ayada",
@@ -512,7 +542,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "ayat",
@@ -579,7 +612,13 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "b-and-h-dairy",
@@ -616,7 +655,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "baekjeong",
@@ -653,7 +695,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "balthazar",
@@ -699,7 +744,98 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "16:30"
+    ],
+    [
+     "17:00",
+     "00:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "16:30"
+    ],
+    [
+     "17:00",
+     "00:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "16:30"
+    ],
+    [
+     "17:00",
+     "00:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "16:30"
+    ],
+    [
+     "17:00",
+     "00:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "16:30"
+    ],
+    [
+     "17:00",
+     "00:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "00:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "00:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "bamonte-s",
@@ -736,7 +872,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "bangkok-supper-club",
@@ -773,7 +912,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "birria-landia",
@@ -810,7 +952,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "blue-willow",
@@ -847,7 +992,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "bo-ky",
@@ -884,44 +1032,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "bolero",
-  "name": "Bolero",
-  "key": "bolero",
-  "names_seen": [
-   "Bolero"
-  ],
-  "address": "177 Bedford Ave Brooklyn, NY 11211",
-  "phone": "",
-  "website": "http://www.bolero.nyc/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/bolero",
-  "blurb": "Opening over a year ago, this Vietnamese fine-dining establishment on Williamsburg’s main drag made it through the winter with a lovely heated rear garden, in which many of the lush herbs used everywhere on the menu also flourished. Chef Matt Le-Khac’s menu showcases innovative and often surprising takes on such classics as a bun bo Hue based on savory mushrooms rather than meat, and a spare pho incorporating ground beef that channels contemporary street versions in Saigon — there’s nothing else quite like it in town. For those who appreciate herbaceous and pungent flavors, the latter including three contrasting types of fish sauce, Bolero is a palace of umami.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.717948,
-  "lng": -73.957326,
-  "periods": [
-   {
-    "from": "20210421035621",
-    "to": "20211011120537",
-    "from_date": "2021-04-21",
-    "to_date": "2021-10-11",
-    "added_between": [
-     "2021-03-17",
-     "2021-04-21"
-    ],
-    "removed_between": [
-     "2021-10-11",
-     "2021-10-15"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "bolivian-llama-party",
@@ -958,7 +1072,56 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "bong",
@@ -992,7 +1155,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "borgo",
@@ -1026,41 +1194,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
- },
- {
-  "id": "boulud-sud",
-  "name": "Boulud Sud",
-  "key": "boulud sud",
-  "names_seen": [
-   "Boulud Sud"
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
   ],
-  "address": "20 W 64th St New York, NY",
-  "phone": "(212) 595-1313",
-  "website": "http://www.bouludsud.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/boulud-sud-2",
-  "blurb": "Daniel Boulud's Mediterranean-inspired restaurant near Lincoln Center has a cushy, earth-toned dining room, and a menu that's got a little something for everyone, with an urbane vibe, lovely ingredients and fine-tuned skills in the kitchen. Make sure to explore the eclectic wine list, which is a hybrid of Old World classics and domestic newcomers.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.77197698419511,
-  "lng": -73.9818177971927,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20180218213216",
-    "from_date": "2017-08-05",
-    "to_date": "2018-02-18",
-    "added_between": null,
-    "removed_between": [
-     "2018-02-18",
-     "2018-07-11"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "bread-and-salt",
@@ -1097,7 +1236,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "bunna-cafe",
@@ -1134,7 +1276,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "banh-mi-saigon",
@@ -1171,7 +1316,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "banh-vietnamese-shop-house",
@@ -1208,44 +1356,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "cadence",
-  "name": "Cadence",
-  "key": "cadence",
-  "names_seen": [
-   "Cadence"
-  ],
-  "address": "111 E 7th St, New York, NY 10009",
-  "phone": "",
-  "website": "https://www.overthrowhospitality.com/venues/cadence",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/cadence",
-  "blurb": "Chef Shenarri Freeman is leading the kitchen at Cadence — which recently relocated to 111 E. Seventh Street — with a vegan menu that puts her own twist on Black Southern cooking. Her version of Southern fried lasagna, stuffed with a meatless red wine Bolognese, caught the attention of the New York Times last summer, and her “crab” cakes made from hearts of palm are not to be missed. The Virginia native is offering creative, comforting flavors that are helping define a new era of vegan dining in New York.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.726661,
-  "lng": -73.984487,
-  "periods": [
-   {
-    "from": "20211015212624",
-    "to": "20220922054533",
-    "from_date": "2021-10-15",
-    "to_date": "2022-09-22",
-    "added_between": [
-     "2021-10-11",
-     "2021-10-15"
-    ],
-    "removed_between": [
-     "2022-09-22",
-     "2022-10-13"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "cafe-boulud",
@@ -1282,7 +1396,14 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "brunch",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "cafe-commerce",
@@ -1319,7 +1440,13 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "brunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "cafe-kestrel",
@@ -1356,7 +1483,13 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "brunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "cafe-china",
@@ -1393,7 +1526,39 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "thu": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "carnitas-ramirez",
@@ -1427,7 +1592,44 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "wed": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "casa-enrique",
@@ -1461,7 +1663,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "cervo-s",
@@ -1513,7 +1718,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "cha-long",
@@ -1550,7 +1758,13 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "chama-mama",
@@ -1584,7 +1798,14 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "brunch",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "charles-pan-fried-chicken",
@@ -1653,7 +1874,51 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "cheburechnaya",
@@ -1687,7 +1952,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "cheli",
@@ -1724,7 +1992,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "chez-ma-tante",
@@ -1776,7 +2047,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "chuan-tian-xia",
@@ -1813,7 +2087,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "ci-siamo",
@@ -1850,7 +2127,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "claro",
@@ -1887,7 +2167,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "claud",
@@ -1921,7 +2204,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "claudy-s-empanadas",
@@ -1958,7 +2246,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "coqodaq",
@@ -1992,7 +2283,84 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "corner-bar",
@@ -2029,7 +2397,134 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "11:00"
+    ],
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "15:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "11:00"
+    ],
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "15:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "11:00"
+    ],
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "15:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "11:00"
+    ],
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "15:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "11:00"
+    ],
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "15:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "10:00"
+    ],
+    [
+     "10:00",
+     "15:00"
+    ],
+    [
+     "15:00",
+     "17:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "cosme",
@@ -2063,7 +2558,55 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "coszcal-de-allende",
@@ -2100,7 +2643,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "cote-korean-steakhouse",
@@ -2137,7 +2683,105 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "02:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "02:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "02:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "00:00"
+    ],
+    [
+     "17:00",
+     "02:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "00:00"
+    ],
+    [
+     "17:00",
+     "02:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "16:30",
+     "00:00"
+    ],
+    [
+     "17:00",
+     "00:00"
+    ],
+    [
+     "17:00",
+     "02:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "court-street-grocers",
@@ -2174,7 +2818,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "crevette",
@@ -2208,7 +2855,19 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "sun": [
+    [
+     "12:00",
+     "16:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch"
+  ],
+  "closed": null
  },
  {
   "id": "crop-circle",
@@ -2245,7 +2904,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "dame",
@@ -2282,7 +2944,51 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "05:00",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "05:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "05:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "05:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "05:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "05:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "denino-s-pizzeria-and-tavern",
@@ -2319,7 +3025,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "dept-of-culture",
@@ -2356,7 +3065,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "dhamaka",
@@ -2408,7 +3120,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "di-an-di",
@@ -2445,7 +3160,37 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "dominick-s",
@@ -2482,7 +3227,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "don-angie",
@@ -2519,115 +3267,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "dumpling-galaxy",
-  "name": "Dumpling Galaxy",
-  "key": "dumpling galaxy",
-  "names_seen": [
-   "Dumpling Galaxy"
-  ],
-  "address": "42-35 Main St Flushing, NY 11355",
-  "phone": "(718) 461-0808",
-  "website": "http://www.dumplinggalaxy.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/dumpling-galaxy",
-  "blurb": "Inside a Flushing mall, chef Helen You delivers an expansive menu of dumplings — pan-fried, steamed, and boiled, with variations of seafood, lamb, pork, vegetable, and beef. Spicy beef dumplings with ginger, lamb and squash, and pork and chive are all solid orders, as are the har gau . Bring a big crew and try a bunch.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.754786,
-  "lng": -73.827512,
-  "periods": [
-   {
-    "from": "20180203083717",
-    "to": "20181003095938",
-    "from_date": "2018-02-03",
-    "to_date": "2018-10-03",
-    "added_between": [
-     "2017-08-05",
-     "2018-02-03"
-    ],
-    "removed_between": [
-     "2018-10-03",
-     "2019-01-19"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "e-a-k-ramen-west-village",
-  "name": "E.A.K. Ramen (West Village)",
-  "key": "e a k ramen west village",
-  "names_seen": [
-   "E.A.K. Ramen (West Village)"
-  ],
-  "address": "469 6th Ave New York, NY 10011",
-  "phone": "",
-  "website": "http://www.eakramen.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/e-a-k-ramen-west-village",
-  "blurb": "In this tonkotsu-obsessed town, E.A.K. Ramen stands out with the less ubiquitous iekei broth — a clean style that’s a blend of fattier pork with chicken and soy-based ramen. The most popular options come with noodles that are thicker, curlier, and chewier than most around the city, though several meat-free options include thinner noodles, too. The Zebra is a favorite, arriving with roasted garlic oil, butter, nori, spinach, and pork chashu. A sleek dining room features bar and table seating overlooking an open kitchen, ideal for a small group or fulfilling a solo ramen craving. Go for a pitcher of beer and some apps when with a crew. There’s also a new Hell’s Kitchen location of the Japanese chain with a bigger menu.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.735706,
-  "lng": -73.998379,
-  "periods": [
-   {
-    "from": "20190721000015",
-    "to": "20201112023808",
-    "from_date": "2019-07-21",
-    "to_date": "2020-11-12",
-    "added_between": [
-     "2019-05-28",
-     "2019-07-21"
-    ],
-    "removed_between": [
-     "2020-11-12",
-     "2020-11-21"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "el-atoradero-brooklyn",
-  "name": "El Atoradero Brooklyn",
-  "key": "el atoradero brooklyn",
-  "names_seen": [
-   "El Atoradero Brooklyn"
-  ],
-  "address": "708 Washington Ave Brooklyn, NY",
-  "phone": "(718) 399-8226",
-  "website": "http://www.elatoraderobrooklyn.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/el-atoradero-brooklyn",
-  "blurb": "Chef Denisse Lina Chavez has returned to the kitchen of her low-key Prospect Heights restaurant El Atoradero, where she’s turning out some of the city’s best Mexican fare. Check in for a table and then go next door to check out the restaurant’s sibling Madre Mezcaleria, which has a generous selection of mezcal. Once back at El Atoradero, remember to try one of the specials, such as the albondigas enchipotladas.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.67675577263091,
-  "lng": -73.96368112928391,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20180218213216",
-    "from_date": "2017-08-05",
-    "to_date": "2018-02-18",
-    "added_between": null,
-    "removed_between": [
-     "2018-02-18",
-     "2018-07-11"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "ernesto-s",
@@ -2677,7 +3320,49 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "17:30",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "falansai",
@@ -2714,44 +3399,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "farida",
-  "name": "Farida",
-  "key": "farida",
-  "names_seen": [
-   "Farida"
-  ],
-  "address": "498 9th Ave New York, NY 10018",
-  "phone": "",
-  "website": "https://www.farida.us/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/farida",
-  "blurb": "With the exception of perhaps Taam Tov in the Diamond District, there’s nothing in Manhattan quite like Farida . Brought to us by the husband-and-wife team of Farida Gabbassova-Ricciardelli and chef Umitjon Kamolov, Farida focuses its bill of fare on the delicious and diverse foodways of Central Asia. The dumplings called manti are more delicate than usual, with a filling of lamb or pumpkin, while the plov, Uzbekistan’s famed rice pilaf, exudes powerful aromas of heady lamb and sweet carrots. As is the case with most great such restaurants, the kebabs cooked over charcoal are unforgettable: smoky, greasy, and meaty. Get the lamb rib or chicken wing for maximum enjoyment. Patrons can dine in a large outdoor space, eat inside, or get delivery. Closed on Tuesdays.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.755624,
-  "lng": -73.994269,
-  "periods": [
-   {
-    "from": "20200318174839",
-    "to": "20211011120537",
-    "from_date": "2020-03-18",
-    "to_date": "2021-10-11",
-    "added_between": [
-     "2019-12-05",
-     "2020-03-18"
-    ],
-    "removed_between": [
-     "2021-10-11",
-     "2021-10-15"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "fiaschetteria-pistoia",
@@ -2788,7 +3439,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "fieldtrip",
@@ -2825,7 +3479,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "file-gumbo-bar",
@@ -2859,7 +3516,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "fish-cheeks",
@@ -2896,93 +3559,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "flaming-kitchen",
-  "name": "Flaming Kitchen",
-  "key": "flaming kitchen",
-  "names_seen": [
-   "Flaming Kitchen"
-  ],
-  "address": "97 Bowery New York, NY 10002",
-  "phone": "(212) 925-8083",
-  "website": "http://www.flamingkitchenny.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/flaming-kitchen",
-  "blurb": "New York’s a Sichuan Chinese-obsessed town, and bilevel Bowery restaurant Flaming Kitchen stands out from the rest with sharp takes on classics like pork dumplings in chili oil and mapo tofu. But the place on the menu to dive is the array of whole fish. Though flaky, tender bits of fish look doused in pools of chili, spice tends to be gentle rather than biting — while not sacrificing on flavor. The roomy, bright space makes it an ideal setting for large parties, families, or a date with a longterm spouse.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.717341,
-  "lng": -73.995018,
-  "periods": [
-   {
-    "from": "20180203083717",
-    "to": "20180218213216",
-    "from_date": "2018-02-03",
-    "to_date": "2018-02-18",
-    "added_between": [
-     "2017-08-05",
-     "2018-02-03"
-    ],
-    "removed_between": [
-     "2018-02-18",
-     "2018-07-11"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "flora-bar",
-  "name": "Flora Bar",
-  "key": "flora bar",
-  "names_seen": [
-   "Flora Bar"
-  ],
-  "address": "945 Madison Ave New York, NY 10021",
-  "phone": "(646) 558-5383",
-  "website": "http://florabarnyc.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/flora-bar",
-  "blurb": "There’s expressive elegance to the plated fare at Flora Bar , the Upper East Side restaurant in the basement of the Met Breuer museum. Chef Ignacio Mattos has a way taking seemingly simple seafood dishes like a tuna tartare or raw clam and making them sophisticated yet creative bites worthy of their splurge-level price tags. Vegetables and mains, too, get beautified, like a purple endive salad that comes layered in a circle like a rose. It’s by far the Estela chef’s most upscale restaurant, worth a special occasion dinner. And do not miss dessert, a rotating selection that comes from Natasha Pickowicz, one of the most creative pastry chefs in the city today.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.77352187640244,
-  "lng": -73.96402716636658,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20180218213216",
-    "from_date": "2017-08-05",
-    "to_date": "2018-02-18",
-    "added_between": null,
-    "removed_between": [
-     "2018-02-18",
-     "2018-07-11"
-    ],
-    "still_on": false
-   },
-   {
-    "from": "20191023151523",
-    "to": "20201112023808",
-    "from_date": "2019-10-23",
-    "to_date": "2020-11-12",
-    "added_between": [
-     "2019-08-15",
-     "2019-10-23"
-    ],
-    "removed_between": [
-     "2020-11-12",
-     "2020-11-21"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "frenchette",
@@ -3019,7 +3599,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "gage-and-tollner",
@@ -3056,7 +3639,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "gallaghers-steakhouse",
@@ -3105,7 +3691,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "gertie",
@@ -3142,7 +3734,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "golden-diner",
@@ -3191,7 +3786,14 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "golden-palace-gourmet",
@@ -3228,7 +3830,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "gramercy-tavern",
@@ -3262,7 +3914,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "grand-central-oyster-bar",
@@ -3299,7 +3954,44 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "great-ny-noodletown",
@@ -3336,7 +4028,58 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "gregory-s-26-corner-taverna",
@@ -3373,7 +4116,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "haenyeo",
@@ -3410,7 +4156,49 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "haidilao-hot-pot",
@@ -3463,7 +4251,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "hamburger-america",
@@ -3497,7 +4288,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "hanoi-house",
@@ -3534,7 +4331,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "happy-hot-hunan",
@@ -3571,7 +4371,56 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "harry-and-ida-s-meat-and-supply-co",
@@ -3608,7 +4457,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "her-name-is-han",
@@ -3645,7 +4497,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "ho-foods",
@@ -3697,7 +4552,14 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "breakfast",
+   "brunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "hometown-bar-b-que",
@@ -3746,7 +4608,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "hudson-smokehouse",
@@ -3783,7 +4648,50 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "hyderabadi-zaiqa",
@@ -3817,7 +4725,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "i-sodi",
@@ -3881,7 +4795,14 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "brunch",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "indian-accent",
@@ -3915,7 +4836,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "indian-table",
@@ -3952,7 +4876,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "jeju-noodle-bar",
@@ -3989,7 +4963,55 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "jing-fong",
@@ -4026,7 +5048,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "10:30",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:30",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:30",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:30",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:30",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:30",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:30",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "joe-s-of-avenue-u",
@@ -4063,7 +5135,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "jongro-bbq",
@@ -4115,7 +5190,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "00:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "00:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "00:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "00:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "00:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "jongro-gopchang",
@@ -4152,7 +5277,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "jua",
@@ -4189,7 +5317,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "kabawa",
@@ -4223,7 +5354,43 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "tue": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "kanyakumari",
@@ -4260,7 +5427,71 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "kashkar-cafe",
@@ -4297,7 +5528,58 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "23:45"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "23:45"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "katz-s-delicatessen",
@@ -4361,7 +5643,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "keens-steakhouse",
@@ -4413,7 +5698,85 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:45",
+     "22:30"
+    ],
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:45",
+     "22:30"
+    ],
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:45",
+     "22:30"
+    ],
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:45",
+     "22:30"
+    ],
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:45",
+     "22:30"
+    ],
+    [
+     "12:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "20:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "20:00"
+    ],
+    [
+     "17:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "killmeyer-s",
@@ -4450,7 +5813,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "kingston-tropical-bakery",
@@ -4487,7 +5853,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "kisa",
@@ -4524,7 +5893,43 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "wed": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "14:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch"
+  ],
+  "closed": null
  },
  {
   "id": "koloman",
@@ -4561,7 +5966,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "kopitiam",
@@ -4613,7 +6021,50 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "la-morada",
@@ -4650,7 +6101,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "la-pirana-lechonera",
@@ -4684,7 +6138,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch"
+  ],
+  "closed": null
  },
  {
   "id": "la-vara",
@@ -4733,7 +6192,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "le-bernardin",
@@ -4782,7 +6244,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "le-coucou",
@@ -4816,7 +6284,82 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "05:00",
+     "22:00"
+    ],
+    [
+     "11:30",
+     "14:30"
+    ]
+   ],
+   "tue": [
+    [
+     "05:00",
+     "22:00"
+    ],
+    [
+     "11:30",
+     "14:30"
+    ]
+   ],
+   "wed": [
+    [
+     "05:00",
+     "22:00"
+    ],
+    [
+     "11:30",
+     "14:30"
+    ]
+   ],
+   "thu": [
+    [
+     "05:00",
+     "22:00"
+    ],
+    [
+     "11:30",
+     "14:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:00"
+    ]
+   ],
+   "sat": [
+    [
+     "05:00",
+     "23:00"
+    ],
+    [
+     "11:30",
+     "14:30"
+    ]
+   ],
+   "sun": [
+    [
+     "05:00",
+     "22:00"
+    ],
+    [
+     "11:30",
+     "14:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "le-gratin",
@@ -4853,44 +6396,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "le-sia",
-  "name": "Le Sia",
-  "key": "le sia",
-  "names_seen": [
-   "Le Sia"
-  ],
-  "address": "11 E 7th St New York, NY 10003",
-  "phone": "",
-  "website": "http://nyclesia.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/le-sia",
-  "blurb": "Simple meat skewers and steaming seafood boils laced with Chinese flavors and spices make up most of the menu at Le Sia , a spicy shellfish destination in the East Village that stays open late during the week. Be prepared to get messy — there are bibs and gloves if needed — and dig into crawfish tossed in aromatic sauces that come in six options. The price points for shellfish here are on the lower side for NYC, but the quality remains high. It’s all served in a casual, brick-walled space with booths and a communal table that stretches down the center of the oft-packed room.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.72889,
-  "lng": -73.989829,
-  "periods": [
-   {
-    "from": "20190417081732",
-    "to": "20191205030922",
-    "from_date": "2019-04-17",
-    "to_date": "2019-12-05",
-    "added_between": [
-     "2019-02-02",
-     "2019-04-17"
-    ],
-    "removed_between": [
-     "2019-12-05",
-     "2020-03-18"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "le-veau-d-or",
@@ -4925,7 +6434,66 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "lei",
@@ -4959,7 +6527,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "liebman-s-deli",
@@ -5026,7 +6599,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "lilia",
@@ -5072,44 +6648,37 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
- },
- {
-  "id": "llama-san",
-  "name": "Llama San",
-  "key": "llama san",
-  "names_seen": [
-   "Llama San"
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
   ],
-  "address": "359 6th Ave New York, NY 10014",
-  "phone": "",
-  "website": "http://www.llamasannyc.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/llama-san",
-  "blurb": "Llama San ’s chief draw is chef Erik Ramirez’s creative take on Nikkei fare, a style of Peruvian-Japanese fusion that is deeply ingrained in the culinary ethos of Peru. Here, that means chicken-stuffed maki rolls with creamy walnut sauce and nigiri forged from aged duck, cilantro rice, and banana, served up in a pretty blonde wood- and plant-filled space. There is no other place like it in New York. Don’t skip the cocktails, which include a take on an Old Fashioned and another with a pisco base. Recently the restaurant debuted an omakase room that seats six to eight people for private parties, and has also stepped up its delivery game.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.732308,
-  "lng": -74.000897,
-  "periods": [
-   {
-    "from": "20200318174839",
-    "to": "20210106211533",
-    "from_date": "2020-03-18",
-    "to_date": "2021-01-06",
-    "added_between": [
-     "2019-12-05",
-     "2020-03-18"
-    ],
-    "removed_between": [
-     "2021-01-06",
-     "2021-01-22"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "los-tacos-no-1",
@@ -5159,7 +6728,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "lure-fishbar",
@@ -5193,7 +6765,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "l-industrie-pizzeria",
@@ -5231,7 +6806,13 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "madame-vo",
@@ -5268,7 +6849,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "madison-square-garden",
@@ -5305,7 +6889,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "makina-cafe-ethiopian-eritrean-eatery",
@@ -5339,7 +6926,50 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "malecon",
@@ -5376,7 +7006,94 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "21:45"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "21:45"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "21:45"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "21:45"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "22:45"
+    ],
+    [
+     "09:00",
+     "00:00"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "22:45"
+    ],
+    [
+     "09:00",
+     "00:00"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "22:45"
+    ],
+    [
+     "09:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "marea",
@@ -5413,7 +7130,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "mario-s",
@@ -5450,7 +7170,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "mariscos-el-submarino",
@@ -5502,115 +7225,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "marlow-and-sons",
-  "name": "Marlow & Sons",
-  "key": "marlow and sons",
-  "names_seen": [
-   "Marlow & Sons"
-  ],
-  "address": "81 Broadway Brooklyn, NY",
-  "phone": "(718) 384-1441",
-  "website": "http://marlowandsons.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/marlow-amp-sons",
-  "blurb": "Marlow & Sons has a lively dining room in the back and a sunny cafe in the front serving excellent pastries and great coffee. On the menu, there are oysters and rustic, Japanese-inflected dishes from chef Patch Troffer. Like its next-door sibling Diner, Marlow & Sons from restaurateur Andrew Tarlow has had an influence that extends far beyond its Williamsburg neighborhood — helping to establish Brooklyn as a seasonal-obsessed, rustically decorated dining destination.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.71061048948564,
-  "lng": -73.965684281892,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20190815181821",
-    "from_date": "2017-08-05",
-    "to_date": "2019-08-15",
-    "added_between": null,
-    "removed_between": [
-     "2019-08-15",
-     "2019-10-23"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "mel",
-  "name": "Mel",
-  "key": "mel",
-  "names_seen": [
-   "Mel"
-  ],
-  "address": "1 Ludlow St, New York, NY 10002",
-  "phone": "",
-  "website": "https://www.melthebakery.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mel",
-  "blurb": "While not strictly a restaurant, this Lower East Side bakery has more than earned its stay on this list of essential New York City food businesses, set apart from its competitors for its emphasis on quality sourcing. Mel, led by chef Nora Allen, offers a selection of bread loaves — such as its stunning tart cherry and cornmeal country loaf — made from artisanal grains that are milled on site. There’s always a handful of pastries on offer that range from pecan honey buns and pastrami-filled croissants to rye chocolate chip cookies and sugar plum danishes.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.714588,
-  "lng": -73.991317,
-  "periods": [
-   {
-    "from": "20220426152416",
-    "to": "20220922054533",
-    "from_date": "2022-04-26",
-    "to_date": "2022-09-22",
-    "added_between": [
-     "2022-04-07",
-     "2022-04-26"
-    ],
-    "removed_between": [
-     "2022-09-22",
-     "2022-10-13"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "meme-s-diner",
-  "name": "MeMe's Diner",
-  "key": "meme s diner",
-  "names_seen": [
-   "MeMe's Diner"
-  ],
-  "address": "657 Washington Ave Brooklyn, NY 11238",
-  "phone": "",
-  "website": "http://memesdiner.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/memes-diner",
-  "blurb": "Brooklyn casual all-day dining takes on a new meaning a MeMe’s, a breezy and photogenic modern diner in Prospect Heights from owners Libby Willis and Bill Clark. Expect a rotating menu of cheeky, punched-up versions of classics, like a meatloaf sandwich on garlic toast and babka or funnel cake that’s savory instead of sweet. The patty melt and chile oil fried eggs are favorites that are typically available, and do not miss any sweet baked goods, whether its Vietnamese coffee cake or an eton mess cake. Weekend brunch is the most popular meal; expect bit of a wait unless going right at opening. Closed Monday.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.677707,
-  "lng": -73.963523,
-  "periods": [
-   {
-    "from": "20190721000015",
-    "to": "20201112023808",
-    "from_date": "2019-07-21",
-    "to_date": "2020-11-12",
-    "added_between": [
-     "2019-05-28",
-     "2019-07-21"
-    ],
-    "removed_between": [
-     "2020-11-12",
-     "2020-11-21"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "misi",
@@ -5647,7 +7265,13 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "miss-ada",
@@ -5684,78 +7308,66 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "mission-chinese-food",
-  "name": "Mission Chinese Food",
-  "key": "mission chinese food",
-  "names_seen": [
-   "Mission Chinese Food"
-  ],
-  "address": "171 E Broadway New York, NY",
-  "phone": "(212) 432-0300",
-  "website": "http://www.mcfny.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mission-chinese-food-2",
-  "blurb": "Mission Chinese Food has grown up from its scrappy Orchard Street days into a big, two story Lower East Side restaurant equipped with a pizza oven, a prime rib cart, and a much broader menu. Yes, it still has all the hits — the kung pao pastrami, the thrice-cooked bacon — but chef/owner Danny Bowien and executive chef Angela Dimayuga have also added a raw bar, two generous family-style set menus, and showstoppers like duck baked in clay. And you can still get a lot of food without breaking the bank.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.71406967691378,
-  "lng": -73.98980855941772,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20170805051251",
-    "from_date": "2017-08-05",
-    "to_date": "2017-08-05",
-    "added_between": null,
-    "removed_between": [
-     "2017-08-05",
-     "2018-02-03"
+  "on_list_now": false,
+  "hours": {
+   "tue": [
+    [
+     "05:30",
+     "08:30"
     ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "momofuku-kawi",
-  "name": "Momofuku Kāwi",
-  "key": "momofuku kawi",
-  "names_seen": [
-   "Momofuku Kāwi"
-  ],
-  "address": "20 Hudson Yards New York, NY 10001",
-  "phone": "",
-  "website": "https://kawi.momofuku.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/momofuku-kawi",
-  "blurb": "Eunjo Park, in her debut as a Momofuku executive chef, has instantly joined the top ranks of New York’s modern Korean movement at Kāwi . She sends out jiggly raw crabs, a reasonably rare dish in NYC, slathered in spicy gochujang, as well as a sweet-savory crème brulée out of tofu and salmon roe. Creamy rice cakes, made in-house, must be ordered for the table, too. The dark yet energetic dining room with big open kitchen works best with groups for a varied family style meal. It’s a splurge for any special occasion, though a lunch set can clock in at under $30. Go for a cocktail, all of which come without alcohol too. This is the definitive dinner destination for those who find themselves at Hudson Yards.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.754529,
-  "lng": -74.000106,
-  "periods": [
-   {
-    "from": "20200318174839",
-    "to": "20201112023808",
-    "from_date": "2020-03-18",
-    "to_date": "2020-11-12",
-    "added_between": [
-     "2019-12-05",
-     "2020-03-18"
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "05:30",
+     "08:30"
     ],
-    "removed_between": [
-     "2020-11-12",
-     "2020-11-21"
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "05:30",
+     "08:30"
     ],
-    "still_on": false
-   }
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "05:30",
+     "08:30"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "dinner"
   ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "momofuku-noodle-bar",
@@ -5789,44 +7401,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "momofuku-ssam-bar",
-  "name": "Momofuku Ssäm Bar",
-  "key": "momofuku ssam bar",
-  "names_seen": [
-   "Momofuku Ssäm Bar"
-  ],
-  "address": "207 2nd Ave New York, NY 10003",
-  "phone": "(212) 254-3500",
-  "website": "http://ssambar.momofuku.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/momofuku-ssam-bar",
-  "blurb": "Though superstar chef David Chang doesn’t spend much time in the kitchen at Ssäm anymore, executive chef Max Ng has breathed new life into the menu at the East Village restaurant, adding addictive dishes like spicy shell-on shrimp with Sichuan garlic butter and skate roasted in banana leaf. The greatest hits — pork sausage rice cakes and pork buns — are still there by request, but the restaurant as a whole has grown up as Chang has, with soundproofing and more comfortable seating. It’s also an excellent option for brunch and great for groups, with large format meals available by reservation.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.731698,
-  "lng": -73.985843,
-  "periods": [
-   {
-    "from": "20180203083717",
-    "to": "20191205030922",
-    "from_date": "2018-02-03",
-    "to_date": "2019-12-05",
-    "added_between": [
-     "2017-08-05",
-     "2018-02-03"
-    ],
-    "removed_between": [
-     "2019-12-05",
-     "2020-03-18"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "monte-s-trattoria",
@@ -5863,41 +7441,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "mu-ramen",
-  "name": "Mu Ramen",
-  "key": "mu ramen",
-  "names_seen": [
-   "Mu Ramen"
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
   ],
-  "address": "1209 Jackson Ave Queens, NY",
-  "phone": "(917) 868-8903",
-  "website": "http://ramennyc.wix.com/popup",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/mu-ramen-2",
-  "blurb": "Joshua Smookler’s two-year-old utilitarian ramen shop serves one of the best tonkotsu broths around. Beyond ramen, Mu also offers some plates that dabble in fine-dining ingredients like foie gras-stuffed chicken wings, as well as dry-aged Japanese wagyu beef specials. Mu, located in Long Island City, is just 10 short minutes away from Midtown via the 7-train.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.74367717129966,
-  "lng": -73.9505367180311,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20180218213216",
-    "from_date": "2017-08-05",
-    "to_date": "2018-02-18",
-    "added_between": null,
-    "removed_between": [
-     "2018-02-18",
-     "2018-07-11"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "mala-project",
@@ -5934,7 +7528,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "mam",
@@ -5969,7 +7566,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "nepali-bhanchha-ghar",
@@ -6018,7 +7621,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "new-wonjo",
@@ -6052,7 +7661,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "new-world-mall",
@@ -6089,7 +7701,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "noda",
@@ -6126,7 +7788,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "noz-17",
@@ -6163,7 +7828,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "noz-market",
@@ -6197,44 +7865,112 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
- },
- {
-  "id": "nur",
-  "name": "Nur",
-  "key": "nur",
-  "names_seen": [
-   "Nur"
-  ],
-  "address": "34 E 20th St New York, NY 10003",
-  "phone": "",
-  "website": "http://www.nurnyc.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/nur",
-  "blurb": "Nur’s Flatiron space is a sleek backdrop to the cooking of Meir Adoni, a Moroccan-Israeli chef who made his name with an empire of restaurants in Tel Aviv. Here in New York, though, the menu pulls from all over the Middle East and North Africa , with flavors that are more traditional in Libya, Yemen, and Syria showing up in the collection of eclectic small plates, too. Wines and cocktails are also sourced from the area. On the rotating menu, the Jerusalem sesame bagel and a scallop sashimi with Persian lemon powder may be options. It’s ideal for a date night out.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.738545,
-  "lng": -73.988804,
-  "periods": [
-   {
-    "from": "20190119093712",
-    "to": "20190815181821",
-    "from_date": "2019-01-19",
-    "to_date": "2019-08-15",
-    "added_between": [
-     "2018-10-03",
-     "2019-01-19"
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "14:00"
     ],
-    "removed_between": [
-     "2019-08-15",
-     "2019-10-23"
+    [
+     "12:00",
+     "21:00"
     ],
-    "still_on": false
-   }
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
   ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "ny-dosas",
@@ -6271,7 +8007,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "odeon",
@@ -6321,75 +8060,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "oiji",
-  "name": "Oiji",
-  "key": "oiji",
-  "names_seen": [
-   "Oiji"
-  ],
-  "address": "119 1st Ave New York, NY",
-  "phone": "(646) 767-9050",
-  "website": "http://www.oijinyc.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/oiji-2",
-  "blurb": "At this small East Village restaurant, chefs Tae Kyung Ku and Brian Kim serve traditional Korean dishes executed with a few modern touches. The ideal meal includes a truffle seafood broth, beef tartare, mushroom salad, and a particularly unique fried chicken with a flaky crust. End the meal with the honey butter chips with ice cream, and be sure to try a cocktail or two, all of which are just as creative as their food counterparts. Most of the shareable small plates are priced in the teens, and the menu also includes a $38 ssam platter for two.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.72718411782339,
-  "lng": -73.98561709767907,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20180218213216",
-    "from_date": "2017-08-05",
-    "to_date": "2018-02-18",
-    "added_between": null,
-    "removed_between": [
-     "2018-02-18",
-     "2018-07-11"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
- },
- {
-  "id": "olmsted",
-  "name": "Olmsted",
-  "key": "olmsted",
-  "names_seen": [
-   "Olmsted"
-  ],
-  "address": "659 Vanderbilt Ave Brooklyn, NY",
-  "phone": "(718) 552-2610",
-  "website": "http://www.olmstednyc.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/olmsted",
-  "blurb": "Chef Greg Baxtrom — formerly of fine dining stalwarts like Blue Hill and Alinea — has crafted a dining destination with the look and service of a neighborhood restaurant. A backyard garden both supplies the Prospect Heights restaurant with fresh ingredients and acts as a lovely spot to wait for a table. The menu, which is quirky and often earnest, constantly evolves, but signatures like the carrot crepe and frozen yogurt dessert are frequently on deck. It now also offers brunch with an equally creative menu, though expect wait times. Mondays are walk-ins only.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.67718208563987,
-  "lng": -73.96885828909762,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20201112023808",
-    "from_date": "2017-08-05",
-    "to_date": "2020-11-12",
-    "added_between": null,
-    "removed_between": [
-     "2020-11-12",
-     "2020-11-21"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "ops",
@@ -6426,7 +8100,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "papaye",
@@ -6463,7 +8140,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "pastrami-queen",
@@ -6500,7 +8180,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "patsy-s-pizza-east-harlem",
@@ -6534,7 +8217,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "peaches-hothouse",
@@ -6571,7 +8257,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "peppa-s",
@@ -6608,7 +8297,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "peter-luger-steak-house",
@@ -6642,7 +8334,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "ping-seafood-restaurant",
@@ -6679,7 +8374,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "playground",
@@ -6716,7 +8414,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "pranakhon",
@@ -6753,41 +8454,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "prime-meats",
-  "name": "Prime Meats",
-  "key": "prime meats",
-  "names_seen": [
-   "Prime Meats"
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "22:15"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "22:15"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "22:15"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "22:15"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "22:45"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "22:45"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:15"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
   ],
-  "address": "465 Court St Brooklyn, NY",
-  "phone": "(718) 254-0327",
-  "website": "http://www.frankspm.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/prime-meats-2",
-  "blurb": "Frank Falcinelli and Frank Castronovo’s Carroll Gardens classic is a great place for a date, a business lunch, or a late-night meal. The Amish chicken and pork schnitzel are highlights from the dinner menu. If you’re dining in a large group, make sure to get a few of the housemade sausages for the table.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.67715357960969,
-  "lng": -73.99817705154419,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20170805051251",
-    "from_date": "2017-08-05",
-    "to_date": "2017-08-05",
-    "added_between": null,
-    "removed_between": [
-     "2017-08-05",
-     "2018-02-03"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "prune",
@@ -6824,7 +8541,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "qanoon-restaurant",
@@ -6861,44 +8581,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "rahi",
-  "name": "Rahi",
-  "key": "rahi",
-  "names_seen": [
-   "Rahi"
-  ],
-  "address": "60 Greenwich Ave New York, NY 10011",
-  "phone": "",
-  "website": "http://www.rahinyc.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/rahi",
-  "blurb": "Rahi is at the top of a pack of modern Indian newcomers, standing out with its strong flavors and bright decor. Ubiquitous dishes such as chicken tikka masala don’t make appearances on the menu from chef Chintan Pandya; instead find chicken leg cooked in banana leaf with basmati rice and Kerala coconut curry sauce or housemade paneer in a five-chili sauce with guava compote. Cocktails similarly employ Indian ingredients, and the wine list complements the spicy fare. A long bar and several murals complete the downtown hangout vibes in the Greenwich Village space. Primetime reservations are available , and the full menu is available at the bar.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.736035,
-  "lng": -74.000519,
-  "periods": [
-   {
-    "from": "20190119093712",
-    "to": "20190202235314",
-    "from_date": "2019-01-19",
-    "to_date": "2019-02-02",
-    "added_between": [
-     "2018-10-03",
-     "2019-01-19"
-    ],
-    "removed_between": [
-     "2019-02-02",
-     "2019-04-17"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "raku",
@@ -6935,7 +8621,129 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "05:00",
+     "21:00"
+    ],
+    [
+     "05:00",
+     "21:30"
+    ],
+    [
+     "11:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:30"
+    ],
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ],
+    [
+     "11:30",
+     "21:30"
+    ],
+    [
+     "11:30",
+     "22:00"
+    ],
+    [
+     "12:00",
+     "21:30"
+    ],
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ],
+    [
+     "11:30",
+     "21:30"
+    ],
+    [
+     "12:00",
+     "21:00"
+    ],
+    [
+     "12:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "ras-plant-based",
@@ -6972,7 +8780,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "red-hook-tavern",
@@ -7009,7 +8820,13 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "restaurant-daniel",
@@ -7046,7 +8863,49 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "tue": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "rezdora",
@@ -7083,7 +8942,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "roberto-s",
@@ -7134,7 +8996,43 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "tue": [
+    [
+     "12:00",
+     "14:30"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "14:30"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "14:30"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "14:30"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "14:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch"
+  ],
+  "closed": null
  },
  {
   "id": "rolo-s",
@@ -7168,7 +9066,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "brunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "royal-seafood",
@@ -7205,7 +9109,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "russ-and-daughters-cafe",
@@ -7243,7 +9150,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "ruta-oaxaca-mexican-cuisine",
@@ -7280,7 +9190,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "s-and-p-lunch",
@@ -7330,7 +9243,51 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "saga",
@@ -7367,7 +9324,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "sailor",
@@ -7404,7 +9364,14 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "brunch",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "saint-julivert",
@@ -7441,7 +9408,12 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "sakagura",
@@ -7478,7 +9450,71 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "17:30",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "scarr-s-pizza",
@@ -7515,7 +9551,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "semma",
@@ -7567,56 +9606,12 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "shuko",
-  "name": "Shuko",
-  "key": "shuko",
-  "names_seen": [
-   "Shuko"
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
   ],
-  "address": "47 E 12th St, New York, NY 10003",
-  "phone": "(212) 228-6088",
-  "website": "http://shukonyc.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/shuko",
-  "blurb": "As $400 omakases increasingly become the norm throughout Manhattan, Shuko remains a slightly more approachable outlier, a place to splurge on a sushi dinner without spending a grand on dinner for two. Nick Kim and Jimmy Lau continue to put out a serious selection of small plates — including caviar with toro tartare — and nigiri sushi for around $270 before tax and tip. Supplemental add-ons include spicy trout hand rolls, charcoal-seared tuna belly, and caviar hand rolls.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.73349113043757,
-  "lng": -73.99166024099635,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20190528133625",
-    "from_date": "2017-08-05",
-    "to_date": "2019-05-28",
-    "added_between": null,
-    "removed_between": [
-     "2019-05-28",
-     "2019-07-21"
-    ],
-    "still_on": false
-   },
-   {
-    "from": "20220426152416",
-    "to": "20230321204829",
-    "from_date": "2022-04-26",
-    "to_date": "2023-03-21",
-    "added_between": [
-     "2022-04-07",
-     "2022-04-26"
-    ],
-    "removed_between": [
-     "2023-03-21",
-     "2023-03-28"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "sky-pavilion",
@@ -7650,7 +9645,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "smithereens",
@@ -7684,41 +9685,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
- },
- {
-  "id": "somtum-der",
-  "name": "Somtum Der",
-  "key": "somtum der",
-  "names_seen": [
-   "Somtum Der"
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
   ],
-  "address": "85 Avenue A New York, NY",
-  "phone": "(212) 260-8570",
-  "website": "http://www.somtumdernewyork.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/somtum-der",
-  "blurb": "The name Somtum Der refers to the shredded green papaya salad that has long been New Yorkers’ intro dish to Issan cuisine. There are eight variations on the menu here, such as the flagship, which incorporates brine-preserved chicken eggs that develop a creamy flavor, while papaya tendrils are more soft than crunchy. You’ll also find sausages, jerkies, laab salads, and an Issan-style fried chicken.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.72528,
-  "lng": -73.984394,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20170805051251",
-    "from_date": "2017-08-05",
-    "to_date": "2017-08-05",
-    "added_between": null,
-    "removed_between": [
-     "2017-08-05",
-     "2018-02-03"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "soothr",
@@ -7755,7 +9728,77 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "03:00"
+    ],
+    [
+     "12:00",
+     "15:30"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "03:00"
+    ],
+    [
+     "12:00",
+     "15:30"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "03:00"
+    ],
+    [
+     "12:00",
+     "15:30"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "03:00"
+    ],
+    [
+     "12:00",
+     "15:30"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "03:00"
+    ],
+    [
+     "12:00",
+     "15:30"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "15:30"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "15:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "spicy-village",
@@ -7789,7 +9832,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "st-anselm",
@@ -7823,7 +9869,44 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "sullivan-street-bakery",
@@ -7860,7 +9943,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "sunn-s",
@@ -7894,7 +9980,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "superiority-burger",
@@ -7940,44 +10031,57 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
- },
- {
-  "id": "sushi-ichimura",
-  "name": "Sushi Ichimura",
-  "key": "sushi ichimura",
-  "names_seen": [
-   "Sushi Ichimura"
+  "on_list_now": true,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "00:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
   ],
-  "address": "412 Greenwich Street, Manhattan, NY 10013",
-  "phone": "",
-  "website": "http://www.sushiichimura.nyc/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/article-26",
-  "blurb": "Sushi Ichimura displays an East-meets-West aesthetic in a 10-seat counter restaurant where you will be wowed. Eiji Ichimura, the sushi master who helped fine-tune the stateside practice of aging fish for modern diners, has crafted a menu that includes fish from Hokkaido and elsewhere around Japan, along with wares from suppliers at the Toyosu Market, with many items unavailable in the United States. It is a special occasion spot, indeed: The high-dollar, luxe 20-course omakase is listed on OpenTable at $900 for two before tax and tip.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.721904,
-  "lng": -74.01009,
-  "periods": [
-   {
-    "from": "20240113013737",
-    "to": "20250405183949",
-    "from_date": "2024-01-13",
-    "to_date": "2025-04-05",
-    "added_between": [
-     "2023-11-28",
-     "2024-01-13"
-    ],
-    "removed_between": [
-     "2025-04-05",
-     "2025-04-18"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "sushi-noz",
@@ -8014,7 +10118,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "sushi-on-me",
@@ -8051,7 +10158,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "sylvia-s",
@@ -8089,7 +10199,56 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "szechuan-mountain-house",
@@ -8141,7 +10300,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "taqueria-ramirez",
@@ -8178,7 +10340,51 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "tue": [
+    [
+     "12:00",
+     "10:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "10:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "10:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "10:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "10:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "10:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "thai-diner",
@@ -8230,41 +10436,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "the-breslin",
-  "name": "The Breslin",
-  "key": "the breslin",
-  "names_seen": [
-   "The Breslin"
-  ],
-  "address": "16 W 29th St New York, NY",
-  "phone": "(212) 679-1939",
-  "website": "http://www.thebreslin.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/the-breslin",
-  "blurb": "The Breslin has become much more than just the gastropub in the Ace Hotel. After seven years, it can now rightly be considered one of New York City’s most accomplished meat restaurants. From large format lamb feasts to full English breakfasts to the game-changing lamb burger to what is quite possibly NYC’s finest rib steak, The Breslin is firing on all cylinders.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.74583734577147,
-  "lng": -73.98799265354255,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20170805051251",
-    "from_date": "2017-08-05",
-    "to_date": "2017-08-05",
-    "added_between": null,
-    "removed_between": [
-     "2017-08-05",
-     "2018-02-03"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "the-four-horsemen",
@@ -8298,7 +10473,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "the-grill",
@@ -8335,41 +10516,71 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "the-nomad-restaurant",
-  "name": "The NoMad Restaurant",
-  "key": "the nomad restaurant",
-  "names_seen": [
-   "The NoMad Restaurant"
-  ],
-  "address": "1170 Broadway New York, NY",
-  "phone": "(212) 796-1500",
-  "website": "http://www.thenomadhotel.com/#/dining",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/the-nomad-restaurant-2",
-  "blurb": "Daniel Humm and Will Guidara's (Eleven Madison Park) hotel restaurant is a grand choice for a dinner date, business breakfast, or leisurely lunch. You can have an ultra-luxe experience feasting on the majestic chicken for two, or a more mellow meal full of seasonal vegetables and lightly prepared fish. The Nomad's next-door spinoff, The Nomad Bar, features an extensive cocktail selection and a menu of inventive bar food. Dinner reservations are recommended for the main dining room, but The Nomad Bar is first-come, first-serve.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.74507433709667,
-  "lng": -73.98856121691024,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20170805051251",
-    "from_date": "2017-08-05",
-    "to_date": "2017-08-05",
-    "added_between": null,
-    "removed_between": [
-     "2017-08-05",
-     "2018-02-03"
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:45",
+     "14:00"
     ],
-    "still_on": false
-   }
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:45",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:45",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:45",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:45",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
   ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "the-original-buddha-bodai-kosher-vegetarian-restaurant",
@@ -8406,7 +10617,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "tomino-taberna-gallega",
@@ -8443,7 +10704,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "tong",
@@ -8480,7 +10744,27 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "thu": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "tony-and-tina-s-pizzeria",
@@ -8517,7 +10801,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "torishin",
@@ -8554,7 +10841,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "tosokchon",
@@ -8591,7 +10881,21 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "sun": [
+    [
+     "11:30",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "txikito",
@@ -8628,7 +10932,70 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "22:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "ugly-baby",
@@ -8695,7 +11062,44 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "tue": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "21:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "uluh",
@@ -8732,7 +11136,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "una-pizza-napoletana",
@@ -8766,41 +11173,12 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
- },
- {
-  "id": "uncle-boons",
-  "name": "Uncle Boons",
-  "key": "uncle boons",
-  "names_seen": [
-   "Uncle Boons"
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
   ],
-  "address": "7 Spring St New York, NY",
-  "phone": "(646) 370-6650",
-  "website": "http://www.uncleboons.com",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/uncle-boons",
-  "blurb": "This Nolita lounge is still turning out some of the city’s most captivating Thai fare, courtesy of Per Se alums Ann Redding and Matt Danzer. Look for dishes like green curry snails, wood-fired yellowtail collar, a spicy lamb laab, or a savory crab fried rice. The space is an eclectic way to start a night out; order an overflowing beer slushie to get in the mood.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.721209348747244,
-  "lng": -73.9942717552185,
-  "periods": [
-   {
-    "from": "20170805051251",
-    "to": "20181003095938",
-    "from_date": "2017-08-05",
-    "to_date": "2018-10-03",
-    "added_between": null,
-    "removed_between": [
-     "2018-10-03",
-     "2019-01-19"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "uncle-lou",
@@ -8837,44 +11215,56 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "urban-hawker",
-  "name": "Urban Hawker",
-  "key": "urban hawker",
-  "names_seen": [
-   "Urban Hawker"
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner"
   ],
-  "address": "135 W 50th St, New York, NY 10020",
-  "phone": "",
-  "website": "https://www.urbanhawker.com/",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/urban-hawker",
-  "blurb": "This may be the city’s liveliest and most unique food court, with a majority of its stalls inspired by — or directly descended from — the street food of Singapore. Highlights include fragrant Hainanese chicken (either poached or roasted) served with rice and broth at Hainan Jones, coconut-laced cakes and pastries from Lady Wong, and Malaysian-style Indian fare from Mamak’s Corner.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.760951,
-  "lng": -73.982122,
-  "periods": [
-   {
-    "from": "20230113225417",
-    "to": "20230321204829",
-    "from_date": "2023-01-13",
-    "to_date": "2023-03-21",
-    "added_between": [
-     "2022-12-27",
-     "2023-01-13"
-    ],
-    "removed_between": [
-     "2023-03-21",
-     "2023-03-28"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "closed": null
  },
  {
   "id": "vato",
@@ -8908,7 +11298,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "breakfast",
+   "lunch"
+  ],
+  "closed": null
  },
  {
   "id": "veselka",
@@ -8945,7 +11341,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "via-carota",
@@ -9027,7 +11426,58 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "breakfast",
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "victor-s-cafe",
@@ -9064,7 +11514,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "while-in-kathmandu",
@@ -9101,7 +11554,57 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:30"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "lunch",
+   "dinner",
+   "late"
+  ],
+  "closed": null
  },
  {
   "id": "wildair",
@@ -9135,7 +11638,43 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": {
+   "tue": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:30",
+     "22:00"
+    ]
+   ]
+  },
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "win-son",
@@ -9187,7 +11726,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "winner",
@@ -9224,7 +11766,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "woorijip",
@@ -9261,7 +11806,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "wu-s-wonton-king",
@@ -9298,7 +11846,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "xi-an-famous-foods",
@@ -9335,7 +11886,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "yankee-stadium",
@@ -9372,7 +11926,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "yellow-rose",
@@ -9409,7 +11966,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "yi-ji-shi-mo",
@@ -9446,44 +12006,10 @@
     "still_on": false
    }
   ],
-  "on_list_now": false
- },
- {
-  "id": "yu-kitchen",
-  "name": "Yu Kitchen",
-  "key": "yu kitchen",
-  "names_seen": [
-   "Yu Kitchen"
-  ],
-  "address": "2656 Broadway New York, NY 10025",
-  "phone": "",
-  "website": "https://yu-kitchen-mandarin-restaurant.business.site/?utm_source=gmb&utm_medium=referral",
-  "eater_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map/yu-kitchen",
-  "blurb": "Yu Kitchen is the best of a flock of restaurants that have appeared in the last five years south of Columbia University and partly catering to homesick students and professors there. Many of chef Ding Ji’s recipes come from northwestern Chinese provinces, with a sprinkling of southern and Sichuan classics. Thrill to beef soup with pita dumplings sided with pickled cloves of garlic, and sour and spicy fern root noodles. This vigorous takeout and delivery operation is open until 9:30 p.m. nightly.",
-  "open_for": "",
-  "price": "",
-  "drink": "",
-  "tip": "",
-  "lat": 40.797415,
-  "lng": -73.969181,
-  "periods": [
-   {
-    "from": "20201121234630",
-    "to": "20210317013452",
-    "from_date": "2020-11-21",
-    "to_date": "2021-03-17",
-    "added_between": [
-     "2020-11-12",
-     "2020-11-21"
-    ],
-    "removed_between": [
-     "2021-03-17",
-     "2021-04-21"
-    ],
-    "still_on": false
-   }
-  ],
-  "on_list_now": false
+  "on_list_now": false,
+  "hours": null,
+  "meal_periods": [],
+  "closed": null
  },
  {
   "id": "zaab-zaab",
@@ -9532,7 +12058,13 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "lunch",
+   "dinner"
+  ],
+  "closed": null
  },
  {
   "id": "zimmi-s",
@@ -9566,6 +12098,11 @@
     "still_on": true
    }
   ],
-  "on_list_now": true
+  "on_list_now": true,
+  "hours": null,
+  "meal_periods": [
+   "dinner"
+  ],
+  "closed": null
  }
 ]

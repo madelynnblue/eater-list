@@ -14,6 +14,7 @@ class Config:
     csv_dir: str
     raw_dir: str
     aliases_path: str
+    closed_path: str
     urls: list[str] = field(default_factory=list)
     user_agent: str = "eater38-history/1.0"
     requests_per_second: float = 1.5
@@ -55,6 +56,7 @@ def load(path: str | None = None) -> Config:
         csv_dir=_resolve(root, bd.get("csv_dir", "out")),
         raw_dir=_resolve(root, bd.get("raw_dir", "data/raw")),
         aliases_path=_resolve(root, bd.get("aliases", "aliases.json")),
+        closed_path=_resolve(root, bd.get("closed", "closed.json")),
         urls=list(wb.get("urls", [])),
         user_agent=wb.get("user_agent", "eater38-history/1.0"),
         requests_per_second=float(wb.get("requests_per_second", 1.5)),

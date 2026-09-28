@@ -14,6 +14,8 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 
 from . import EXTRACTOR_VERSION
+from .closures import load_closed
+from .hours import meal_periods, periods_from_text
 from .identity import entry_keys, load_aliases, normalize, resolver, slugify
 
 
@@ -39,6 +41,7 @@ class Builder:
         self.log = log
         self.aliases_raw = load_aliases(cfg.aliases_path)
         self.canonical = resolver(self.aliases_raw)
+        self.closed = load_closed(getattr(cfg, "closed_path", ""))
 
     # -- load --------------------------------------------------------------
     def observations(self, url: str) -> tuple[list[Observation], int]:
@@ -162,6 +165,7 @@ class Builder:
             for key, name in o.names.items():
                 aliases_seen[key].add(name)
 
+        hours_by_place = self.store.all_hours() if hasattr(self.store, "all_hours") else {}
         places: dict[str, dict] = {}
         for key in names:
             meta = self.metadata_for(key, obs)
@@ -192,7 +196,18 @@ class Builder:
                 "lng": lng,
                 "periods": [],
                 "on_list_now": False,
+                "hours": None,
+                "meal_periods": [],
+                "closed": self.closed.get(slugify(key)),
             }
+            row = hours_by_place.get(places[key]["id"])
+            if row and row.get("hours"):
+                places[key]["hours"] = row["hours"]
+                places[key]["meal_periods"] = meal_periods(row["hours"])
+            else:
+                # fall back to Eater's own "Open for: ..." copy
+                places[key]["meal_periods"] = periods_from_text(
+                    places[key].get("open_for", ""))
 
         for run in runs:
             place = places[run["key"]]
@@ -222,8 +237,23 @@ class Builder:
             change["after_date"] = fmt(change["after"])
             change["by_date"] = fmt(change["by"])
 
+        if self.closed:
+            removed = [k for k in places if places[k]["id"] in self.closed]
+            for k in removed:
+                del places[k]
+            runs = [r for r in runs if r["key"] in places]
+            changes = [
+                {**c,
+                 "added_ids": [i for i in c.get("added_ids", []) if i not in self.closed],
+                 "removed_ids": [i for i in c.get("removed_ids", []) if i not in self.closed]}
+                for c in changes
+            ]
+            changes = [c for c in changes if c["added_ids"] or c["removed_ids"]]
+            self.log(f"excluded {len(removed)} permanently closed place(s)")
+
         current = obs[-1]
         payload = {
+            "closed_excluded": sorted(self.closed),
             "url": url,
             "observations": obs,
             "indexed_captures": indexed,
@@ -242,7 +272,7 @@ class Builder:
         os.makedirs(cfg.csv_dir, exist_ok=True)
         obs, places, changes = data["observations"], data["places"], data["changes"]
         current = data["current"]
-        current_keys = [k for k in current.keys]
+        current_keys = [k for k in current.keys if k in places]
 
         place_list = sorted(places.values(), key=lambda p: p["name"].lower())
         with open(os.path.join(cfg.out_dir, "places.json"), "w", encoding="utf-8") as fh:
@@ -309,6 +339,7 @@ class Builder:
             },
             "counts": {
                 "places": len(places),
+                "closed_excluded": len(data.get("closed_excluded", [])),
                 "stretches": len(data["runs"]),
                 "changes": len(changes),
                 "on_list_now": len(current_keys),

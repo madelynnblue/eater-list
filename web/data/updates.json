@@ -34,35 +34,26 @@
    "Prime Meats"
   ],
   "added_ids": [
-   "flaming-kitchen",
    "madison-square-garden",
    "prune",
    "hanoi-house",
-   "momofuku-ssam-bar",
-   "aldea",
    "cote-korean-steakhouse",
    "sullivan-street-bakery",
    "jongro-bbq",
    "sakagura",
    "the-grill",
    "victor-s-cafe",
-   "charles-pan-fried-chicken",
-   "dumpling-galaxy"
+   "charles-pan-fried-chicken"
   ],
   "removed_ids": [
    "odeon",
-   "mission-chinese-food",
    "lure-fishbar",
-   "somtum-der",
    "momofuku-noodle-bar",
    "gramercy-tavern",
    "cosme",
-   "the-nomad-restaurant",
-   "the-breslin",
    "new-wonjo",
    "patsy-s-pizza-east-harlem",
-   "casa-enrique",
-   "prime-meats"
+   "casa-enrique"
   ],
   "unsampled_captures": 0,
   "after_date": "2017-08-05",
@@ -100,7 +91,6 @@
   "added_ids": [
    "ping-seafood-restaurant",
    "yankee-stadium",
-   "atla",
    "her-name-is-han",
    "mala-project",
    "torishin",
@@ -111,17 +101,11 @@
    "ugly-baby"
   ],
   "removed_ids": [
-   "flaming-kitchen",
    "madison-square-garden",
    "prune",
-   "oiji",
    "jongro-bbq",
    "sakagura",
-   "indian-accent",
-   "boulud-sud",
-   "flora-bar",
-   "mu-ramen",
-   "el-atoradero-brooklyn"
+   "indian-accent"
   ],
   "unsampled_captures": 0,
   "after_date": "2018-02-18",
@@ -185,8 +169,6 @@
    "fish-cheeks",
    "via-carota",
    "madame-vo",
-   "rahi",
-   "nur",
    "bolivian-llama-party",
    "roberto-s",
    "szechuan-mountain-house",
@@ -197,14 +179,11 @@
    "ping-seafood-restaurant",
    "spicy-village",
    "wildair",
-   "uncle-boons",
    "balthazar",
    "i-sodi",
    "hanoi-house",
-   "aldea",
    "mala-project",
    "victor-s-cafe",
-   "dumpling-galaxy",
    "lilia",
    "st-anselm",
    "roberto-s"
@@ -234,13 +213,11 @@
    "adda",
    "di-an-di",
    "harry-and-ida-s-meat-and-supply-co",
-   "le-sia",
    "cervo-s"
   ],
   "removed_ids": [
    "tomino-taberna-gallega",
    "madame-vo",
-   "rahi",
    "szechuan-mountain-house",
    "ugly-baby"
   ],
@@ -270,16 +247,13 @@
   "added_ids": [
    "noda",
    "atomix",
-   "e-a-k-ramen-west-village",
    "scarr-s-pizza",
-   "meme-s-diner",
    "haenyeo"
   ],
   "removed_ids": [
    "torishin",
    "sullivan-street-bakery",
    "her-name-is-han",
-   "shuko",
    "chez-ma-tante",
    "le-coucou"
   ],
@@ -307,15 +281,12 @@
   "added_ids": [
    "liebman-s-deli",
    "la-morada",
-   "flora-bar",
    "fiaschetteria-pistoia",
    "miss-ada"
   ],
   "removed_ids": [
    "roberto-s",
    "cote-korean-steakhouse",
-   "nur",
-   "marlow-and-sons",
    "claro"
   ],
   "unsampled_captures": 0,
@@ -369,18 +340,13 @@
    "sushi-noz",
    "le-bernardin",
    "haidilao-hot-pot",
-   "farida",
-   "momofuku-kawi",
-   "rezdora",
-   "llama-san"
+   "rezdora"
   ],
   "removed_ids": [
    "charles-pan-fried-chicken",
    "the-grill",
    "noda",
    "via-carota",
-   "momofuku-ssam-bar",
-   "le-sia",
    "cheburechnaya",
    "la-vara"
   ],
@@ -430,7 +396,6 @@
   "added_ids": [
    "mario-s",
    "fieldtrip",
-   "yu-kitchen",
    "golden-palace-gourmet",
    "birria-landia",
    "qanoon-restaurant",
@@ -448,20 +413,15 @@
   "removed_ids": [
    "liebman-s-deli",
    "gregory-s-26-corner-taverna",
-   "flora-bar",
    "le-bernardin",
    "haidilao-hot-pot",
-   "momofuku-kawi",
    "atomix",
    "los-tacos-no-1",
-   "e-a-k-ramen-west-village",
    "fish-cheeks",
    "cervo-s",
    "gertie",
    "peter-luger-steak-house",
-   "win-son",
-   "meme-s-diner",
-   "olmsted"
+   "win-son"
   ],
   "unsampled_captures": 0,
   "after_date": "2020-11-12",
@@ -483,7 +443,6 @@
    "a-and-a-bake-doubles-and-roti"
   ],
   "removed_ids": [
-   "llama-san",
    "superiority-burger"
   ],
   "unsampled_captures": 0,
@@ -519,7 +478,6 @@
    "tony-and-tina-s-pizzeria",
    "happy-hot-hunan",
    "via-carota",
-   "bolero",
    "bo-ky",
    "wu-s-wonton-king",
    "bunna-cafe",
@@ -528,9 +486,7 @@
   ],
   "removed_ids": [
    "mario-s",
-   "yu-kitchen",
    "rezdora",
-   "atla",
    "frenchette",
    "jing-fong",
    "kopitiam",
@@ -632,7 +588,6 @@
   "added_ids": [
    "mariscos-el-submarino",
    "jua",
-   "cadence",
    "gage-and-tollner",
    "indian-table",
    "winner",
@@ -640,10 +595,8 @@
   ],
   "removed_ids": [
    "fieldtrip",
-   "farida",
    "via-carota",
    "chez-ma-tante",
-   "bolero",
    "peaches-hothouse",
    "ras-plant-based"
   ],
@@ -726,9 +679,7 @@
   "added_ids": [
    "kingston-tropical-bakery",
    "playground",
-   "shuko",
    "cheli",
-   "mel",
    "saga",
    "al-badawi"
   ],
@@ -816,10 +767,8 @@
    "playground",
    "bread-and-salt",
    "dame",
-   "cadence",
    "katz-s-delicatessen",
    "dhamaka",
-   "mel",
    "falansai",
    "saga"
   ],
@@ -860,7 +809,6 @@
    "charles-pan-fried-chicken",
    "pastrami-queen",
    "haidilao-hot-pot",
-   "urban-hawker",
    "koloman",
    "corner-bar",
    "dept-of-culture",
@@ -977,14 +925,12 @@
    "charles-pan-fried-chicken",
    "pastrami-queen",
    "marea",
-   "urban-hawker",
    "ruta-oaxaca-mexican-cuisine",
    "new-world-mall",
    "golden-palace-gourmet",
    "mariscos-el-submarino",
    "nepali-bhanchha-ghar",
    "zaab-zaab",
-   "shuko",
    "veselka",
    "corner-bar",
    "aldama",
@@ -1132,7 +1078,6 @@
    "nepali-bhanchha-ghar",
    "ayada",
    "semma",
-   "sushi-ichimura",
    "odeon",
    "uncle-lou"
   ],
@@ -1349,7 +1294,6 @@
    "awang-kitchen",
    "taqueria-ramirez",
    "katz-s-delicatessen",
-   "sushi-ichimura",
    "royal-seafood"
   ],
   "unsampled_captures": 0,

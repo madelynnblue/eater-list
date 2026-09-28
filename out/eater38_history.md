@@ -4,305 +4,270 @@ Source: `https://ny.eater.com/maps/best-new-york-restaurants-38-map`
 
 - captures indexed: **749** (2017-08-05 → 2026-09-21)
 - observations used to date the timeline: **726**
-- distinct restaurants that have appeared: **245**
+- distinct restaurants that have appeared: **212**
 - detected list changes: **35**
 - list size at last observation: **39**
 
 | # | Restaurant | On list from | On list through | Added between | Status |
 |---|---|---|---|---|---|
 | 1 | Balthazar | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
-| 2 | Boulud Sud | 2017-08-05 | 2018-02-18 | start of coverage | rotated out |
-| 3 | Casa Enrique | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 4 | Cheburechnaya | 2017-08-05 | 2019-12-05 | start of coverage | rotated out |
-| 5 | Cosme | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 6 | El Atoradero Brooklyn | 2017-08-05 | 2018-02-18 | start of coverage | rotated out |
-| 7 | Flora Bar | 2017-08-05 | 2018-02-18 | start of coverage | rotated out |
-| 8 | Gramercy Tavern | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 9 | Hometown Bar-B-Que | 2017-08-05 | 2021-03-17 | start of coverage | rotated out |
-| 10 | I Sodi | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
-| 11 | Indian Accent | 2017-08-05 | 2018-02-18 | start of coverage | rotated out |
-| 12 | Katz's Delicatessen | 2017-08-05 | 2021-12-20 | start of coverage | rotated out |
-| 13 | La Vara | 2017-08-05 | 2019-12-05 | start of coverage | rotated out |
-| 14 | Le Coucou | 2017-08-05 | 2019-05-28 | start of coverage | rotated out |
-| 15 | Lilia | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
-| 16 | Los Tacos No.1 | 2017-08-05 | 2020-11-12 | start of coverage | rotated out |
-| 17 | Lure Fishbar | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 18 | Marlow & Sons | 2017-08-05 | 2019-08-15 | start of coverage | rotated out |
-| 19 | Mission Chinese Food | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 20 | Momofuku Noodle Bar | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 21 | Mu Ramen | 2017-08-05 | 2018-02-18 | start of coverage | rotated out |
-| 22 | New Wonjo | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 23 | Odeon | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 24 | Oiji | 2017-08-05 | 2018-02-18 | start of coverage | rotated out |
-| 25 | Olmsted | 2017-08-05 | 2020-11-12 | start of coverage | rotated out |
-| 26 | Patsy's Pizza - East Harlem | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 27 | Peter Luger Steak House | 2017-08-05 | 2020-11-12 | start of coverage | rotated out |
-| 28 | Prime Meats | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 29 | Roberto’s | 2017-08-05 | 2019-08-15 | start of coverage | rotated out |
-| 30 | Shuko | 2017-08-05 | 2019-05-28 | start of coverage | rotated out |
-| 31 | Somtum Der | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 32 | Spicy Village | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
-| 33 | St. Anselm | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
-| 34 | Superiority Burger | 2017-08-05 | 2021-01-06 | start of coverage | rotated out |
-| 35 | The Breslin | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 36 | The NoMad Restaurant | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
-| 37 | Uncle Boons | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
-| 38 | Wildair | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
-| 39 | Aldea | 2018-02-03 | 2018-10-03 | 2017-08-05 - 2018-02-03 | rotated out |
-| 40 | Charles Pan-Fried Chicken | 2018-02-03 | 2019-12-05 | 2017-08-05 - 2018-02-03 | rotated out |
-| 41 | Cote Korean Steakhouse | 2018-02-03 | 2019-08-15 | 2017-08-05 - 2018-02-03 | rotated out |
-| 42 | Dumpling Galaxy | 2018-02-03 | 2018-10-03 | 2017-08-05 - 2018-02-03 | rotated out |
-| 43 | Flaming Kitchen | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
-| 44 | Hanoi House | 2018-02-03 | 2018-10-03 | 2017-08-05 - 2018-02-03 | rotated out |
-| 45 | Jongro BBQ | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
-| 46 | Madison Square Garden | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
-| 47 | Momofuku Ssäm Bar | 2018-02-03 | 2019-12-05 | 2017-08-05 - 2018-02-03 | rotated out |
-| 48 | Prune | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
-| 49 | Sakagura | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
-| 50 | Sullivan Street Bakery | 2018-02-03 | 2019-05-28 | 2017-08-05 - 2018-02-03 | rotated out |
-| 51 | The Grill | 2018-02-03 | 2019-12-05 | 2017-08-05 - 2018-02-03 | rotated out |
-| 52 | Victor's Cafe | 2018-02-03 | 2018-10-03 | 2017-08-05 - 2018-02-03 | rotated out |
-| 53 | Atla | 2018-07-11 | 2021-03-17 | 2018-02-18 - 2018-07-11 | rotated out |
-| 54 | Claro | 2018-07-11 | 2019-08-15 | 2018-02-18 - 2018-07-11 | rotated out |
-| 55 | Gregory's 26 Corner Taverna | 2018-07-11 | 2020-11-12 | 2018-02-18 - 2018-07-11 | rotated out |
-| 56 | Her Name is Han | 2018-07-11 | 2019-05-28 | 2018-02-18 - 2018-07-11 | rotated out |
-| 57 | MáLà Project | 2018-07-11 | 2018-10-03 | 2018-02-18 - 2018-07-11 | rotated out |
-| 58 | Peppa's | 2018-07-11 | 2022-12-27 | 2018-02-18 - 2018-07-11 | rotated out |
-| 59 | Ping Seafood Restaurant | 2018-07-11 | 2018-10-03 | 2018-02-18 - 2018-07-11 | rotated out |
-| 60 | Torishin | 2018-07-11 | 2019-05-28 | 2018-02-18 - 2018-07-11 | rotated out |
-| 61 | Ugly Baby | 2018-07-11 | 2019-02-02 | 2018-02-18 - 2018-07-11 | rotated out |
-| 62 | Win Son | 2018-07-11 | 2020-11-12 | 2018-02-18 - 2018-07-11 | rotated out |
-| 63 | Yankee Stadium | 2018-07-11 | 2018-07-16 | 2018-02-18 - 2018-07-11 | rotated out |
-| 64 | Bolivian Llama Party | 2019-01-19 | 2022-12-27 | 2018-10-03 - 2019-01-19 | rotated out |
-| 65 | Chez Ma Tante | 2019-01-19 | 2019-05-28 | 2018-10-03 - 2019-01-19 | rotated out |
-| 66 | Fish Cheeks | 2019-01-19 | 2020-11-12 | 2018-10-03 - 2019-01-19 | rotated out |
-| 67 | Frenchette | 2019-01-19 | 2021-03-17 | 2018-10-03 - 2019-01-19 | rotated out |
-| 68 | Kopitiam | 2019-01-19 | 2021-03-17 | 2018-10-03 - 2019-01-19 | rotated out |
-| 69 | Madame Vo | 2019-01-19 | 2019-02-02 | 2018-10-03 - 2019-01-19 | rotated out |
-| 70 | Nur | 2019-01-19 | 2019-08-15 | 2018-10-03 - 2019-01-19 | rotated out |
-| 71 | Ops | 2019-01-19 | 2021-12-20 | 2018-10-03 - 2019-01-19 | rotated out |
-| 72 | Rahi | 2019-01-19 | 2019-02-02 | 2018-10-03 - 2019-01-19 | rotated out |
-| 73 | Szechuan Mountain House | 2019-01-19 | 2019-02-02 | 2018-10-03 - 2019-01-19 | rotated out |
-| 74 | Tomiño Taberna Gallega | 2019-01-19 | 2019-02-02 | 2018-10-03 - 2019-01-19 | rotated out |
-| 75 | Via Carota | 2019-01-19 | 2019-12-05 | 2018-10-03 - 2019-01-19 | rotated out |
-| 76 | Xi'an Famous Foods | 2019-01-19 | 2021-04-24 | 2018-10-03 - 2019-01-19 | rotated out |
-| 77 | Adda | 2019-04-17 | 2021-04-24 | 2019-02-02 - 2019-04-17 | rotated out |
-| 78 | Cervo's | 2019-04-17 | 2020-11-12 | 2019-02-02 - 2019-04-17 | rotated out |
-| 79 | Di An Di | 2019-04-17 | 2021-12-20 | 2019-02-02 - 2019-04-17 | rotated out |
-| 80 | Harry & Ida's Meat and Supply Co. | 2019-04-17 | 2019-10-23 | 2019-02-02 - 2019-04-17 | rotated out |
-| 81 | Le Sia | 2019-04-17 | 2019-12-05 | 2019-02-02 - 2019-04-17 | rotated out |
-| 82 | Atomix | 2019-07-21 | 2020-11-12 | 2019-05-28 - 2019-07-21 | rotated out |
-| 83 | E.A.K. Ramen (West Village) | 2019-07-21 | 2020-11-12 | 2019-05-28 - 2019-07-21 | rotated out |
-| 84 | Haenyeo | 2019-07-21 | 2022-04-07 | 2019-05-28 - 2019-07-21 | rotated out |
-| 85 | MeMe's Diner | 2019-07-21 | 2020-11-12 | 2019-05-28 - 2019-07-21 | rotated out |
-| 86 | Noda | 2019-07-21 | 2019-12-05 | 2019-05-28 - 2019-07-21 | rotated out |
-| 87 | Scarr's Pizza | 2019-07-21 | 2021-04-24 | 2019-05-28 - 2019-07-21 | rotated out |
-| 88 | Fiaschetteria "Pistoia" | 2019-10-23 | 2021-04-24 | 2019-08-15 - 2019-10-23 | rotated out |
-| 89 | Flora Bar | 2019-10-23 | 2020-11-12 | 2019-08-15 - 2019-10-23 | rotated out |
-| 90 | La Morada | 2019-10-23 | 2021-04-24 | 2019-08-15 - 2019-10-23 | rotated out |
-| 91 | Liebman’s Deli | 2019-10-23 | 2020-11-12 | 2019-08-15 - 2019-10-23 | rotated out |
-| 92 | Miss Ada | 2019-10-23 | 2021-12-20 | 2019-08-15 - 2019-10-23 | rotated out |
-| 93 | Gertie | 2019-12-05 | 2020-11-12 | 2019-10-23 - 2019-12-05 | rotated out |
-| 94 | Africa Kine | 2020-03-18 | 2022-12-27 | 2019-12-05 - 2020-03-18 | rotated out |
-| 95 | Farida | 2020-03-18 | 2021-10-11 | 2019-12-05 - 2020-03-18 | rotated out |
-| 96 | Haidilao Hot Pot | 2020-03-18 | 2020-11-12 | 2019-12-05 - 2020-03-18 | rotated out |
-| 97 | Le Bernardin | 2020-03-18 | 2020-11-12 | 2019-12-05 - 2020-03-18 | rotated out |
-| 98 | Llama San | 2020-03-18 | 2021-01-06 | 2019-12-05 - 2020-03-18 | rotated out |
-| 99 | Momofuku Kāwi | 2020-03-18 | 2020-11-12 | 2019-12-05 - 2020-03-18 | rotated out |
-| 100 | Rezdôra | 2020-03-18 | 2021-03-17 | 2019-12-05 - 2020-03-18 | rotated out |
-| 101 | Sushi Noz | 2020-03-18 | 2022-04-07 | 2019-12-05 - 2020-03-18 | rotated out |
-| 102 | Birria-Landia | 2020-11-21 | 2022-12-27 | 2020-11-12 - 2020-11-21 | rotated out |
-| 103 | Bread & Salt | 2020-11-21 | 2022-09-22 | 2020-11-12 - 2020-11-21 | rotated out |
-| 104 | Crop Circle | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
-| 105 | Denino’s Pizzeria & Tavern | 2020-11-21 | 2021-12-20 | 2020-11-12 - 2020-11-21 | rotated out |
-| 106 | Fieldtrip | 2020-11-21 | 2021-10-11 | 2020-11-12 - 2020-11-21 | rotated out |
-| 107 | Golden Diner | 2020-11-21 | 2022-12-27 | 2020-11-12 - 2020-11-21 | rotated out |
-| 108 | Golden Palace Gourmet | 2020-11-21 | 2023-03-21 | 2020-11-12 - 2020-11-21 | rotated out |
-| 109 | Jeju Noodle Bar | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
-| 110 | Jing Fong | 2020-11-21 | 2021-03-17 | 2020-11-12 - 2020-11-21 | rotated out |
-| 111 | Mario's | 2020-11-21 | 2021-03-17 | 2020-11-12 - 2020-11-21 | rotated out |
-| 112 | NY Dosas | 2020-11-21 | 2023-05-30 | 2020-11-12 - 2020-11-21 | rotated out |
-| 113 | Qanoon Restaurant | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
-| 114 | Thai Diner | 2020-11-21 | 2021-12-20 | 2020-11-12 - 2020-11-21 | rotated out |
-| 115 | Ugly Baby | 2020-11-21 | 2021-03-17 | 2020-11-12 - 2020-11-21 | rotated out |
-| 116 | Yi Ji Shi Mo | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
-| 117 | Yu Kitchen | 2020-11-21 | 2021-03-17 | 2020-11-12 - 2020-11-21 | rotated out |
-| 118 | A&A Bake Doubles and Roti | 2021-01-22 | 2023-03-21 | 2021-01-06 - 2021-01-22 | rotated out |
-| 119 | Peaches HotHouse | 2021-01-22 | 2021-10-11 | 2021-01-06 - 2021-01-22 | rotated out |
-| 120 | Bo Ky | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
-| 121 | Bolero | 2021-04-21 | 2021-10-11 | 2021-03-17 - 2021-04-21 | rotated out |
-| 122 | Bunna Cafe | 2021-04-21 | 2023-03-21 | 2021-03-17 - 2021-04-21 | rotated out |
-| 123 | Court Street Grocers | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
-| 124 | Happy Hot Hunan | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
-| 125 | Kashkar Cafe | 2021-04-21 | 2023-03-21 | 2021-03-17 - 2021-04-21 | rotated out |
-| 126 | Tony & Tina's Pizzeria | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
-| 127 | Via Carota | 2021-04-21 | 2021-10-11 | 2021-03-17 - 2021-04-21 | rotated out |
-| 128 | Wu's Wonton King | 2021-04-21 | 2022-12-27 | 2021-03-17 - 2021-04-21 | rotated out |
-| 129 | Bánh Vietnamese Shop House | 2021-06-14 | 2024-03-17 | 2021-04-24 - 2021-06-14 | rotated out |
-| 130 | Blue Willow | 2021-06-14 | 2022-04-07 | 2021-04-24 - 2021-06-14 | rotated out |
-| 131 | Cervo's | 2021-06-14 | 2021-12-20 | 2021-04-24 - 2021-06-14 | rotated out |
-| 132 | Chez Ma Tante | 2021-06-14 | 2021-10-11 | 2021-04-24 - 2021-06-14 | rotated out |
-| 133 | Chuan Tian Xia | 2021-06-14 | 2023-03-21 | 2021-04-24 - 2021-06-14 | rotated out |
-| 134 | Coszcal De Allende | 2021-06-14 | 2023-03-21 | 2021-04-24 - 2021-06-14 | rotated out |
-| 135 | Dhamaka | 2021-06-14 | 2022-09-22 | 2021-04-24 - 2021-06-14 | rotated out |
-| 136 | Ernesto’s | 2021-06-14 | 2021-12-20 | 2021-04-24 - 2021-06-14 | rotated out |
-| 137 | Falansai | 2021-06-14 | 2022-09-22 | 2021-04-24 - 2021-06-14 | rotated out |
-| 138 | Hudson Smokehouse | 2021-06-14 | 2022-09-22 | 2021-04-24 - 2021-06-14 | rotated out |
-| 139 | Ras Plant Based | 2021-06-14 | 2021-10-11 | 2021-04-24 - 2021-06-14 | rotated out |
-| 140 | Ruta Oaxaca Mexican Cuisine | 2021-06-14 | 2023-03-21 | 2021-04-24 - 2021-06-14 | rotated out |
-| 141 | Tong | 2021-06-14 | 2021-12-20 | 2021-04-24 - 2021-06-14 | rotated out |
-| 142 | Ayat | 2021-10-15 | 2022-04-07 | 2021-10-11 - 2021-10-15 | rotated out |
-| 143 | Cadence | 2021-10-15 | 2022-09-22 | 2021-10-11 - 2021-10-15 | rotated out |
-| 144 | Gage & Tollner | 2021-10-15 | 2022-06-16 | 2021-10-11 - 2021-10-15 | rotated out |
-| 145 | Indian Table | 2021-10-15 | 2022-04-07 | 2021-10-11 - 2021-10-15 | rotated out |
-| 146 | Jua | 2021-10-15 | 2022-12-27 | 2021-10-11 - 2021-10-15 | rotated out |
-| 147 | Mariscos El Submarino | 2021-10-15 | 2023-03-21 | 2021-10-11 - 2021-10-15 | rotated out |
-| 148 | Winner | 2021-10-15 | 2022-04-07 | 2021-10-11 - 2021-10-15 | rotated out |
-| 149 | Dame | 2022-01-22 | 2022-09-22 | 2021-12-20 - 2022-01-22 | rotated out |
-| 150 | Killmeyer's | 2022-01-22 | 2023-03-21 | 2021-12-20 - 2022-01-22 | rotated out |
-| 151 | L’Industrie Pizzeria | 2022-01-22 | 2026-07-09 | 2021-12-20 - 2022-01-22 | rotated out |
-| 152 | Liebman’s Deli | 2022-01-22 | 2022-06-16 | 2021-12-20 - 2022-01-22 | rotated out |
-| 153 | Nepali Bhanchha Ghar | 2022-01-22 | 2023-03-21 | 2021-12-20 - 2022-01-22 | rotated out |
-| 154 | Soothr | 2022-01-22 | 2022-04-07 | 2021-12-20 - 2022-01-22 | rotated out |
-| 155 | Taqueria Ramirez | 2022-01-22 | 2025-04-05 | 2021-12-20 - 2022-01-22 | rotated out |
-| 156 | The Four Horsemen | 2022-01-22 | 2026-09-21 | 2021-12-20 - 2022-01-22 | on list |
-| 157 | Yellow Rose | 2022-01-22 | 2022-12-27 | 2021-12-20 - 2022-01-22 | rotated out |
-| 158 | Al Badawi | 2022-04-26 | 2023-03-21 | 2022-04-07 - 2022-04-26 | rotated out |
-| 159 | CheLi | 2022-04-26 | 2022-06-16 | 2022-04-07 - 2022-04-26 | rotated out |
-| 160 | Kingston Tropical Bakery | 2022-04-26 | 2023-03-21 | 2022-04-07 - 2022-04-26 | rotated out |
-| 161 | Mel | 2022-04-26 | 2022-09-22 | 2022-04-07 - 2022-04-26 | rotated out |
-| 162 | Playground | 2022-04-26 | 2022-09-22 | 2022-04-07 - 2022-04-26 | rotated out |
-| 163 | Saga | 2022-04-26 | 2022-09-22 | 2022-04-07 - 2022-04-26 | rotated out |
-| 164 | Shuko | 2022-04-26 | 2023-03-21 | 2022-04-07 - 2022-04-26 | rotated out |
-| 165 | Aldama | 2022-08-11 | 2023-03-21 | 2022-06-16 - 2022-08-11 | rotated out |
-| 166 | Bamonte's | 2022-08-11 | 2022-12-27 | 2022-06-16 - 2022-08-11 | rotated out |
-| 167 | Katz's Delicatessen | 2022-08-11 | 2022-09-22 | 2022-06-16 - 2022-08-11 | rotated out |
-| 168 | Great NY Noodletown | 2022-10-13 | 2023-11-28 | 2022-09-22 - 2022-10-13 | rotated out |
-| 169 | Hometown Bar-B-Que | 2022-10-13 | 2024-03-17 | 2022-09-22 - 2022-10-13 | rotated out |
-| 170 | I Sodi | 2022-10-13 | 2022-12-27 | 2022-09-22 - 2022-10-13 | rotated out |
-| 171 | La Vara | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
-| 172 | Malecon | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
-| 173 | Marea | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
-| 174 | New World Mall | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
-| 175 | Semma | 2022-10-13 | 2023-05-30 | 2022-09-22 - 2022-10-13 | rotated out |
-| 176 | Veselka | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
-| 177 | Zaab Zaab | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
-| 178 | Charles Pan-Fried Chicken | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
-| 179 | Claudy’s Empanadas | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
-| 180 | Corner Bar | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
-| 181 | Dept of Culture | 2023-01-13 | 2023-10-03 | 2022-12-27 - 2023-01-13 | rotated out |
-| 182 | Dominick's | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
-| 183 | Haidilao Hot Pot | 2023-01-13 | 2023-11-28 | 2022-12-27 - 2023-01-13 | rotated out |
-| 184 | Koloman | 2023-01-13 | 2025-01-06 | 2022-12-27 - 2023-01-13 | rotated out |
-| 185 | Pastrami Queen | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
-| 186 | Ugly Baby | 2023-01-13 | 2025-01-06 | 2022-12-27 - 2023-01-13 | rotated out |
-| 187 | Urban Hawker | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
-| 188 | Ayat | 2023-03-28 | 2024-06-17 | 2023-03-21 - 2023-03-28 | rotated out |
-| 189 | B&H Dairy | 2023-03-28 | 2023-10-03 | 2023-03-21 - 2023-03-28 | rotated out |
-| 190 | Baekjeong | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
-| 191 | Balthazar | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
-| 192 | Chama Mama | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
-| 193 | Grand Central Oyster Bar | 2023-03-28 | 2026-07-09 | 2023-03-21 - 2023-03-28 | rotated out |
-| 194 | Ho Foods | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
-| 195 | Joe's of Avenue U | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
-| 196 | Katz's Delicatessen | 2023-03-28 | 2025-04-05 | 2023-03-21 - 2023-03-28 | rotated out |
-| 197 | Keens Steakhouse | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
-| 198 | Kopitiam | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
-| 199 | Le Bernardin | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
-| 200 | Los Tacos No.1 | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
-| 201 | Misi | 2023-03-28 | 2025-07-02 | 2023-03-21 - 2023-03-28 | rotated out |
-| 202 | Noz 17 | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
-| 203 | Papaye | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
-| 204 | Raku | 2023-03-28 | 2025-01-06 | 2023-03-21 - 2023-03-28 | rotated out |
-| 205 | Roberto’s | 2023-03-28 | 2025-09-29 | 2023-03-21 - 2023-03-28 | rotated out |
-| 206 | Russ & Daughters Cafe | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
-| 207 | Sushi On Me | 2023-03-28 | 2024-03-17 | 2023-03-21 - 2023-03-28 | rotated out |
-| 208 | Sylvia’s | 2023-03-28 | 2025-12-18 | 2023-03-21 - 2023-03-28 | rotated out |
-| 209 | Szechuan Mountain House | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
-| 210 | Thai Diner | 2023-03-28 | 2023-10-03 | 2023-03-21 - 2023-03-28 | rotated out |
-| 211 | The Original Buddha Bodai Kosher Vegetarian Restaurant | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
-| 212 | Una Pizza Napoletana | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
-| 213 | Via Carota | 2023-03-28 | 2025-01-06 | 2023-03-21 - 2023-03-28 | rotated out |
-| 214 | Bánh Mì Saigon | 2023-07-13 | 2023-11-28 | 2023-05-30 - 2023-07-13 | rotated out |
-| 215 | Ci Siamo | 2023-07-13 | 2024-06-17 | 2023-05-30 - 2023-07-13 | rotated out |
-| 216 | Dhamaka | 2023-07-13 | 2023-11-28 | 2023-05-30 - 2023-07-13 | rotated out |
-| 217 | Gallaghers Steakhouse | 2023-07-13 | 2024-06-17 | 2023-05-30 - 2023-07-13 | rotated out |
-| 218 | Mariscos El Submarino | 2023-07-13 | 2025-01-06 | 2023-05-30 - 2023-07-13 | rotated out |
-| 219 | S&P Lunch | 2023-07-13 | 2025-09-29 | 2023-05-30 - 2023-07-13 | rotated out |
-| 220 | Superiority Burger | 2023-07-13 | 2026-09-21 | 2023-05-30 - 2023-07-13 | on list |
-| 221 | While in Kathmandu | 2023-07-13 | 2023-11-28 | 2023-05-30 - 2023-07-13 | rotated out |
-| 222 | A&A Bake Doubles and Roti | 2023-10-13 | 2026-09-21 | 2023-10-03 - 2023-10-13 | on list |
-| 223 | Pranakhon | 2023-10-13 | 2023-11-28 | 2023-10-03 - 2023-10-13 | rotated out |
-| 224 | Win Son | 2023-10-13 | 2024-10-07 | 2023-10-03 - 2023-10-13 | rotated out |
-| 225 | Ayada | 2024-01-13 | 2024-06-17 | 2023-11-28 - 2024-01-13 | rotated out |
-| 226 | Café China | 2024-01-13 | 2024-03-17 | 2023-11-28 - 2024-01-13 | rotated out |
-| 227 | Hyderabadi Zaiqa | 2024-01-13 | 2026-09-21 | 2023-11-28 - 2024-01-13 | on list |
-| 228 | Jongro Gopchang | 2024-01-13 | 2024-03-17 | 2023-11-28 - 2024-01-13 | rotated out |
-| 229 | Liebman’s Deli | 2024-01-13 | 2025-04-05 | 2023-11-28 - 2024-01-13 | rotated out |
-| 230 | Nepali Bhanchha Ghar | 2024-01-13 | 2026-09-21 | 2023-11-28 - 2024-01-13 | on list |
-| 231 | Odeon | 2024-01-13 | 2024-10-07 | 2023-11-28 - 2024-01-13 | rotated out |
-| 232 | Semma | 2024-01-13 | 2025-09-29 | 2023-11-28 - 2024-01-13 | rotated out |
-| 233 | Sushi Ichimura | 2024-01-13 | 2025-04-05 | 2023-11-28 - 2024-01-13 | rotated out |
-| 234 | Tosokchon | 2024-01-13 | 2024-06-17 | 2023-11-28 - 2024-01-13 | rotated out |
-| 235 | Uncle Lou | 2024-01-13 | 2024-06-17 | 2023-11-28 - 2024-01-13 | rotated out |
-| 236 | Agnanti | 2024-04-09 | 2024-06-17 | 2024-03-17 - 2024-04-09 | rotated out |
-| 237 | Awang Kitchen | 2024-04-09 | 2025-04-05 | 2024-03-17 - 2024-04-09 | rotated out |
-| 238 | Mắm | 2024-04-09 | 2026-09-21 | 2024-03-17 - 2024-04-09 | on list |
-| 239 | Uluh | 2024-04-09 | 2025-01-06 | 2024-03-17 - 2024-04-09 | rotated out |
-| 240 | Woorijip | 2024-04-09 | 2024-06-17 | 2024-03-17 - 2024-04-09 | rotated out |
-| 241 | Abuqir | 2024-07-11 | 2026-09-21 | 2024-06-17 - 2024-07-11 | on list |
-| 242 | Bangkok Supper Club | 2024-07-11 | 2024-10-07 | 2024-06-17 - 2024-07-11 | rotated out |
-| 243 | Don Angie | 2024-07-11 | 2025-04-05 | 2024-06-17 - 2024-07-11 | rotated out |
-| 244 | Hamburger America | 2024-07-11 | 2026-09-21 | 2024-06-17 - 2024-07-11 | on list |
-| 245 | Jongro BBQ | 2024-07-11 | 2025-04-05 | 2024-06-17 - 2024-07-11 | rotated out |
-| 246 | Keens Steakhouse | 2024-07-11 | 2026-03-14 | 2024-06-17 - 2024-07-11 | rotated out |
-| 247 | Monte's Trattoria | 2024-07-11 | 2024-10-07 | 2024-06-17 - 2024-07-11 | rotated out |
-| 248 | Royal Seafood | 2024-07-11 | 2025-04-05 | 2024-06-17 - 2024-07-11 | rotated out |
-| 249 | Cha Long | 2024-10-10 | 2025-12-18 | 2024-10-07 - 2024-10-10 | rotated out |
-| 250 | Ho Foods | 2024-10-10 | 2026-03-14 | 2024-10-07 - 2024-10-10 | rotated out |
-| 251 | Kanyakumari | 2024-10-10 | 2025-07-02 | 2024-10-07 - 2024-10-10 | rotated out |
-| 252 | Le Gratin | 2024-10-10 | 2025-01-06 | 2024-10-07 - 2024-10-10 | rotated out |
-| 253 | Cafe Boulud | 2025-01-15 | 2025-09-29 | 2025-01-06 - 2025-01-15 | rotated out |
-| 254 | Cafe Kestrel | 2025-01-15 | 2025-09-29 | 2025-01-06 - 2025-01-15 | rotated out |
-| 255 | I Sodi | 2025-01-15 | 2025-07-02 | 2025-01-06 - 2025-01-15 | rotated out |
-| 256 | Kisa | 2025-01-15 | 2025-09-29 | 2025-01-06 - 2025-01-15 | rotated out |
-| 257 | Le Veau d’Or | 2025-01-15 | 2026-09-21 | 2025-01-06 - 2025-01-15 | on list |
-| 258 | Sailor | 2025-01-15 | 2026-03-14 | 2025-01-06 - 2025-01-15 | rotated out |
-| 259 | Sky Pavilion | 2025-01-15 | 2026-09-21 | 2025-01-06 - 2025-01-15 | on list |
-| 260 | 2nd Ave Deli | 2025-04-18 | 2025-12-18 | 2025-04-05 - 2025-04-18 | rotated out |
-| 261 | Ayat | 2025-04-18 | 2025-12-18 | 2025-04-05 - 2025-04-18 | rotated out |
-| 262 | Carnitas Ramirez | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
-| 263 | Golden Diner | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
-| 264 | Noz Market | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
-| 265 | Rolo’s | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
-| 266 | Saint Julivert | 2025-04-18 | 2025-07-02 | 2025-04-05 - 2025-04-18 | rotated out |
-| 267 | Zaab Zaab | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
-| 268 | Claud | 2025-07-08 | 2026-09-21 | 2025-07-02 - 2025-07-08 | on list |
-| 269 | Lilia | 2025-07-08 | 2026-09-21 | 2025-07-02 - 2025-07-08 | on list |
-| 270 | Txikito | 2025-07-08 | 2026-03-14 | 2025-07-02 - 2025-07-08 | rotated out |
-| 271 | Via Carota | 2025-07-08 | 2026-07-09 | 2025-07-02 - 2025-07-08 | rotated out |
-| 272 | Adda | 2025-10-08 | 2026-09-21 | 2025-09-29 - 2025-10-08 | on list |
-| 273 | Cafe Commerce | 2025-10-08 | 2026-07-09 | 2025-09-29 - 2025-10-08 | rotated out |
-| 274 | La Piraña Lechonera | 2025-10-08 | 2026-09-21 | 2025-09-29 - 2025-10-08 | on list |
-| 275 | Red Hook Tavern | 2025-10-08 | 2026-07-09 | 2025-09-29 - 2025-10-08 | rotated out |
-| 276 | Restaurant Daniel | 2025-10-08 | 2026-03-14 | 2025-09-29 - 2025-10-08 | rotated out |
-| 277 | Sunn’s | 2025-10-08 | 2026-09-21 | 2025-09-29 - 2025-10-08 | on list |
-| 278 | Al Badawi | 2026-01-13 | 2026-09-21 | 2025-12-18 - 2026-01-13 | on list |
-| 279 | Bong | 2026-01-13 | 2026-09-21 | 2025-12-18 - 2026-01-13 | on list |
-| 280 | Charles Pan-Fried Chicken | 2026-01-13 | 2026-07-09 | 2025-12-18 - 2026-01-13 | rotated out |
-| 281 | Kabawa | 2026-01-13 | 2026-09-21 | 2025-12-18 - 2026-01-13 | on list |
-| 282 | Borgo | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
-| 283 | Ernesto’s | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
-| 284 | Filé Gumbo Bar | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
-| 285 | Gallaghers Steakhouse | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
-| 286 | Lei | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
-| 287 | Crevette | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
-| 288 | Makina Cafe Ethiopian-Eritrean Eatery | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
-| 289 | S&P Lunch | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
-| 290 | Smithereens | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
-| 291 | Vato | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
-| 292 | Zimmi’s | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
-| 293 | Coqodaq | 2026-08-13 | 2026-09-21 | 2026-08-13 - 2026-08-13 | on list |
+| 2 | Casa Enrique | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 3 | Cheburechnaya | 2017-08-05 | 2019-12-05 | start of coverage | rotated out |
+| 4 | Cosme | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 5 | Gramercy Tavern | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 6 | Hometown Bar-B-Que | 2017-08-05 | 2021-03-17 | start of coverage | rotated out |
+| 7 | I Sodi | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
+| 8 | Indian Accent | 2017-08-05 | 2018-02-18 | start of coverage | rotated out |
+| 9 | Katz's Delicatessen | 2017-08-05 | 2021-12-20 | start of coverage | rotated out |
+| 10 | La Vara | 2017-08-05 | 2019-12-05 | start of coverage | rotated out |
+| 11 | Le Coucou | 2017-08-05 | 2019-05-28 | start of coverage | rotated out |
+| 12 | Lilia | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
+| 13 | Los Tacos No.1 | 2017-08-05 | 2020-11-12 | start of coverage | rotated out |
+| 14 | Lure Fishbar | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 15 | Momofuku Noodle Bar | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 16 | New Wonjo | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 17 | Odeon | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 18 | Patsy's Pizza - East Harlem | 2017-08-05 | 2017-08-05 | start of coverage | rotated out |
+| 19 | Peter Luger Steak House | 2017-08-05 | 2020-11-12 | start of coverage | rotated out |
+| 20 | Roberto’s | 2017-08-05 | 2019-08-15 | start of coverage | rotated out |
+| 21 | Spicy Village | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
+| 22 | St. Anselm | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
+| 23 | Superiority Burger | 2017-08-05 | 2021-01-06 | start of coverage | rotated out |
+| 24 | Wildair | 2017-08-05 | 2018-10-03 | start of coverage | rotated out |
+| 25 | Charles Pan-Fried Chicken | 2018-02-03 | 2019-12-05 | 2017-08-05 - 2018-02-03 | rotated out |
+| 26 | Cote Korean Steakhouse | 2018-02-03 | 2019-08-15 | 2017-08-05 - 2018-02-03 | rotated out |
+| 27 | Hanoi House | 2018-02-03 | 2018-10-03 | 2017-08-05 - 2018-02-03 | rotated out |
+| 28 | Jongro BBQ | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
+| 29 | Madison Square Garden | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
+| 30 | Prune | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
+| 31 | Sakagura | 2018-02-03 | 2018-02-18 | 2017-08-05 - 2018-02-03 | rotated out |
+| 32 | Sullivan Street Bakery | 2018-02-03 | 2019-05-28 | 2017-08-05 - 2018-02-03 | rotated out |
+| 33 | The Grill | 2018-02-03 | 2019-12-05 | 2017-08-05 - 2018-02-03 | rotated out |
+| 34 | Victor's Cafe | 2018-02-03 | 2018-10-03 | 2017-08-05 - 2018-02-03 | rotated out |
+| 35 | Claro | 2018-07-11 | 2019-08-15 | 2018-02-18 - 2018-07-11 | rotated out |
+| 36 | Gregory's 26 Corner Taverna | 2018-07-11 | 2020-11-12 | 2018-02-18 - 2018-07-11 | rotated out |
+| 37 | Her Name is Han | 2018-07-11 | 2019-05-28 | 2018-02-18 - 2018-07-11 | rotated out |
+| 38 | MáLà Project | 2018-07-11 | 2018-10-03 | 2018-02-18 - 2018-07-11 | rotated out |
+| 39 | Peppa's | 2018-07-11 | 2022-12-27 | 2018-02-18 - 2018-07-11 | rotated out |
+| 40 | Ping Seafood Restaurant | 2018-07-11 | 2018-10-03 | 2018-02-18 - 2018-07-11 | rotated out |
+| 41 | Torishin | 2018-07-11 | 2019-05-28 | 2018-02-18 - 2018-07-11 | rotated out |
+| 42 | Ugly Baby | 2018-07-11 | 2019-02-02 | 2018-02-18 - 2018-07-11 | rotated out |
+| 43 | Win Son | 2018-07-11 | 2020-11-12 | 2018-02-18 - 2018-07-11 | rotated out |
+| 44 | Yankee Stadium | 2018-07-11 | 2018-07-16 | 2018-02-18 - 2018-07-11 | rotated out |
+| 45 | Bolivian Llama Party | 2019-01-19 | 2022-12-27 | 2018-10-03 - 2019-01-19 | rotated out |
+| 46 | Chez Ma Tante | 2019-01-19 | 2019-05-28 | 2018-10-03 - 2019-01-19 | rotated out |
+| 47 | Fish Cheeks | 2019-01-19 | 2020-11-12 | 2018-10-03 - 2019-01-19 | rotated out |
+| 48 | Frenchette | 2019-01-19 | 2021-03-17 | 2018-10-03 - 2019-01-19 | rotated out |
+| 49 | Kopitiam | 2019-01-19 | 2021-03-17 | 2018-10-03 - 2019-01-19 | rotated out |
+| 50 | Madame Vo | 2019-01-19 | 2019-02-02 | 2018-10-03 - 2019-01-19 | rotated out |
+| 51 | Ops | 2019-01-19 | 2021-12-20 | 2018-10-03 - 2019-01-19 | rotated out |
+| 52 | Szechuan Mountain House | 2019-01-19 | 2019-02-02 | 2018-10-03 - 2019-01-19 | rotated out |
+| 53 | Tomiño Taberna Gallega | 2019-01-19 | 2019-02-02 | 2018-10-03 - 2019-01-19 | rotated out |
+| 54 | Via Carota | 2019-01-19 | 2019-12-05 | 2018-10-03 - 2019-01-19 | rotated out |
+| 55 | Xi'an Famous Foods | 2019-01-19 | 2021-04-24 | 2018-10-03 - 2019-01-19 | rotated out |
+| 56 | Adda | 2019-04-17 | 2021-04-24 | 2019-02-02 - 2019-04-17 | rotated out |
+| 57 | Cervo's | 2019-04-17 | 2020-11-12 | 2019-02-02 - 2019-04-17 | rotated out |
+| 58 | Di An Di | 2019-04-17 | 2021-12-20 | 2019-02-02 - 2019-04-17 | rotated out |
+| 59 | Harry & Ida's Meat and Supply Co. | 2019-04-17 | 2019-10-23 | 2019-02-02 - 2019-04-17 | rotated out |
+| 60 | Atomix | 2019-07-21 | 2020-11-12 | 2019-05-28 - 2019-07-21 | rotated out |
+| 61 | Haenyeo | 2019-07-21 | 2022-04-07 | 2019-05-28 - 2019-07-21 | rotated out |
+| 62 | Noda | 2019-07-21 | 2019-12-05 | 2019-05-28 - 2019-07-21 | rotated out |
+| 63 | Scarr's Pizza | 2019-07-21 | 2021-04-24 | 2019-05-28 - 2019-07-21 | rotated out |
+| 64 | Fiaschetteria "Pistoia" | 2019-10-23 | 2021-04-24 | 2019-08-15 - 2019-10-23 | rotated out |
+| 65 | La Morada | 2019-10-23 | 2021-04-24 | 2019-08-15 - 2019-10-23 | rotated out |
+| 66 | Liebman’s Deli | 2019-10-23 | 2020-11-12 | 2019-08-15 - 2019-10-23 | rotated out |
+| 67 | Miss Ada | 2019-10-23 | 2021-12-20 | 2019-08-15 - 2019-10-23 | rotated out |
+| 68 | Gertie | 2019-12-05 | 2020-11-12 | 2019-10-23 - 2019-12-05 | rotated out |
+| 69 | Africa Kine | 2020-03-18 | 2022-12-27 | 2019-12-05 - 2020-03-18 | rotated out |
+| 70 | Haidilao Hot Pot | 2020-03-18 | 2020-11-12 | 2019-12-05 - 2020-03-18 | rotated out |
+| 71 | Le Bernardin | 2020-03-18 | 2020-11-12 | 2019-12-05 - 2020-03-18 | rotated out |
+| 72 | Rezdôra | 2020-03-18 | 2021-03-17 | 2019-12-05 - 2020-03-18 | rotated out |
+| 73 | Sushi Noz | 2020-03-18 | 2022-04-07 | 2019-12-05 - 2020-03-18 | rotated out |
+| 74 | Birria-Landia | 2020-11-21 | 2022-12-27 | 2020-11-12 - 2020-11-21 | rotated out |
+| 75 | Bread & Salt | 2020-11-21 | 2022-09-22 | 2020-11-12 - 2020-11-21 | rotated out |
+| 76 | Crop Circle | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
+| 77 | Denino’s Pizzeria & Tavern | 2020-11-21 | 2021-12-20 | 2020-11-12 - 2020-11-21 | rotated out |
+| 78 | Fieldtrip | 2020-11-21 | 2021-10-11 | 2020-11-12 - 2020-11-21 | rotated out |
+| 79 | Golden Diner | 2020-11-21 | 2022-12-27 | 2020-11-12 - 2020-11-21 | rotated out |
+| 80 | Golden Palace Gourmet | 2020-11-21 | 2023-03-21 | 2020-11-12 - 2020-11-21 | rotated out |
+| 81 | Jeju Noodle Bar | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
+| 82 | Jing Fong | 2020-11-21 | 2021-03-17 | 2020-11-12 - 2020-11-21 | rotated out |
+| 83 | Mario's | 2020-11-21 | 2021-03-17 | 2020-11-12 - 2020-11-21 | rotated out |
+| 84 | NY Dosas | 2020-11-21 | 2023-05-30 | 2020-11-12 - 2020-11-21 | rotated out |
+| 85 | Qanoon Restaurant | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
+| 86 | Thai Diner | 2020-11-21 | 2021-12-20 | 2020-11-12 - 2020-11-21 | rotated out |
+| 87 | Ugly Baby | 2020-11-21 | 2021-03-17 | 2020-11-12 - 2020-11-21 | rotated out |
+| 88 | Yi Ji Shi Mo | 2020-11-21 | 2021-04-24 | 2020-11-12 - 2020-11-21 | rotated out |
+| 89 | A&A Bake Doubles and Roti | 2021-01-22 | 2023-03-21 | 2021-01-06 - 2021-01-22 | rotated out |
+| 90 | Peaches HotHouse | 2021-01-22 | 2021-10-11 | 2021-01-06 - 2021-01-22 | rotated out |
+| 91 | Bo Ky | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
+| 92 | Bunna Cafe | 2021-04-21 | 2023-03-21 | 2021-03-17 - 2021-04-21 | rotated out |
+| 93 | Court Street Grocers | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
+| 94 | Happy Hot Hunan | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
+| 95 | Kashkar Cafe | 2021-04-21 | 2023-03-21 | 2021-03-17 - 2021-04-21 | rotated out |
+| 96 | Tony & Tina's Pizzeria | 2021-04-21 | 2021-04-24 | 2021-03-17 - 2021-04-21 | rotated out |
+| 97 | Via Carota | 2021-04-21 | 2021-10-11 | 2021-03-17 - 2021-04-21 | rotated out |
+| 98 | Wu's Wonton King | 2021-04-21 | 2022-12-27 | 2021-03-17 - 2021-04-21 | rotated out |
+| 99 | Bánh Vietnamese Shop House | 2021-06-14 | 2024-03-17 | 2021-04-24 - 2021-06-14 | rotated out |
+| 100 | Blue Willow | 2021-06-14 | 2022-04-07 | 2021-04-24 - 2021-06-14 | rotated out |
+| 101 | Cervo's | 2021-06-14 | 2021-12-20 | 2021-04-24 - 2021-06-14 | rotated out |
+| 102 | Chez Ma Tante | 2021-06-14 | 2021-10-11 | 2021-04-24 - 2021-06-14 | rotated out |
+| 103 | Chuan Tian Xia | 2021-06-14 | 2023-03-21 | 2021-04-24 - 2021-06-14 | rotated out |
+| 104 | Coszcal De Allende | 2021-06-14 | 2023-03-21 | 2021-04-24 - 2021-06-14 | rotated out |
+| 105 | Dhamaka | 2021-06-14 | 2022-09-22 | 2021-04-24 - 2021-06-14 | rotated out |
+| 106 | Ernesto’s | 2021-06-14 | 2021-12-20 | 2021-04-24 - 2021-06-14 | rotated out |
+| 107 | Falansai | 2021-06-14 | 2022-09-22 | 2021-04-24 - 2021-06-14 | rotated out |
+| 108 | Hudson Smokehouse | 2021-06-14 | 2022-09-22 | 2021-04-24 - 2021-06-14 | rotated out |
+| 109 | Ras Plant Based | 2021-06-14 | 2021-10-11 | 2021-04-24 - 2021-06-14 | rotated out |
+| 110 | Ruta Oaxaca Mexican Cuisine | 2021-06-14 | 2023-03-21 | 2021-04-24 - 2021-06-14 | rotated out |
+| 111 | Tong | 2021-06-14 | 2021-12-20 | 2021-04-24 - 2021-06-14 | rotated out |
+| 112 | Ayat | 2021-10-15 | 2022-04-07 | 2021-10-11 - 2021-10-15 | rotated out |
+| 113 | Gage & Tollner | 2021-10-15 | 2022-06-16 | 2021-10-11 - 2021-10-15 | rotated out |
+| 114 | Indian Table | 2021-10-15 | 2022-04-07 | 2021-10-11 - 2021-10-15 | rotated out |
+| 115 | Jua | 2021-10-15 | 2022-12-27 | 2021-10-11 - 2021-10-15 | rotated out |
+| 116 | Mariscos El Submarino | 2021-10-15 | 2023-03-21 | 2021-10-11 - 2021-10-15 | rotated out |
+| 117 | Winner | 2021-10-15 | 2022-04-07 | 2021-10-11 - 2021-10-15 | rotated out |
+| 118 | Dame | 2022-01-22 | 2022-09-22 | 2021-12-20 - 2022-01-22 | rotated out |
+| 119 | Killmeyer's | 2022-01-22 | 2023-03-21 | 2021-12-20 - 2022-01-22 | rotated out |
+| 120 | L’Industrie Pizzeria | 2022-01-22 | 2026-07-09 | 2021-12-20 - 2022-01-22 | rotated out |
+| 121 | Liebman’s Deli | 2022-01-22 | 2022-06-16 | 2021-12-20 - 2022-01-22 | rotated out |
+| 122 | Nepali Bhanchha Ghar | 2022-01-22 | 2023-03-21 | 2021-12-20 - 2022-01-22 | rotated out |
+| 123 | Soothr | 2022-01-22 | 2022-04-07 | 2021-12-20 - 2022-01-22 | rotated out |
+| 124 | Taqueria Ramirez | 2022-01-22 | 2025-04-05 | 2021-12-20 - 2022-01-22 | rotated out |
+| 125 | The Four Horsemen | 2022-01-22 | 2026-09-21 | 2021-12-20 - 2022-01-22 | on list |
+| 126 | Yellow Rose | 2022-01-22 | 2022-12-27 | 2021-12-20 - 2022-01-22 | rotated out |
+| 127 | Al Badawi | 2022-04-26 | 2023-03-21 | 2022-04-07 - 2022-04-26 | rotated out |
+| 128 | CheLi | 2022-04-26 | 2022-06-16 | 2022-04-07 - 2022-04-26 | rotated out |
+| 129 | Kingston Tropical Bakery | 2022-04-26 | 2023-03-21 | 2022-04-07 - 2022-04-26 | rotated out |
+| 130 | Playground | 2022-04-26 | 2022-09-22 | 2022-04-07 - 2022-04-26 | rotated out |
+| 131 | Saga | 2022-04-26 | 2022-09-22 | 2022-04-07 - 2022-04-26 | rotated out |
+| 132 | Aldama | 2022-08-11 | 2023-03-21 | 2022-06-16 - 2022-08-11 | rotated out |
+| 133 | Bamonte's | 2022-08-11 | 2022-12-27 | 2022-06-16 - 2022-08-11 | rotated out |
+| 134 | Katz's Delicatessen | 2022-08-11 | 2022-09-22 | 2022-06-16 - 2022-08-11 | rotated out |
+| 135 | Great NY Noodletown | 2022-10-13 | 2023-11-28 | 2022-09-22 - 2022-10-13 | rotated out |
+| 136 | Hometown Bar-B-Que | 2022-10-13 | 2024-03-17 | 2022-09-22 - 2022-10-13 | rotated out |
+| 137 | I Sodi | 2022-10-13 | 2022-12-27 | 2022-09-22 - 2022-10-13 | rotated out |
+| 138 | La Vara | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
+| 139 | Malecon | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
+| 140 | Marea | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
+| 141 | New World Mall | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
+| 142 | Semma | 2022-10-13 | 2023-05-30 | 2022-09-22 - 2022-10-13 | rotated out |
+| 143 | Veselka | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
+| 144 | Zaab Zaab | 2022-10-13 | 2023-03-21 | 2022-09-22 - 2022-10-13 | rotated out |
+| 145 | Charles Pan-Fried Chicken | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
+| 146 | Claudy’s Empanadas | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
+| 147 | Corner Bar | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
+| 148 | Dept of Culture | 2023-01-13 | 2023-10-03 | 2022-12-27 - 2023-01-13 | rotated out |
+| 149 | Dominick's | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
+| 150 | Haidilao Hot Pot | 2023-01-13 | 2023-11-28 | 2022-12-27 - 2023-01-13 | rotated out |
+| 151 | Koloman | 2023-01-13 | 2025-01-06 | 2022-12-27 - 2023-01-13 | rotated out |
+| 152 | Pastrami Queen | 2023-01-13 | 2023-03-21 | 2022-12-27 - 2023-01-13 | rotated out |
+| 153 | Ugly Baby | 2023-01-13 | 2025-01-06 | 2022-12-27 - 2023-01-13 | rotated out |
+| 154 | Ayat | 2023-03-28 | 2024-06-17 | 2023-03-21 - 2023-03-28 | rotated out |
+| 155 | B&H Dairy | 2023-03-28 | 2023-10-03 | 2023-03-21 - 2023-03-28 | rotated out |
+| 156 | Baekjeong | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
+| 157 | Balthazar | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
+| 158 | Chama Mama | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
+| 159 | Grand Central Oyster Bar | 2023-03-28 | 2026-07-09 | 2023-03-21 - 2023-03-28 | rotated out |
+| 160 | Ho Foods | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
+| 161 | Joe's of Avenue U | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
+| 162 | Katz's Delicatessen | 2023-03-28 | 2025-04-05 | 2023-03-21 - 2023-03-28 | rotated out |
+| 163 | Keens Steakhouse | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
+| 164 | Kopitiam | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
+| 165 | Le Bernardin | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
+| 166 | Los Tacos No.1 | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
+| 167 | Misi | 2023-03-28 | 2025-07-02 | 2023-03-21 - 2023-03-28 | rotated out |
+| 168 | Noz 17 | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
+| 169 | Papaye | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
+| 170 | Raku | 2023-03-28 | 2025-01-06 | 2023-03-21 - 2023-03-28 | rotated out |
+| 171 | Roberto’s | 2023-03-28 | 2025-09-29 | 2023-03-21 - 2023-03-28 | rotated out |
+| 172 | Russ & Daughters Cafe | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
+| 173 | Sushi On Me | 2023-03-28 | 2024-03-17 | 2023-03-21 - 2023-03-28 | rotated out |
+| 174 | Sylvia’s | 2023-03-28 | 2025-12-18 | 2023-03-21 - 2023-03-28 | rotated out |
+| 175 | Szechuan Mountain House | 2023-03-28 | 2023-11-28 | 2023-03-21 - 2023-03-28 | rotated out |
+| 176 | Thai Diner | 2023-03-28 | 2023-10-03 | 2023-03-21 - 2023-03-28 | rotated out |
+| 177 | The Original Buddha Bodai Kosher Vegetarian Restaurant | 2023-03-28 | 2023-05-30 | 2023-03-21 - 2023-03-28 | rotated out |
+| 178 | Una Pizza Napoletana | 2023-03-28 | 2026-09-21 | 2023-03-21 - 2023-03-28 | on list |
+| 179 | Via Carota | 2023-03-28 | 2025-01-06 | 2023-03-21 - 2023-03-28 | rotated out |
+| 180 | Bánh Mì Saigon | 2023-07-13 | 2023-11-28 | 2023-05-30 - 2023-07-13 | rotated out |
+| 181 | Ci Siamo | 2023-07-13 | 2024-06-17 | 2023-05-30 - 2023-07-13 | rotated out |
+| 182 | Dhamaka | 2023-07-13 | 2023-11-28 | 2023-05-30 - 2023-07-13 | rotated out |
+| 183 | Gallaghers Steakhouse | 2023-07-13 | 2024-06-17 | 2023-05-30 - 2023-07-13 | rotated out |
+| 184 | Mariscos El Submarino | 2023-07-13 | 2025-01-06 | 2023-05-30 - 2023-07-13 | rotated out |
+| 185 | S&P Lunch | 2023-07-13 | 2025-09-29 | 2023-05-30 - 2023-07-13 | rotated out |
+| 186 | Superiority Burger | 2023-07-13 | 2026-09-21 | 2023-05-30 - 2023-07-13 | on list |
+| 187 | While in Kathmandu | 2023-07-13 | 2023-11-28 | 2023-05-30 - 2023-07-13 | rotated out |
+| 188 | A&A Bake Doubles and Roti | 2023-10-13 | 2026-09-21 | 2023-10-03 - 2023-10-13 | on list |
+| 189 | Pranakhon | 2023-10-13 | 2023-11-28 | 2023-10-03 - 2023-10-13 | rotated out |
+| 190 | Win Son | 2023-10-13 | 2024-10-07 | 2023-10-03 - 2023-10-13 | rotated out |
+| 191 | Ayada | 2024-01-13 | 2024-06-17 | 2023-11-28 - 2024-01-13 | rotated out |
+| 192 | Café China | 2024-01-13 | 2024-03-17 | 2023-11-28 - 2024-01-13 | rotated out |
+| 193 | Hyderabadi Zaiqa | 2024-01-13 | 2026-09-21 | 2023-11-28 - 2024-01-13 | on list |
+| 194 | Jongro Gopchang | 2024-01-13 | 2024-03-17 | 2023-11-28 - 2024-01-13 | rotated out |
+| 195 | Liebman’s Deli | 2024-01-13 | 2025-04-05 | 2023-11-28 - 2024-01-13 | rotated out |
+| 196 | Nepali Bhanchha Ghar | 2024-01-13 | 2026-09-21 | 2023-11-28 - 2024-01-13 | on list |
+| 197 | Odeon | 2024-01-13 | 2024-10-07 | 2023-11-28 - 2024-01-13 | rotated out |
+| 198 | Semma | 2024-01-13 | 2025-09-29 | 2023-11-28 - 2024-01-13 | rotated out |
+| 199 | Tosokchon | 2024-01-13 | 2024-06-17 | 2023-11-28 - 2024-01-13 | rotated out |
+| 200 | Uncle Lou | 2024-01-13 | 2024-06-17 | 2023-11-28 - 2024-01-13 | rotated out |
+| 201 | Agnanti | 2024-04-09 | 2024-06-17 | 2024-03-17 - 2024-04-09 | rotated out |
+| 202 | Awang Kitchen | 2024-04-09 | 2025-04-05 | 2024-03-17 - 2024-04-09 | rotated out |
+| 203 | Mắm | 2024-04-09 | 2026-09-21 | 2024-03-17 - 2024-04-09 | on list |
+| 204 | Uluh | 2024-04-09 | 2025-01-06 | 2024-03-17 - 2024-04-09 | rotated out |
+| 205 | Woorijip | 2024-04-09 | 2024-06-17 | 2024-03-17 - 2024-04-09 | rotated out |
+| 206 | Abuqir | 2024-07-11 | 2026-09-21 | 2024-06-17 - 2024-07-11 | on list |
+| 207 | Bangkok Supper Club | 2024-07-11 | 2024-10-07 | 2024-06-17 - 2024-07-11 | rotated out |
+| 208 | Don Angie | 2024-07-11 | 2025-04-05 | 2024-06-17 - 2024-07-11 | rotated out |
+| 209 | Hamburger America | 2024-07-11 | 2026-09-21 | 2024-06-17 - 2024-07-11 | on list |
+| 210 | Jongro BBQ | 2024-07-11 | 2025-04-05 | 2024-06-17 - 2024-07-11 | rotated out |
+| 211 | Keens Steakhouse | 2024-07-11 | 2026-03-14 | 2024-06-17 - 2024-07-11 | rotated out |
+| 212 | Monte's Trattoria | 2024-07-11 | 2024-10-07 | 2024-06-17 - 2024-07-11 | rotated out |
+| 213 | Royal Seafood | 2024-07-11 | 2025-04-05 | 2024-06-17 - 2024-07-11 | rotated out |
+| 214 | Cha Long | 2024-10-10 | 2025-12-18 | 2024-10-07 - 2024-10-10 | rotated out |
+| 215 | Ho Foods | 2024-10-10 | 2026-03-14 | 2024-10-07 - 2024-10-10 | rotated out |
+| 216 | Kanyakumari | 2024-10-10 | 2025-07-02 | 2024-10-07 - 2024-10-10 | rotated out |
+| 217 | Le Gratin | 2024-10-10 | 2025-01-06 | 2024-10-07 - 2024-10-10 | rotated out |
+| 218 | Cafe Boulud | 2025-01-15 | 2025-09-29 | 2025-01-06 - 2025-01-15 | rotated out |
+| 219 | Cafe Kestrel | 2025-01-15 | 2025-09-29 | 2025-01-06 - 2025-01-15 | rotated out |
+| 220 | I Sodi | 2025-01-15 | 2025-07-02 | 2025-01-06 - 2025-01-15 | rotated out |
+| 221 | Kisa | 2025-01-15 | 2025-09-29 | 2025-01-06 - 2025-01-15 | rotated out |
+| 222 | Le Veau d’Or | 2025-01-15 | 2026-09-21 | 2025-01-06 - 2025-01-15 | on list |
+| 223 | Sailor | 2025-01-15 | 2026-03-14 | 2025-01-06 - 2025-01-15 | rotated out |
+| 224 | Sky Pavilion | 2025-01-15 | 2026-09-21 | 2025-01-06 - 2025-01-15 | on list |
+| 225 | 2nd Ave Deli | 2025-04-18 | 2025-12-18 | 2025-04-05 - 2025-04-18 | rotated out |
+| 226 | Ayat | 2025-04-18 | 2025-12-18 | 2025-04-05 - 2025-04-18 | rotated out |
+| 227 | Carnitas Ramirez | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
+| 228 | Golden Diner | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
+| 229 | Noz Market | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
+| 230 | Rolo’s | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
+| 231 | Saint Julivert | 2025-04-18 | 2025-07-02 | 2025-04-05 - 2025-04-18 | rotated out |
+| 232 | Zaab Zaab | 2025-04-18 | 2026-09-21 | 2025-04-05 - 2025-04-18 | on list |
+| 233 | Claud | 2025-07-08 | 2026-09-21 | 2025-07-02 - 2025-07-08 | on list |
+| 234 | Lilia | 2025-07-08 | 2026-09-21 | 2025-07-02 - 2025-07-08 | on list |
+| 235 | Txikito | 2025-07-08 | 2026-03-14 | 2025-07-02 - 2025-07-08 | rotated out |
+| 236 | Via Carota | 2025-07-08 | 2026-07-09 | 2025-07-02 - 2025-07-08 | rotated out |
+| 237 | Adda | 2025-10-08 | 2026-09-21 | 2025-09-29 - 2025-10-08 | on list |
+| 238 | Cafe Commerce | 2025-10-08 | 2026-07-09 | 2025-09-29 - 2025-10-08 | rotated out |
+| 239 | La Piraña Lechonera | 2025-10-08 | 2026-09-21 | 2025-09-29 - 2025-10-08 | on list |
+| 240 | Red Hook Tavern | 2025-10-08 | 2026-07-09 | 2025-09-29 - 2025-10-08 | rotated out |
+| 241 | Restaurant Daniel | 2025-10-08 | 2026-03-14 | 2025-09-29 - 2025-10-08 | rotated out |
+| 242 | Sunn’s | 2025-10-08 | 2026-09-21 | 2025-09-29 - 2025-10-08 | on list |
+| 243 | Al Badawi | 2026-01-13 | 2026-09-21 | 2025-12-18 - 2026-01-13 | on list |
+| 244 | Bong | 2026-01-13 | 2026-09-21 | 2025-12-18 - 2026-01-13 | on list |
+| 245 | Charles Pan-Fried Chicken | 2026-01-13 | 2026-07-09 | 2025-12-18 - 2026-01-13 | rotated out |
+| 246 | Kabawa | 2026-01-13 | 2026-09-21 | 2025-12-18 - 2026-01-13 | on list |
+| 247 | Borgo | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
+| 248 | Ernesto’s | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
+| 249 | Filé Gumbo Bar | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
+| 250 | Gallaghers Steakhouse | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
+| 251 | Lei | 2026-04-06 | 2026-09-21 | 2026-03-14 - 2026-04-06 | on list |
+| 252 | Crevette | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
+| 253 | Makina Cafe Ethiopian-Eritrean Eatery | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
+| 254 | S&P Lunch | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
+| 255 | Smithereens | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
+| 256 | Vato | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
+| 257 | Zimmi’s | 2026-07-10 | 2026-09-21 | 2026-07-09 - 2026-07-10 | on list |
+| 258 | Coqodaq | 2026-08-13 | 2026-09-21 | 2026-08-13 - 2026-08-13 | on list |
 
 ## Updates
 

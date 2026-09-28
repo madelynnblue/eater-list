@@ -313,6 +313,28 @@ def cmd_geocode(args, cfg):
     store.close()
 
 
+def cmd_closures(args, cfg):
+    """Merge the sourced research batches into the reusable closed.json."""
+    from .closures import load_research, write_closed
+
+    store = Store(cfg.db_path, cfg.raw_dir if cfg.store_raw else None)
+    builder = Builder(cfg, store)
+    url = args.url or (cfg.urls[0] if cfg.urls else None)
+    total = len(builder.build(url)["places"])
+    pattern = args.pattern or os.path.join(cfg.root, "research", "closures", "batch_*.out.json")
+    findings, problems = load_research(pattern)
+    doc = write_closed(os.path.join(cfg.root, "closed.json"), findings, total)
+    print(f"reviewed {len(findings)} of {total} places")
+    print(f"  closed {doc['counts']['closed']}, open {doc['counts']['open']}, "
+          f"unknown {doc['counts']['unknown']}")
+    for problem in problems[:12]:
+        print(f"  ! {problem}")
+    if len(problems) > 12:
+        print(f"  ! ...and {len(problems) - 12} more")
+    print(f"wrote {os.path.join(cfg.root, 'closed.json')} and closure_findings.json")
+    store.close()
+
+
 def cmd_hours(args, cfg):
     """Fetch and parse real opening hours from each restaurant's own site."""
     from .hours import HoursFetcher
@@ -362,6 +384,11 @@ def build_parser() -> argparse.ArgumentParser:
     enrich.add_argument("--limit", type=int, default=120)
     enrich.add_argument("--min-ts", default="", help="skip captures older than this (coords only exist in modern pages)")
     enrich.set_defaults(func=cmd_enrich)
+
+    clo = sub.add_parser("closures", help="merge research batches into closed.json")
+    clo.add_argument("--url", default=None)
+    clo.add_argument("--pattern", default=None)
+    clo.set_defaults(func=cmd_closures)
 
     hrs = sub.add_parser("hours", help="fetch real opening hours from restaurant sites")
     hrs.add_argument("--url", default=None)

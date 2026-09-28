@@ -52,6 +52,7 @@ store_raw = true
 [build]
 db = "data/eater38.sqlite"
 aliases = "aliases.json"
+closed = "closed.json"
 out_dir = "web/data"
 # Human-readable exports alongside the JSON.
 csv_dir = "out"

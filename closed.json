@@ -1,0 +1,243 @@
+{
+ "_comment": "Places confirmed permanently closed, with the source for each. Curated by a sourced research pass, not inferred: leaving the Eater list is not evidence of closure. Add entries by hand if you like; an entry needs status 'closed' and a source_url to take effect.",
+ "generated_at": "2026-09-28T20:43:02Z",
+ "counts": {
+  "places_reviewed": 245,
+  "closed": 33,
+  "open": 144,
+  "unknown": 8
+ },
+ "places": {
+  "aldea": {
+   "status": "closed",
+   "closed_date": "2020-02",
+   "source_url": "https://ny.eater.com/2020/2/10/21131277/aldea-closing-date-nyc",
+   "evidence": "Eater (Feb 10, 2020): \"Michelin-Starred Aldea Is Closing After More Than 10 Years\"; Grub Street and OpenTable likewise mark it permanently closed.",
+   "confidence": "high"
+  },
+  "atla": {
+   "status": "closed",
+   "closed_date": "2026-05",
+   "source_url": "https://ny.eater.com/restaurant-closings/411063/atla-noho-closing-enrique-olvera",
+   "evidence": "Eater (Apr 30, 2026): \"Atla ... will close on Sunday, May 31, after nearly a decade at 372 Lafayette Street.\"",
+   "confidence": "high"
+  },
+  "bolero": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://www.nyctourism.com/restaurants/bolero/",
+   "evidence": "NYC Tourism's official listing for Bolero at 177 Bedford Ave is tagged \"Out of Business,\" and 177 Bedford Ave is now occupied by 7th Street Burger (NYC DOHMH pre-permit inspection there in April 2024).",
+   "confidence": "medium"
+  },
+  "boulud-sud": {
+   "status": "closed",
+   "closed_date": "2025-06",
+   "source_url": "https://ny.eater.com/coming-attractions/399514/bar-boulud-boulud-sud-closing-manhattan-daniel-boulud",
+   "evidence": "Eater NY (June 20, 2025) reported Daniel Boulud was \"shuttering\" Boulud Sud with Bar Boulud and Epicerie Boulud for a new brasserie: \"The restaurants will close on June 23\"; the space became Brasserie Boulud.",
+   "confidence": "high"
+  },
+  "cadence": {
+   "status": "closed",
+   "closed_date": "2025-11",
+   "source_url": "https://ny.eater.com/news/406331/nyc-restaurants-closed-november-2025",
+   "evidence": "Eater's November 2025 closures roundup: the East Village vegan restaurant \"has closed on Saturday, November 22. The Overthrow Hospitality spot had announced this eventual shutter over the summer\" (same Cadence opened in 2021 by chef Shenarri Freeman).",
+   "confidence": "high"
+  },
+  "dumpling-galaxy": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/venue/10245/dumpling-galaxy",
+   "evidence": "Eater's venue page for Dumpling Galaxy at 42-35 Main St is explicitly labeled 'Permanently Closed,' and the space was later taken over by another dumpling house.",
+   "confidence": "high"
+  },
+  "e-a-k-ramen-west-village": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "http://eakramen.com/location/",
+   "evidence": "E.A.K. Ramen's official location page lists only Hell's Kitchen, Moynihan Train Station, and NJ branches as current U.S. locations, with the 469 Sixth Ave West Village shop no longer listed (and MapQuest marks it CLOSED).",
+   "confidence": "medium"
+  },
+  "el-atoradero-brooklyn": {
+   "status": "closed",
+   "closed_date": "2018-05",
+   "source_url": "https://ny.eater.com/2018/5/11/17345726/el-atoradero-closed-madre-cocina-mezcales-open",
+   "evidence": "Eater, May 11, 2018: 'the well-liked Brooklyn taqueria has closed to make way for' Madre Cocina & Mezcales in the same 706-708 Washington Ave space.",
+   "confidence": "high"
+  },
+  "farida": {
+   "status": "closed",
+   "closed_date": "2023-08",
+   "source_url": "https://ny.eater.com/2023/8/4/23817076/nyc-restaurant-closings-august-2023",
+   "evidence": "Eater's August 2023 closings list: 'Midtown: Farida, a Central Asian restaurant praised for its charcoal-grilled meats, closed at the start of the month' (the separate FiDi location remained open).",
+   "confidence": "high"
+  },
+  "flaming-kitchen": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://wanderlog.com/place/details/398070",
+   "evidence": "The listing for the 97 Bowery Chinese restaurant is marked 'Permanently Closed' (Google-derived data) and its former website domain no longer resolves.",
+   "confidence": "low"
+  },
+  "flora-bar": {
+   "status": "closed",
+   "closed_date": "2021-02",
+   "source_url": "https://ny.eater.com/2021/2/9/22275190/upper-east-side-seafood-restaurant-flora-bar-permanent-closure",
+   "evidence": "Eater, Feb 9, 2021: 'Flora Bar... will not reopen after a four-year run,' with chef Ignacio Mattos announcing the permanent closure of the Met Breuer restaurant.",
+   "confidence": "high"
+  },
+  "le-sia": {
+   "status": "closed",
+   "closed_date": "2020-07",
+   "source_url": "https://ny.eater.com/2020/7/27/21340043/le-sia-chinese-crawfish-restaurant-east-village-permanently-closed-covid-19",
+   "evidence": "Eater: \"Acclaimed East Village Chinese Crawfish Boil Le Sia Is Permanently Closed.\"",
+   "confidence": "high"
+  },
+  "llama-san": {
+   "status": "closed",
+   "closed_date": "2025-05",
+   "source_url": "https://ny.eater.com/2025/5/13/24429286/llama-san-greenwich-village-manhattan-closing",
+   "evidence": "Eater: \"Critically Acclaimed Peruvian Japanese Restaurant Calls It Quits in Manhattan\" (Llama San, Greenwich Village); its old domain now redirects to sister restaurant Llama Inn.",
+   "confidence": "high"
+  },
+  "marlow-and-sons": {
+   "status": "closed",
+   "closed_date": "2025-04",
+   "source_url": "https://ny.eater.com/2025/3/31/24397846/marlow-and-sons-closing-williamsburg-andrew-tarlow",
+   "evidence": "Eater: \"Marlow and Sons, an Unpretentious Staple of Williamsburg, Is Closing After 20 Years\"; it shut its doors in April 2025.",
+   "confidence": "high"
+  },
+  "mel": {
+   "status": "closed",
+   "closed_date": "2023-04",
+   "source_url": "https://ny.eater.com/2023/12/14/23978040/mel-bakery-opens-hudson-new-york-nora-allen",
+   "evidence": "Eater: the Ludlow Street bakery 'announced it was closing in April this year - the building was being sold' and reopened as Mel the Bakery in Hudson, NY (324 Warren Street).",
+   "confidence": "high"
+  },
+  "meme-s-diner": {
+   "status": "closed",
+   "closed_date": "2020-11",
+   "source_url": "https://ny.eater.com/2020/11/12/21563404/memes-diner-prospect-heights-queer-restaurant-closing-coronavirus",
+   "evidence": "Eater: 'MeMe's Diner ... is closing following a three-year run'; owners wrote 'we made the tough decision to close our doors for good,' last service November 22, 2020.",
+   "confidence": "high"
+  },
+  "mission-chinese-food": {
+   "status": "closed",
+   "closed_date": "2020-09",
+   "source_url": "https://ny.eater.com/2020/9/17/21443809/mission-lower-east-side-will-permanently-close",
+   "evidence": "Eater: the East Broadway location 'will permanently shutter at the end of September'; last day of service was September 30, 2020.",
+   "confidence": "high"
+  },
+  "momofuku-kawi": {
+   "status": "closed",
+   "closed_date": "2021-03",
+   "source_url": "https://ny.eater.com/2021/3/30/22358657/momofuku-kawi-hudson-yards-closure-eunjo-park-ssam-bar",
+   "evidence": "Eater headline: 'Kawi, Momofuku's Modern Korean Hudson Yards Gem, Permanently Closes' (March 2021).",
+   "confidence": "high"
+  },
+  "momofuku-ssam-bar": {
+   "status": "closed",
+   "closed_date": "2023-09",
+   "source_url": "https://ny.eater.com/2023/9/8/23864855/momofuku-ssam-bar-closing-david-chang-seaport-nyc",
+   "evidence": "Eater: 'David Chang's Momofuku Ssam Bar Is Closing'; Crain's reports the Seaport location closed for good September 30, 2023.",
+   "confidence": "high"
+  },
+  "mu-ramen": {
+   "status": "closed",
+   "closed_date": "2021-03",
+   "source_url": "https://ny.eater.com/2021/4/14/22370244/mu-ramen-closing-eviction-long-island-city",
+   "evidence": "Eater: 'Acclaimed Long Island City noodle destination Mu Ramen has closed'; the landlord leased 1209 Jackson Ave to Kuku Chicken from March 1, 2021.",
+   "confidence": "high"
+  },
+  "nur": {
+   "status": "closed",
+   "closed_date": "2022-01",
+   "source_url": "https://ny.eater.com/2022/2/1/22912222/nur-flatiron-modern-israeli-middle-eastern-restaurant-closed-nyc",
+   "evidence": "Eater: Nur 'has permanently closed. The popular restaurant abruptly ended its four-year run in Flatiron ... after dinner service on January 22.'",
+   "confidence": "high"
+  },
+  "oiji": {
+   "status": "closed",
+   "closed_date": "2022-06",
+   "source_url": "https://ny.eater.com/2022/6/29/23187029/oiji-east-village-korean-restaurant-may-be-closing",
+   "evidence": "Eater: the 1st Avenue space \"has been closed since the spring\" 2022 as the team opened Oiji Mi and planned a new Korean concept there.",
+   "confidence": "medium"
+  },
+  "olmsted": {
+   "status": "closed",
+   "closed_date": "2025-08",
+   "source_url": "https://ny.eater.com/restaurant-closings/401443/olmsted-is-closing-in-prospect-heights-greg-baxtrom",
+   "evidence": "Eater (Aug 2025): Olmsted \"will close August 17 after nearly a decade\" and efforts to save it fell through.",
+   "confidence": "high"
+  },
+  "prime-meats": {
+   "status": "closed",
+   "closed_date": "2018-11",
+   "source_url": "https://ny.eater.com/2018/11/27/18114411/prime-meats-brooklyn-closing-date",
+   "evidence": "Eater (Nov 2018): \"The Franks Are Closing Brooklyn Favorite Prime Meats This Weekend.\"",
+   "confidence": "high"
+  },
+  "rahi": {
+   "status": "closed",
+   "closed_date": "2021-10",
+   "source_url": "https://ny.eater.com/2021/10/13/22723121/semma-restaurant-west-village-opening-menu",
+   "evidence": "Eater (Oct 2021): \"Star Dhamaka Team Closes Rahi to Make Way for a New South Indian Spot.\"",
+   "confidence": "high"
+  },
+  "shuko": {
+   "status": "closed",
+   "closed_date": "2026-01",
+   "source_url": "https://ny.eater.com/news/408505/shuko-closing-nyc-omakase-restaurant-union-square",
+   "evidence": "Eater: \"Shuko will have its last day of service in January ... Its last day of service at Union Square will be on Saturday, January 24.\"",
+   "confidence": "high"
+  },
+  "somtum-der": {
+   "status": "closed",
+   "closed_date": "2026-05",
+   "source_url": "https://ny.eater.com/news/411103/nyc-restaurants-closed-may-2026",
+   "evidence": "Eater's May 2026 closures roundup: \"EV Grieve reports Thai restaurant Somtum Der is closing on Sunday, May 31\" at 85 Avenue A.",
+   "confidence": "high"
+  },
+  "sushi-ichimura": {
+   "status": "closed",
+   "closed_date": "2025-08",
+   "source_url": "https://ny.eater.com/2025/3/25/24393125/ichimura-tribeca-closing",
+   "evidence": "Eater: \"the 10-seat Sushi Ichimura (412 Greenwich Street, near Laight Street) will close permanently\" when Eiji Ichimura retires in mid-August 2025.",
+   "confidence": "high"
+  },
+  "the-breslin": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/2022/9/15/23353362/koloman-restaurant-opening-manhattan-ace-hotel",
+   "evidence": "Eater: Koloman opened in Sept. 2022 in \"what had been the Breslin\"; Eater also reported the Breslin was rebranded as Breslin Burger in 2021 (Breslin Burger is gone too).",
+   "confidence": "medium"
+  },
+  "the-nomad-restaurant": {
+   "status": "closed",
+   "closed_date": "2021-03",
+   "source_url": "https://ny.eater.com/2021/3/26/22352206/nomad-hotel-restaurant-shut-down-renovations",
+   "evidence": "Eater: \"The restaurant and bar will close down on March 28\" 2021 as the NoMad Hotel shut for renovations; it never returned — the property reopened as The Ned NoMad with new restaurants.",
+   "confidence": "medium"
+  },
+  "uncle-boons": {
+   "status": "closed",
+   "closed_date": "2020-08",
+   "source_url": "https://ny.eater.com/2020/8/10/21361965/uncle-boons-nolita-thai-closing-coronavirus",
+   "evidence": "Eater, Aug 10, 2020: \"Michelin-Starred Thai Destination Uncle Boons Permanently Shutters After Seven Years\" (COVID-19).",
+   "confidence": "high"
+  },
+  "urban-hawker": {
+   "status": "closed",
+   "closed_date": "2026-07",
+   "source_url": "https://www.tastingtable.com/2205574/anthony-bourdain-urban-hawker-nyc-food-hall-closing/",
+   "evidence": "Founder KF Seetoh announced operations would cease July 17, 2026 because the West 50th St building is being sold for redevelopment (site now returns 404).",
+   "confidence": "high"
+  },
+  "yu-kitchen": {
+   "status": "closed",
+   "closed_date": "2021-10",
+   "source_url": "https://www.ilovetheupperwestside.com/new-vietnamese-restaurant-just-pho-you-opening-monday/",
+   "evidence": "The space at 2656 Broadway 'was formerly occupied by Yu Kitchen, which closed in October'; Just Pho You opened there March 28, 2022 (West Side Rag also: 'The restaurant replaces Yu Kitchen').",
+   "confidence": "high"
+  }
+ }
+}

@@ -1,0 +1,1300 @@
+{
+ "generated_at": "2026-09-28T20:43:02Z",
+ "findings": {
+  "2nd-ave-deli": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.2ndavedeli.com/",
+   "evidence": "Own site lists 162 East 33rd Street and says \"Now open daily for dine-in, delivery, pickup and takeout\" (daily 11am-8pm), with a 2026 High Holiday menu posted.",
+   "confidence": "high"
+  },
+  "a-and-a-bake-doubles-and-roti": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://patch.com/new-york/bed-stuy/1-bed-stuy-spot-among-best-nyc-new-ranking-says",
+   "evidence": "Patch (June 4, 2025): \"A&A Bake Doubles and Roti, located at 1337 Fulton Street ... is a new addition to the New York Times' list of the 100 best restaurants in the city.\"",
+   "confidence": "medium"
+  },
+  "abuqir": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/dining-report/408744/abuqir-review-nyc-pick-your-own-seafood-restaurant-egyptian-queens-fish",
+   "evidence": "Eater dining report dated Jan 27, 2026 describes a first-hand recent visit to \"AbuQir ... 2419 Steinway St, Astoria.\"",
+   "confidence": "high"
+  },
+  "adda": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/2025/4/29/24420313/adda-nyc-indian-restaurant-lic-closed-reopening-east-village-unapologetic-foods-open",
+   "evidence": "Eater (Apr 29, 2025): the team \"closed the original Long Island City location and have relocated the restaurant into the East Village at 107 First Avenue ... for an opening on Thursday, May 1.\"",
+   "confidence": "high"
+  },
+  "africa-kine": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theinfatuation.com/new-york/reviews/kinne",
+   "evidence": "The Infatuation (Sept 10, 2026) calls Kinne \"the second restaurant from the team behind tenured classic Africa Kine\" (2267 Adam Clayton Powell Jr Blvd), and delivery listings for that address remain active.",
+   "confidence": "medium"
+  },
+  "agnanti": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "No source found confirming current status; the last substantial coverage was Eater's April 2024 review, and the restaurant's former domain (agnantimeze.com) now redirects to an unrelated gambling site.",
+   "confidence": "low"
+  },
+  "al-badawi": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://guide.michelin.com/en/new-york-state/brooklyn/restaurant/al-badawi",
+   "evidence": "Michelin Guide page for Al Badawi, 151 Atlantic Ave., lists current daily hours and a working Resy booking link (2026).",
+   "confidence": "high"
+  },
+  "aldama": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": "https://www.timeout.com/newyork/news/brooklyns-michelin-starred-taqueria-is-coming-to-union-square-090125",
+   "evidence": "Time Out (Sept 1, 2025): \"Aldama went on a pause in 2024 and has been in limbo ever since\" - no record of permanent closure or of reopening.",
+   "confidence": "medium"
+  },
+  "aldea": {
+   "status": "closed",
+   "closed_date": "2020-02",
+   "source_url": "https://ny.eater.com/2020/2/10/21131277/aldea-closing-date-nyc",
+   "evidence": "Eater (Feb 10, 2020): \"Michelin-Starred Aldea Is Closing After More Than 10 Years\"; Grub Street and OpenTable likewise mark it permanently closed.",
+   "confidence": "high"
+  },
+  "atla": {
+   "status": "closed",
+   "closed_date": "2026-05",
+   "source_url": "https://ny.eater.com/restaurant-closings/411063/atla-noho-closing-enrique-olvera",
+   "evidence": "Eater (Apr 30, 2026): \"Atla ... will close on Sunday, May 31, after nearly a decade at 372 Lafayette Street.\"",
+   "confidence": "high"
+  },
+  "atomix": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theworlds50best.com/restaurants/best-in-north-america/the-list/atomix.html",
+   "evidence": "Atomix appears on North America's 50 Best Restaurants 2026 list, and Eater's 2025 dining report calls it \"still one of NYC's hottest restaurants, even after seven years.\"",
+   "confidence": "high"
+  },
+  "awang-kitchen": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://awangkitchen.com/",
+   "evidence": "Restaurant's own site lists 8405 Queens Boulevard, Elmhurst with \"OPEN 7 DAYS\" and a downloadable 2026 dining menu.",
+   "confidence": "medium"
+  },
+  "ayada": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.ayadanyc.com/elmhurst/",
+   "evidence": "Ayada's own site lists the Elmhurst location at \"7708 Woodside Ave, Elmhurst, NY 11373\" with current daily hours.",
+   "confidence": "medium"
+  },
+  "ayat": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.ayatnyc.com/location/bay-ridge/",
+   "evidence": "Ayat's Bay Ridge page lists \"8504 3rd Ave, Brooklyn, NY 11209\" with \"Hours: Open\" and active ordering; Eater (Oct 2024) noted the original Bay Ridge Ayat \"is now a takeout and catering kitchen.\"",
+   "confidence": "high"
+  },
+  "b-and-h-dairy": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.bandhdairykosher.com/home",
+   "evidence": "B&H Dairy's own site lists 127 Second Ave with current hours (\"Sunday, Tuesday - Saturday 7 a.m. - 11:00 p.m.\") and 2025-2026 photos/merch.",
+   "confidence": "high"
+  },
+  "baekjeong": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theinfatuation.com/new-york/reviews/baekjong-black",
+   "evidence": "Eater (Feb 2024): Baekjeong \"shuttered at the start of the year\" at 1 E. 32nd St but \"owners ... are moving Baekjeong down the street\"; The Infatuation (Sept 2026) documents the reopened Baekjeong Black at 49 W. 32nd St.",
+   "confidence": "medium"
+  },
+  "balthazar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://balthazarny.com/",
+   "evidence": "Balthazar's own site describes the SoHo brasserie at 80 Spring Street serving \"breakfast through supper every day.\"",
+   "confidence": "high"
+  },
+  "bamonte-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://airmail.news/issues/2025-1-4/saucy-beast",
+   "evidence": "Airmail (Jan 4, 2025): \"Bamonte's, the Italian-American Staple in Brooklyn, Turns 125.\"",
+   "confidence": "medium"
+  },
+  "bangkok-supper-club": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/bangkok-supper-club",
+   "evidence": "Resy shows Bangkok Supper Club (641 Hudson St) taking reservations into September 2026, and the Michelin Guide still lists the restaurant.",
+   "confidence": "high"
+  },
+  "birria-landia": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.timeout.com/newyork/news/this-nyc-birria-destination-was-just-named-one-of-the-top-taco-spots-in-america-100325",
+   "evidence": "Time Out (Oct 3, 2025) names the Roosevelt Ave Birria-Landia truck among America's top taco spots, and Grub Street reports the truck is expanding to a brick-and-mortar location.",
+   "confidence": "medium"
+  },
+  "blue-willow": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=camis%3D%2750106095%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH inspection records for Blue Willow (CAMIS 50106095) at 40 West 56 St show a Cycle Inspection / Re-inspection on 2026-09-23, so the Chinese restaurant is still operating.",
+   "confidence": "high"
+  },
+  "bo-ky": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=camis%3D%2750044289%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Bo Ky (CAMIS 50044289) at 78 Bayard St show a 2026-06-24 inspection whose action reads \"No violations were recorded at the time of this inspection.\"",
+   "confidence": "high"
+  },
+  "bolero": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://www.nyctourism.com/restaurants/bolero/",
+   "evidence": "NYC Tourism's official listing for Bolero at 177 Bedford Ave is tagged \"Out of Business,\" and 177 Bedford Ave is now occupied by 7th Street Burger (NYC DOHMH pre-permit inspection there in April 2024).",
+   "confidence": "medium"
+  },
+  "bolivian-llama-party": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25BOLIVIAN%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Bolivian Llama Party (CAMIS 50105453) at 44-14 48 Ave, Queens, show a 2025-11-19 Cycle Inspection / Re-inspection with grade A, and blp.nyc is live with current ordering.",
+   "confidence": "high"
+  },
+  "bong": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=building%3D%27724%27%20AND%20upper(street)%20like%20%27%25STERLING%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Bong (CAMIS 50167493) at 724 Sterling Place show an operational pre-permit inspection on 2026-01-06, and Michelin added Bong to its New York guide in April 2026.",
+   "confidence": "high"
+  },
+  "borgo": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25BORGO%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Borgo (CAMIS 50156555) at 124 E 27 St show an operational inspection with grade A on 2025-12-01, and Eater NY still referred in February 2026 to \"the wildly popular Borgo in Manhattan.\"",
+   "confidence": "high"
+  },
+  "boulud-sud": {
+   "status": "closed",
+   "closed_date": "2025-06",
+   "source_url": "https://ny.eater.com/coming-attractions/399514/bar-boulud-boulud-sud-closing-manhattan-daniel-boulud",
+   "evidence": "Eater NY (June 20, 2025) reported Daniel Boulud was \"shuttering\" Boulud Sud with Bar Boulud and Epicerie Boulud for a new brasserie: \"The restaurants will close on June 23\"; the space became Brasserie Boulud.",
+   "confidence": "high"
+  },
+  "bread-and-salt": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://thedigestonline.com/dining/best-italian-bakeries-and-pastry-shops-in-nj/",
+   "evidence": "NJ Digest's April 16, 2026 Italian-bakery guide still calls Bread & Salt in Jersey City Heights \"a must\" and features its current Instagram; no closure report was found for this Jersey City location (a 2016 \"Bread and Salt Bakery is Closed\" story is the Pittsburgh original).",
+   "confidence": "medium"
+  },
+  "bunna-cafe": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25BUNNA%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Bunna Cafe (CAMIS 50006264) at 1084 Flushing Ave show a 2026-04-09 inspection with \"No violations were recorded at the time of this inspection.\"",
+   "confidence": "high"
+  },
+  "banh-mi-saigon": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=building%3D%27198%27%20AND%20upper(street)%20like%20%27%25GRAND%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Banh Mi Saigon Bakery (CAMIS 41494286) at 198 Grand St show a Cycle Inspection / Initial Inspection on 2025-12-10 with grade A; the \"permanently closing\" Facebook post found in search belongs to Boston's New Saigon Sandwich, not this shop.",
+   "confidence": "high"
+  },
+  "banh-vietnamese-shop-house": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=building%3D%27942%27%20AND%20upper(street)%20like%20%27%25AMSTERDAM%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for the shop trading as BANH (CAMIS 50107904) at 942 Amsterdam Ave show an inspection with \"No violations were recorded\" on 2026-07-18, and West Side Rag visited in July 2026 when \"every single table was full.\"",
+   "confidence": "high"
+  },
+  "cadence": {
+   "status": "closed",
+   "closed_date": "2025-11",
+   "source_url": "https://ny.eater.com/news/406331/nyc-restaurants-closed-november-2025",
+   "evidence": "Eater's November 2025 closures roundup: the East Village vegan restaurant \"has closed on Saturday, November 22. The Overthrow Hospitality spot had announced this eventual shutter over the summer\" (same Cadence opened in 2021 by chef Shenarri Freeman).",
+   "confidence": "high"
+  },
+  "cafe-boulud": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.cafeboulud.com/nyc/",
+   "evidence": "The official site is live as \"Café Boulud at Maison Barnes,\" 100 E. 63rd Street, with current brunch/lunch/dinner hours and a working Resy link, and DOHMH records locate Café Boulud at 100 East 63 Street; the 2021 closure was of the old Surrey-hotel location, not this address.",
+   "confidence": "medium"
+  },
+  "cafe-commerce": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://itsadate.nyc/restaurants/cafe-commerce-reservations",
+   "evidence": "Reservation guide for Cafe Commerce at 964 Lexington Ave was \"Last verified Jul 11, 2026\" with a live Resy release window and current menu; DOHMH also holds a registered establishment record for the address (no closure coverage found).",
+   "confidence": "medium"
+  },
+  "cafe-kestrel": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://itsadate.nyc/restaurants/cafe-kestrel-reservations",
+   "evidence": "Café Kestrel's reservation guide was \"Last verified Jul 11, 2026\" with an active 30-date Resy booking window at 293 Van Brunt St, and DOHMH shows a grade A inspection in February 2025.",
+   "confidence": "medium"
+  },
+  "cafe-china": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CAFE%20CHINA%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Cafe China (CAMIS 50112960) at 59 West 37 Street show an inspection on 2026-03-12, confirming the restaurant relocated from 13 E 37th St (as Eater reported in 2021) and is still operating.",
+   "confidence": "high"
+  },
+  "carnitas-ramirez": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://evgrieve.com/2026/06/carnitas-ramirez-marks-2-years-in-east.html",
+   "evidence": "EV Grieve (June 24, 2026): \"Carnitas Ramirez recently celebrated its second anniversary at 210 E. Third St.\" and its chefs were 2026 James Beard finalists.",
+   "confidence": "high"
+  },
+  "casa-enrique": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CASA%20ENRIQUE%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Casa Enrique (CAMIS 41643074) at 5-48 49 Ave, Queens, show a Cycle Inspection / Initial Inspection on 2026-04-23 with grade A.",
+   "confidence": "high"
+  },
+  "cervo-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CERVO%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Cervo's (CAMIS 50064374) at 43 Canal St show a Cycle Inspection / Re-inspection on 2025-11-25, and a July 2026 Resy feature lists Cervo's as a current restaurant.",
+   "confidence": "high"
+  },
+  "cha-long": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?$where=upper(dba)%20like%20%27%25CHALONG%25%27&$order=inspection_date%20DESC&$limit=3",
+   "evidence": "NYC DOHMH records for Chalong (CAMIS 50129760), the Southern Thai restaurant at 749 9 Avenue listed here as \"Cha Long,\" show a re-inspection with grade A on 2026-04-22, and chalongnyc.com is live with current hours.",
+   "confidence": "high"
+  },
+  "dept-of-culture": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/dept-of-culture-brooklyn",
+   "evidence": "Resy still lists an active Dept. of Culture reservation page, and the restaurant's official site remains live with bookings and a 2026 NYCWFF appearance for chef Ayo Balogun.",
+   "confidence": "medium"
+  },
+  "dhamaka": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.sevenrooms.com/explore/dhamakanyc/reservations/create/search/",
+   "evidence": "Dhamaka's SevenRooms booking page is active, and Eater's September 2026 closure roundup still describes Unapologetic Foods as 'the group behind Semma, Dhamaka, and Adda.'",
+   "confidence": "medium"
+  },
+  "di-an-di": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.diandi.nyc/",
+   "evidence": "The official Di An Di site lists current hours (Mon-Thu 5-10pm; Fri-Sun 12-10pm) and links to live OpenTable reservations and delivery.",
+   "confidence": "medium"
+  },
+  "dominick-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://bronxlittleitaly.com/merchants/restaurants/dominicks-restaurant/",
+   "evidence": "The Arthur Avenue Belmont BID merchant page states Dominick's is 'Open for indoor dining and take out' with current Thursday-Sunday hours.",
+   "confidence": "medium"
+  },
+  "don-angie": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.opentable.com/r/don-angie-new-york",
+   "evidence": "Don Angie maintains an active OpenTable reservations page, and recent press still calls it one of NYC's most in-demand reservations.",
+   "confidence": "medium"
+  },
+  "dumpling-galaxy": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/venue/10245/dumpling-galaxy",
+   "evidence": "Eater's venue page for Dumpling Galaxy at 42-35 Main St is explicitly labeled 'Permanently Closed,' and the space was later taken over by another dumpling house.",
+   "confidence": "high"
+  },
+  "e-a-k-ramen-west-village": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "http://eakramen.com/location/",
+   "evidence": "E.A.K. Ramen's official location page lists only Hell's Kitchen, Moynihan Train Station, and NJ branches as current U.S. locations, with the 469 Sixth Ave West Village shop no longer listed (and MapQuest marks it CLOSED).",
+   "confidence": "medium"
+  },
+  "el-atoradero-brooklyn": {
+   "status": "closed",
+   "closed_date": "2018-05",
+   "source_url": "https://ny.eater.com/2018/5/11/17345726/el-atoradero-closed-madre-cocina-mezcales-open",
+   "evidence": "Eater, May 11, 2018: 'the well-liked Brooklyn taqueria has closed to make way for' Madre Cocina & Mezcales in the same 706-708 Washington Ave space.",
+   "confidence": "high"
+  },
+  "ernesto-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.ernestosnyc.com/",
+   "evidence": "Ernesto's official site lists current 2026 dinner hours at 259 East Broadway and links to live OpenTable reservations; it remains on Eater's 38 list.",
+   "confidence": "high"
+  },
+  "falansai": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.opentable.com/restaurant/profile/1374991",
+   "evidence": "Falansai's OpenTable profile is titled 'Updated 2026' with active reservations for the 112 Harrison Pl address, and its official site is live.",
+   "confidence": "medium"
+  },
+  "farida": {
+   "status": "closed",
+   "closed_date": "2023-08",
+   "source_url": "https://ny.eater.com/2023/8/4/23817076/nyc-restaurant-closings-august-2023",
+   "evidence": "Eater's August 2023 closings list: 'Midtown: Farida, a Central Asian restaurant praised for its charcoal-grilled meats, closed at the start of the month' (the separate FiDi location remained open).",
+   "confidence": "high"
+  },
+  "fiaschetteria-pistoia": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/venue/28763/fiaschetteria-pistoia",
+   "evidence": "Eater's venue page for the 647 E 11th St restaurant is not marked closed and lists current daily hours of 5:30-10:30 p.m. plus delivery; its 2018 fire closure was temporary.",
+   "confidence": "medium"
+  },
+  "fieldtrip": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.fieldtripnyc.com/",
+   "evidence": "FIELDTRIP's official Harlem ordering site is live with menu items updated September 28, 2026, and Uber Eats/order.online list the 109 Malcolm X Blvd location for pickup and delivery.",
+   "confidence": "medium"
+  },
+  "file-gumbo-bar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.filenyc.com/",
+   "evidence": "Filé Gumbo Bar's official site is live for the 275 Church St Tribeca location, and the restaurant remains on Eater's 38 Best Restaurants list as of September 2026.",
+   "confidence": "medium"
+  },
+  "fish-cheeks": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/dining-report/413700/fish-cheeks-nyc-thai-restaurant-review-nolita-seafood",
+   "evidence": "Eater dining report dated September 9, 2026: 'A decade later, the Nolita original is still a prime Thai seafood destination' at 55 Bond St.",
+   "confidence": "high"
+  },
+  "flaming-kitchen": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://wanderlog.com/place/details/398070",
+   "evidence": "The listing for the 97 Bowery Chinese restaurant is marked 'Permanently Closed' (Google-derived data) and its former website domain no longer resolves.",
+   "confidence": "low"
+  },
+  "flora-bar": {
+   "status": "closed",
+   "closed_date": "2021-02",
+   "source_url": "https://ny.eater.com/2021/2/9/22275190/upper-east-side-seafood-restaurant-flora-bar-permanent-closure",
+   "evidence": "Eater, Feb 9, 2021: 'Flora Bar... will not reopen after a four-year run,' with chef Ignacio Mattos announcing the permanent closure of the Met Breuer restaurant.",
+   "confidence": "high"
+  },
+  "frenchette": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.frenchettenyc.com/",
+   "evidence": "Frenchette's official site is live at 241 West Broadway with current menus, private events, and an active SevenRooms reservation link.",
+   "confidence": "high"
+  },
+  "gage-and-tollner": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://abc7chicago.com/videoClip/19389724/",
+   "evidence": "ABC7 feature dated June 26, 2026: '125 years later, Brooklyn's oldest restaurant Gage & Tollner is still building community,' quoting chef-partner Sohui Kim.",
+   "confidence": "high"
+  },
+  "gallaghers-steakhouse": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.gallaghersnysteakhouse.com/",
+   "evidence": "Gallaghers' official site is live with active NYC reservations at 228 W 52nd St and a timeline ending with plans to celebrate 100 years in 2027.",
+   "confidence": "high"
+  },
+  "le-bernardin": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.le-bernardin.com/",
+   "evidence": "Official site is live with current reservations and menus; no closure reports found.",
+   "confidence": "high"
+  },
+  "le-coucou": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/le-coucou",
+   "evidence": "Resy shows bookable reservations at Le Coucou for September 2026.",
+   "confidence": "high"
+  },
+  "le-gratin": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://legratinnyc.com/",
+   "evidence": "Official site is live with current menus; a June 2026 article still describes the FiDi dining room as operating.",
+   "confidence": "high"
+  },
+  "le-sia": {
+   "status": "closed",
+   "closed_date": "2020-07",
+   "source_url": "https://ny.eater.com/2020/7/27/21340043/le-sia-chinese-crawfish-restaurant-east-village-permanently-closed-covid-19",
+   "evidence": "Eater: \"Acclaimed East Village Chinese Crawfish Boil Le Sia Is Permanently Closed.\"",
+   "confidence": "high"
+  },
+  "le-veau-d-or": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/dining-report/406189/le-veau-d-or-restaurant-review-nyc-french-bistro-upper-east-side",
+   "evidence": "Eater's recent review calls it \"NYC's Oldest French Bistro\" and the restaurant's site lists the 129 E 60th St address and is live.",
+   "confidence": "high"
+  },
+  "lei": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.nytimes.com/2026/01/06/dining/restaurant-review-lei.html",
+   "evidence": "NYT reviewed Lei in Chinatown in January 2026; official site leiwine.nyc is live.",
+   "confidence": "high"
+  },
+  "liebman-s-deli": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://liebmansdeli.com/",
+   "evidence": "Official site is live (metadata last modified 2026-04-13) and the Bronx deli is still listed for delivery on DoorDash and Uber Eats.",
+   "confidence": "medium"
+  },
+  "lilia": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.lilianewyork.com/",
+   "evidence": "Official Lilia site is live with current reservations; no closure reports found.",
+   "confidence": "high"
+  },
+  "llama-san": {
+   "status": "closed",
+   "closed_date": "2025-05",
+   "source_url": "https://ny.eater.com/2025/5/13/24429286/llama-san-greenwich-village-manhattan-closing",
+   "evidence": "Eater: \"Critically Acclaimed Peruvian Japanese Restaurant Calls It Quits in Manhattan\" (Llama San, Greenwich Village); its old domain now redirects to sister restaurant Llama Inn.",
+   "confidence": "high"
+  },
+  "los-tacos-no-1": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.lostacos1.com/",
+   "evidence": "Official site is live listing the Chelsea Market location at 75 Ninth Ave; the Chelsea stall still takes online orders.",
+   "confidence": "high"
+  },
+  "lure-fishbar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://pagesix.com/2026/06/23/style/celebrity-loved-lure-fishbar-is-here-to-stay-after-prada-scraps-plans-to-open-its-own-eatery-at-iconic-soho-spot/",
+   "evidence": "Page Six (June 2026): \"Celebrity-loved Lure Fishbar is here to stay\" after Prada scrapped plans for the Soho space.",
+   "confidence": "high"
+  },
+  "l-industrie-pizzeria": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.lindustriebk.com/",
+   "evidence": "Official site is live; L'Industrie continues to appear in 2026 NYC best-pizza coverage.",
+   "confidence": "medium"
+  },
+  "madame-vo": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "http://www.madamevo.com/",
+   "evidence": "Official site is live and Madame Vo is still listed for delivery at its 212 E 10th St address on Uber Eats and DoorDash.",
+   "confidence": "high"
+  },
+  "madison-square-garden": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.msg.com/madison-square-garden",
+   "evidence": "Madison Square Garden's official site (thegarden.com redirects to msg.com) is live with current event listings.",
+   "confidence": "high"
+  },
+  "makina-cafe-ethiopian-eritrean-eatery": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://culinaryagents.com/groups/3335-Makina-Cafe",
+   "evidence": "Makina Cafe's official site is live and it is currently hiring for its Sunnyside/Long Island City locations.",
+   "confidence": "medium"
+  },
+  "malecon": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://maleconnyc.com/",
+   "evidence": "Malecon's official site (maleconrestaurants.com now redirects to maleconnyc.com) lists its current locations and menus.",
+   "confidence": "medium"
+  },
+  "marea": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/2023/9/22/23884726/marea-reopening-pj-calapa-october-2023",
+   "evidence": "Eater: \"Powerhouse Marea Will Reopen With a New Look and New Chef\" (October 2023); the official site is live.",
+   "confidence": "high"
+  },
+  "mario-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.opentable.com/restaurant/profile/104587",
+   "evidence": "Mario's Restaurant - Arthur Ave. remains listed with bookable reservations on OpenTable at 2342 Arthur Ave.",
+   "confidence": "medium"
+  },
+  "mariscos-el-submarino": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.ubereats.com/store/mariscos-el-submarino/kDRCBEnMTp--T2tTRGs2_g",
+   "evidence": "Still listed and taking orders on Uber Eats; its Roosevelt Ave domain now hosts an unrelated gambling site, so that URL is not usable evidence.",
+   "confidence": "low"
+  },
+  "marlow-and-sons": {
+   "status": "closed",
+   "closed_date": "2025-04",
+   "source_url": "https://ny.eater.com/2025/3/31/24397846/marlow-and-sons-closing-williamsburg-andrew-tarlow",
+   "evidence": "Eater: \"Marlow and Sons, an Unpretentious Staple of Williamsburg, Is Closing After 20 Years\"; it shut its doors in April 2025.",
+   "confidence": "high"
+  },
+  "mel": {
+   "status": "closed",
+   "closed_date": "2023-04",
+   "source_url": "https://ny.eater.com/2023/12/14/23978040/mel-bakery-opens-hudson-new-york-nora-allen",
+   "evidence": "Eater: the Ludlow Street bakery 'announced it was closing in April this year - the building was being sold' and reopened as Mel the Bakery in Hudson, NY (324 Warren Street).",
+   "confidence": "high"
+  },
+  "meme-s-diner": {
+   "status": "closed",
+   "closed_date": "2020-11",
+   "source_url": "https://ny.eater.com/2020/11/12/21563404/memes-diner-prospect-heights-queer-restaurant-closing-coronavirus",
+   "evidence": "Eater: 'MeMe's Diner ... is closing following a three-year run'; owners wrote 'we made the tough decision to close our doors for good,' last service November 22, 2020.",
+   "confidence": "high"
+  },
+  "misi": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.misinewyork.com/",
+   "evidence": "Misi's own site lists current service hours and live reservations at 329 Kent Ave, Brooklyn; no closure reports found.",
+   "confidence": "high"
+  },
+  "miss-ada": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.missadanyc.com/",
+   "evidence": "Miss Ada's official site is live and accepting reservations at 184 DeKalb Ave; it also appears on the current MICHELIN Guide New York list.",
+   "confidence": "high"
+  },
+  "mission-chinese-food": {
+   "status": "closed",
+   "closed_date": "2020-09",
+   "source_url": "https://ny.eater.com/2020/9/17/21443809/mission-lower-east-side-will-permanently-close",
+   "evidence": "Eater: the East Broadway location 'will permanently shutter at the end of September'; last day of service was September 30, 2020.",
+   "confidence": "high"
+  },
+  "momofuku-kawi": {
+   "status": "closed",
+   "closed_date": "2021-03",
+   "source_url": "https://ny.eater.com/2021/3/30/22358657/momofuku-kawi-hudson-yards-closure-eunjo-park-ssam-bar",
+   "evidence": "Eater headline: 'Kawi, Momofuku's Modern Korean Hudson Yards Gem, Permanently Closes' (March 2021).",
+   "confidence": "high"
+  },
+  "momofuku-noodle-bar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://order.toasttab.com/online/momofuku-noodle-bar-171-first-ave/item-add-on_b0560b58-c2df-4bf4-96cf-b921f188755f",
+   "evidence": "Momofuku Noodle Bar's 171 First Avenue location has an active online ordering page; the East Village original remains in operation.",
+   "confidence": "medium"
+  },
+  "momofuku-ssam-bar": {
+   "status": "closed",
+   "closed_date": "2023-09",
+   "source_url": "https://ny.eater.com/2023/9/8/23864855/momofuku-ssam-bar-closing-david-chang-seaport-nyc",
+   "evidence": "Eater: 'David Chang's Momofuku Ssam Bar Is Closing'; Crain's reports the Seaport location closed for good September 30, 2023.",
+   "confidence": "high"
+  },
+  "monte-s-trattoria": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.montestrattorianyc.com/dinner",
+   "evidence": "Monte's Trattoria's official site is live with a current dinner menu, private-events page, and active OpenTable reservations at 97 MacDougal St.",
+   "confidence": "medium"
+  },
+  "mu-ramen": {
+   "status": "closed",
+   "closed_date": "2021-03",
+   "source_url": "https://ny.eater.com/2021/4/14/22370244/mu-ramen-closing-eviction-long-island-city",
+   "evidence": "Eater: 'Acclaimed Long Island City noodle destination Mu Ramen has closed'; the landlord leased 1209 Jackson Ave to Kuku Chicken from March 1, 2021.",
+   "confidence": "high"
+  },
+  "mala-project": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.malaproject.com/",
+   "evidence": "MaLà Project's official site is live with a Midtown menu and online ordering/reservations across its locations, including 41 West 46th St.",
+   "confidence": "medium"
+  },
+  "mam": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://joinpearl.co/lists/2026-eater-ny-38-best-restaurants-in-new-york-city",
+   "evidence": "Mắm is on Eater NY's current (2026) 38 Best Restaurants in New York City list; the restaurant also did a November 2025 pop-up per Wikipedia.",
+   "confidence": "high"
+  },
+  "nepali-bhanchha-ghar": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://joinpearl.co/lists/2026-eater-ny-38-best-restaurants-in-new-york-city",
+   "evidence": "Nepali Bhanchha Ghar is ranked #11 on Eater NY's current 2026 38 Best Restaurants list and was named to the NYT 2026 Top 100 list.",
+   "confidence": "high"
+  },
+  "new-wonjo": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.newwonjo.com/",
+   "evidence": "New Wonjo's official site and its Toast online-ordering page for 23 W 32nd St are both active; no closure reports found.",
+   "confidence": "medium"
+  },
+  "new-world-mall": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://en.wikipedia.org/wiki/New_World_Mall",
+   "evidence": "The Flushing mall and its basement food court at 136-20 Roosevelt Ave remain in operation (Wikipedia article current through 2025-26, citing the mall's own site).",
+   "confidence": "medium"
+  },
+  "noda": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://joinpearl.co/restaurants/new-york-city/noda",
+   "evidence": "Noda is operating as a Michelin one-star eight-seat omakase counter, now at 37 W 20th St (it relocated from its former 6 W 28th St address), bookable on Tock.",
+   "confidence": "high"
+  },
+  "noz-17": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.sevenrooms.com/explore/noz17/reservations/create/search/",
+   "evidence": "Noz 17 has an active SevenRooms reservation page and live OpenTable listing at 458 W 17th St; no closure reports found.",
+   "confidence": "medium"
+  },
+  "noz-market": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://nozmarket.com/",
+   "evidence": "Noz Market's official site lists current hours (Mon-Sun 12-9) and live reservations at 1374 Third Ave; it ranks #3 on Eater NY's 2026 38 Best list.",
+   "confidence": "high"
+  },
+  "nur": {
+   "status": "closed",
+   "closed_date": "2022-01",
+   "source_url": "https://ny.eater.com/2022/2/1/22912222/nur-flatiron-modern-israeli-middle-eastern-restaurant-closed-nyc",
+   "evidence": "Eater: Nur 'has permanently closed. The popular restaurant abruptly ended its four-year run in Flatiron ... after dinner service on January 22.'",
+   "confidence": "high"
+  },
+  "ny-dosas": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.yelp.com/biz/ny-dosas-new-york",
+   "evidence": "Thiru Kumar's NY Dosas cart at 50 Washington Square S remains listed as an active business with recent reviews; no closure reports found.",
+   "confidence": "medium"
+  },
+  "odeon": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theodeonrestaurant.com/",
+   "evidence": "The Odeon's own site is live with current menus, daily hours, and OpenTable reservations for 145 West Broadway.",
+   "confidence": "high"
+  },
+  "oiji": {
+   "status": "closed",
+   "closed_date": "2022-06",
+   "source_url": "https://ny.eater.com/2022/6/29/23187029/oiji-east-village-korean-restaurant-may-be-closing",
+   "evidence": "Eater: the 1st Avenue space \"has been closed since the spring\" 2022 as the team opened Oiji Mi and planned a new Korean concept there.",
+   "confidence": "medium"
+  },
+  "olmsted": {
+   "status": "closed",
+   "closed_date": "2025-08",
+   "source_url": "https://ny.eater.com/restaurant-closings/401443/olmsted-is-closing-in-prospect-heights-greg-baxtrom",
+   "evidence": "Eater (Aug 2025): Olmsted \"will close August 17 after nearly a decade\" and efforts to save it fell through.",
+   "confidence": "high"
+  },
+  "ops": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://blog.resy.com/2025/06/ops-east-village-nyc/",
+   "evidence": "Resy (June 2025) profiles the new Ops East Village while linking the original Bushwick location as still bookable.",
+   "confidence": "medium"
+  },
+  "papaye": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.ubereats.com/store/papaye-restaurant-mcclellan-st/KIK7VCS_WeKJTs9MbiHCnw",
+   "evidence": "Active Uber Eats listing for \"Papaye Restaurant (McClellan St)\" at 196 McClellan St, Bronx; no closure reports found.",
+   "confidence": "medium"
+  },
+  "pastrami-queen": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.pastramiqueen.com/locations",
+   "evidence": "Pastrami Queen's own locations page lists \"Upper East Side (Kosher), 1125 Lexington Ave #2, Hours: Every day 10am - 9pm.\"",
+   "confidence": "high"
+  },
+  "patsy-s-pizza-east-harlem": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.tastingtable.com/1901006/frank-sinatra-favorite-pizza-patsys-harlem/",
+   "evidence": "Tasting Table (July 2025): \"the original storefront in East Harlem still stands,\" still run by owner Frank Brija.",
+   "confidence": "high"
+  },
+  "peaches-hothouse": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.bcrestaurantgroup.com/location/peaches-hot-house-bed-stuy/",
+   "evidence": "B+C Restaurants' own site lists \"Peaches HotHouse, 415 Tompkins Ave\" with current daily hours and a full menu.",
+   "confidence": "high"
+  },
+  "peppa-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.doordash.com/store/peppa's-jerk-chicken-prospect-lefferts-gardens-brooklyn-29197231/36350551/",
+   "evidence": "Peppa's operates several NYC shops, including an active delivery listing for its Prospect Lefferts Gardens (Flatbush Ave) location; no closure reports found for that address.",
+   "confidence": "low"
+  },
+  "peter-luger-steak-house": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/peter-luger-steak-house",
+   "evidence": "Resy booking page for Peter Luger at 178 Broadway is active with 2026 reservation dates.",
+   "confidence": "high"
+  },
+  "ping-seafood-restaurant": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://pingsnewyork.com/",
+   "evidence": "Ping's site lists \"22 Mott Street\" with daily hours and states, \"Since 1996, Ping's has been a cornerstone of NYC's Chinatown.\"",
+   "confidence": "medium"
+  },
+  "playground": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://pos.do/ca/jackson-heights/restaurant/playground-jackson-heights",
+   "evidence": "Listing for Playground at 71-30 Roosevelt Ave, Jackson Heights shows current daily hours (3pm-11:45pm) and 349 Google reviews; no closure reports found.",
+   "confidence": "medium"
+  },
+  "pranakhon": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://order.toasttab.com/online/pranakhonnyc",
+   "evidence": "Active Toast online-ordering page for Pranakhon at 88 University Place; no closure reports found.",
+   "confidence": "medium"
+  },
+  "prime-meats": {
+   "status": "closed",
+   "closed_date": "2018-11",
+   "source_url": "https://ny.eater.com/2018/11/27/18114411/prime-meats-brooklyn-closing-date",
+   "evidence": "Eater (Nov 2018): \"The Franks Are Closing Brooklyn Favorite Prime Meats This Weekend.\"",
+   "confidence": "high"
+  },
+  "prune": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": "https://dev.tastecooking.com/this-is-taste-688-gabrielle-hamilton-on-writing-hard-truths-and-prunes-new-era/",
+   "evidence": "Closed to the public since the March 2020 NY PAUSE; in a Nov 2025 interview Hamilton discussed \"how Prune is operating as a private restaurant today,\" so permanent closure is unconfirmed.",
+   "confidence": "medium"
+  },
+  "qanoon-restaurant": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/qanoon",
+   "evidence": "Resy reservation page for Qanoon at 180 Ninth Ave (Chelsea) is active with 2026 booking dates.",
+   "confidence": "medium"
+  },
+  "rahi": {
+   "status": "closed",
+   "closed_date": "2021-10",
+   "source_url": "https://ny.eater.com/2021/10/13/22723121/semma-restaurant-west-village-opening-menu",
+   "evidence": "Eater (Oct 2021): \"Star Dhamaka Team Closes Rahi to Make Way for a New South Indian Spot.\"",
+   "confidence": "high"
+  },
+  "raku": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.rakunyc.com/",
+   "evidence": "Raku's own site lists its East Village location at 342 E 6th St with current daily hours and reservation links.",
+   "confidence": "high"
+  },
+  "ras-plant-based": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.ubereats.com/store/ras-plant-based-739-franklin-ave/REvPVVdNQI-5X0xjeOGXNA/b8ba6a32-c226-554c-984a-174b622e3f56",
+   "evidence": "Active delivery listing for Ras Plant Based at 739 Franklin Ave, Crown Heights; a 2024 fire affected only the separate West Village location.",
+   "confidence": "medium"
+  },
+  "red-hook-tavern": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/red-hook-tavern",
+   "evidence": "Resy booking page for Red Hook Tavern at 329 Van Brunt St is active with 2026 reservation dates.",
+   "confidence": "high"
+  },
+  "restaurant-daniel": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.danielnyc.com/",
+   "evidence": "Restaurant Daniel's official site lists current hours (Tue-Sun 5:00-9:30PM) at 60 East 65th Street and takes reservations via Resy.",
+   "confidence": "high"
+  },
+  "rezdora": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.rezdora.nyc/who-we-are/",
+   "evidence": "Official site describes Rezdora as \"a 2021-2025 Michelin Star recipient\" at 27 East 20th Street with an active reservation form.",
+   "confidence": "high"
+  },
+  "roberto-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://robertosbronx.com/",
+   "evidence": "Roberto's official site lists current open hours for 603 Crescent Ave, The Bronx, with an OpenTable reservation link.",
+   "confidence": "medium"
+  },
+  "rolo-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.rolosnyc.com/",
+   "evidence": "Rolo's official site is live with current menus, hours and Resy reservations at 853 Onderdonk Ave, Ridgewood.",
+   "confidence": "high"
+  },
+  "royal-seafood": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "No closure record or reliable current-operation source found; the strongest item is an Eater review from May 2024, and later listings are unverifiable aggregators.",
+   "confidence": "low"
+  },
+  "russ-and-daughters-cafe": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://shop.russanddaughters.com/locations",
+   "evidence": "Russ & Daughters' official locations page still lists \"THE CAFE, 127 orchard street\" among its current locations.",
+   "confidence": "high"
+  },
+  "ruta-oaxaca-mexican-cuisine": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://rutaoaxacamex.com/",
+   "evidence": "Ruta Oaxaca's official site lists the Astoria location at 35-03 Broadway with live online ordering and OpenTable reservations.",
+   "confidence": "medium"
+  },
+  "s-and-p-lunch": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+   "evidence": "Eater's current 38 Best list states: \"For summer 2026, we've added ... Flatiron counter S&P.\"",
+   "confidence": "high"
+  },
+  "saga": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.timeout.com/newyork/news/two-michelin-starred-saga-reopens-after-tragedy-with-chef-charlie-mitchell-debuting-new-menu-090225",
+   "evidence": "Time Out (Sept 2, 2025): \"Two Michelin-starred Saga reopens after tragedy, with chef Charlie Mitchell debuting new menu.\"",
+   "confidence": "medium"
+  },
+  "sailor": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/dining-report/409349/sailor-fort-greene-review-update-2026",
+   "evidence": "Eater's February 2026 dining report describes a recent visit to Sailor at 228 Dekalb Avenue, Brooklyn.",
+   "confidence": "high"
+  },
+  "saint-julivert": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/saint-julivert-fisherie",
+   "evidence": "Resy shows Saint Julivert Fisherie accepting reservations at 264 Clinton Street (Cobble Hill) for dates in 2026.",
+   "confidence": "medium"
+  },
+  "sakagura": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "http://www.sakagura.com/",
+   "evidence": "Sakagura's own site lists current lunch/dinner hours and reservations for 211 East 43rd St Bsmt, and parent group T.I.C. still lists the restaurant.",
+   "confidence": "medium"
+  },
+  "scarr-s-pizza": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.scarrspizza.com/",
+   "evidence": "Scarr's Pizza official site is live with menus, online ordering and reservations at 35 Orchard St, LES.",
+   "confidence": "medium"
+  },
+  "semma": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://nypost.com/2026/07/20/us-news/nyc-michelin-starred-eatery-semma-hid-b-health-rating-for-food-temp-contamination-concerns/",
+   "evidence": "A July 2026 New York Post report about Semma's health rating describes the Greenwich Avenue restaurant as currently operating.",
+   "confidence": "medium"
+  },
+  "shuko": {
+   "status": "closed",
+   "closed_date": "2026-01",
+   "source_url": "https://ny.eater.com/news/408505/shuko-closing-nyc-omakase-restaurant-union-square",
+   "evidence": "Eater: \"Shuko will have its last day of service in January ... Its last day of service at Union Square will be on Saturday, January 24.\"",
+   "confidence": "high"
+  },
+  "sky-pavilion": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+   "evidence": "Sky Pavilion is listed in Eater's 38 Best Restaurants in New York City guide (Winter 2026 edition) at 325 West 42nd Street.",
+   "confidence": "medium"
+  },
+  "smithereens": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+   "evidence": "Eater's current 38 Best list states: \"For summer 2026, we've added ... fun New England-style East Village spot Smithereens.\"",
+   "confidence": "high"
+  },
+  "somtum-der": {
+   "status": "closed",
+   "closed_date": "2026-05",
+   "source_url": "https://ny.eater.com/news/411103/nyc-restaurants-closed-may-2026",
+   "evidence": "Eater's May 2026 closures roundup: \"EV Grieve reports Thai restaurant Somtum Der is closing on Sunday, May 31\" at 85 Avenue A.",
+   "confidence": "high"
+  },
+  "soothr": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/new-york-restaurant-news/404809/soothr-opening-long-island-city",
+   "evidence": "Eater (Sept 2025) calls Soothr \"the popular East Village Thai restaurant\" and refers to \"the Manhattan original that opened in the East Village in 2020.\"",
+   "confidence": "high"
+  },
+  "spicy-village": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://spicy-village.com/",
+   "evidence": "Spicy Village's site (\"Updated September 2026\") lists current hours and the 68 Forsyth St B address as an operating restaurant.",
+   "confidence": "medium"
+  },
+  "st-anselm": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/2025/2/4/24355508/st-anselm-reopening-brooklyn-fire",
+   "evidence": "Eater: \"Brooklyn's St. Anselm Reopens After a Fire\" (Feb. 2025) — the Sept. 2024 fire closure was temporary and it reopened at 355 Metropolitan Ave.",
+   "confidence": "high"
+  },
+  "sullivan-street-bakery": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.sullivanstreetbakery.com/location/chelsea-sullivan-street-bakery/",
+   "evidence": "Bakery's own site still lists the Chelsea shop at \"236 9th Ave\" with hours Monday-Sunday 8:00am-7:00pm and online ordering.",
+   "confidence": "high"
+  },
+  "sunn-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://sunnsnyc.com/",
+   "evidence": "Official site is live and current: \"139 Division Street, New York, NY 10002\" with an active OpenTable booking link; no closure reporting found.",
+   "confidence": "high"
+  },
+  "superiority-burger": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/superiority-burger?seats=2&date=2026-08-22",
+   "evidence": "Resy still takes reservations at 119 Avenue A into 2026 and the Michelin Guide lists it; its earlier 9th Street space closed in 2021 but the current Avenue A location is open.",
+   "confidence": "high"
+  },
+  "sushi-ichimura": {
+   "status": "closed",
+   "closed_date": "2025-08",
+   "source_url": "https://ny.eater.com/2025/3/25/24393125/ichimura-tribeca-closing",
+   "evidence": "Eater: \"the 10-seat Sushi Ichimura (412 Greenwich Street, near Laight Street) will close permanently\" when Eiji Ichimura retires in mid-August 2025.",
+   "confidence": "high"
+  },
+  "sushi-noz": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.doordash.com/reservations/r/sushinoznyc?date=2026-02-25&party-size=2&time=Anytime",
+   "evidence": "Reservation platform lists Sushi Noz at 181 E 78th St with bookable dates in 2026; no closure reporting found.",
+   "confidence": "medium"
+  },
+  "sushi-on-me": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.opentable.com/restaurant/profile/1194724",
+   "evidence": "OpenTable profile for \"Sushi on Me - Jackson Heights\" (71-26 Roosevelt Ave) remains active and its menu listings are live; no closure report found.",
+   "confidence": "medium"
+  },
+  "sylvia-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://citymeetings.nyc/meetings/new-york-city-council/2025-04-23-1000-am-committee-on-transportation-and-infrastructure/chapter/testimony-by-krizette-woods-owner-of-sylvias-restaurant/",
+   "evidence": "Owner Krizette Woods testified before the NY City Council as \"Owner of Sylvia's Restaurant\" in April 2025, and online ordering at 328 Malcolm X Blvd is live.",
+   "confidence": "high"
+  },
+  "szechuan-mountain-house": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.doordash.com/store/szechuan-mountain-house-flushing-1816468/82700550/",
+   "evidence": "Live delivery/ordering listings (DoorDash, Uber Eats, Toast) for the Flushing location at 39-16 Prince St and 2026 food-blog visits; no closure news found.",
+   "confidence": "medium"
+  },
+  "taqueria-ramirez": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.bkmag.com/2026/06/01/socceria-taqueria-ramirez-world-cup-sports-cantina-greenpoint-opening/",
+   "evidence": "June 2026 Brooklyn Magazine piece still refers to Tania Apolinar and Gio Cervantes' \"game-changing Taqueria Ramirez in Greenpoint\" among their operating restaurants.",
+   "confidence": "medium"
+  },
+  "thai-diner": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.timeout.com/newyork/news/the-thai-diner-team-is-taking-over-their-old-uncle-boons-sister-spot-062625",
+   "evidence": "June 2025 Time Out and Aug. 2025 Eater coverage of the Thai Diner team's new Mommy Pai's project; Thai Diner at 186 Mott St is still listed by the Michelin Guide.",
+   "confidence": "high"
+  },
+  "the-breslin": {
+   "status": "closed",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/2022/9/15/23353362/koloman-restaurant-opening-manhattan-ace-hotel",
+   "evidence": "Eater: Koloman opened in Sept. 2022 in \"what had been the Breslin\"; Eater also reported the Breslin was rebranded as Breslin Burger in 2021 (Breslin Burger is gone too).",
+   "confidence": "medium"
+  },
+  "the-four-horsemen": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/the-four-horsemen?date=2026-09-13&seats=2",
+   "evidence": "Resy shows bookable reservations at 295 Grand St into September 2026 and the Michelin Guide still lists The Four Horsemen.",
+   "confidence": "high"
+  },
+  "the-grill": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/the-grill-ny?seats=2&date=2026-04-10",
+   "evidence": "Resy takes THE GRILL reservations at 99 E 52nd St for April 2026, and Major Food Group's site and the Michelin Guide still list it.",
+   "confidence": "high"
+  },
+  "the-nomad-restaurant": {
+   "status": "closed",
+   "closed_date": "2021-03",
+   "source_url": "https://ny.eater.com/2021/3/26/22352206/nomad-hotel-restaurant-shut-down-renovations",
+   "evidence": "Eater: \"The restaurant and bar will close down on March 28\" 2021 as the NoMad Hotel shut for renovations; it never returned — the property reopened as The Ned NoMad with new restaurants.",
+   "confidence": "medium"
+  },
+  "the-original-buddha-bodai-kosher-vegetarian-restaurant": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://buddha-bodai.com/",
+   "evidence": "Official site is live and current, listing \"5 Mott Street\" with daily hours, online ordering and catering; no closure reporting found.",
+   "confidence": "high"
+  },
+  "tomino-taberna-gallega": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "No closure report and no recent confirmation of operation found; only stale Michelin Guide/OpenTable/aggregator listings for 192 Grand St, so status could not be verified.",
+   "confidence": "low"
+  },
+  "tong": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://guide.michelin.com/at/en/new-york-state/brooklyn/restaurant/tong",
+   "evidence": "Michelin Guide still lists Tong at 321 Starr St, live online-ordering pages exist, and a 2025 Crain's story describes it as the building's current \"Michelin-endorsed Thai restaurant tenant.\"",
+   "confidence": "high"
+  },
+  "tony-and-tina-s-pizzeria": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "Address 2483 Arthur Ave now appears as \"Arthur Ave Crust & Kitchen\" (same owners per listing text), so it is unclear whether Tony & Tina's closed or was merely rebranded.",
+   "confidence": "low"
+  },
+  "torishin": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://resy.com/cities/new-york-ny/venues/torishin?seats=2&date=2026-04-01",
+   "evidence": "Resy shows bookable Yakitori Torishin reservations at 362 W 53rd St for April 2026; no closure reporting found.",
+   "confidence": "high"
+  },
+  "tosokchon": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.tosokchonnyc.com/",
+   "evidence": "Official site for 14 E 33rd St is live with current menu and Uber/DoorDash/Grubhub pickup-delivery links; NYSLA record shows a restaurant license (serial 6014050, effective 3/1/2026 per March 2026 retail list) at the same address.",
+   "confidence": "medium"
+  },
+  "txikito": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.infobae.com/espana/2026/09/28/eder-y-alex-la-pareja-de-chefs-que-enseno-a-nueva-york-a-comer-txipirones-encebollados-llevamos-dieciocho-anos-defendiendo-el-pil-pil/",
+   "evidence": "Sept 2026 profile of chefs Eder Montero and Alex Raij describes them as currently running Txikito in Chelsea; Resy shows bookable tables.",
+   "confidence": "high"
+  },
+  "ugly-baby": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/new-york-restaurant-news/407248/ugly-baby-reopening-nyc-thai-restaurant-williamsburg-emmy-squared-pizza-closed",
+   "evidence": "Eater reported the Smith St original closed in Dec 2024 but that the same team reopened Ugly Baby at 364 Grand St, Williamsburg (site lists current hours); the 407 Smith St address itself is now Hungry Thirsty.",
+   "confidence": "medium"
+  },
+  "uluh": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "Official site uluhny.com and delivery/ordering listings (DoorDash, Uber Eats, a Toast store at 152A 2nd Ave) are live, but I found no dated 2025-2026 source confirming this specific restaurant is currently operating.",
+   "confidence": "low"
+  },
+  "una-pizza-napoletana": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://unapizza.com/",
+   "evidence": "Official site is live for 175 Orchard St (Cloudflare blocks deeper scraping); no closure coverage found in any search.",
+   "confidence": "medium"
+  },
+  "uncle-boons": {
+   "status": "closed",
+   "closed_date": "2020-08",
+   "source_url": "https://ny.eater.com/2020/8/10/21361965/uncle-boons-nolita-thai-closing-coronavirus",
+   "evidence": "Eater, Aug 10, 2020: \"Michelin-Starred Thai Destination Uncle Boons Permanently Shutters After Seven Years\" (COVID-19).",
+   "confidence": "high"
+  },
+  "uncle-lou": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.unclelounyc.com/",
+   "evidence": "Official site is live stating \"Uncle Lou is open six days a week 11am to 10pm... Please call 212-966-5538\"; The Infatuation review of 73 Mulberry St shows closed:false, and no closure coverage was found.",
+   "confidence": "medium"
+  },
+  "urban-hawker": {
+   "status": "closed",
+   "closed_date": "2026-07",
+   "source_url": "https://www.tastingtable.com/2205574/anthony-bourdain-urban-hawker-nyc-food-hall-closing/",
+   "evidence": "Founder KF Seetoh announced operations would cease July 17, 2026 because the West 50th St building is being sold for redevelopment (site now returns 404).",
+   "confidence": "high"
+  },
+  "vato": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+   "evidence": "Eater's 38 Best Restaurants list (updated Jul 9, 2026) names \"Park Slope burrito joint Vato\" among its summer 2026 additions; in the Michelin Guide since April 2026.",
+   "confidence": "high"
+  },
+  "veselka": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.timeout.com/newyork/news/hooray-for-3am-pierogi-veselka-will-once-again-be-open-24/7-starting-on-this-date-040926",
+   "evidence": "Time Out, Apr 2026: Veselka brought back 24/7 service starting April 17, 2026; official site lists multiple current locations.",
+   "confidence": "high"
+  },
+  "via-carota": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.viacarota.com/",
+   "evidence": "Official site is live with current daily hours for 51 Grove St and a 2026 Eater review/report of a new project from the Via Carota chefs; it was simply rotated off the Eater 38 in summer 2026.",
+   "confidence": "high"
+  },
+  "victor-s-cafe": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.victorscafe.com/",
+   "evidence": "Official site is live taking reservations for 236 W 52nd St and describes the restaurant as \"Family-owned since 1963.\"",
+   "confidence": "medium"
+  },
+  "while-in-kathmandu": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://brooklyndowntownstar.com/lead_story/2026/07/25/ridgewoods-nepalese-oasis-looks-to-the-future/",
+   "evidence": "July 25, 2026 Queens Ledger/Brooklyn Star feature: \"Chef and rapper Bikash Kharel is upgrading his restaurant, While In Kathmandu, for uncertain times.\"",
+   "confidence": "high"
+  },
+  "wildair": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.theinfatuation.com/new-york/reviews/wildair",
+   "evidence": "The Infatuation review headline reads \"Ten years in, Wildair remains one of NYC's top wine bars\" (closed:false); official site at 142 Orchard St is live with a menu and current hours.",
+   "confidence": "medium"
+  },
+  "win-son": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://winsonbrooklyn.com/",
+   "evidence": "Official site (© 2026) and active OpenTable/DoorDash listings for 159 Graham Ave; no closure coverage found.",
+   "confidence": "medium"
+  },
+  "winner": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.winner.nyc/",
+   "evidence": "Official site is live with a WINNER Bakery location at 367 7th Avenue listing daily hours, plus menus updated 9/26/26; Toast ordering page is active.",
+   "confidence": "high"
+  },
+  "woorijip": {
+   "status": "unknown",
+   "closed_date": null,
+   "source_url": null,
+   "evidence": "The restaurant's own site woorijipnyc.com returns a server error (522) and searches surfaced no dated 2025-2026 coverage of the 12 W 32nd St location; only evergreen directory/review listings.",
+   "confidence": "low"
+  },
+  "wu-s-wonton-king": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://wuswontonking.com/",
+   "evidence": "Official site for 165 E Broadway is live with current online ordering, and a New York food forum thread still discusses the restaurant as operating.",
+   "confidence": "medium"
+  },
+  "xi-an-famous-foods": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.xianfoods.com/locations",
+   "evidence": "Chain's official locations page lists \"Chinatown 45 Bayard St., New York, NY 10013 Every day 11:00-9:00\" with DoorDash ordering.",
+   "confidence": "high"
+  },
+  "yankee-stadium": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.mlb.com/yankees/ballpark",
+   "evidence": "Yankee Stadium (1 E 161st St) is the Yankees' active ballpark hosting the 2026 season; it is a venue, not a restaurant that permanently closes.",
+   "confidence": "medium"
+  },
+  "yellow-rose": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/news/411770/yellow-rose-brooklyn-opening-tex-mex-restaurant-williamsburg-rose-marie-closing",
+   "evidence": "Eater (June 1, 2026) describes the original as 'the East Village's Tex-Mex dining destination Yellow Rose' while reporting a second location opening in Brooklyn, and its own site (yellowrosenyc.com) and Resy page are active.",
+   "confidence": "medium"
+  },
+  "yi-ji-shi-mo": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://www.foodandwine.com/yi-ji-shi-mo-noodle-corp-11817105",
+   "evidence": "Still listed as an operating restaurant at 88 Elizabeth St with current hours (Tue-Sun 7am-4pm) via Google/Fine Dining Lovers and a recent Food & Wine feature; no closure record found.",
+   "confidence": "low"
+  },
+  "yu-kitchen": {
+   "status": "closed",
+   "closed_date": "2021-10",
+   "source_url": "https://www.ilovetheupperwestside.com/new-vietnamese-restaurant-just-pho-you-opening-monday/",
+   "evidence": "The space at 2656 Broadway 'was formerly occupied by Yu Kitchen, which closed in October'; Just Pho You opened there March 28, 2022 (West Side Rag also: 'The restaurant replaces Yu Kitchen').",
+   "confidence": "high"
+  },
+  "zaab-zaab": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://ny.eater.com/news/408274/zohran-mamdani-mayor-nyc-queens-restaurants-kabab-king-boishakhi-zaab-zaab",
+   "evidence": "Eater reports the mayor dining at the Elmhurst location in 2026, and Wikipedia (updated July 2026) still lists 76-04 Woodside Avenue plus Williamsburg, Pier 57, and Flushing locations.",
+   "confidence": "high"
+  },
+  "zimmi-s": {
+   "status": "open",
+   "closed_date": null,
+   "source_url": "https://mercerhotel.com/zimmis/",
+   "evidence": "The Mercer Hotel page for Zimmi's at 72 Bedford Street lists current dinner hours (Monday-Sunday 5-11pm), and The Infatuation reviewed it in 2025.",
+   "confidence": "high"
+  }
+ }
+}

@@ -20,6 +20,11 @@
   nav button { font:inherit; padding:5px 11px; border:1px solid var(--line); background:#fff; border-radius:999px; cursor:pointer; }
   nav button[aria-selected="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
   input[type=search] { width:100%; padding:7px 10px; border:1px solid var(--line); border-radius:7px; font:inherit; }
+  .mf-bar { display:flex; gap:5px; flex-wrap:wrap; margin-bottom:9px; }
+  .mf { font:12px/1 inherit; padding:5px 9px; border:1px solid var(--line); background:#fff;
+        border-radius:999px; cursor:pointer; color:var(--ink); }
+  .mf[aria-selected="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .mf .n { opacity:.6; margin-left:3px; }
 
   /* double-ended date range slider */
   .range-wrap { border:1px solid var(--line); border-radius:9px; padding:10px 12px 7px; margin-bottom:12px; }
@@ -104,6 +109,7 @@
       <div class="range-note" id="rangeNote"></div>
     </div>
 
+    <div id="mealFilters" class="mf-bar" hidden></div>
     <div id="searchWrap"><input type="search" id="search" placeholder="Filter by name or address…"></div>
     <div id="list"></div>
   </div>
@@ -128,7 +134,11 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
 
 const state = { places: [], byId: new Map(), current: null, view: 'current', q: '',
-                firstDate: null, lastDate: null, from: null, to: null };
+                firstDate: null, lastDate: null, from: null, to: null, meal: '' };
+
+const MEALS = ['breakfast', 'brunch', 'lunch', 'dinner', 'late'];
+const MEAL_LABEL = { breakfast: 'Breakfast', brunch: 'Brunch', lunch: 'Lunch',
+                     dinner: 'Dinner', late: 'Late night' };
 const markers = new Map();      // place id -> circleMarker layer
 
 /* ---- date maths (UTC, day granularity) -------------------------------- */
@@ -267,11 +277,29 @@ function currentRows() {
 
 /** Places for the active tab, before the search box is applied. */
 function visiblePlaces() {
-  if (state.view === 'current') return currentRows();
-  if (state.view === 'range') {
-    return state.places.filter(inWindow).sort((a, b) => a.name.localeCompare(b.name));
+  let rows;
+  if (state.view === 'current') rows = currentRows();
+  else if (state.view === 'range') rows = state.places.filter(inWindow);
+  else rows = [...state.places];
+  if (state.meal) {
+    rows = rows.filter(r => (r.meal_periods || []).includes(state.meal));
   }
-  return [...state.places].sort((a, b) => a.name.localeCompare(b.name));
+  return rows.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/* ---- opening-hours filter -------------------------------------------- */
+function renderMealFilters() {
+  const counts = {};
+  state.places.forEach(p => (p.meal_periods || []).forEach(m => {
+    counts[m] = (counts[m] || 0) + 1;
+  }));
+  const present = MEALS.filter(m => counts[m]);
+  if (!present.length) { $('#mealFilters').hidden = true; return; }
+  $('#mealFilters').hidden = false;
+  $('#mealFilters').innerHTML =
+    `<button class="mf" data-meal="" aria-selected="${!state.meal}">Any hours</button>` +
+    present.map(m => `<button class="mf" data-meal="${m}" aria-selected="${state.meal === m}">`
+      + `${MEAL_LABEL[m]}<span class="n">${counts[m]}</span></button>`).join('');
 }
 
 function searched(rows) {
@@ -281,6 +309,32 @@ function searched(rows) {
 }
 
 /* ---- panel ------------------------------------------------------------ */
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const fmtTime = t => {
+  const [h, m] = t.split(':').map(Number);
+  const hh = ((h + 11) % 12) + 1;
+  return m ? `${hh}:${String(m).padStart(2, '0')}${h >= 12 ? 'pm' : 'am'}`
+           : `${hh}${h >= 12 ? 'pm' : 'am'}`;
+};
+
+/** "Mon–Fri 11am–10pm · Sat 12pm–11pm" from {mon: [[open, close]], ...} */
+function hoursSummary(hours) {
+  if (!hours) return '';
+  const order = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+  const groups = {};
+  order.forEach(d => {
+    if (!hours[d] || !hours[d].length) return;
+    const k = JSON.stringify(hours[d]);
+    (groups[k] = groups[k] || { days: [], spans: hours[d] }).days.push(d);
+  });
+  return Object.values(groups).map(g => {
+    const label = g.days.length > 2
+      ? `${cap(g.days[0])}–${cap(g.days[g.days.length - 1])}`
+      : g.days.map(cap).join(', ');
+    return `${label} ${g.spans.map(([a, b]) => `${fmtTime(a)}–${fmtTime(b)}`).join(', ')}`;
+  }).join(' · ');
+}
+
 const fmtPeriod = p => `${p.from_date} → ${p.to_date}${p.still_on ? ' (still on)' : ''}`;
 const periodsText = p => p.periods.map(fmtPeriod).join(' · ');
 
@@ -297,6 +351,7 @@ function rowHtml(r, numbered) {
       ${mapped ? '' : '<span class="nopin">no pin</span>'}</div>
     ${r.address ? `<div class="meta">${esc(r.address)}</div>` : ''}
     ${r.blurb ? `<div class="blurb">${esc(r.blurb)}</div>` : ''}
+    ${r.hours ? `<div class="meta">${esc(hoursSummary(r.hours))}</div>` : ''}
     ${facts ? `<div class="meta">${esc(facts)}</div>` : ''}
     <div class="meta${hit ? ' span' : ''}">${esc(periodsText(r))}</div>
     ${site ? `<div class="site"><a href="${esc(site)}" target="_blank" rel="noopener"
@@ -401,6 +456,15 @@ document.querySelectorAll('nav button').forEach(b => b.addEventListener('click',
   applyView();
 }));
 
+$('#mealFilters').addEventListener('click', e => {
+  const chip = e.target.closest('.mf');
+  if (!chip) return;
+  state.meal = chip.dataset.meal || '';
+  renderMealFilters();
+  render();
+  applyView();
+});
+
 $('#search').addEventListener('input', e => {
   state.q = e.target.value;
   render();
@@ -422,9 +486,11 @@ Promise.all([load('places.json'), load('current.json'), load('meta.json'), load(
       `${meta.counts.places} restaurants · ${meta.counts.stretches} list stints · ` +
       `${meta.counts.changes} recorded changes · ${meta.counts.on_list_now} on the list today · ` +
       `${meta.counts.mapped} with map coordinates · ` +
+      (meta.counts.closed_excluded ? `${meta.counts.closed_excluded} closed, excluded · ` : '') +
       `${meta.coverage.captures_indexed} captures indexed (${state.firstDate} → ${state.lastDate})`;
 
     layer.addData(geo);          // registers every marker; visibility is set by applyView()
+    renderMealFilters();
     initSlider();
     render();
     applyView();

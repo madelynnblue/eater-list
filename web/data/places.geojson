@@ -169,46 +169,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.993752,
-     40.738798
-    ]
-   },
-   "properties": {
-    "id": "aldea",
-    "name": "Aldea",
-    "address": "31 W 17th St New York, NY 10011",
-    "on_list_now": false,
-    "periods": [
-     "2018-02-03..2018-10-03"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.993991,
-     40.727163
-    ]
-   },
-   "properties": {
-    "id": "atla",
-    "name": "Atla",
-    "address": "372 Lafayette St New York, NY 10012",
-    "on_list_now": false,
-    "periods": [
-     "2018-07-11..2021-03-17"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.982863,
      40.744208
     ]
@@ -452,26 +412,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.957326,
-     40.717948
-    ]
-   },
-   "properties": {
-    "id": "bolero",
-    "name": "Bolero",
-    "address": "177 Bedford Ave Brooklyn, NY 11211",
-    "on_list_now": false,
-    "periods": [
-     "2021-04-21..2021-10-11"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.920777,
      40.739291
     ]
@@ -523,26 +463,6 @@
     "on_list_now": true,
     "periods": [
      "2026-04-06..2026-09-21"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.9818177971927,
-     40.77197698419511
-    ]
-   },
-   "properties": {
-    "id": "boulud-sud",
-    "name": "Boulud Sud",
-    "address": "20 W 64th St New York, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2018-02-18"
     ],
     "period_count": 1
    }
@@ -623,26 +543,6 @@
     "on_list_now": false,
     "periods": [
      "2021-06-14..2024-03-17"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.984487,
-     40.726661
-    ]
-   },
-   "properties": {
-    "id": "cadence",
-    "name": "Cadence",
-    "address": "111 E 7th St, New York, NY 10009",
-    "on_list_now": false,
-    "periods": [
-     "2021-10-15..2022-09-22"
     ],
     "period_count": 1
    }
@@ -1317,66 +1217,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.827512,
-     40.754786
-    ]
-   },
-   "properties": {
-    "id": "dumpling-galaxy",
-    "name": "Dumpling Galaxy",
-    "address": "42-35 Main St Flushing, NY 11355",
-    "on_list_now": false,
-    "periods": [
-     "2018-02-03..2018-10-03"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.998379,
-     40.735706
-    ]
-   },
-   "properties": {
-    "id": "e-a-k-ramen-west-village",
-    "name": "E.A.K. Ramen (West Village)",
-    "address": "469 6th Ave New York, NY 10011",
-    "on_list_now": false,
-    "periods": [
-     "2019-07-21..2020-11-12"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.96368112928391,
-     40.67675577263091
-    ]
-   },
-   "properties": {
-    "id": "el-atoradero-brooklyn",
-    "name": "El Atoradero Brooklyn",
-    "address": "708 Washington Ave Brooklyn, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2018-02-18"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.985419,
      40.71428
     ]
@@ -1409,26 +1249,6 @@
     "on_list_now": false,
     "periods": [
      "2021-06-14..2022-09-22"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.994269,
-     40.755624
-    ]
-   },
-   "properties": {
-    "id": "farida",
-    "name": "Farida",
-    "address": "498 9th Ave New York, NY 10018",
-    "on_list_now": false,
-    "periods": [
-     "2020-03-18..2021-10-11"
     ],
     "period_count": 1
    }
@@ -1511,47 +1331,6 @@
      "2019-01-19..2020-11-12"
     ],
     "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.995018,
-     40.717341
-    ]
-   },
-   "properties": {
-    "id": "flaming-kitchen",
-    "name": "Flaming Kitchen",
-    "address": "97 Bowery New York, NY 10002",
-    "on_list_now": false,
-    "periods": [
-     "2018-02-03..2018-02-18"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.96402716636658,
-     40.77352187640244
-    ]
-   },
-   "properties": {
-    "id": "flora-bar",
-    "name": "Flora Bar",
-    "address": "945 Madison Ave New York, NY 10021",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2018-02-18",
-     "2019-10-23..2020-11-12"
-    ],
-    "period_count": 2
    }
   },
   {
@@ -2473,26 +2252,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.989829,
-     40.72889
-    ]
-   },
-   "properties": {
-    "id": "le-sia",
-    "name": "Le Sia",
-    "address": "11 E 7th St New York, NY 10003",
-    "on_list_now": false,
-    "periods": [
-     "2019-04-17..2019-12-05"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.968103,
      40.763208
     ]
@@ -2569,26 +2328,6 @@
      "2025-07-08..2026-09-21"
     ],
     "period_count": 2
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -74.000897,
-     40.732308
-    ]
-   },
-   "properties": {
-    "id": "llama-san",
-    "name": "Llama San",
-    "address": "359 6th Ave New York, NY 10014",
-    "on_list_now": false,
-    "periods": [
-     "2020-03-18..2021-01-06"
-    ],
-    "period_count": 1
    }
   },
   {
@@ -2798,66 +2537,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.965684281892,
-     40.71061048948564
-    ]
-   },
-   "properties": {
-    "id": "marlow-and-sons",
-    "name": "Marlow & Sons",
-    "address": "81 Broadway Brooklyn, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2019-08-15"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.991317,
-     40.714588
-    ]
-   },
-   "properties": {
-    "id": "mel",
-    "name": "Mel",
-    "address": "1 Ludlow St, New York, NY 10002",
-    "on_list_now": false,
-    "periods": [
-     "2022-04-26..2022-09-22"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.963523,
-     40.677707
-    ]
-   },
-   "properties": {
-    "id": "meme-s-diner",
-    "name": "MeMe's Diner",
-    "address": "657 Washington Ave Brooklyn, NY 11238",
-    "on_list_now": false,
-    "periods": [
-     "2019-07-21..2020-11-12"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.967186,
      40.713402
     ]
@@ -2898,46 +2577,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.98980855941772,
-     40.71406967691378
-    ]
-   },
-   "properties": {
-    "id": "mission-chinese-food",
-    "name": "Mission Chinese Food",
-    "address": "171 E Broadway New York, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2017-08-05"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -74.000106,
-     40.754529
-    ]
-   },
-   "properties": {
-    "id": "momofuku-kawi",
-    "name": "Momofuku Kāwi",
-    "address": "20 Hudson Yards New York, NY 10001",
-    "on_list_now": false,
-    "periods": [
-     "2020-03-18..2020-11-12"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.9842454555664,
      40.729110403548944
     ]
@@ -2958,26 +2597,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.985843,
-     40.731698
-    ]
-   },
-   "properties": {
-    "id": "momofuku-ssam-bar",
-    "name": "Momofuku Ssäm Bar",
-    "address": "207 2nd Ave New York, NY 10003",
-    "on_list_now": false,
-    "periods": [
-     "2018-02-03..2019-12-05"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -74.001097,
      40.72959
     ]
@@ -2989,26 +2608,6 @@
     "on_list_now": false,
     "periods": [
      "2024-07-11..2024-10-07"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.9505367180311,
-     40.74367717129966
-    ]
-   },
-   "properties": {
-    "id": "mu-ramen",
-    "name": "Mu Ramen",
-    "address": "1209 Jackson Ave Queens, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2018-02-18"
     ],
     "period_count": 1
    }
@@ -3179,26 +2778,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.988804,
-     40.738545
-    ]
-   },
-   "properties": {
-    "id": "nur",
-    "name": "Nur",
-    "address": "34 E 20th St New York, NY 10003",
-    "on_list_now": false,
-    "periods": [
-     "2019-01-19..2019-08-15"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.998873,
      40.730451
     ]
@@ -3233,46 +2812,6 @@
      "2024-01-13..2024-10-07"
     ],
     "period_count": 2
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.98561709767907,
-     40.72718411782339
-    ]
-   },
-   "properties": {
-    "id": "oiji",
-    "name": "Oiji",
-    "address": "119 1st Ave New York, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2018-02-18"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.96885828909762,
-     40.67718208563987
-    ]
-   },
-   "properties": {
-    "id": "olmsted",
-    "name": "Olmsted",
-    "address": "659 Vanderbilt Ave Brooklyn, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2020-11-12"
-    ],
-    "period_count": 1
    }
   },
   {
@@ -3480,26 +3019,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.99817705154419,
-     40.67715357960969
-    ]
-   },
-   "properties": {
-    "id": "prime-meats",
-    "name": "Prime Meats",
-    "address": "465 Court St Brooklyn, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2017-08-05"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.989374,
      40.723929
     ]
@@ -3531,26 +3050,6 @@
     "on_list_now": false,
     "periods": [
      "2020-11-21..2021-04-24"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -74.000519,
-     40.736035
-    ]
-   },
-   "properties": {
-    "id": "rahi",
-    "name": "Rahi",
-    "address": "60 Greenwich Ave New York, NY 10011",
-    "on_list_now": false,
-    "periods": [
-     "2019-01-19..2019-02-02"
     ],
     "period_count": 1
    }
@@ -3903,27 +3402,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.99166024099635,
-     40.73349113043757
-    ]
-   },
-   "properties": {
-    "id": "shuko",
-    "name": "Shuko",
-    "address": "47 E 12th St, New York, NY 10003",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2019-05-28",
-     "2022-04-26..2023-03-21"
-    ],
-    "period_count": 2
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.990813,
      40.757983
     ]
@@ -3955,26 +3433,6 @@
     "on_list_now": true,
     "periods": [
      "2026-07-10..2026-09-21"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.984394,
-     40.72528
-    ]
-   },
-   "properties": {
-    "id": "somtum-der",
-    "name": "Somtum Der",
-    "address": "85 Avenue A New York, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2017-08-05"
     ],
     "period_count": 1
    }
@@ -4105,26 +3563,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -74.01009,
-     40.721904
-    ]
-   },
-   "properties": {
-    "id": "sushi-ichimura",
-    "name": "Sushi Ichimura",
-    "address": "412 Greenwich Street, Manhattan, NY 10013",
-    "on_list_now": false,
-    "periods": [
-     "2024-01-13..2025-04-05"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.958119,
      40.773879
     ]
@@ -4247,26 +3685,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.98799265354255,
-     40.74583734577147
-    ]
-   },
-   "properties": {
-    "id": "the-breslin",
-    "name": "The Breslin",
-    "address": "16 W 29th St New York, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2017-08-05"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.957321,
      40.713058
     ]
@@ -4298,26 +3716,6 @@
     "on_list_now": false,
     "periods": [
      "2018-02-03..2019-12-05"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.98856121691024,
-     40.74507433709667
-    ]
-   },
-   "properties": {
-    "id": "the-nomad-restaurant",
-    "name": "The NoMad Restaurant",
-    "address": "1170 Broadway New York, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2017-08-05"
     ],
     "period_count": 1
    }
@@ -4529,26 +3927,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.9942717552185,
-     40.721209348747244
-    ]
-   },
-   "properties": {
-    "id": "uncle-boons",
-    "name": "Uncle Boons",
-    "address": "7 Spring St New York, NY",
-    "on_list_now": false,
-    "periods": [
-     "2017-08-05..2018-10-03"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -73.999391,
      40.716292
     ]
@@ -4560,26 +3938,6 @@
     "on_list_now": false,
     "periods": [
      "2024-01-13..2024-06-17"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.982122,
-     40.760951
-    ]
-   },
-   "properties": {
-    "id": "urban-hawker",
-    "name": "Urban Hawker",
-    "address": "135 W 50th St, New York, NY 10020",
-    "on_list_now": false,
-    "periods": [
-     "2023-01-13..2023-03-21"
     ],
     "period_count": 1
    }
@@ -4864,26 +4222,6 @@
     "on_list_now": false,
     "periods": [
      "2020-11-21..2021-04-24"
-    ],
-    "period_count": 1
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -73.969181,
-     40.797415
-    ]
-   },
-   "properties": {
-    "id": "yu-kitchen",
-    "name": "Yu Kitchen",
-    "address": "2656 Broadway New York, NY 10025",
-    "on_list_now": false,
-    "periods": [
-     "2020-11-21..2021-03-17"
     ],
     "period_count": 1
    }

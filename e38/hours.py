@@ -190,6 +190,56 @@ def _sorted(hours: dict) -> dict:
     return {d: sorted(hours[d]) for d in DAYS if d in hours}
 
 
+# Meal windows used for the sidebar filter, as [start, end) on a 24h clock.
+WINDOWS = {
+    "breakfast": ("05:00", "11:00"),
+    "lunch": ("11:00", "15:00"),
+    "dinner": ("17:00", "22:00"),
+    "late": ("22:00", "26:00"),
+}
+
+
+def _overlaps(span, window) -> bool:
+    def mins(t):
+        h, m = t.split(":")
+        return int(h) * 60 + int(m)
+    start, end = span
+    if not start or not end:
+        return False
+    s, e = mins(start), mins(end)
+    if e <= s:                      # closes after midnight
+        e += 24 * 60
+    return s < mins(window[1]) and e > mins(window[0])
+
+
+def meal_periods(hours: dict | None) -> list[str]:
+    """Which meal windows a place's real hours cover, on any day."""
+    if not hours:
+        return []
+    out = []
+    spans = [span for day in DAYS for span in hours.get(day, [])]
+    for name, window in WINDOWS.items():
+        if any(_overlaps(span, window) for span in spans):
+            out.append(name)
+    return out
+
+
+_TEXT_PERIODS = {
+    "breakfast": ("breakfast",),
+    "brunch": ("brunch",),
+    "lunch": ("lunch", "midday"),
+    "dinner": ("dinner", "supper"),
+    "late": ("late night", "late-night", "after hours"),
+}
+
+
+def periods_from_text(text: str) -> list[str]:
+    """Fall back to Eater's "Open for: ..." copy when no hours were found."""
+    blob = (text or "").lower()
+    return [name for name, keys in _TEXT_PERIODS.items()
+            if any(k in blob for k in keys)]
+
+
 class HoursFetcher:
     def __init__(self, cfg, store, log=print):
         self.cfg = cfg
