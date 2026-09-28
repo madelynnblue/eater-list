@@ -1,9 +1,9 @@
 {
  "_comment": "Places confirmed permanently closed, with the source for each. Curated by a sourced research pass, not inferred: leaving the Eater list is not evidence of closure. Add entries by hand if you like; an entry needs status 'closed' and a source_url to take effect.",
- "generated_at": "2026-09-28T20:52:20Z",
+ "generated_at": "2026-09-28T20:56:25Z",
  "counts": {
   "places_reviewed": 245,
-  "places_on_list": 210,
+  "places_on_list": 211,
   "closed": 34,
   "open": 199,
   "unknown": 12
