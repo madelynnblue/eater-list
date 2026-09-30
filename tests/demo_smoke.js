@@ -92,6 +92,12 @@ function runPage(webDir) {
     featureGroup: () => ({ getBounds: () => ({}) }),
   };
 
+  const win = {
+    opened: [], touch: false,
+    open(url) { win.opened.push(url); },
+    matchMedia: q => ({ matches: win.touch && /hover:\s*none/.test(q) }),
+  };
+
   const sandbox = {
     document: {
       querySelector: get,
@@ -99,8 +105,8 @@ function runPage(webDir) {
       activeElement: null,
     },
     L, console,
-    window: { open() {} },
-    setTimeout, Promise, Map, Set, Number, String, Array, JSON, Object, Date,
+    window: win,
+    setTimeout, clearTimeout, Promise, Map, Set, Number, String, Array, JSON, Object, Date,
     fetch: url => Promise.resolve({
       json: () => Promise.resolve(JSON.parse(fs.readFileSync(path.join(webDir, url), 'utf8'))),
     }),
@@ -109,17 +115,17 @@ function runPage(webDir) {
 
   const ctx = vm.createContext(sandbox);
   vm.runInContext(js, ctx);
-  return { get, map: mapObj, api: () => ctx.__api };
+  return { get, map: mapObj, win, api: () => ctx.__api };
 }
 
 function withPanel(webDir, view) {
-  const { get, map, api } = runPage(webDir);
+  const { get, map, win, api } = runPage(webDir);
   return new Promise(resolve => setTimeout(() => {
     const a = api();
     a.state.view = view;
     a.render();
     a.applyView();
-    resolve({ get, map, a, html: get('#list').innerHTML });
+    resolve({ get, map, win, a, html: get('#list').innerHTML });
   }, 80));
 }
 
@@ -318,6 +324,41 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     const withHours = places.filter(p => p.hours).length;
     assert(withHours > 0, 'no place has hours yet');
     assert(/(am|pm)/.test(html), 'no rendered hours found in the rows');
+  });
+
+  check('desktop: clicking a pin still opens the website', () => {
+    const p = places.find(x => x.website && all.a.markers.has(x.id));
+    all.win.touch = false;
+    all.win.opened.length = 0;
+    all.a.markers.get(p.id).fire('click');
+    assert(all.win.opened.length === 1, `expected a page to open, got ${all.win.opened.length}`);
+  });
+
+  check('touch: tapping a pin reveals its entry instead of opening a page', () => {
+    const p = places.find(x => x.website && all.a.markers.has(x.id));
+    const row = all.get(`.row[data-place="${p.id}"]`);
+    row.classList.remove('hot');
+    all.win.touch = true;
+    all.win.opened.length = 0;
+    all.a.markers.get(p.id).fire('click');
+    assert(all.win.opened.length === 0, 'a tap should not open a page');
+    assert(row.classList.contains('hot'), 'the matching entry was not revealed');
+    all.win.touch = false;
+  });
+
+  check('the mobile layout puts the map above the list', () => {
+    const css = fs.readFileSync(path.join(ROOT, 'web/index.html'), 'utf8');
+    const block = css.match(/@media \(max-width: 760px\)\s*\{[\s\S]*?\n  \}/);
+    assert(block, 'no mobile media query found');
+    assert(/order:\s*-1/.test(block[0]),
+           'without order:-1 the panel stays first and the map sits below every row');
+    assert(/position:\s*sticky/.test(block[0]), 'the map should stay visible while scrolling');
+  });
+
+  check('the footer notice is gone', () => {
+    const html = fs.readFileSync(path.join(ROOT, 'web/index.html'), 'utf8');
+    assert(!/<footer/i.test(html), 'the footer notice is still present');
+    assert(!/Wayback Machine captures of ny\.eater/.test(html), 'the notice text is still present');
   });
 
   check('markers exist for mapped places', () => {

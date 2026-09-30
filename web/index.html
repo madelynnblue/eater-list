@@ -57,7 +57,6 @@
   .row .site a:hover { text-decoration:underline; }
   .chip { display:inline-block; font-size:11.5px; padding:1px 7px; border-radius:999px; background:#eef2ee; color:#256029; margin-left:6px; }
   .nopin { font-size:11px; color:#9a9a9a; margin-left:6px; }
-  footer { padding:9px 24px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
   /* Leaflet's tooltip pane holds only absolutely positioned children, so it has
      zero width. For an absolutely positioned box that makes shrink-to-fit
      resolve to min-content -- the width of the longest single word -- which is
@@ -77,7 +76,30 @@
   .legend b { display:block; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin-bottom:3px; }
   .legend i { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; vertical-align:middle; }
   .legend .count { color:var(--muted); margin-top:4px; }
-  @media (max-width: 760px) { .layout { grid-template-columns: 1fr; height:auto; } #map { height:340px; } .panel { border-right:0; } }
+  @media (max-width: 760px) {
+    header { padding:12px 14px 8px; }
+    h1 { font-size:17px; }
+    .sub { font-size:12px; }
+    .hint { font-size:12px; margin-top:4px; }
+    /* The panel comes first in the DOM, which on one column would push the map
+       below 200-odd rows. Put the map on top and keep it there while the list
+       scrolls underneath, so tapping a pin and reading its entry stay linked. */
+    .layout { display:flex; flex-direction:column; height:auto; }
+    #map { order:-1; position:sticky; top:0; z-index:500;
+           height:44vh; min-height:230px; border-bottom:1px solid var(--line); }
+    .panel { border-right:0; overflow:visible; padding:12px 14px 28px; }
+    nav { margin:10px 0; }
+    nav button { padding:7px 13px; }
+    .mf { padding:7px 11px; }
+    /* touch-sized slider: 24px thumb centred in a 44px hit area */
+    .range { height:44px; }
+    .range-track, .range-fill { top:20px; }
+    .range input[type=range] { height:44px; }
+    .range input[type=range]::-webkit-slider-runnable-track { height:44px; }
+    .range input[type=range]::-webkit-slider-thumb { width:24px; height:24px; margin-top:10px; }
+    .range input[type=range]::-moz-range-thumb { width:24px; height:24px; }
+    .row { padding:11px 8px; }
+  }
 </style>
 </head>
 <body>
@@ -115,11 +137,6 @@
   </div>
   <div id="map"></div>
 </div>
-
-<footer>
-  Data: Wayback Machine captures of ny.eater.com/maps/best-new-york-restaurants-38-map.
-  Serve this folder over HTTP (e.g. <code>python -m http.server</code>) so the JSON can load.
-</footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -162,6 +179,9 @@ function updateLegend(title, rows, count) {
     rows.map(([color, label]) => `<div><i style="background:${color}"></i>${esc(label)}</div>`).join('') +
     (count === null ? '' : `<div class="count">${count} pin${count === 1 ? '' : 's'}</div>`);
 }
+
+/* No hover, no pointer: a tap has to do the job hovering does on a desktop. */
+const isTouch = () => !!(window.matchMedia && window.matchMedia('(hover: none)').matches);
 
 const isMapped = p => p && p.lat !== null && p.lat !== undefined && p.lng !== null && p.lng !== undefined;
 const defaultColor = id => (state.byId.get(id)?.on_list_now ? NOW : PAST);
@@ -206,7 +226,10 @@ const layer = L.geoJSON(null, {
                                        offset: [0, -8], opacity: 1 });
     l.on('mouseover', () => { l.openTooltip(); markRow(place.id, true, true); });
     l.on('mouseout', () => { l.closeTooltip(); markRow(place.id, false); });
-    l.on('click', () => openSite(place));
+    l.on('click', () => {
+      if (isTouch()) revealInList(place.id);
+      else openSite(place);
+    });
   }
 });   // not added here: applyView() decides which pins are visible
 
@@ -244,17 +267,26 @@ map.on('tooltipopen', e => {
 let hotRow = null;
 
 /** Mark a sidebar row, and optionally scroll the list to it. */
-function markRow(id, on, scroll) {
+function markRow(id, on, scroll, block = 'nearest') {
   const row = document.querySelector(`.row[data-place="${id}"]`);
   if (!row) return;
   if (hotRow && hotRow !== row) hotRow.classList.remove('hot');
   row.classList.toggle('hot', on);
   if (on) {
     hotRow = row;
-    if (scroll) row.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    if (scroll) row.scrollIntoView({ block, behavior: 'smooth' });
   } else if (hotRow === row) {
     hotRow = null;
   }
+}
+
+let revealTimer = null;
+
+/** Tap-a-pin behaviour on touch: bring the entry into view and keep it lit. */
+function revealInList(id) {
+  markRow(id, true, true, 'center');
+  clearTimeout(revealTimer);
+  revealTimer = setTimeout(() => markRow(id, false), 4000);
 }
 
 function highlight(id, on) {
@@ -380,11 +412,15 @@ function applyView(refit) {
     updateLegend('All restaurants', [[NOW, 'on the list today'], [PAST, 'rotated out']], ids.length);
   }
   if (refit !== false) fitTo(ids);
+  const touch = isTouch();
   $('#hint').textContent = state.view === 'current'
-    ? 'Hover an entry to spotlight its pin · click it to zoom in · click a pin to open the restaurant’s website.'
+    ? (touch ? 'Tap a pin to jump to its entry · tap an entry to zoom the map in'
+             : 'Hover an entry to spotlight its pin · click it to zoom in · click a pin to open the restaurant’s website.')
     : state.view === 'range'
-      ? 'Drag either end of the range to see who was on the list then · click an entry to zoom in.'
-      : 'Every restaurant that was ever on the list, including those rotated out · click an entry to zoom in.';
+      ? (touch ? 'Drag either end of the range to see who was on the list then'
+               : 'Drag either end of the range to see who was on the list then · click an entry to zoom in.')
+      : (touch ? 'Every restaurant that was ever on the list · tap an entry to zoom the map in'
+               : 'Every restaurant that was ever on the list, including those rotated out · click an entry to zoom in.');
 }
 
 /* ---- range slider ----------------------------------------------------- */

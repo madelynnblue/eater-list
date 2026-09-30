@@ -228,6 +228,11 @@ restaurant's website, falling back to its Eater entry.
 Sidebar rows carry the full Eater blurb, open hours / price and every stint on
 the list; the hover card is deliberately just enough to identify a pin.
 
+On touch there is no hover, so the same jobs are done by tapping: **tap a pin**
+scrolls to and highlights its entry rather than opening a page, because a tap
+that navigates away is a dead end on a phone. The map sits above the list and
+stays pinned while the list scrolls beneath it.
+
 ### 10. Keep it current
 
 `scan --mode incremental` is the weekly job. It re-lists CDX *from the last
