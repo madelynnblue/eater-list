@@ -196,6 +196,19 @@ const daySpan = () => indexOf(state.lastDate);
 
 /* ---- map -------------------------------------------------------------- */
 const map = L.map('map', { scrollWheelZoom: true }).setView([40.73, -73.97], 11);
+// A CARTO basemap key is a publishable, domain-restricted token, not a secret:
+// the browser must send it on every tile request, so it cannot be hidden on a
+// static site. Its protection is the domain allowlist, not secrecy — restrict
+// this key to the site's own domain in the CARTO dashboard.
+// Without it, CARTO stamps tiles with an "API key required" watermark.
+const CARTO_KEY = 'cb1_457j_1_1f4178fe68f641e917f26f29';
+
+/** Append ?key= to CARTO CDN URLs, and leave every other host alone. */
+function withCartoKey(url, key = CARTO_KEY) {
+  if (!key || !/basemaps\.cartocdn\.com/.test(url)) return url;
+  return `${url}${url.includes('?') ? '&' : '?'}key=${encodeURIComponent(key)}`;
+}
+
 const BASEMAPS = {
   light: { url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
            attribution: '&copy; OpenStreetMap contributors' },
@@ -206,11 +219,27 @@ const prefersDark = () =>
   !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
 
 let basemap = null;
+let keyRejected = false;
+
 /** A light basemap under a dark UI looks broken, so swap the tiles too. */
 function applyBasemap() {
   const spec = prefersDark() ? BASEMAPS.dark : BASEMAPS.light;
-  if (basemap) map.removeLayer(basemap);
-  basemap = L.tileLayer(spec.url, { maxZoom: 19, attribution: spec.attribution }).addTo(map);
+  if (basemap) { map.removeLayer(basemap); basemap = null; }
+  const keyed = !keyRejected;
+  basemap = L.tileLayer(keyed ? withCartoKey(spec.url) : spec.url,
+                        { maxZoom: 19, attribution: spec.attribution }).addTo(map);
+
+  if (!keyed || !/basemaps\.cartocdn\.com/.test(spec.url)) return;
+  // A rejected key returns 403 for every tile, which blanks the map — strictly
+  // worse than CARTO's keyless "API key required" watermark. So if tiles start
+  // failing, drop the key and carry on rather than showing nothing.
+  let failures = 0;
+  basemap.on('tileerror', () => {
+    if (keyRejected || ++failures < 3) return;
+    keyRejected = true;
+    console.warn('CARTO rejected the basemap key; continuing without it.');
+    applyBasemap();
+  });
 }
 applyBasemap();
 if (window.matchMedia) {

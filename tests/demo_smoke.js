@@ -64,7 +64,15 @@ function runPage(webDir) {
 
   const L = {
     map: () => mapObj,
-    tileLayer: (url) => { win.tiles.push(url); return { addTo() { return this; } }; },
+    tileLayer: (url) => {
+      win.tiles.push(url);
+      const handlers = {};
+      return {
+        addTo() { win._lastTile = this; return this; },
+        on(type, fn) { (handlers[type] = handlers[type] || []).push(fn); return this; },
+        fire(type) { (handlers[type] || []).forEach(fn => fn({})); return this; },
+      };
+    },
     control: () => { const c = { onAdd: null, _div: null, addTo() { c._div = c.onAdd(); return c; } }; return c; },
     DomUtil: {
       create: () => stubElement(),
@@ -384,6 +392,36 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     all.a.applyBasemap();
     assert(/dark/.test(all.win.tiles.at(-1)),
            `expected a dark basemap, got ${all.win.tiles.at(-1)}`);
+    all.win.dark = false;
+    all.a.applyBasemap();
+  });
+
+  check('the CARTO key rides on the CARTO basemap only', () => {
+    all.win.dark = true;
+    all.a.applyBasemap();
+    const dark = all.win.tiles.at(-1);
+    assert(/basemaps\.cartocdn\.com/.test(dark), `dark basemap is not CARTO: ${dark}`);
+    assert(/[?&]key=cb1_/.test(dark), `no key on the CARTO url: ${dark}`);
+    all.win.dark = false;
+    all.a.applyBasemap();
+    const light = all.win.tiles.at(-1);
+    assert(!/key=/.test(light), `the key leaked onto a non-CARTO host: ${light}`);
+  });
+
+  check('a rejected CARTO key falls back to keyless instead of blanking the map', () => {
+    all.win.dark = true;
+    all.a.applyBasemap();
+    const keyed = all.win.tiles.at(-1);
+    assert(/key=cb1_/.test(keyed), 'expected the keyed url first');
+    const layer = all.win._lastTile;
+    assert(layer, 'tile layer was not exposed for the test');
+    layer.fire('tileerror');
+    layer.fire('tileerror');
+    assert(/key=cb1_/.test(all.win.tiles.at(-1)), 'gave up after only two failures');
+    layer.fire('tileerror');
+    const after = all.win.tiles.at(-1);
+    assert(!/key=/.test(after), `expected a keyless retry, got ${after}`);
+    assert(/basemaps\.cartocdn\.com/.test(after), 'should still be the CARTO basemap');
     all.win.dark = false;
     all.a.applyBasemap();
   });
