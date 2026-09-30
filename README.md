@@ -332,18 +332,6 @@ make validate     # what CI checks before publishing
 referenced by the current list and the change log resolves, and **fails the build
 if a place marked closed is still being published**.
 
-### Basemap
-
-Dark mode uses CARTO's dark tiles, which need a basemap key. CARTO keys are
-**publishable and domain-restricted, not secret** — the browser must send the key
-on every tile request, so it cannot be hidden on a static site. Its protection is
-the domain allowlist, not secrecy: set `CARTO_KEY` in `web/index.html` and
-restrict that key to the site's own domain in the CARTO dashboard.
-
-If CARTO rejects the key every tile 403s, which blanks the map — strictly worse
-than CARTO's keyless "API key required" watermark. So the layer watches for tile
-errors and, after three, retries without the key: a watermarked map beats no map.
-
 ## Known limits
 
 * **The archive starts 2017‑08‑05.** The first capture already holds 38 names, so

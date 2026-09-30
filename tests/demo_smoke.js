@@ -37,7 +37,7 @@ function stubElement() {
 function runPage(webDir) {
   const html = fs.readFileSync(path.join(webDir, 'index.html'), 'utf8');
   let js = html.match(/<script>([\s\S]*?)<\/script>/)[1];
-  js += '\nglobalThis.__api = { state, render, applyView, markers, inWindow, focusPlace, applyBasemap };\n';
+  js += '\nglobalThis.__api = { state, render, applyView, markers, inWindow, focusPlace };\n';
 
   const nodes = new Map();
   const get = sel => {
@@ -64,15 +64,7 @@ function runPage(webDir) {
 
   const L = {
     map: () => mapObj,
-    tileLayer: (url) => {
-      win.tiles.push(url);
-      const handlers = {};
-      return {
-        addTo() { win._lastTile = this; return this; },
-        on(type, fn) { (handlers[type] = handlers[type] || []).push(fn); return this; },
-        fire(type) { (handlers[type] || []).forEach(fn => fn({})); return this; },
-      };
-    },
+    tileLayer: () => ({ addTo() { return this; } }),
     control: () => { const c = { onAdd: null, _div: null, addTo() { c._div = c.onAdd(); return c; } }; return c; },
     DomUtil: {
       create: () => stubElement(),
@@ -104,14 +96,12 @@ function runPage(webDir) {
   };
 
   const win = {
-    opened: [], scrolled: [], tiles: [], touch: false, narrow: false, dark: false, pageYOffset: 0,
+    opened: [], scrolled: [], touch: false, narrow: false, pageYOffset: 0,
     open(url) { win.opened.push(url); },
     scrollTo(opts) { win.scrolled.push(opts); },
     matchMedia: q => ({
       matches: (win.touch && /hover:\s*none/.test(q))
-            || (win.narrow && /max-width:\s*760px/.test(q))
-            || (win.dark && /prefers-color-scheme:\s*dark/.test(q)),
-      addEventListener() {},
+            || (win.narrow && /max-width:\s*760px/.test(q)),
     }),
   };
 
@@ -380,61 +370,6 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(call.top === 1188, `expected the row to clear the map at 1188, got ${call.top}`);
     all.win.narrow = false;
     all.win.touch = false;
-  });
-
-  check('the basemap follows the colour scheme', () => {
-    assert(all.win.tiles.length >= 1, 'no basemap was created');
-    all.win.dark = false;
-    all.a.applyBasemap();
-    assert(/openstreetmap/.test(all.win.tiles.at(-1)),
-           `expected the light basemap, got ${all.win.tiles.at(-1)}`);
-    all.win.dark = true;
-    all.a.applyBasemap();
-    assert(/dark/.test(all.win.tiles.at(-1)),
-           `expected a dark basemap, got ${all.win.tiles.at(-1)}`);
-    all.win.dark = false;
-    all.a.applyBasemap();
-  });
-
-  check('the CARTO key rides on the CARTO basemap only', () => {
-    all.win.dark = true;
-    all.a.applyBasemap();
-    const dark = all.win.tiles.at(-1);
-    assert(/basemaps\.cartocdn\.com/.test(dark), `dark basemap is not CARTO: ${dark}`);
-    assert(/[?&]key=cb1_/.test(dark), `no key on the CARTO url: ${dark}`);
-    all.win.dark = false;
-    all.a.applyBasemap();
-    const light = all.win.tiles.at(-1);
-    assert(!/key=/.test(light), `the key leaked onto a non-CARTO host: ${light}`);
-  });
-
-  check('a rejected CARTO key falls back to keyless instead of blanking the map', () => {
-    all.win.dark = true;
-    all.a.applyBasemap();
-    const keyed = all.win.tiles.at(-1);
-    assert(/key=cb1_/.test(keyed), 'expected the keyed url first');
-    const layer = all.win._lastTile;
-    assert(layer, 'tile layer was not exposed for the test');
-    layer.fire('tileerror');
-    layer.fire('tileerror');
-    assert(/key=cb1_/.test(all.win.tiles.at(-1)), 'gave up after only two failures');
-    layer.fire('tileerror');
-    const after = all.win.tiles.at(-1);
-    assert(!/key=/.test(after), `expected a keyless retry, got ${after}`);
-    assert(/basemaps\.cartocdn\.com/.test(after), 'should still be the CARTO basemap');
-    all.win.dark = false;
-    all.a.applyBasemap();
-  });
-
-  check('dark mode is declared in the stylesheet', () => {
-    const css = fs.readFileSync(path.join(ROOT, 'web/index.html'), 'utf8');
-    const dark = css.match(/@media \(prefers-color-scheme: dark\)\s*\{[\s\S]*?\n  \}/);
-    assert(dark, 'no prefers-color-scheme: dark block');
-    for (const token of ['--bg:', '--surface:', '--ink:', '--line:', 'color-scheme: dark']) {
-      assert(dark[0].includes(token), `dark palette is missing ${token}`);
-    }
-    assert(!/background:#fff(?!;)/.test(css.replace(/@media \(prefers-color-scheme[\s\S]*?\n  \}/g, '')),
-           'a hardcoded white background would stay white in dark mode');
   });
 
   check('the mobile layout puts the map above the list', () => {
