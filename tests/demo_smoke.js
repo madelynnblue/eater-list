@@ -27,6 +27,9 @@ function stubElement() {
     addEventListener(type, fn) { (handlers[type] = handlers[type] || []).push(fn); },
     fire(type, evt) { (handlers[type] || []).forEach(fn => fn(evt)); },
     scrollIntoView() { this._scrolled = true; },
+    getBoundingClientRect() {
+      return this._rect || { top: 0, left: 0, right: 0, bottom: 0, width: 0, height: 0 };
+    },
     contains() { return false; }, closest() { return null; },
   };
 }
@@ -93,9 +96,13 @@ function runPage(webDir) {
   };
 
   const win = {
-    opened: [], touch: false,
+    opened: [], scrolled: [], touch: false, narrow: false, pageYOffset: 0,
     open(url) { win.opened.push(url); },
-    matchMedia: q => ({ matches: win.touch && /hover:\s*none/.test(q) }),
+    scrollTo(opts) { win.scrolled.push(opts); },
+    matchMedia: q => ({
+      matches: (win.touch && /hover:\s*none/.test(q))
+            || (win.narrow && /max-width:\s*760px/.test(q)),
+    }),
   };
 
   const sandbox = {
@@ -343,6 +350,25 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     all.a.markers.get(p.id).fire('click');
     assert(all.win.opened.length === 0, 'a tap should not open a page');
     assert(row.classList.contains('hot'), 'the matching entry was not revealed');
+    all.win.touch = false;
+  });
+
+  check('on mobile the scroll clears the sticky map', () => {
+    const p = places.find(x => x.website && all.a.markers.has(x.id));
+    const row = all.get(`.row[data-place="${p.id}"]`);
+    const mapEl = all.get('#map');
+    all.win.narrow = true;
+    all.win.touch = true;
+    all.win.pageYOffset = 1000;
+    all.win.scrolled.length = 0;
+    mapEl._rect = { top: 0, left: 0, right: 0, bottom: 300, width: 0, height: 300 };
+    row._rect = { top: 500, left: 0, right: 0, bottom: 700, width: 0, height: 200 };
+    all.a.markers.get(p.id).fire('click');
+    const call = all.win.scrolled.at(-1);
+    assert(call, 'window.scrollTo was not called');
+    // row document top (1000 + 500) minus map height (300) and the 12px gap
+    assert(call.top === 1188, `expected the row to clear the map at 1188, got ${call.top}`);
+    all.win.narrow = false;
     all.win.touch = false;
   });
 
