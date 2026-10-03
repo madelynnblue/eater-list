@@ -387,6 +387,37 @@ const countRows = html => (html.match(/class="row/g) || []).length;
     assert(!/Wayback Machine captures of ny\.eater/.test(html), 'the notice text is still present');
   });
 
+  check('the search box matches the description text, not just names', () => {
+    let target = null, word = null;
+    for (const p of places.filter(x => x.blurb)) {
+      const shown = `${p.name} ${p.address || ''}`.toLowerCase();
+      const w = (p.blurb.toLowerCase().match(/\b[a-z]{9,}\b/g) || []).find(w => !shown.includes(w));
+      if (w) { target = p; word = w; break; }
+    }
+    assert(target, 'no distinctive blurb word found to test with');
+    all.a.state.view = 'all';
+    all.a.state.meal = '';
+    all.a.state.q = word;
+    all.a.render();
+    const html = all.get('#list').innerHTML;
+    assert(html.includes(`data-place="${target.id}"`),
+           `searching "${word}" did not surface ${target.name}, whose blurb contains it`);
+    const rows = countRows(html);
+    assert(rows < places.length, 'the description search matched everything');
+    all.a.state.q = '';
+    all.a.render();
+  });
+
+  check('the search box still matches names', () => {
+    const target = places.find(p => p.name.length > 6);
+    all.a.state.q = target.name.toLowerCase().slice(0, 6);
+    all.a.render();
+    assert(all.get('#list').innerHTML.includes(`data-place="${target.id}"`),
+           `searching by name did not find ${target.name}`);
+    all.a.state.q = '';
+    all.a.render();
+  });
+
   check('markers exist for mapped places', () => {
     const mapped = places.filter(p => p.lat !== null && p.lng !== null).length;
     assert(all.a.markers.size === mapped, `expected ${mapped} markers, got ${all.a.markers.size}`);

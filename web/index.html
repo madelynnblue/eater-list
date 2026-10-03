@@ -132,7 +132,7 @@
     </div>
 
     <div id="mealFilters" class="mf-bar" hidden></div>
-    <div id="searchWrap"><input type="search" id="search" placeholder="Filter by name or address…"></div>
+    <div id="searchWrap"><input type="search" id="search" placeholder="Search names, addresses and descriptions…"></div>
     <div id="list"></div>
   </div>
   <div id="map"></div>
@@ -356,10 +356,19 @@ function renderMealFilters() {
       + `${MEAL_LABEL[m]}<span class="n">${counts[m]}</span></button>`).join('');
 }
 
+/** Everything the search box looks at: identity, location and Eater's copy. */
+function haystack(r) {
+  if (!r._hay) {
+    r._hay = [r.name, r.address, r.blurb, r.open_for, r.price, r.tip, r.drink]
+      .filter(Boolean).join(' ').toLowerCase();
+  }
+  return r._hay;
+}
+
 function searched(rows) {
   if (!state.q) return rows;
   const q = state.q.toLowerCase();
-  return rows.filter(r => (r.name + ' ' + (r.address || '')).toLowerCase().includes(q));
+  return rows.filter(r => haystack(r).includes(q));
 }
 
 /* ---- panel ------------------------------------------------------------ */
